@@ -72,16 +72,18 @@
 														<div class="table-fixed-head card h-100 mb-0">
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
+																	<col style="min-width:80px; width:80px;">
 																	<col style="min-width:300px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
+																		<th>코드</th>
 																		<th>코스명</th>
 																		<th>단축코드</th>
 																		<th>사용안함</th>
@@ -93,6 +95,7 @@
 
 																<tbody>
 																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="코스명"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
@@ -101,37 +104,41 @@
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>베어 인</td>
-																		<td>BI</td>
+																		<td>code</td>
+																		<td><input class="form-control text-center p-0" type="text" value="베어 인"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="BI"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>20</td>
-																		<td>M</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><input class="form-control text-center p-0" type="text" value="20"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="M"></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>베어 아웃</td>
-																		<td>BO</td>
+																		<td>code</td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="베어 아웃"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="BO"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>30</td>
-																		<td>M</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><input class="form-control text-center p-0" type="text" value="30"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="M"></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>크리크 인</td>
-																		<td>CI</td>
+																		<td>code</td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="크리크 인"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="CI"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>40</td>
-																		<td>P</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><input class="form-control text-center p-0" type="text" value="40"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="M"></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>크리크 아웃</td>
-																		<td>CO</td>
+																		<td>code</td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="크리크 아웃"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="CO"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>50</td>
-																		<td>P</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
+																		<td><input class="form-control text-center p-0" type="text" value="50"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="P"></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																																		
 																</tbody>
 															</table>
 														</div>
