@@ -56,7 +56,7 @@
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
 														</div>
 
-														<div class="table-responsive table-fixed-head card h-100 mb-0" data-simplebar>
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
@@ -357,7 +357,7 @@
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
 														</div>
 
-														<div class="table-responsive table-fixed-head card h-100 mb-0" data-simplebar>
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
@@ -790,7 +790,7 @@
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
 														</div>
 
-														<div class="table-responsive table-fixed-head card h-100 mb-0" data-simplebar>
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
@@ -893,7 +893,7 @@
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
 														</div>
 
-														<div class="table-responsive table-fixed-head card h-100 mb-0" data-simplebar>
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
@@ -996,7 +996,7 @@
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
 														</div>
 
-														<div class="table-responsive table-fixed-head card h-100 mb-0" data-simplebar>
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
