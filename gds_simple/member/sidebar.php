@@ -1,0 +1,44 @@
+
+
+<!-- ========== Left Sidebar Start ========== -->
+<div class="vertical-menu">
+	<?php include "../partials/vertical-menu-top.php"; ?>
+
+    <div data-simplebar class="h-100 pt-60">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+                <li class="mm-active">
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-group"></i>
+                        <span>회원</span>
+                    </a>
+                    <ul class="sub-menu mm-show" aria-expanded="true">
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/member/member_list.php">회원 관리</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 내장현황</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 매출현황</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">개인정보파기안내</a></li>
+                        <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#"><span key="t-">회원등급 / 권한(중복)</span></a></li-->
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">마케팅</a></li>
+                    </ul>
+                </li>
+                <li class="mm-active">
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+						<i class="bx bx-body"></i>
+                        <span>단체팀</span>
+                    </a>
+                    <ul class="sub-menu mm-show" aria-expanded="true">
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/member/group_list.php">단체팀 관리</a></li>
+                    </ul>
+                </li>				
+            </ul>
+        </div>
+        <!-- Sidebar -->
+    </div>
+</div>
+<!-- Left Sidebar End -->
+<div class="app-search-backdrop" onclick="$('.search_detail_wrap, .app-search-backdrop').hide();"></div>
+
+<!-- <?php include "horizontal.php"; ?> -->
