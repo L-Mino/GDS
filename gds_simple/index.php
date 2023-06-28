@@ -46,7 +46,7 @@
 											<div class="col">
 												<div class="form-check form-check-inline">    
 													<input type="checkbox" class="form-check-input font-size-16" id="remember-check">
-													<label class="form-check-label" for="remember-check">기억하기</label>
+													<label class="form-check-label" for="remember-check">기억하</label>
 												</div>
 											</div>  
 										</div>
