@@ -27,7 +27,7 @@
 					<a href="/gds_simple/front/reservation/teetime.php" class="gnb_front" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-gnb" title="예약 / 내장"></a>
 				</li>
 				<li class="nav-item">
-					<a href="/gds_simple/sale/manage_day.php" class="gnb_sale_kr" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="결제 / 판매"></a>
+					<a href="/gds_simple/sale/manage_day.php" class="gnb_sale_kr" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="판매 / 정산"></a>
 				</li>
 				<li class="nav-item">
 					<a href="/gds_simple/match/game.php" class="gnb_match" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="경기"></a>

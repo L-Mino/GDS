@@ -243,7 +243,7 @@ function checkSelect(){
 	$('input[type=checkbox][name=tableCheckAll]').change(function() {
 		if ($(this).is(':checked')) {
 			$(this).parents('table').find('input[type=checkbox]').prop('checked', true);
-			$(this).parents('table').find('input[type=checkbox]').parents('tbody').find('tr').addClass('table-active');
+			$(this).parents('table').children('tbody').find('input[type=checkbox]').parents('tr').addClass('table-active');
 		} else {
 			$(this).parents('table').find('input[type=checkbox]').prop('checked', false);
 			$(this).parents('table').find('tbody tr').removeClass('table-active');				
