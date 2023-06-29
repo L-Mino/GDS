@@ -353,8 +353,8 @@ thead.table-red th {border-color:#EAD9DC; }
 .teetime-right {/*width:calc(100% - 270px);*/ flex:1; height:calc(100vh - 318px); overflow:hidden; }
 .teetime-right .booking-area {display:inline-block; min-width:600px; /*max-width:calc(25vw - 165px);*/ width:100%; vertical-align:top; border-radius:0.25rem; }
 
-.guest-left {width:355px; height:calc(100vh - 240px); overflow:hidden; }
-.guest-right {/*width:calc(100% - 270px);*/ flex:1; height:calc(100vh - 240px); overflow:hidden; }
+.guest-left {width:355px; /*height:calc(100vh - 240px);*/ overflow:hidden; }
+.guest-right {/*width:calc(100% - 270px);*/ flex:1; overflow:hidden; }
 
 .dashboard-wrap .booking-area {display:inline-block; min-width:335px; width:100%; vertical-align:top; border-radius:0.25rem; }
 

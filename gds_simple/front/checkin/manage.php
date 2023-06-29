@@ -187,6 +187,34 @@
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
+														</tr>																																										
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:00</td>
+															<td>BO</td>
+															<td>4</td>
+															<td>홍길동</td>
+															<td>클라스</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:00</td>
+															<td>BO</td>
+															<td>4</td>
+															<td>홍길동</td>
+															<td>클라스</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:00</td>
+															<td>BO</td>
+															<td>4</td>
+															<td>홍길동</td>
+															<td>클라스</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:00</td>
+															<td>BO</td>
+															<td>4</td>
+															<td>홍길동</td>
+															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
@@ -231,246 +259,245 @@
 
 									<div class="card guest-right mb-0">
 										<div class="card-body">
-											<div class="guest-right">
-												<div class="d-flex align-items-center gap-2 mb-3">
-													<span class="fs-16 fw-bold">06:30  BO  김길동</span>
-													<div class="btn-group ms-auto">
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조변경</button>
-													</div>
-
-													<div class="form-check form-check-inline align-top p-0 me-0">
-														<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-															<option value="단체명">단체명</option>
-															<option value="카트">카트</option>
-															<option value="카트료">카트료</option>
-															<option value="캐디">캐디</option>
-															<option value="캐디피">캐디피</option>
-															<option value="대여료">대여료</option>
-															<option value="총금액">총금액</option>
-														</select>
-													</div>
+											<div class="d-flex align-items-center gap-2 mb-3">
+												<span class="fs-16 fw-bold">06:30  BO  김길동</span>
+												<div class="btn-group ms-auto">
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조변경</button>
 												</div>
 
-												<div class="table-fixed-head" data-simplebar>
-													<table class="table table-hover text-center mb-0">
-														<colgroup>
-															<col style="min-width:80px; width:80px;">
-															<col style="min-width:120px; width:auto;">
-															<col style="min-width:70px; width:70px;">
-															<col style="min-width:90px; width:90px;">
-															<col style="min-width:70px; width:auto;">
-															<col style="width:60px;">
-															<col style="min-width:40px; width:40px;">
-															<col style="min-width:70px; width:auto;;">
-															<col style="min-width:70px; width:auto;;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:150px; width:auto;">															
-															<col style="min-width:70px; width:auto;">
-														</colgroup>
-
-														<thead>
-															<tr>
-																<th>
-																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
-																		<label class="form-check-label fw-bold" for="checkAll">확정</label>
-																	</div>
-																</th>
-																<th>내장객</th>
-																<th>성별</th>
-																<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
-																<th>그린피</th>
-																<th>홀</th>
-																<th>추가</th>
-																<th>카트</th>
-																<th>캐디</th>
-																<th>대여료</th>
-																<th>할인</th>
-																<th>총금액</th>
-															</tr>
-														</thead>
-
-														<tbody>
-															<tr>
-																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준"></td>
-																<td>
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="남" selected>남</option>
-																		<option value="여">여</option>
-																	</select>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
-																<td>110,000</td>
-																<td>18</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="5-전동" selected>5-전동</option>
-																			<option value="2-전동">2-전동</option>
-																			<option value="수동">수동</option>
-																		</select>
-
-																		<span>100,000</span>
-																	</div>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="P" selected>P</option>
-																			<option value="J">J</option>
-																			<option value="N">N</option>
-																		</select>
-																		<span>150,000</span>
-																	</div>
-																</td>
-																<td>20,000</td>
-																<td>프로5 - 50,000</td>
-																<td>380,000</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김아연"></td>
-																<td>
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="남" selected>남</option>
-																		<option value="여">여</option>
-																	</select>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
-																<td>110,000</td>
-																<td>18</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="5-전동" selected>5-전동</option>
-																			<option value="2-전동">2-전동</option>
-																			<option value="수동">수동</option>
-																		</select>
-																		<span>100,000</span>
-																	</div>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="P" selected>P</option>
-																			<option value="J">J</option>
-																			<option value="N">N</option>
-																		</select>
-																		<span>150,000</span>
-																	</div>
-																</td>
-																<td>20,000</td>
-																<td>프로5 - 50,000</td>
-																<td>380,000</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김민준"></td>
-																<td>
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="남" selected>남</option>
-																		<option value="여">여</option>
-																	</select>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
-																<td>110,000</td>
-																<td>18</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="5-전동" selected>5-전동</option>
-																			<option value="2-전동">2-전동</option>
-																			<option value="수동">수동</option>
-																		</select>
-																		<span>100,000</span>
-																	</div>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="P" selected>P</option>
-																			<option value="J">J</option>
-																			<option value="N">N</option>
-																		</select>
-																		<span>150,000</span>
-																	</div>
-																</td>
-																<td>20,000</td>
-																<td>프로5 - 50,000</td>
-																<td>380,000</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김백동"></td>
-																<td>
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="남" selected>남</option>
-																		<option value="여">여</option>
-																	</select>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
-																<td>110,000</td>
-																<td>18</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="5-전동" selected>5-전동</option>
-																			<option value="2-전동">2-전동</option>
-																			<option value="수동">수동</option>
-																		</select>
-																		<span>100,000</span>
-																	</div>
-																</td>
-																<td>
-																	<div class="d-flex align-items-center">
-																		<select class="form-select w-auto py-0 mx-auto">
-																			<option value="P" selected>P</option>
-																			<option value="J">J</option>
-																			<option value="N">N</option>
-																		</select>
-																		<span>150,000</span>
-																	</div>
-																</td>
-																<td>20,000</td>
-																<td>프로5 - 50,000</td>
-																<td>380,000</td>
-															</tr>
-															<tr>
-																<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
-															</tr>
-														</tbody>
-													</table>
+												<div class="form-check form-check-inline align-top p-0 me-0">
+													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+														<option value="단체명">단체명</option>
+														<option value="카트">카트</option>
+														<option value="카트료">카트료</option>
+														<option value="캐디">캐디</option>
+														<option value="캐디피">캐디피</option>
+														<option value="대여료">대여료</option>
+														<option value="총금액">총금액</option>
+													</select>
 												</div>
+											</div>
 
-												<div class="border-box mt-4">
+											<div class="table-fixed-head" data-simplebar>
+												<table class="table table-hover text-center mb-0">
+													<colgroup>
+														<col style="min-width:80px; width:80px;">
+														<col style="min-width:120px; width:auto;">
+														<col style="min-width:70px; width:70px;">
+														<col style="min-width:90px; width:90px;">
+														<col style="min-width:70px; width:auto;">
+														<col style="width:60px;">
+														<col style="min-width:40px; width:40px;">
+														<col style="min-width:70px; width:auto;;">
+														<col style="min-width:70px; width:auto;;">
+														<col style="min-width:70px; width:auto;">
+														<col style="min-width:150px; width:auto;">															
+														<col style="min-width:70px; width:auto;">
+													</colgroup>
+
+													<thead>
+														<tr>
+															<th>
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
+																	<label class="form-check-label fw-bold" for="checkAll">확정</label>
+																</div>
+															</th>
+															<th>내장객</th>
+															<th>성별</th>
+															<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
+															<th>그린피</th>
+															<th>홀</th>
+															<th>추가</th>
+															<th>카트</th>
+															<th>캐디</th>
+															<th>대여료</th>
+															<th>할인</th>
+															<th>총금액</th>
+														</tr>
+													</thead>
+
+													<tbody>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준"></td>
+															<td>
+																<select class="form-select w-auto py-0 mx-auto">
+																	<option value="남" selected>남</option>
+																	<option value="여">여</option>
+																</select>
+															</td>
+															<td>
+																<div class="d-flex align-items-center gap-1">
+																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																</div>
+															</td>
+															<td>110,000</td>
+															<td>18</td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="5-전동" selected>5-전동</option>
+																		<option value="2-전동">2-전동</option>
+																		<option value="수동">수동</option>
+																	</select>
+
+																	<span>100,000</span>
+																</div>
+															</td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="P" selected>P</option>
+																		<option value="J">J</option>
+																		<option value="N">N</option>
+																	</select>
+																	<span>150,000</span>
+																</div>
+															</td>
+															<td>20,000</td>
+															<td>프로5 - 50,000</td>
+															<td>380,000</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김아연"></td>
+															<td>
+																<select class="form-select w-auto py-0 mx-auto">
+																	<option value="남" selected>남</option>
+																	<option value="여">여</option>
+																</select>
+															</td>
+															<td>
+																<div class="d-flex align-items-center gap-1">
+																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																</div>
+															</td>
+															<td>110,000</td>
+															<td>18</td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="5-전동" selected>5-전동</option>
+																		<option value="2-전동">2-전동</option>
+																		<option value="수동">수동</option>
+																	</select>
+																	<span>100,000</span>
+																</div>
+															</td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="P" selected>P</option>
+																		<option value="J">J</option>
+																		<option value="N">N</option>
+																	</select>
+																	<span>150,000</span>
+																</div>
+															</td>
+															<td>20,000</td>
+															<td>프로5 - 50,000</td>
+															<td>380,000</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김민준"></td>
+															<td>
+																<select class="form-select w-auto py-0 mx-auto">
+																	<option value="남" selected>남</option>
+																	<option value="여">여</option>
+																</select>
+															</td>
+															<td>
+																<div class="d-flex align-items-center gap-1">
+																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																</div>
+															</td>
+															<td>110,000</td>
+															<td>18</td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="5-전동" selected>5-전동</option>
+																		<option value="2-전동">2-전동</option>
+																		<option value="수동">수동</option>
+																	</select>
+																	<span>100,000</span>
+																</div>
+															</td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="P" selected>P</option>
+																		<option value="J">J</option>
+																		<option value="N">N</option>
+																	</select>
+																	<span>150,000</span>
+																</div>
+															</td>
+															<td>20,000</td>
+															<td>프로5 - 50,000</td>
+															<td>380,000</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김백동"></td>
+															<td>
+																<select class="form-select w-auto py-0 mx-auto">
+																	<option value="남" selected>남</option>
+																	<option value="여">여</option>
+																</select>
+															</td>
+															<td>
+																<div class="d-flex align-items-center gap-1">
+																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																</div>
+															</td>
+															<td>110,000</td>
+															<td>18</td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="5-전동" selected>5-전동</option>
+																		<option value="2-전동">2-전동</option>
+																		<option value="수동">수동</option>
+																	</select>
+																	<span>100,000</span>
+																</div>
+															</td>
+															<td>
+																<div class="d-flex align-items-center">
+																	<select class="form-select w-auto py-0 mx-auto">
+																		<option value="P" selected>P</option>
+																		<option value="J">J</option>
+																		<option value="N">N</option>
+																	</select>
+																	<span>150,000</span>
+																</div>
+															</td>
+															<td>20,000</td>
+															<td>프로5 - 50,000</td>
+															<td>380,000</td>
+														</tr>
+														<tr>
+															<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div class="border-box mt-4">
 													<table class="table w-100 mb-0">
 														<colgroup>
 															<col style="width:90px;">
@@ -564,7 +591,6 @@
 														</div>
 													</div>
 												</div>
-											</div>
 										</div>
 									</div>
 								</div>

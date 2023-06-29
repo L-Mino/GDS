@@ -17,6 +17,8 @@
 <script src="/gds_simple/assets/libs/@fullcalendar/dist/index.global.min.js"></script>
 <script src="/gds_simple/assets/libs/@fullcalendar/google-calendar/index.global.min.js"></script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.min.js"></script>
+
 <!-- apexcharts -->
 <script src="/gds_simple/assets/libs/apexcharts/apexcharts.min.js"></script>
 
