@@ -123,7 +123,7 @@ $(function(){
 		var text_remaining = text_max - text_length;
 		$('#notice-count-message').html(text_length + '/' + text_max);
 	});
-	
+
 	checkSelect();
    	datePicker();
 });

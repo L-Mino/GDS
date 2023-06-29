@@ -197,12 +197,10 @@
 
 												<div class="row align-items-center mb-4">
 													<div class="col-12 ps-0">
-														<div class="d-flex gap-2">
-															<div class="filebox flex-fill">
-																<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
-																<input type="file" id="file01">
-															</div>
-															<label for="file01" class="btn btn-outline-custom mb-0">파일 첨부</label>
+														<label for="file01" class="btn btn-outline-custom my-1">사업자등록증/명함 첨부</label>
+														<div class="filebox mt-2">
+															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input type="file" id="file01" multiple>
 														</div>
 													</div>
 												</div>
@@ -227,13 +225,15 @@
 
 												<div class="row align-items-center mb-2">
 													<div class="col-12 ps-0">
-														<div class="d-flex gap-2">
-															<div class="filebox flex-fill">
-																<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
-																<input type="file" id="file02">
-															</div>
-															<label for="file02" class="btn btn-outline-custom mb-0">파일 첨부</label>
+														<label for="file02" class="btn btn-outline-custom my-1">사업자등록증/명함 첨부</label>
+														<div class="filebox mt-2">
+															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input type="file" id="file02">
 														</div>
+														<div class="filebox mt-2">
+															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input type="file" id="file02">
+														</div>														
 													</div>
 												</div>
                                             </div>

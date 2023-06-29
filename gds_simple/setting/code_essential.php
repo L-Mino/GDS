@@ -37,36 +37,33 @@
 												</div>
 												<div class="tab-code">
 													<ul class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
-														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">코스 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code02">회원 구분</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code03">회원 등급</a></li>														
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code04">부서 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code05">직급 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code06">직원 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code07">그린피 분류 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code08">판매처 / 업장 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code09">위약 구분</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code10">위약 사유</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code11">위약 조치</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code12">결제 관리 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code13">장비 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code14">예약 메모 / 지시</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">임시 단체팀 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code16">내장인원 </a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code17">휴장 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code18">거래처 관리</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code19">성수기 코드</a></li>
+														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">회원 유형</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code02">회원 등급</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code03">부서 코드</a></li>														
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code04">직급 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code05">직원 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code06">판매처 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code07">그린피 분류</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code08">위약 구분</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code09">위약 사유</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code10">위약 조치</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code11">결제 구분</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code12">결재 방법</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code13">예약 메모</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code14">임시 단체</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">내장 인원</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code16">휴장 코드 </a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code17">성수기 (시즌) 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code18">장비</a></li>
 													</ul>
 												</div>
 											</div>
 
 											<div class="code-con-right mb-0">
 												<div class="tab-content" id="v-pills-tabContent">
-													<div class="tab-pane fade show active" id="code01" role="tabpanel">
+													<!-- <div class="tab-pane fade show active" id="code01" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">코스 코드</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+															<span class="code-title">회원 유형</span>
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0">
@@ -75,9 +72,9 @@
 																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px; width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px; width:100px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
@@ -87,7 +84,7 @@
 																		<th>코스명</th>
 																		<th>단축코드</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -142,11 +139,11 @@
 																</tbody>
 															</table>
 														</div>
-													</div>
+													</div> -->
 
-													<div class="tab-pane fade" id="code02" role="tabpanel">
+													<div class="tab-pane fade show active" id="code01" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">회원 구분</span>
+															<span class="code-title">회원 유형</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -156,18 +153,18 @@
 																<colgroup>
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">																	
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>회원 구분명</th>
+																		<th>구분명</th>
 																		<th>단축코드</th>																		
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -175,67 +172,67 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="회원 구분명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>비회원</td>
+																		<td>비 회원</td>
 																		<td>P</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>인터넷 회원</td>
 																		<td>I</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VIP</td>
-																		<td>V</td>																		
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VVIP</td>
-																		<td>W</td>																		
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>법인 회원</td>
-																		<td>C</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>임직원</td>
-																		<td>E</td>																		
+																		<td>S</td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>정회원</td>
+																		<td>F</td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>4</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>가족 회원</td>
+																		<td>f</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>지정 회원</td>
+																		<td>D</td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>6</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>																	
 																</tbody>
 															</table>
 														</div>
-													</div>
-													
-													<div class="tab-pane fade" id="code03" role="tabpanel">
+													</div>													
+
+													<div class="tab-pane fade" id="code02" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">회원 등급</span>
 															<!--span class="mx-2">-</span>
@@ -247,18 +244,18 @@
 																<colgroup>
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">																	
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>회원 등급명</th>
+																		<th>구분명</th>
 																		<th>단축코드</th>																		
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -266,43 +263,51 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="회원 등급명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>일반</td>
-																		<td>코드없음</td>
+																		<td>G</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>VIP</td>
 																		<td>V</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>MVP</td>
 																		<td>M</td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
+																	<tr>
+																		<td>BLACK LIST</td>
+																		<td>B</td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>4</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																	
 																</tbody>
 															</table>
 														</div>
-													</div>													
-
-													<div class="tab-pane fade" id="code04" role="tabpanel">
+													</div>
+													
+													<div class="tab-pane fade" id="code03" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">부서 코드</span>
 															<!--span class="mx-2">-</span>
@@ -313,17 +318,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>부서명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -331,9 +336,9 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="부서명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -341,42 +346,57 @@
 																		<td>프론트</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>예약실</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>경기</td>
+																		<td>경기팀</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>코스관리</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>식음</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>프로샵</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>6</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>용역</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>7</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>
+													</div>													
 
-													<div class="tab-pane fade" id="code05" role="tabpanel">
+													<div class="tab-pane fade" id="code04" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">직급 코드</span>
 															<!--span class="mx-2">-</span>
@@ -387,17 +407,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>직급명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -405,9 +425,9 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="직급명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -415,58 +435,197 @@
 																		<td>대표이사</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>부사장</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>전무이사</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>상무이사</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>4</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>이사</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>5</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>부장</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>6</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>차장</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>7</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>과장</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>8</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>대리</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>9</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>사원</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
+																		<td>10</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>인턴</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>11</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>계약직</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>12</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+
+													<div class="tab-pane fade" id="code05" role="tabpanel">
+														<div class="d-flex align-items-center mb-3">
+															<span class="code-title">직원 코드</span>
+															<!--span class="mx-2">-</span>
+															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+														</div>
+
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
+															<table class="table text-center w-100 mb-0 nowrap">
+																<colgroup>
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px;">
+																	<col style="min-width:100px;">
+																	<col style="min-width:150px;">
+																	<col style="min-width:150px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:70px; width:70px;">
+																</colgroup>
+
+																<thead>
+																	<tr>
+																		<th>구분명</th>
+																		<th>사용안함</th>
+																		<th>부서</th>																		
+																		<th>직급</th>																		
+																		<th>이메일</th>																		
+																		<th>휴대폰</th>																		
+																		<th>정렬</th>
+																		<th>저장</th>
+																	</tr>
+																</thead>
+
+																<tbody>
+																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="부서 선택" checked disabled>부서 선택</option>
+																				<option value="프론트">프론트</option>
+																				<option value="예약실">예약실</option>
+																				<option value="경기팀">경기팀</option>
+																				<option value="코스관리">코스관리</option>
+																				<option value="식음">식음</option>
+																				<option value="프로샵">프로샵</option>
+																				<option value="용역">용역</option>
+																			</select>
+																		</td>																		
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="직급 선택" checked disabled>직급 선택</option>
+																				<option value="대표이사">대표이사</option>
+																				<option value="부사장">부사장</option>
+																				<option value="전무이사">전무이사</option>
+																				<option value="상무이사">상무이사</option>
+																				<option value="이사">이사</option>
+																				<option value="부장">부장</option>
+																				<option value="차장">차장</option>
+																				<option value="과장">과장</option>
+																				<option value="대리">대리</option>
+																				<option value="사원">사원</option>
+																				<option value="인턴">인턴</option>
+																				<option value="계약직">계약직</option>
+																			</select>
+																		</td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="이메일"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="휴대폰"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
+																	<tr>
+																		<td>대표이사</td>
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="프론트" checked>프론트</option>
+																				<option value="예약실">예약실</option>
+																				<option value="경기팀">경기팀</option>
+																				<option value="코스관리">코스관리</option>
+																				<option value="식음">식음</option>
+																				<option value="프로샵">프로샵</option>
+																				<option value="용역">용역</option>
+																			</select>
+																		</td>																		
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="대표이사" checked>대표이사</option>
+																				<option value="부사장">부사장</option>
+																				<option value="전무이사">전무이사</option>
+																				<option value="상무이사">상무이사</option>
+																				<option value="이사">이사</option>
+																				<option value="부장">부장</option>
+																				<option value="차장">차장</option>
+																				<option value="과장">과장</option>
+																				<option value="대리">대리</option>
+																				<option value="사원">사원</option>
+																				<option value="인턴">인턴</option>
+																				<option value="계약직">계약직</option>
+																			</select>
+																		</td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="이메일"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="휴대폰"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>																	
 																</tbody>
 															</table>
 														</div>
@@ -474,7 +633,7 @@
 
 													<div class="tab-pane fade" id="code06" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">직원 코드</span>
+															<span class="code-title">판매처 코드</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -483,17 +642,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>직원명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -501,11 +660,39 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="직원명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>대식당</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>1</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>스타트</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>그늘집</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>프로샵</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -514,7 +701,7 @@
 
 													<div class="tab-pane fade" id="code07" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 분류 코드</span>
+															<span class="code-title">그린피 분류</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -523,17 +710,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>그린피 분류명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -541,88 +728,60 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="그린피 분류명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>평일18H</td>
+																		<td>18홀</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>토18H</td>
+																		<td>9홀</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>일18H</td>
+																		<td>27홀</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>평일9H</td>
+																		<td>36홀</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>공9H</td>
+																		<td>무제한</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>평9H +</td>
+																		<td>18홀 추가</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>6</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>토9H +</td>
+																		<td>9홀 추가</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>7</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>일9H +</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>8</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>토18H +</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>9</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>일18H +</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>10</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>공18H +</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>11</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -631,7 +790,7 @@
 
 													<div class="tab-pane fade" id="code08" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">판매처 / 업장코드</span>
+															<span class="code-title">위약 구분</span>
 															<!--span class="mx-2">-</span>
 															<span>식음, 용품 등 내장객 대상 판매업장</span-->
 														</div>
@@ -640,17 +799,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>판매처명 / 업장명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -658,39 +817,53 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="판매처명 / 업장명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>대식당</td>
+																		<td>정상취소</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>20</td>
+																		<td>1</td>
 																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>스타트</td>
+																		<td>우천취소</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>30</td>
+																		<td>2</td>
 																		<td>N</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>그늘집</td>
+																		<td>1일전 취소</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>40</td>
+																		<td>3</td>
 																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>프로샵</td>
+																		<td>2일전 취소</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>50</td>
+																		<td>4</td>
 																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>3일전 취소</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
+																		<td>Y</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>4일전 취소</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
+																		<td>Y</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -698,88 +871,6 @@
 													</div>
 
 													<div class="tab-pane fade" id="code09" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">위약 구분</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0">
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>위약 구분명</th>
-																		<th>사용안함</th>
-																		<th>정렬순서</th>
-																		<th>비고</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약 구분명"></td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>노쇼</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>우천취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>정상취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>1일전 임박취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>2일전 임박취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>3일전 임박취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code10" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">위약 사유</span>
 															<!--span class="mx-2">-</span>
@@ -790,17 +881,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>위약 사유명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -808,46 +899,53 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약 사유명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>개인사정</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>우천 취소</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>우천취소</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>개인 사정</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>일정 변경</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>사고</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
-																		<td>3</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>4</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>기타</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
-																		<td>4</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code11" role="tabpanel">
+													<div class="tab-pane fade" id="code10" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">위약 조치</span>
 															<!--span class="mx-2">-</span>
@@ -858,107 +956,94 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:100px;">
-																	<col style="min-width:100px;">
-																	<col style="min-width:100px;">																	
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>위약 조치명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
-																		<th>위약기간</th>
-																		<th>위약금</th>
-																		<th>위약퍼센트</th>																		
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
-																	</tr>																	
+																	</tr>
 																</thead>
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약 조치명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약기간"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약금"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약퍼센트"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 5</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>1</td>
-																		<td></td>
-																		<td>50,000</td>
-																		<td></td>																		
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 10</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>2</td>
-																		<td></td>
-																		<td>100,000</td>
-																		<td></td>																		
-																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>위약금 30%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3</td>
+																		<td>1</td>
 																		<td></td>
-																		<td></td>																		
-																		<td>30%</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>위약금 50%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
+																		<td>2</td>
 																		<td></td>
-																		<td></td>																		
-																		<td>50%</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
 																	<tr>
 																		<td>예약금지 1M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>1달</td>
+																		<td>3</td>
 																		<td></td>
-																		<td></td>																		
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>예약금지 2M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>6</td>
-																		<td>2달</td>
+																		<td>4</td>
 																		<td></td>
-																		<td></td>																		
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>예약금지 3M</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>5</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>위약금 10</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>6</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>위약금 20</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>7</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>위약금 30</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>7</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>
+													</div>													
 
-													<div class="tab-pane fade" id="code12" role="tabpanel">
+													<div class="tab-pane fade" id="code11" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">결제 관리 코드</span>
+															<span class="code-title">결제 구분</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -967,17 +1052,19 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">																	
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>결제 관리명</th>
+																		<th>구분명</th>
+																		<th>기본값</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -985,32 +1072,110 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="결제 관리명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>선불</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
 																	</tr>
 																	<tr>
 																		<td>후불</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td><input class="form-check-input" type="radio" name="radio01" checked></td>																																				
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>2</td>
-																		<td>비고내용</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																	</tr>
+																	<tr>
+																		<td>미수</td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+
+													<div class="tab-pane fade" id="code12" role="tabpanel">
+														<div class="d-flex align-items-center mb-3">
+															<span class="code-title">결재 방법</span>
+															<!--span class="mx-2">-</span>
+															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+														</div>
+
+														<div class="table-fixed-head card h-100 mb-0">
+															<table class="table text-center w-100 mb-0 nowrap">
+																<colgroup>
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
+																	<col style="min-width:70px; width:70px;">
+																</colgroup>
+
+																<thead>
+																	<tr>
+																		<th>구분명</th>
+																		<th>사용안함</th>
+																		<th>정렬</th>
+																		<th>비고</th>
+																		<th>저장</th>
+																	</tr>
+																</thead>
+
+																<tbody>
+																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>쿠폰</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>카드</td>
+																		<td><input class="form-check-input" type="radio" name="radio02" checked></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>1</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																	</tr>
+																	<tr>
+																		<td>현금</td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																	</tr>
+																	<tr>
+																		<td>마일리지</td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																	</tr>
+																	<tr>
+																		<td>쿠폰</td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td>4</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
 																	</tr>
 																</tbody>
 															</table>
@@ -1019,25 +1184,28 @@
 
 													<div class="tab-pane fade" id="code13" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">장비 코드</span>
+															<span class="code-title">예약 메모</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
+
 														<div class="table-fixed-head card h-100 mb-0">
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>장비명</th>
+																		<th>구분명</th>
+																		<th>단축코드</th>																		
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -1045,11 +1213,36 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="장비명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>커피 무료</td>
+																		<td>COF4</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>1</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>2박3일</td>
+																		<td>PG/3</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>VVIP</td>
+																		<td>VVIP</td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1058,147 +1251,7 @@
 
 													<div class="tab-pane fade" id="code14" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">예약 메모 / 지시</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
-														</div>
-														<div class="table-fixed-head card h-100 mb-0">
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>에약 메모/지시명</th>
-																		<th>단축코드</th>
-																		<th>사용안함</th>
-																		<th>정렬순서</th>
-																		<th>비고</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="에약 메모 / 지시명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>4인 커피 무료 제공</td>
-																		<td>COF4</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>20</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>패키지 2박3일</td>
-																		<td>PG/3</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>19</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code15" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">단체팀 코드</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
-														</div>
-														<div class="table-fixed-head card h-100 mb-0">
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>단체팀명</th>
-																		<th>단축코드</th>																		
-																		<th>사용안함</th>
-																		<th>정렬순서</th>
-																		<th>비고</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단체팀명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>																		
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>임시1</td>
-																		<td>임시1</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>1</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>임시2</td>
-																		<td>임시2</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>2</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>임시3</td>
-																		<td>임시3</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
-																	<!--tr>
-																		<td>경기고 총동창회</td>
-																		<td>공고총</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																		
-																	<tr>
-																		<td>광진고 3040 동호회</td>
-																		<td>광34</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>5</td>
-																		<td>Y</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr-->																																																			
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code16" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">내장인원</span>
+															<span class="code-title">임시 단체</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -1207,18 +1260,18 @@
 																<colgroup>
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">																	
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>내장인원명</th>
-																		<th>단축코드</th>
+																		<th>구분명</th>
+																		<th>단축코드</th>																		
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -1226,51 +1279,124 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="내장인원명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>4인 필수</td>
-																		<td>4</td>
+																		<td>임시단체 1</td>
+																		<td>임시1</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>3인 이상</td>
-																		<td>3</td>
+																		<td>임시단체 2</td>
+																		<td>임시2</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>2인 이상</td>
-																		<td>2</td>
+																		<td>임시단체 3</td>
+																		<td>임시3</td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>1인 가능</td>
-																		<td>1</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code17" role="tabpanel">
+													<div class="tab-pane fade" id="code15" role="tabpanel">
+														<div class="d-flex align-items-center mb-3">
+															<span class="code-title">내장 인원</span>
+															<!--span class="mx-2">-</span>
+															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+														</div>
+														<div class="table-fixed-head card h-100 mb-0">
+															<table class="table text-center w-100 mb-0 nowrap">
+																<colgroup>
+																	<col style="min-width:120px;">
+																	<col style="min-width:100px; width:100px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
+																	<col style="min-width:70px; width:70px;">
+																</colgroup>
+
+																<thead>
+																	<tr>
+																		<th>구분명</th>
+																		<th>단축코드</th>
+																		<th>기본값</th>
+																		<th>사용안함</th>
+																		<th>정렬</th>
+																		<th>비고</th>
+																		<th>저장</th>
+																	</tr>
+																</thead>
+
+																<tbody>
+																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>																		
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>4인 필수</td>
+																		<td>4</td>
+																		<td><input class="form-check-input" type="radio" name="radio03" checked></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>1</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>3인 이상</td>
+																		<td>3</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																	
+																	<tr>
+																		<td>2인 이상</td>
+																		<td>2</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																	
+																	<tr>
+																		<td>1인 가능</td>
+																		<td>1</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>4</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																	
+																</tbody>
+															</table>
+														</div>
+													</div>
+
+													<div class="tab-pane fade" id="code16" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">휴장 코드</span>
 															<!--span class="mx-2">-</span>
@@ -1280,17 +1406,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>휴장 구분명</th>
+																		<th>단체팀명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -1298,9 +1424,9 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="휴장 구분명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -1308,14 +1434,81 @@
 																		<td>회원의 날</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고내용</td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>Y</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>프로 대회</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2</td>
+																		<td>Y</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>대회</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td>Y</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>																	
+																</tbody>
+															</table>
+														</div>
+													</div>
+
+													<div class="tab-pane fade" id="code17" role="tabpanel">
+														<div class="d-flex align-items-center mb-3">
+															<span class="code-title">성수기 (시즌) 코드</span>
+															<!--span class="mx-2">-</span>
+															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+														</div>
+														<div class="table-fixed-head card h-100 mb-0">
+															<table class="table text-center w-100 mb-0 nowrap">
+																<colgroup>
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
+																	<col style="min-width:70px; width:70px;">
+																</colgroup>
+
+																<thead>
+																	<tr>
+																		<th>구분명</th>
+																		<th>사용안함</th>
+																		<th>정렬</th>
+																		<th>비고</th>
+																		<th>저장</th>
+																	</tr>
+																</thead>
+
+																<tbody>
+																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>극성수기</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>1</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>성수기</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고내용</td>
+																		<td></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>비수기</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																</tbody>
@@ -1325,7 +1518,7 @@
 
 													<div class="tab-pane fade" id="code18" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">거래처 관리</span>
+															<span class="code-title">장비</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -1333,17 +1526,17 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
 																<thead>
 																	<tr>
-																		<th>거래처명</th>
+																		<th>구분명</th>
 																		<th>사용안함</th>
-																		<th>정렬순서</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -1351,48 +1544,9 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="거래처명"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code19" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">성수기 코드</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
-														</div>
-														<div class="table-fixed-head card h-100 mb-0">
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:80px;">
-																	<col style="min-width:300px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>성수기명</th>
-																		<th>사용안함</th>
-																		<th>정렬순서</th>
-																		<th>비고</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="성수기명"></td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>

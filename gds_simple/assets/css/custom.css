@@ -477,11 +477,12 @@ textarea.textarea-bg:focus {background:#F4FCFF; }
 .dropdown.bootstrap-select .bs-ok-default:after {width:7px; height:12px; border-width:0 2px 2px 0; border-color:#0576B9; }
 .dropdown.bootstrap-select .bs-actionsbox, .dropdown.bootstrap-select .bs-donebutton, .dropdown.bootstrap-select .bs-searchbox {padding:4px 5px; }
 
-.form-control:disabled, .form-control[readonly] {background:#EFF2F7; /* color:#0576B9; */ border-width:0; }
+.form-control:disabled, .form-control[readonly] {background:#EFF2F7; border-width:0; }
 .form-control.form-control-bg {background:#EFF2F7; border:0; }
 .form-control.postcode {width:110px; }
 .form-control.postcode[readonly],
 .form-control.addr[readonly] {background:inherit !important; color:var(--bs-input-color) !important; border:1px solid var(--bs-input-border-color) !important; }
+.form-control.upload-name {color:#0576B9; }
 
 .pagenation-wrap * {line-height:30px; }
 

@@ -208,10 +208,18 @@
 												</td>
 											</tr>
 											<tr>
+												<th>국적</th>
+												<td>
+													<select class="form-select">
+														<option value="여권 기준" selected>여권 기준</option>
+														<option value="한국">한국</option>
+														<option value="미국">미국</option>
+													</select>
+												</td>
 												<th>핸드폰<span class="text-primary">*</span></th>
 												<td><input class="form-control" type="text"></td>
 												<th>이메일(ID)</th>
-												<td colspan="3"><input class="form-control" type="text"></td>
+												<td><input class="form-control" type="text"></td>
 											</tr>
 										</tbody>
 									</table>
@@ -396,9 +404,14 @@
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist09" role="tab">
 											<span>스코어</span>
 										</a>
-									</li>									
+									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist10" role="tab">
+											<span>서류/증빙</span>
+										</a>
+									</li>										
+									<li class="nav-item">
+										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist11" role="tab">
 											<span>기타</span>
 										</a>
 									</li>
@@ -1588,8 +1601,43 @@
 											</nav>
 										</div>
 									</div>								
-
+									
 									<div class="tab-pane" id="memberRegist10" role="tabpanel">
+										<div class="border-box border-bottom-0">
+											<table class="table table-layout-fixed mb-0">
+												<colgroup>
+													<col style="width:100px;">
+													<col style="width:auto">
+												</colgroup>
+
+												<tbody>
+													<tr>
+														<th>용도</th>
+														<td><input class="form-control" type="text"></td>
+													</tr>														
+													<tr>													
+														<th>증빙</th>
+														<td>
+															<!--div class="col">
+																<label for="file01" class="btn btn-outline-custom mb-0">파일 첨부</label>
+															</div>
+															<div class="filebox flex-fill">
+																<input class="form-control upload-name" readonly>
+																<input type="file" id="file01">
+															</div-->
+															<!-- <input id="multiplefileupload" type="file" accept=".jpg,.gif,.png" multiple> -->
+															<input id="multiplefileupload" type="file" multiple>
+															<input id="input-2" name="input2[]" type="file" class="file"  data-show-upload="false" data-show-caption="true" multiple>
+														</td>															
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+										<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+									</div>
+
+									<div class="tab-pane" id="memberRegist11" role="tabpanel">
 										<div class="border-box border-bottom-0">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>

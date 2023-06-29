@@ -50,7 +50,7 @@
 												<div class="tab-content" id="v-pills-tabContent">
 													<div class="tab-pane fade show active" id="code01" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 코드</span>
+															<span class="code-title">그린피 설정</span>
 															<!--span class="mx-2">-</span-->
 															<!--span>설명</span-->
 															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
@@ -60,11 +60,10 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:150px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:90px;">
 																	<col style="min-width:130px;">
 																	<col style="min-width:70px; width:70px;">
@@ -72,12 +71,11 @@
 
 																<thead>
 																	<tr>
-																		<th>그린피 코드</th>
-																		<th>회원구분</th>
+																		<th>그린피 설정 코드</th>
+																		<th>그린피 분류</th>
+																		<th>기본값</th>
 																		<th>사용안함</th>
-																		<th>합계</th>
-																		<th>공급가</th>
-																		<th>부가세</th>
+																		<th>가격</th>
 																		<th>비고</th>
 																		<th>등록/수정일</th>
 																		<th>저장</th>
@@ -88,1000 +86,403 @@
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
+																		<td><input class="form-check-input" type="radio" disabled></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>비회원 18</td>
-																		<td>비회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>180,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>비회원 19</td>
-																		<td>비회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>190,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>비회원 20</td>
-																		<td>비회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>200,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>인터넷회원 17</td>
-																		<td>인터넷 회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>170,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>인터넷회원 18</td>
-																		<td>인터넷 회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>180,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>인터넷회원 19</td>
-																		<td>인터넷 회원</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>190,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VIP 13</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>130,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
-																	<tr>
-																		<td>VIP 14</td>
-																		<td>해당없음(공통)</td>
+																		<td>18h-14</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>140,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																						
+																	</tr>
 																	<tr>
-																		<td>VIP 15</td>
-																		<td>해당없음(공통)</td>
+																		<td>18h-15</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>	
-																	<tr>
-																		<td>타임세일 15</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>150,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>	
-																	<tr>
-																		<td>타임세일 16</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>160,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																				
-																	<tr>
-																		<td>타임세일 17</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>170,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>	
-																	<tr>
-																		<td>단체 15</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>150,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																				
-																	<tr>
-																		<td>단체 16</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>160,000</td>
-																		<td></td>
-																		<td></td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>단체 17</td>
-																		<td>해당없음(공통)</td>
+																		<td>18h-16</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio01" checked></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>160,000</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-17</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
-																		<td>홀인원 10</td>
-																		<td>해당없음(공통)</td>
+																		<td>18h-18</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>100,000</td>
-																		<td></td>
-																		<td></td>
+																		<td>180,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
+																	
 																	<tr>
-																		<td>9H추가 8</td>
-																		<td>해당없음(공통)</td>
+																		<td>9h-7</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>70,000</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>9h-8</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio02" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>80,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>9H추가 9</td>
-																		<td>해당없음(공통)</td>
+																		<td>9h-9</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>90,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
+
 																	<tr>
-																		<td>9H추가 10</td>
-																		<td>해당없음(공통)</td>
+																		<td>+18h_14</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>100,000</td>
-																		<td></td>
-																		<td></td>
+																		<td>140,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																						
+																	</tr>
 																	<tr>
-																		<td>18H추가 15</td>
-																		<td>해당없음(공통)</td>
+																		<td>+18h_15</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio03" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>	
+																	</tr>
 																	<tr>
-																		<td>18H추가 16</td>
-																		<td>해당없음(공통)</td>
+																		<td>+18h_16</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>160,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>	
+																	</tr>
 																	<tr>
-																		<td>18H추가 17</td>
-																		<td>해당없음(공통)</td>
+																		<td>+18h_17</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
 																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>+18h_18</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio03"></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>180,000</td>
 																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+
+																	<tr>
+																		<td>+9h_7</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio04" checked></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>70,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code02" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 코드</span>
-															<!--span class="mx-2">-</span-->
-															<!--span>설명</span-->
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:150px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:130px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>그린피 코드</th>
-																		<th>회원구분</th>
-																		<th>사용안함</th>
-																		<th>합계</th>
-																		<th>공급가</th>
-																		<th>부가세</th>
-																		<th>비고</th>
-																		<th>등록/수정일</th>
-																		<th>저장</th>
 																	</tr>
-																</thead>
-
-																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td>+9h_8</td>
 																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
 																			</select>
 																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio04"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																		
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="비회원 18"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원" selected>비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="180,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td>80,000</td>
+																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="비회원 19"></td>
+																		<td>+9h_9</td>
 																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원" selected>비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
 																			</select>
 																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio04"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="190,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td>90,000</td>
+																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="비회원 20"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원" selected>비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="200,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="인터넷회원 17"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원" selected>인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="170,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="인터넷회원 18"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원" selected>인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="180,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="인터넷회원 19"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)">해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원" selected>인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="190,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																						
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="VIP 13"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="130,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="VIP 14"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="140,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																							
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="VIP 15"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="150,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																										
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="타임세일 15"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="150,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																													
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="타임세일 16"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="160,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="타임세일 17"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="170,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="단체 15"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="150,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																							
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="단체 16"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="160,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																										
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="단체 17"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="170,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																													
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="홀인원 10"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="100,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="9H추가 8"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="80,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																			
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="9H추가 9"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="90,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																																						
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="9H추가 10"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="100,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																																																									
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="18H추가 15"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="150,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																																																																												
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="18H추가 16"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="160,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																																																																																															
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="18H추가 17"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="170,000"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																																																																																																																																																																																																		
-																</tbody>
-															</table>
-														</div>
-													</div>
 
-													<div class="tab-pane fade" id="code03" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 코드</span>
-															<!--span class="mx-2">-</span-->
-															<!--span>설명</span-->
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:150px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:130px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
 																	<tr>
-																		<th>그린피 코드</th>
-																		<th>회원구분</th>
-																		<th>사용안함</th>
-																		<th>합계</th>
-																		<th>공급가</th>
-																		<th>부가세</th>
-																		<th>비고</th>
-																		<th>등록/수정일</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td>무제한_18</td>
 																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td><input class="form-check-input" type="radio" name="radio05" checked></td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>180,000</td>
+																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>기타1</td>
-																		<td>해당없음(공통)</td>
+																		<td>무제한_19</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="radio" name="radio05"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>190,000</td>
 																		<td></td>
-																		<td></td>
-																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>기타2</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>특별</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>200,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VIP</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code04" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 코드</span>
-															<!--span class="mx-2">-</span-->
-															<!--span>설명</span-->
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:150px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:130px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>그린피 코드</th>
-																		<th>회원구분</th>
-																		<th>사용안함</th>
-																		<th>합계</th>
-																		<th>공급가</th>
-																		<th>부가세</th>
-																		<th>비고</th>
-																		<th>등록/수정일</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td>무제한_20</td>
 																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>기타1</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>190,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>기타2</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>특별</td>
-																		<td>해당없음(공통)</td>
+																		<td><input class="form-check-input" type="radio" name="radio05"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>200,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VIP</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-
-													<div class="tab-pane fade" id="code05" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">그린피 코드</span>
-															<!--span class="mx-2">-</span-->
-															<!--span>설명</span-->
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:150px;">
-																	<col style="min-width:70px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:90px;">
-																	<col style="min-width:130px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>그린피 코드</th>
-																		<th>회원구분</th>
-																		<th>사용안함</th>
-																		<th>합계</th>
-																		<th>공급가</th>
-																		<th>부가세</th>
-																		<th>비고</th>
-																		<th>등록/수정일</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td>
-																			<select class="form-select form-select-center">
-																				<option value="해당없음(공통)" selected>해당없음(공통)</option>
-																				<option value="비회원">비회원</option>
-																				<option value="인터넷 회원">인터넷 회원</option>
-																			</select>
-																		</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>기타1</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>190,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>기타2</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>특별</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>200,000</td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>VIP</td>
-																		<td>해당없음(공통)</td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>320,000</td>
-																		<td></td>
-																		<td></td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>

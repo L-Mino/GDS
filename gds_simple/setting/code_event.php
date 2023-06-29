@@ -56,11 +56,11 @@
 																	<col style="min-width:90px; width:auto;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:120px;">
-																	<col style="width:80px;">
-																	<col style="width:80px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:70px; width:70px;">
 																	<col style="width:140px;">
-																	<col style="width:80px;">
-																	<col style="min-width:80px; width:auto;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
@@ -131,7 +131,7 @@
 																		<td></td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -150,7 +150,7 @@
 																		<td></td>
 																		<td>50%</td>																		
 																		<td>4,000</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																	
 																	<tr>
@@ -169,7 +169,7 @@
 																		<td></td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -188,7 +188,7 @@
 																		<td></td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																			
 																	<tr>
@@ -207,7 +207,7 @@
 																		<td></td>
 																		<td>50%</td>																		
 																		<td>40,000</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																	
 																</tbody>
@@ -221,15 +221,14 @@
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
-														<div class="table-fixed-head card h-100 mb-0">
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
-																	<col style="width:200px;">
-																	<col style="width:80px;">
-																	<col style="width:200px;">																	
-																	<col style="width:200px;">
-																	<col style="width:100px;">
-																	<col style="width:200px;">
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="width:auto;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																</colgroup>
 
@@ -237,9 +236,8 @@
 																	<tr>
 																		<th>이벤트 상품명</th>
 																		<th>사용안함</th>
-																		<th>상품 분류</th>
-																		<th>상품 할인</th>																		
-																		<th>정렬순서</th>
+																		<th>상품 선택</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
 																	</tr>
@@ -250,48 +248,57 @@
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="이벤트 상품명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td>
-																			<select class="form-select py-1 w-auto mx-auto border-bottom">
-																				<option value="분류 선택" selected disabled>분류 선택</option>																																						
-																				<option value="선택안함">선택안함</option>																			
-																				<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
-																				<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
-																				<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
-																				<option value="카트 무료">카트 무료</option>
-																				<option value="카트 50% 할인">카트 50% 할인</option>
-																			</select>
-																			<select class="form-select py-1 w-auto mx-auto border-bottom">
-																				<option value="분류 선택" selected disabled>분류 선택</option>																																						
-																				<option value="선택안함">선택안함</option>																			
-																				<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
-																				<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
-																				<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
-																				<option value="카트 무료">카트 무료</option>
-																				<option value="카트 50% 할인">카트 50% 할인</option>
-																			</select>
+																			<div class="d-flex border-bottom">
+																				<div class="col-6">
+																					<select class="form-select">
+																						<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																						<option value="선택안함">선택안함</option>																			
+																						<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																						<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																						<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공조식 뷔페 무료 제공</option>
+																						<option value="카트 무료">카트 무료</option>
+																						<option value="카트 50% 할인">카트 50% 할인</option>
+																					</select>
+																				</div>
+																				<div class="col-6">
+																					<select class="form-select">
+																						<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																						<option value="선택안함">선택안함</option>																			
+																						<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																						<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																						<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
+																						<option value="카트 무료">카트 무료</option>
+																						<option value="카트 50% 할인">카트 50% 할인</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="d-flex border-bottom">
+																				<div class="col-6">
+																					<select class="form-select">
+																						<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																						<option value="선택안함">선택안함</option>																			
+																						<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																						<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																						<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공조식 뷔페 무료 제공</option>
+																						<option value="카트 무료">카트 무료</option>
+																						<option value="카트 50% 할인">카트 50% 할인</option>
+																					</select>
+																				</div>
+																				<div class="col-6">
+																					<select class="form-select">
+																						<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																						<option value="선택안함">선택안함</option>																			
+																						<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																						<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																						<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
+																						<option value="카트 무료">카트 무료</option>
+																						<option value="카트 50% 할인">카트 50% 할인</option>
+																					</select>
+																				</div>
+																			</div>																			
 																			<button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 추가</button>
 																		</td>
-																		<td>
-																			<select class="form-select py-1 w-auto mx-auto border-bottom">
-																				<option value="상품 선택" selected>상품 선택</option>																																						
-																				<option value="선택안함">선택안함</option>																			
-																				<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
-																				<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
-																				<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
-																				<option value="카트 무료">카트 무료</option>
-																				<option value="카트 50% 할인">카트 50% 할인</option>
-																			</select>
-																			<select class="form-select py-1 w-auto mx-auto border-bottom">
-																				<option value="상품 선택" selected>상품 선택</option>																																						
-																				<option value="선택안함">선택안함</option>																			
-																				<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
-																				<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
-																				<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
-																				<option value="카트 무료">카트 무료</option>
-																				<option value="카트 50% 할인">카트 50% 할인</option>
-																			</select>																			
-																			<button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 추가</button>
-																		</td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -302,8 +309,8 @@
 																			<p class="py-1 mb-0 border-bottom">조식 뷔페 무료 제공</p>
 																			<p class="py-1 mb-0">카트 무료</p>
 																		</td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" value="1"></td>
-																		<td>비고내용</td>
+																		<td>1</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																</tbody>
