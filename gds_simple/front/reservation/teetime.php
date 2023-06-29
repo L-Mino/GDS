@@ -156,19 +156,20 @@
 																	<td>1부</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control form-control-em text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<!--input type="text" class="form-control form-control-em text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00"-->
+																			<input type="text" class="form-control form-control-em text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																		<span class="dash">~</span>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control form-control-em text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<input type="text" class="form-control form-control-em text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control form-control-em text-center input_tee" onkeydown="checkNumber()" maxlength="1" placeholder="7">
+																			<input type="text" class="form-control form-control-em text-center input_tee" maxlength="1" placeholder="7">
 																		</div>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_tee" onkeydown="checkNumber()" maxlength="1" >
+																			<input type="text" class="form-control text-center center input_tee" maxlength="1" >
 																		</div>
 																	</td>
 																	<td>
@@ -217,19 +218,19 @@
 																	<td>2부</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<input type="text" class="form-control text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																		<span class="dash">~</span>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<input type="text" class="form-control text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_tee" onkeydown="checkNumber()" maxlength="1" placeholder="7">
+																			<input type="text" class="form-control text-center input_tee"  maxlength="1" placeholder="7">
 																		</div>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_tee" onkeydown="checkNumber()" maxlength="1" >
+																			<input type="text" class="form-control text-center input_tee"  maxlength="1" >
 																		</div>
 																	</td>
 																	<td>
@@ -278,19 +279,19 @@
 																	<td>3부</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<input type="text" class="form-control text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																		<span class="dash">~</span>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_time" onkeydown="checkNumber()" maxlength="4" placeholder="24:00">
+																			<input type="text" class="form-control text-center input_time" maxlength="4" placeholder="24:00">
 																		</div>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_tee" onkeydown="checkNumber()" maxlength="1" placeholder="7">
+																			<input type="text" class="form-control text-center input_tee" maxlength="1" placeholder="7">
 																		</div>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input type="text" class="form-control text-center input_tee" onkeydown="checkNumber()" maxlength="1" >
+																			<input type="text" class="form-control text-center input_tee" maxlength="1" >
 																		</div>
 																	</td>
 																	<td>
