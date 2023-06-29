@@ -592,8 +592,8 @@
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>대표이사</td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td>홍길동</td>
+																		<td><input class="form-check-input" type="checkbox"></td>
 																		<td>
 																			<select class="form-select form-select-center ps-0">
 																				<option value="프론트" checked>프론트</option>
@@ -621,10 +621,10 @@
 																				<option value="계약직">계약직</option>
 																			</select>
 																		</td>																		
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="이메일"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="휴대폰"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td>abcderer@gmail.com</td>
+																		<td>010-1234-1224</td>
+																		<td>1</td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>																	
 																</tbody>
 															</table>
@@ -1129,6 +1129,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
+																		<th>기본값</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1495,21 +1496,21 @@
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>성수기</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>비수기</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>

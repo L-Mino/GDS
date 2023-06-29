@@ -121,7 +121,7 @@
 																		<td>140,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>18h-15</td>
@@ -141,7 +141,7 @@
 																		<td>150,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>18h-16</td>
@@ -161,7 +161,7 @@
 																		<td>160,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>18h-17</td>
@@ -181,7 +181,7 @@
 																		<td>170,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>18h-18</td>
@@ -201,7 +201,7 @@
 																		<td>180,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	
 																	<tr>
@@ -222,7 +222,7 @@
 																		<td>70,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>9h-8</td>
@@ -242,7 +242,7 @@
 																		<td>80,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>9h-9</td>
@@ -262,7 +262,7 @@
 																		<td>90,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 
 																	<tr>
@@ -283,7 +283,7 @@
 																		<td>140,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+18h_15</td>
@@ -303,7 +303,7 @@
 																		<td>150,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+18h_16</td>
@@ -323,7 +323,7 @@
 																		<td>160,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+18h_17</td>
@@ -343,7 +343,7 @@
 																		<td>170,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+18h_18</td>
@@ -363,7 +363,7 @@
 																		<td>180,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 
 																	<tr>
@@ -384,7 +384,7 @@
 																		<td>70,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+9h_8</td>
@@ -404,7 +404,7 @@
 																		<td>80,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>+9h_9</td>
@@ -424,7 +424,7 @@
 																		<td>90,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 
 																	<tr>
@@ -445,7 +445,7 @@
 																		<td>180,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>무제한_19</td>
@@ -465,7 +465,7 @@
 																		<td>190,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>무제한_20</td>
@@ -485,7 +485,7 @@
 																		<td>200,000</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
