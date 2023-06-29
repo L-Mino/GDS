@@ -4038,10 +4038,9 @@ table.dataTable tbody>tr.selected,table.dataTable tbody>tr>.selected {
 	transition:all 0.5s ease-in;
 }
 .gallery .gallery-wrapper .gallery-box .gallery-container img:hover {
-	opacity:0.85;
-	-webkit-transform:scale(1.2);
-	transform:scale(1.2);
-}
-ale(1.2);
-transform: scale(1.2);
+	opacity: 0.85;
+	-webkit-transform: scale(1.2);
+			transform: scale(1.2);
+}ale(1.2);
+		transform: scale(1.2);
 }
