@@ -314,7 +314,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">베어 IN</th>
+																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
@@ -668,7 +668,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">베어 OUT</th>
+																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
@@ -1022,7 +1022,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">크리크 IN</th>
+																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
@@ -1376,7 +1376,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">크리크 OUT</th>
+																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>

@@ -33,22 +33,22 @@
 											<ul class="nav nav-tabs-custom" role="tablist">
 												<li class="nav-item">
 													<a class="nav-link active" data-bs-toggle="tab" href="#courseGuide01" role="tab">
-														<span>베어OUT코스</span>
+														<span>EAST IN 코스</span>
 													</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-bs-toggle="tab" href="#courseGuide02" role="tab">
-														<span>베어IN코스</span>
+														<span>EAST OUT 코스</span>
 													</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-bs-toggle="tab" href="#courseGuide03" role="tab">
-														<span>크리크OUT코스</span>
+														<span>WEST IN 코스</span>
 													</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-bs-toggle="tab" href="#courseGuide04" role="tab">
-														<span>크리크IN코스</span>
+														<span>WEST OUT 코스</span>
 													</a>
 												</li>
 											</ul>

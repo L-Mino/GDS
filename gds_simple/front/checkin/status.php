@@ -126,7 +126,7 @@
 														<tr>
 															<td>1</td>
 															<td>06:50</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>김동준</td>
 															<td>클라스</td>
@@ -145,7 +145,7 @@
 														<tr>
 															<td>2</td>
 															<td>06:57</td>
-															<td>BO</td>
+															<td>EO</td>
 															<td>4</td>
 															<td>김동준</td>
 															<td>클라스</td>
@@ -164,7 +164,7 @@
 														<tr>
 															<td>3</td>
 															<td>06:57</td>
-															<td>BI</td>
+															<td>WI</td>
 															<td>4</td>
 															<td>이미희</td>
 															<td></td>
@@ -183,7 +183,7 @@
 														<tr>
 															<td>4</td>
 															<td>07:04</td>
-															<td>CO</td>
+															<td>WO</td>
 															<td>4</td>
 															<td>최영희</td>
 															<td>싱글도전</td>
@@ -202,7 +202,7 @@
 														<tr>
 															<td>5</td>
 															<td>07:04</td>
-															<td>CI</td>
+															<td>WI</td>
 															<td>4</td>
 															<td>최영희</td>
 															<td>싱글도전</td>
