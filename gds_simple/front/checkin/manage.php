@@ -333,7 +333,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																</div>
 															</td>
 															<td>110,000</td>
@@ -526,11 +526,11 @@
 																<td>프로5</td>
 															</tr>
 															<tr>
-																<th>비고1</th>
+																<th>내장 참고</th>
 																<td><input class="form-control" type="text"></td>
-																<th>비고2</th>
+																<th>회원 특성</th>
 																<td><input class="form-control" type="text"></td>
-																<th>비고3</th>
+																<th>기타 메모</th>
 																<td><input class="form-control" type="text"></td>
 															</tr>
 														</tbody>
@@ -1520,6 +1520,12 @@
 			"use strict";
 			menuActive(2); //OneDepth
 		});
+
+		function lockerPrint(num) {
+			var lockerNum = $(num).prev().val();
+
+			
+		}
 		</script>
 
 		<!-- App js -->

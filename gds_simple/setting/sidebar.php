@@ -32,6 +32,9 @@
                     </a>
                     <ul class="sub-menu mm-show" aria-expanded="true">
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/regist.php">사용자 등록 / 권한</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/amount.php">금액 기준 설정</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/membership.php">회원권 설정</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/personnel.php">인원변경 그린피</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/holiday.php">공휴일 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/season.php">시즌 / 휴장일 관리</a></li>						
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/shortcut.php">단축키 안내</a></li>
