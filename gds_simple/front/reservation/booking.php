@@ -55,7 +55,7 @@
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
 													<option value="EAST IN">EAST IN</option>
-													<option value="베어 아웃">베어 아웃</option>
+													<option value="EAST OUT">EAST OUT</option>
 													<option value="WEST IN">WEST IN</option>
 													<option value="WEST OUT">WEST OUT</option>
 												</select>

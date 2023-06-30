@@ -5,7 +5,7 @@
 		<?php include "../../partials/head-css.php"; ?>
     </head>
 
-	<?php include "../../partials/body.php"; ?>
+	<?php include "../../partials/EIdy.php"; ?>
 
         <!-- Begin page -->
 
@@ -26,10 +26,10 @@
 						<div class="row">
 							<div class="col">
 								<div class="card mb-3">
-									<div class="card-body">
+									<div class="card-EIdy">
 										<div class="d-flex align-items-center flex-wrap gap-2">
 											<div class="form-check form-check-inline ps-0 me-0">
-												<select class="form-select form-select-lg border-0 h-100">
+												<select class="form-select form-select-lg EIrder-0 h-100">
 													<option value="2023.05.01 (일)" selected>2023.05.01 (월)</option>
 													<option value="2023.05.02 (화)">2023.05.02 (화)</option>
 												</select>
@@ -41,12 +41,12 @@
 											</div>
 
 											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="Unreserved">
+												<input class="form-check-input" type="checkEIx" id="Unreserved">
 												<label class="form-check-label" for="Unreserved">미예약</label>
 											</div>
 
 											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="reserved">
+												<input class="form-check-input" type="checkEIx" id="reserved">
 												<label class="form-check-label" for="reserved">예약</label>
 											</div>
 
@@ -82,10 +82,10 @@
 
 								<div class="d-flex gap-3">
 									<div class="card guest-left mb-0">
-										<div class="card-body">
+										<div class="card-EIdy">
 											<div class="d-flex align-items-center gap-2 mb-3">
 												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="코스 선택">
+													<select class="selectpicker" multiple data-width="fit" data-actions-EIx="true" data-selected-text-format="static" title="코스 선택">
 														<option value="EAST IN">EAST IN</option>
 														<option value="EAST OUT">EAST OUT</option>
 														<option value="WEST IN">WEST IN</option>
@@ -94,7 +94,7 @@
 												</div>
 
 												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="티타임 선택">
+													<select class="selectpicker" multiple data-width="fit" data-actions-EIx="true" data-selected-text-format="static" title="티타임 선택">
 														<option value="1부">1부</option>
 														<option value="2부">2부</option>
 														<option value="3부">3부</option>
@@ -102,12 +102,12 @@
 												</div>
 
 												<div class="form-check form-check-inline ms-auto me-2">
-													<input class="form-check-input" type="checkbox" id="undetermined">
+													<input class="form-check-input" type="checkEIx" id="undetermined">
 													<label class="form-check-label" for="undetermined">미확정</label>
 												</div>
 
 												<div class="form-check form-check-inline me-0">
-													<input class="form-check-input" type="checkbox" id="confirmation">
+													<input class="form-check-input" type="checkEIx" id="confirmation">
 													<label class="form-check-label" for="confirmation">확정</label>
 												</div>
 											</div>
@@ -124,143 +124,143 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr role="button" class="table-active" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td><span class="table-em complete">06:00</span></td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>김동준</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td><span class="table-em complete">06:00</span></td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>김길동</td>
 															<td class="text-truncate">길동이</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>																																										
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>														
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 										</div>
 									</div>
 
 									<div class="card guest-right mb-0">
-										<div class="card-body">
+										<div class="card-EIdy">
 											<div class="d-flex align-items-center gap-2 mb-3">
-												<span class="fs-16 fw-bold">06:30  BO  김길동</span>
+												<span class="fs-16 fw-EIld">06:30  EI  김길동</span>
 												<div class="btn-group ms-auto">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
@@ -269,7 +269,7 @@
 												</div>
 
 												<div class="form-check form-check-inline align-top p-0 me-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+													<select class="selectpicker" multiple data-width="fit" data-actions-EIx="true" data-selected-text-format="static" title="컬럼 선택">
 														<option value="단체명">단체명</option>
 														<option value="카트">카트</option>
 														<option value="카트료">카트료</option>
@@ -302,13 +302,13 @@
 														<tr>
 															<th>
 																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
-																	<label class="form-check-label fw-bold" for="checkAll">확정</label>
+																	<input class="form-check-input" type="checkEIx" name="tableCheckAll" id="checkAll">
+																	<label class="form-check-label fw-EIld" for="checkAll">확정</label>
 																</div>
 															</th>
 															<th>내장객</th>
 															<th>성별</th>
-															<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
+															<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-EIttom"></i></a></th>
 															<th>그린피</th>
 															<th>홀</th>
 															<th>추가</th>
@@ -320,9 +320,9 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck"></td>
 															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준"></td>
 															<td>
 																<select class="form-select w-auto py-0 mx-auto">
@@ -333,7 +333,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-EIttom"></i></a>
 																</div>
 															</td>
 															<td>110,000</td>
@@ -365,7 +365,7 @@
 															<td>380,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck"></td>
 															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김아연"></td>
 															<td>
 																<select class="form-select w-auto py-0 mx-auto">
@@ -376,7 +376,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-EIttom"></i></a>
 																</div>
 															</td>
 															<td>110,000</td>
@@ -407,7 +407,7 @@
 															<td>380,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck"></td>
 															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김민준"></td>
 															<td>
 																<select class="form-select w-auto py-0 mx-auto">
@@ -418,7 +418,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-EIttom"></i></a>
 																</div>
 															</td>
 															<td>110,000</td>
@@ -449,7 +449,7 @@
 															<td>380,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck"></td>
 															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김백동"></td>
 															<td>
 																<select class="form-select w-auto py-0 mx-auto">
@@ -460,7 +460,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-EIttom"></i></a>
 																</div>
 															</td>
 															<td>110,000</td>
@@ -491,13 +491,13 @@
 															<td>380,000</td>
 														</tr>
 														<tr>
-															<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+															<td colspan="100"><button type="button" class="btn EIrder-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 
-											<div class="border-box mt-4">
+											<div class="EIrder-EIx mt-4">
 													<table class="table w-100 mb-0">
 														<colgroup>
 															<col style="width:90px;">
@@ -508,7 +508,7 @@
 															<col style="width:auto">
 														</colgroup>
 
-														<tbody>
+														<tEIdy>
 															<tr class="table-active">
 																<th>성명</th>
 																<td>김동준</td>
@@ -533,34 +533,34 @@
 																<th>기타 메모</th>
 																<td><input class="form-control" type="text"></td>
 															</tr>
-														</tbody>
+														</tEIdy>
 													</table>
 
 													<div class="pt-3 p-4">
 														<div class="d-flex align-items-center mb-3">
 															<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
 																<li class="nav-item">
-																	<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+																	<a class="nav-link active" data-bs-toggle="tab" href="#EIokingModalRightTab01" role="tab">
 																		<span class="new">VOC</span>
 																	</a>
 																</li>
 																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+																	<a class="nav-link" data-bs-toggle="tab" href="#EIokingModalRightTab02" role="tab">
 																		<span class="new">프론트</span>
 																	</a>
 																</li>
 																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+																	<a class="nav-link" data-bs-toggle="tab" href="#EIokingModalRightTab03" role="tab">
 																		<span class="new">경기</span>
 																	</a>
 																</li>
 																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+																	<a class="nav-link" data-bs-toggle="tab" href="#EIokingModalRightTab04" role="tab">
 																		<span>식음</span>
 																	</a>
 																</li>
 																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+																	<a class="nav-link" data-bs-toggle="tab" href="#EIokingModalRightTab05" role="tab">
 																		<span>프로샵</span>
 																	</a>
 																</li>
@@ -569,24 +569,24 @@
 														</div>
 
 														<div class="tab-content rounded bg-info-subtle p-3">
-															<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+															<div class="tab-pane active" id="EIokingModalRightTab01" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent EIrder-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
 															</div>
 
-															<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															<div class="tab-pane" id="EIokingModalRightTab02" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent EIrder-0" style="resize:none;"></textarea>
 															</div>
 
-															<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															<div class="tab-pane" id="EIokingModalRightTab03" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent EIrder-0" style="resize:none;"></textarea>
 															</div>
 															
-															<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															<div class="tab-pane" id="EIokingModalRightTab04" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent EIrder-0" style="resize:none;"></textarea>
 															</div>
 
-															<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															<div class="tab-pane" id="EIokingModalRightTab05" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent EIrder-0" style="resize:none;"></textarea>
 															</div>
 														</div>
 													</div>
@@ -600,8 +600,8 @@
 						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
-									<div class="modal-body">
-										<p class="text-center font-size-14 fw-semibold pt-4 mb-0">내장 확정하시겠습니까?</p>
+									<div class="modal-EIdy">
+										<p class="text-center font-size-14 fw-semiEIld pt-4 mb-0">내장 확정하시겠습니까?</p>
 									</div>
 									<div class="modal-footer">
 										<div class="d-flex justify-content-center w-100 gap-2 pb-3">
@@ -622,15 +622,15 @@
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
-									<div class="modal-body">
-										<div class="border-box border-bottom-0">
+									<div class="modal-EIdy">
+										<div class="EIrder-EIx EIrder-EIttom-0">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
 													<col style="width:70px;">
 													<col style="width:auto">
 												</colgroup>
 
-												<tbody>
+												<tEIdy>
 													<tr class="table-bg-gray">
 														<th>일자</th>
 														<td><span class="ps-10">23.05.01(월)</span></td>
@@ -658,7 +658,7 @@
 														<th>시간</th>
 														<td><input type="text" class="form-control input_time w-100" onkeydown="checkNumber()" maxlength="4" placeholder="24:00"></td>
 													</tr>
-												</tbody>
+												</tEIdy>
 											</table>
 										</div>
 									</div>
@@ -680,21 +680,21 @@
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
-									<div class="modal-body">
-										<div class="border-box border-bottom-0">
+									<div class="modal-EIdy">
+										<div class="EIrder-EIx EIrder-EIttom-0">
 											<table class="table table-fixed table-responsive w-100 text-center nowrap mb-0">
 												<thead>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkEIx"></th>
 														<th>홀</th>
 														<th>대여품목</th>
 														<th>대여료</th>
 													</tr>
 												</thead>
 
-												<tbody>
+												<tEIdy>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkEIx"></th>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -712,7 +712,7 @@
 														<td>10,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkEIx"></th>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -730,7 +730,7 @@
 														<td>20,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkEIx"></th>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀" selected>홀</option>
@@ -748,9 +748,9 @@
 														<td>0</td>
 													</tr>
 													<tr>
-														<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+														<td colspan="100"><button type="button" class="btn EIrder-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
 													</tr>
-												</tbody>
+												</tEIdy>
 											</table>
 										</div>
 									</div>
@@ -770,11 +770,11 @@
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="bookingModalLabel">조 변경</h5>
+										<h5 class="modal-title" id="EIokingModalLabel">조 변경</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
-									<div class="modal-body">
+									<div class="modal-EIdy">
 										<div class="row">
 											<div class="col-3">
 												<table class="table table-layout-fixed text-center table-select">
@@ -796,7 +796,7 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr class="table-active">
 															<td>13:48</td>
 															<td>CI</td>
@@ -818,7 +818,7 @@
 															<td>이성호</td>
 															<td>이승준 3팀</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 
@@ -858,9 +858,9 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>이호권</td>
@@ -875,7 +875,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>정영철</td>
@@ -890,7 +890,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>윤종간</td>
@@ -934,7 +934,7 @@
 															<td>&nbsp;</td>
 															<td>&nbsp;</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 										</div>
@@ -970,7 +970,7 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr>
 															<td>13:48</td>
 															<td>CI</td>
@@ -992,7 +992,7 @@
 															<td>이성호</td>
 															<td>이승준 3팀</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 
@@ -1032,9 +1032,9 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>이성호</td>
@@ -1049,7 +1049,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>조현욱</td>
@@ -1064,7 +1064,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>정영철</td>
@@ -1079,7 +1079,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>김동안</td>
@@ -1094,7 +1094,7 @@
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td><input class="form-check-input" type="checkEIx"></td>
 															<td>13:56</td>
 															<td>CI</td>
 															<td>장만덕</td>
@@ -1108,7 +1108,7 @@
 															<td>180,000</td>
 															<td>180,000</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 										</div>
@@ -1127,7 +1127,7 @@
 										<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
-									<div class="modal-body">
+									<div class="modal-EIdy">
 										<div class="row">
 											<div class="col-9">
 												<table class="table table-layout-fixed text-center table-select">
@@ -1151,7 +1151,7 @@
 
 													<thead>
 														<tr>
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll" checked></th>
+															<th><input class="form-check-input" type="checkEIx" name="tableCheckAll" checked></th>
 															<th>성명</th>
 															<th>코스</th>
 															<th>타입</th>
@@ -1169,11 +1169,11 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>전태수</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1188,9 +1188,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>이상오</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1205,9 +1205,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>박아오</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1222,9 +1222,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>김이아</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1238,7 +1238,7 @@
 															<td></td>
 															<td></td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 
@@ -1258,10 +1258,10 @@
 															<th>시간</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
-																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
+																	<button class="btn EIarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark" style="">
 																		<li><button type="button" class="dropdown-item">BI</button></li>
-																		<li><button type="button" class="dropdown-item">BO</button></li>
+																		<li><button type="button" class="dropdown-item">EI</button></li>
 																		<li><button type="button" class="dropdown-item">CI</button></li>
 																		<li><button type="button" class="dropdown-item">CO</button></li>
 																	</ul>
@@ -1272,11 +1272,11 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
@@ -1301,7 +1301,7 @@
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 										</div>
@@ -1320,7 +1320,7 @@
 										<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
-									<div class="modal-body">
+									<div class="modal-EIdy">
 										<div class="row">
 											<div class="col-9">
 												<table class="table table-layout-fixed text-center table-select">
@@ -1344,7 +1344,7 @@
 
 													<thead>
 														<tr>
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll" checked></th>
+															<th><input class="form-check-input" type="checkEIx" name="tableCheckAll" checked></th>
 															<th>성명</th>
 															<th>코스</th>
 															<th>타입</th>
@@ -1362,11 +1362,11 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>전태수</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1381,9 +1381,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>이상오</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1398,9 +1398,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>박아오</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1415,9 +1415,9 @@
 															<td></td>
 														</tr>
 														<tr class="table-active">
-															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+															<td><input class="form-check-input" type="checkEIx" name="tableCheck" checked></td>
 															<td>김이아</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>06:47</td>
 															<td>남자</td>
 															<td>463</td>
@@ -1431,7 +1431,7 @@
 															<td></td>
 															<td></td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 
@@ -1451,10 +1451,10 @@
 															<th>시간</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
-																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
+																	<button class="btn EIarder-0 p-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
 																		<li><button type="button" class="dropdown-item">BI</button></li>
-																		<li><button type="button" class="dropdown-item">BO</button></li>
+																		<li><button type="button" class="dropdown-item">EI</button></li>
 																		<li><button type="button" class="dropdown-item">CI</button></li>
 																		<li><button type="button" class="dropdown-item">CO</button></li>
 																	</ul>
@@ -1465,11 +1465,11 @@
 														</tr>
 													</thead>
 
-													<tbody>
+													<tEIdy>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BO</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
@@ -1494,7 +1494,7 @@
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
-													</tbody>
+													</tEIdy>
 												</table>
 											</div>
 										</div>
@@ -1533,5 +1533,5 @@
 
 		<!-- front js -->
 		<script src="/gds_simple/assets/js/front.js"></script>
-    </body>
+    </EIdy>
 </html>
