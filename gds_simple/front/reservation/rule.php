@@ -62,14 +62,8 @@
 
                                                     <tbody>
                                                         <tr>
-                                                            <td rowspan="2">홈페이지</td>
-                                                            <td class="border-bottom-0">
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="주중" selected>주중</option>
-																	<option value="주말">주말</option>
-																	<option value="공휴일">공휴일</option>
-																</select>
-                                                            </td>
+                                                            <td rowspan="3">홈페이지</td>
+                                                            <td class="border-bottom-0">주중</td>
                                                             <td class="border-bottom-0">
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
@@ -103,52 +97,67 @@
 																</div>
 																<span>까지</span>
 															</td>
-                                                            <td rowspan="2">
-																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="주중 인원" disabled selected>주중 인원</option>
-																				<option value="주중 4인">주중 4인</option>
-																				<option value="주중 3인">주중 3인</option>
-																				<option value="주중 2인">주중 2인</option>
-																				<option value="주중 1일">주중 1인</option>
-																			</select>
-																		</div>
-																		<span>/ </span>
-																	</div>
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="주말 인원" disabled selected>주말 인원</option>
-																				<option value="주말 4인">주말 4인</option>
-																				<option value="주말 3인">주말 3인</option>
-																				<option value="주말 2인">주말 2인</option>
-																				<option value="주말 1일">주말 1일</option>
-																			</select> 
-																		</div>
-																	</div>
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="공휴일 인원" disabled selected>공휴일 인원</option>
-																				<option value="공휴일 4인">공휴일 4인</option>
-																				<option value="공휴일 3인">공휴일 3인</option>
-																				<option value="공휴일 2인">공휴일 2인</option>
-																				<option value="공휴일 1일">공휴일 1일</option>
-																			</select> 
-																		</div>
-																	</div>																	
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주중 인원" disabled selected>주중 인원</option>
+																		<option value="주중 4인">주중 4인</option>
+																		<option value="주중 3인">주중 3인</option>
+																		<option value="주중 2인">주중 2인</option>
+																		<option value="주중 1일">주중 1인</option>
+																	</select>
 																</div>
 															</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="주중">주중</option>
-																	<option value="주말" selected>주말</option>
-																</select>
-                                                            </td>
+                                                            <td class="border-bottom-0">주말</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주말 인원" disabled selected>주말 인원</option>
+																		<option value="주말 4인">주말 4인</option>
+																		<option value="주말 3인">주말 3인</option>
+																		<option value="주말 2인">주말 2인</option>
+																		<option value="주말 1일">주말 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+														<tr>
+                                                            <td>공휴일</td>
                                                             <td>
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
@@ -182,16 +191,98 @@
 																</div>
 																<span>까지</span>
 															</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>타임세일</td>
                                                             <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="전체" selected>전체</option>
-																	<option value="주중">주중</option>
-																	<option value="주말">주말</option>
-																</select>
-                                                            </td>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																		<option value="공휴일 4인">공휴일 4인</option>
+																		<option value="공휴일 3인">공휴일 3인</option>
+																		<option value="공휴일 2인">공휴일 2인</option>
+																		<option value="공휴일 1일">공휴일 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>			
+
+                                                        <tr>
+                                                            <td rowspan="3">타임세일</td>
+                                                            <td class="border-bottom-0">주중</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">타임세일 취소 불가</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select w-auto border-0" required>
+																		<option value="" disabled selected>주중 인원</option>
+																		<option value="주중 4인">주중 4인</option>
+																		<option value="주중 3인">주중 3인</option>
+																		<option value="주중 2인">주중 2인</option>
+																		<option value="주중 1인">주중 1인</option>
+																	</select>
+																</div>
+															</td>
+                                                        </tr>
+														<tr>
+                                                            <td class="border-bottom-0">주말</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">타임세일 취소 불가</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select w-auto border-0" required>
+																		<option value="주말 인원" disabled selected>주말 인원</option>
+																		<option value="주말 4인">주말 4인</option>
+																		<option value="주말 3인">주말 3인</option>
+																		<option value="주말 2인">주말 2인</option>
+																		<option value="주말 1인">주말 1인</option>
+																	</select>
+																</div>
+															</td>
+                                                        </tr>
+														<tr>
+                                                            <td>공휴일</td>
                                                             <td>
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
@@ -217,48 +308,121 @@
 															</td>
                                                             <td>타임세일 취소 불가</td>
                                                             <td>
-																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select w-auto border-0" required>
-																				<option value="" disabled selected>주중 인원</option>
-																				<option value="주중 4인">주중 4인</option>
-																				<option value="주중 3인">주중 3인</option>
-																				<option value="주중 2인">주중 2인</option>
-																				<option value="주중 1인">주중 1인</option>
-																			</select>
-																		</div>
-																		<span>/ </span>
-																	</div>
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select w-auto border-0" required>
-																				<option value="" disabled selected>주말 인원</option>
-																				<option value="주말 4인">주말 4인</option>
-																				<option value="주말 3인">주말 3인</option>
-																				<option value="주말 2인">주말 2인</option>
-																				<option value="주말 1인">주말 1인</option>
-																			</select> 
-																		</div>
-																	</div>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select w-auto border-0" required>
+																		<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																		<option value="공휴일 4인">공휴일 4인</option>
+																		<option value="공휴일 3인">공휴일 3인</option>
+																		<option value="공휴일 2인">공휴일 2인</option>
+																		<option value="공휴일 1인">공휴일 1인</option>
+																	</select>
 																</div>
 															</td>
-                                                        </tr>
+                                                        </tr>														
+
                                                         <tr>
-                                                            <td>
+                                                            <td rowspan="3">
 																<select class="form-select w-auto border-0 mx-auto">
 																	<option value="C_카카오" selected>C_카카오</option>
 																	<option value="B2B 채널 전체">B2B 채널 전체</option>
 																	<option value="B2C 채널 전체">B2C 채널 전체</option>
 																</select>
-                                                            </td>
-                                                            <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="전체" selected>전체</option>
-																	<option value="주중">주중</option>
-																	<option value="주말">주말</option>
-																</select>
-                                                            </td>
+															</td>
+                                                            <td class="border-bottom-0">주중</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주중 인원" disabled selected>주중 인원</option>
+																		<option value="주중 4인">주중 4인</option>
+																		<option value="주중 3인">주중 3인</option>
+																		<option value="주중 2인">주중 2인</option>
+																		<option value="주중 1일">주중 1인</option>
+																	</select>
+																</div>
+															</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="border-bottom-0">주말</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주말 인원" disabled selected>주말 인원</option>
+																		<option value="주말 4인">주말 4인</option>
+																		<option value="주말 3인">주말 3인</option>
+																		<option value="주말 2인">주말 2인</option>
+																		<option value="주말 1일">주말 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+														<tr>
+                                                            <td>공휴일</td>
                                                             <td>
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
@@ -293,49 +457,28 @@
 																<span>까지</span>
 															</td>
                                                             <td>
-																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주중 인원</option>
-																				<option value="주중 4인">주중 4인</option>
-																				<option value="주중 3인">주중 3인</option>
-																				<option value="주중 2인">주중 2인</option>
-																				<option value="주중 1인">주중 1인</option>
-																			</select>
-																		</div>
-																		<span>/ </span>
-																	</div>
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주말 인원</option>
-																				<option value="주말 4인">주말 4인</option>
-																				<option value="주말 3인">주말 3인</option>
-																				<option value="주말 2인">주말 2인</option>
-																				<option value="주말 1인">주말 1인</option>
-																			</select> 
-																		</div>
-																	</div>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																		<option value="공휴일 4인">공휴일 4인</option>
+																		<option value="공휴일 3인">공휴일 3인</option>
+																		<option value="공휴일 2인">공휴일 2인</option>
+																		<option value="공휴일 1일">공휴일 1인</option>
+																	</select>
 																</div>
-															</td>
+															</td>															
                                                         </tr>
+
                                                         <tr>
-                                                            <td>
+                                                            <td rowspan="3">
 																<select class="form-select w-auto border-0 mx-auto">
 																	<option value="C_카카오">C_카카오</option>
 																	<option value="B2B 채널 전체" selected>B2B 채널 전체</option>
 																	<option value="B2C 채널 전체">B2C 채널 전체</option>
 																</select>
-                                                            </td>
-                                                            <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="전체" selected>전체</option>
-																	<option value="주중">주중</option>
-																	<option value="주말">주말</option>
-																</select>
-                                                            </td>
-                                                            <td>
+															</td>
+                                                            <td class="border-bottom-0">주중</td>
+                                                            <td class="border-bottom-0">
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
 																		<div class="form-check form-check-inline p-0 m-0">
@@ -358,7 +501,7 @@
 																	</div>
 																</div>
 															</td>
-                                                            <td>
+                                                            <td class="border-bottom-0">
 																<div class="form-check form-check-inline p-0 m-0">
 																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
 																</div>
@@ -368,49 +511,67 @@
 																</div>
 																<span>까지</span>
 															</td>
-                                                            <td>
-																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주중 인원</option>
-																				<option value="주중 4인">주중 4인</option>
-																				<option value="주중 3인">주중 3인</option>
-																				<option value="주중 2인">주중 2인</option>
-																				<option value="주중 1인">주중 1인</option>
-																			</select>
-																		</div>
-																		<span>/ </span>
-																	</div>
-																	<div>
-																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주말 인원</option>
-																				<option value="주말 4인">주말 4인</option>
-																				<option value="주말 3인">주말 3인</option>
-																				<option value="주말 2인">주말 2인</option>
-																				<option value="주말 1인">주말 1인</option>
-																			</select> 
-																		</div>
-																	</div>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주중 인원" disabled selected>주중 인원</option>
+																		<option value="주중 4인">주중 4인</option>
+																		<option value="주중 3인">주중 3인</option>
+																		<option value="주중 2인">주중 2인</option>
+																		<option value="주중 1일">주중 1인</option>
+																	</select>
 																</div>
 															</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="C_카카오">C_카카오</option>
-																	<option value="B2B 채널 전체">B2B 채널 전체</option>
-																	<option value="B2C 채널 전체"selected>B2C 채널 전체</option>
-																</select>
-                                                            </td>
-                                                            <td>
-																<select class="form-select w-auto border-0 mx-auto">
-																	<option value="전체" selected>전체</option>
-																	<option value="주중">주중</option>
-																	<option value="주말">주말</option>
-																</select>
-                                                            </td>
+                                                            <td class="border-bottom-0">주말</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주말 인원" disabled selected>주말 인원</option>
+																		<option value="주말 4인">주말 4인</option>
+																		<option value="주말 3인">주말 3인</option>
+																		<option value="주말 2인">주말 2인</option>
+																		<option value="주말 1일">주말 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+														<tr>
+                                                            <td>공휴일</td>
                                                             <td>
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
 																	<div class="d-flex align-items-center">
@@ -445,33 +606,167 @@
 																<span>까지</span>
 															</td>
                                                             <td>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																		<option value="공휴일 4인">공휴일 4인</option>
+																		<option value="공휴일 3인">공휴일 3인</option>
+																		<option value="공휴일 2인">공휴일 2인</option>
+																		<option value="공휴일 1일">공휴일 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+
+														<tr>
+                                                            <td rowspan="3">
+																<select class="form-select w-auto border-0 mx-auto">
+																	<option value="C_카카오">C_카카오</option>
+																	<option value="B2B 채널 전체">B2B 채널 전체</option>
+																	<option value="B2C 채널 전체" selected>B2C 채널 전체</option>
+																</select>
+															</td>
+                                                            <td class="border-bottom-0">주중</td>
+                                                            <td class="border-bottom-0">
 																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
-																	<div>
+																	<div class="d-flex align-items-center">
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주중 인원</option>
-																				<option value="주중 4인">주중 4인</option>
-																				<option value="주중 3인">주중 3인</option>
-																				<option value="주중 2인">주중 2인</option>
-																				<option value="주중 1인">주중 1인</option>
-																			</select>
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
 																		</div>
-																		<span>/ </span>
-																	</div>
-																	<div>
+																		<span class="me-2">일전</span>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주말 인원</option>
-																				<option value="주말 4인">주말 4인</option>
-																				<option value="주말 3인">주말 3인</option>
-																				<option value="주말 2인">주말 2인</option>
-																				<option value="주말 1인">주말 1인</option>
-																			</select> 
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
 																		</div>
 																	</div>
 																</div>
 															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주중 인원" disabled selected>주중 인원</option>
+																		<option value="주중 4인">주중 4인</option>
+																		<option value="주중 3인">주중 3인</option>
+																		<option value="주중 2인">주중 2인</option>
+																		<option value="주중 1일">주중 1인</option>
+																	</select>
+																</div>
+															</td>
                                                         </tr>
+                                                        <tr>
+                                                            <td class="border-bottom-0">주말</td>
+                                                            <td class="border-bottom-0">
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td class="border-bottom-0">
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="주말 인원" disabled selected>주말 인원</option>
+																		<option value="주말 4인">주말 4인</option>
+																		<option value="주말 3인">주말 3인</option>
+																		<option value="주말 2인">주말 2인</option>
+																		<option value="주말 1일">주말 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+														<tr>
+                                                            <td>공휴일</td>
+                                                            <td>
+																<div class="d-flex justify-content-center align-items-center flex-wrap gap-1">
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																		<span class="mx-2"> ~</span>
+																	</div>
+																	<div class="d-flex align-items-center">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																		</div>
+																		<span class="me-2">일전</span>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																		</div>
+																	</div>
+																</div>
+															</td>
+                                                            <td>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="2" placeholder="00" style="width:40px;">
+																</div>
+																<span class="me-2">일전</span>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<input type="text" class="form-control form-control-sm text-center" maxlength="5" placeholder="00:00" style="width:60px;">
+																</div>
+																<span>까지</span>
+															</td>
+                                                            <td>
+																<div class="form-check form-check-inline p-0 m-0">
+																	<select class="form-select border-0" required>
+																		<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																		<option value="공휴일 4인">공휴일 4인</option>
+																		<option value="공휴일 3인">공휴일 3인</option>
+																		<option value="공휴일 2인">공휴일 2인</option>
+																		<option value="공휴일 1일">공휴일 1인</option>
+																	</select>
+																</div>
+															</td>															
+                                                        </tr>
+
 														<tr>
 															<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
 														</tr>														

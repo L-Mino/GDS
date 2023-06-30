@@ -44,31 +44,32 @@
 											<div class="d-flex align-items-center gap-4">
 												<dl class="d-flex mb-0">
 													<dt class="me-2">티타임</dt>
-													<dd class="mb-0">300</dd>
+													<dd class="mb-0">144</dd>
 												</dl>											
 												<dl class="d-flex mb-0">
 													<dt class="me-2">예약팀</dt>
-													<dd class="mb-0">200</dd>
+													<dd class="mb-0">118</dd>
 												</dl>
 												<dl class="d-flex mb-0">
 													<dt class="me-2">잔여팀</dt>
-													<dd class="mb-0">100</dd>
+													<dd class="mb-0">26</dd>
 												</dl>												
 												<dl class="d-flex mb-0">
 													<dt class="me-2">내장팀</dt>
-													<dd class="mb-0">121</dd>
+													<dd class="mb-0">118</dd>
 												</dl>
 												<dl class="d-flex mb-0">
 													<dt class="me-2">내장인원</dt>
-													<dd class="mb-0">360</dd>
+													<dd class="mb-0">467</dd>
 												</dl>
 												<dl class="d-flex mb-0">
 													<dt class="me-2">취소</dt>
-													<dd class="mb-0">13</dd>
+													<dd class="mb-0">0</dd>
 												</dl>
 												<dl class="d-flex mb-0">
 													<dt class="me-2">노쇼</dt>
 													<dd class="mb-0">0</dd>
+													
 												</dl>
 											</div>
 										</div>
@@ -79,7 +80,7 @@
 													<table class="table text-center mb-0">
 														<thead>
 															<tr>
-																<th colspan="5">베어 IN</th>
+																<th colspan="5">EAST IN</th>
 															</tr>
 															<tr>
 																<td></th>
@@ -93,32 +94,25 @@
 														<tbody>
 															<tr>	
 																<td class="fw-bold">합계</td>
-																<td class="fw-bold">50</td>
-																<td class="fw-bold">137 (92%)</td>
-																<td class="fw-bold">13 (8%)</td>
-																<td class="fw-bold">548</td>
+																<td class="fw-bold">36</td>
+																<td class="fw-bold">30 (83.33%)</td>
+																<td class="fw-bold">6</td>
+																<td class="fw-bold">120</td>
 															</tr>
 															<tr>
 																<td>1부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>18 (100%)</td>
+																<td>0</td>
+																<td>72</td>
 															</tr>
 															<tr>
 																<td>2부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
-															</tr>
-															<tr>
-																<td>3부</td>
-																<td>10</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
-															</tr>															
+																<td>18</td>
+																<td>12 (66.67%)</td>
+																<td>6</td>
+																<td>48</td>
+															</tr>													
 														</tbody>
 													</table>
 												</div>
@@ -127,7 +121,7 @@
 													<table class="table text-center mb-0">
 														<thead>
 															<tr>
-																<th colspan="5">베어 OUT</th>
+																<th colspan="5">EAST OUT</th>
 															</tr>
 															<tr>
 																<td></th>
@@ -141,31 +135,24 @@
 														<tbody>
 															<tr>	
 																<td class="fw-bold">합계</td>
-																<td class="fw-bold">50</td>
-																<td class="fw-bold">137 (92%)</td>
-																<td class="fw-bold">13 (8%)</td>
-																<td class="fw-bold">548</td>
+																<td class="fw-bold">36</td>
+																<td class="fw-bold">20 (55.56%)</td>
+																<td class="fw-bold">16</td>
+																<td class="fw-bold">80</td>
 															</tr>
 															<tr>
 																<td>1부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>12 (66.66%)</td>
+																<td>0</td>
+																<td>48</td>
 															</tr>
 															<tr>
 																<td>2부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
-															</tr>
-															<tr>
-																<td>3부</td>
-																<td>10</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>8 (44.44%)</td>
+																<td>6</td>
+																<td>32</td>
 															</tr>
 														</tbody>
 													</table>
@@ -175,7 +162,7 @@
 													<table class="table text-center mb-0">
 														<thead>
 															<tr>
-																<th colspan="5">크리크 IN</th>
+																<th colspan="5">WEST IN</th>
 															</tr>
 															<tr>
 																<td></th>
@@ -189,31 +176,24 @@
 														<tbody>
 															<tr>	
 																<td class="fw-bold">합계</td>
-																<td class="fw-bold">50</td>
-																<td class="fw-bold">137 (92%)</td>
-																<td class="fw-bold">13 (8%)</td>
-																<td class="fw-bold">548</td>
+																<td class="fw-bold">36</td>
+																<td class="fw-bold">36(100%)</td>
+																<td class="fw-bold">0</td>
+																<td class="fw-bold">140</td>
 															</tr>
 															<tr>
 																<td>1부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>18 (100%)</td>
+																<td>0</td>
+																<td>72</td>
 															</tr>
 															<tr>
 																<td>2부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
-															</tr>
-															<tr>
-																<td>3부</td>
-																<td>10</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>18 (100%)</td>
+																<td>0</td>
+																<td>68</td>
 															</tr>
 														</tbody>
 													</table>
@@ -223,7 +203,7 @@
 													<table class="table text-center mb-0">
 														<thead>
 															<tr>
-																<th colspan="5">크리크 OUT</th>
+																<th colspan="5">WEST OUT</th>
 															</tr>
 															<tr>
 																<td></th>
@@ -237,31 +217,24 @@
 														<tbody>
 															<tr>	
 																<td class="fw-bold">합계</td>
-																<td class="fw-bold">50</td>
-																<td class="fw-bold">137 (92%)</td>
-																<td class="fw-bold">13 (8%)</td>
-																<td class="fw-bold">548</td>
+																<td class="fw-bold">36</td>
+																<td class="fw-bold">32 (88.89%)</td>
+																<td class="fw-bold">4</td>
+																<td class="fw-bold">127</td>
 															</tr>
 															<tr>
 																<td>1부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>17 (94.44%)</td>
+																<td>1</td>
+																<td>68</td>
 															</tr>
 															<tr>
 																<td>2부</td>
-																<td>20</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
-															</tr>
-															<tr>
-																<td>3부</td>
-																<td>10</td>
-																<td>137 (92%)</td>
-																<td>13 (8%)</td>
-																<td>548</td>
+																<td>18</td>
+																<td>15 (83.33%)</td>
+																<td>3</td>
+																<td>59</td>
 															</tr>
 														</tbody>
 													</table>
@@ -316,33 +289,33 @@
 											<tbody>
 												<tr>
 													<th class="ps-0">티타임</th>
-													<td>100</td>
-													<td>100</td>
-													<td>100</td>
-													<td>100</td>
-													<td>100</td>
-													<td>100</td>
-													<td>100</td>
+													<td>144</td>
+													<td>144</td>
+													<td>144</td>
+													<td>144</td>
+													<td>144</td>
+													<td>144</td>
+													<td>144</td>
 												</tr>
 												<tr>
 													<th class="ps-0">예약 / 예약률</th>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
-													<td>80 / 80%</td>
+													<td>118 / 81.94%</td>
+													<td>124 / 86.11%</td>
+													<td>100 / 69.44%</td>
+													<td>96 / 66.67%</td>
+													<td>86 / 59.72%</td>
+													<td>85 / 59.03%</td>
+													<td>70 / 48.61%</td>
 												</tr>
 												<tr>
 													<th class="ps-0">잔여</th>
+													<td><a href="/gds_simple/front/reservation/booking.php">26</a></td>
 													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
-													<td><a href="/gds_simple/front/reservation/booking.php">20</a></td>
+													<td><a href="/gds_simple/front/reservation/booking.php">44</a></td>
+													<td><a href="/gds_simple/front/reservation/booking.php">48</a></td>
+													<td><a href="/gds_simple/front/reservation/booking.php">58</a></td>
+													<td><a href="/gds_simple/front/reservation/booking.php">57</a></td>
+													<td><a href="/gds_simple/front/reservation/booking.php">74</a></td>
 												</tr>
 												<tr>
 													<th class="ps-0">날씨</th>
@@ -354,7 +327,7 @@
 															</div>
 															
 															<div class="d-flex justify-content-center weather_temp">
-																<span class="temp-am">20°</span>
+																<span class="temp-am">30°</span>
 																<span class="txt-line"></span>
 																<span class="temp-pm">25°</span>
 															</div>
@@ -370,7 +343,7 @@
 															<div class="d-flex justify-content-center weather_temp">
 																<span class="temp-am">20°</span>
 																<span class="txt-line"></span>
-																<span class="temp-pm">25°</span>
+																<span class="temp-pm">18°</span>
 															</div>
 														</div>															
 													</td>
@@ -384,7 +357,7 @@
 															<div class="d-flex justify-content-center weather_temp">
 																<span class="temp-am">20°</span>
 																<span class="txt-line"></span>
-																<span class="temp-pm">25°</span>
+																<span class="temp-pm">19°</span>
 															</div>
 														</div>															
 													</td>
@@ -396,9 +369,9 @@
 															</div>
 															
 															<div class="d-flex justify-content-center weather_temp">
-																<span class="temp-am">20°</span>
+																<span class="temp-am">23°</span>
 																<span class="txt-line"></span>
-																<span class="temp-pm">25°</span>
+																<span class="temp-pm">22°</span>
 															</div>
 														</div>															
 													</td>
@@ -412,7 +385,7 @@
 															<div class="d-flex justify-content-center weather_temp">
 																<span class="temp-am">20°</span>
 																<span class="txt-line"></span>
-																<span class="temp-pm">25°</span>
+																<span class="temp-pm">27°</span>
 															</div>
 														</div>															
 													</td>
@@ -424,9 +397,9 @@
 															</div>
 															
 															<div class="d-flex justify-content-center weather_temp">
-																<span class="temp-am">20°</span>
+																<span class="temp-am">24°</span>
 																<span class="txt-line"></span>
-																<span class="temp-pm">25°</span>
+																<span class="temp-pm">23°</span>
 															</div>
 														</div>															
 													</td>
@@ -438,7 +411,7 @@
 															</div>
 															
 															<div class="d-flex justify-content-center weather_temp">
-																<span class="temp-am">20°</span>
+																<span class="temp-am">22°</span>
 																<span class="txt-line"></span>
 																<span class="temp-pm">25°</span>
 															</div>

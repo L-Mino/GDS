@@ -77,7 +77,7 @@
 							</form>
 						</div>
 
-						<p class="login-desc text-center mb-0">2023 © Tiger GDS.</p>
+						<p class="login-desc text-center mb-0">2023 © AGL Inc.</p>
 					</div>
 				</div>
 			</div>

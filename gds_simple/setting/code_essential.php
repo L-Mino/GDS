@@ -102,7 +102,7 @@
 																	</tr>
 																	<tr>
 																		<td>code</td>
-																		<td><input class="form-control text-center p-0" type="text" value="베어 인"></td>
+																		<td><input class="form-control text-center p-0" type="text" value="EAST IN"></td>
 																		<td><input class="form-control text-center p-0" type="text" value="BI"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td><input class="form-control text-center p-0" type="text" value="20"></td>
@@ -111,7 +111,7 @@
 																	</tr>
 																	<tr>
 																		<td>code</td>																		
-																		<td><input class="form-control text-center p-0" type="text" value="베어 아웃"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="EAST OUT"></td>																		
 																		<td><input class="form-control text-center p-0" type="text" value="BO"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td><input class="form-control text-center p-0" type="text" value="30"></td>
@@ -120,7 +120,7 @@
 																	</tr>
 																	<tr>
 																		<td>code</td>																		
-																		<td><input class="form-control text-center p-0" type="text" value="크리크 인"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="WEST IN"></td>																		
 																		<td><input class="form-control text-center p-0" type="text" value="CI"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td><input class="form-control text-center p-0" type="text" value="40"></td>
@@ -129,7 +129,7 @@
 																	</tr>
 																	<tr>
 																		<td>code</td>																		
-																		<td><input class="form-control text-center p-0" type="text" value="크리크 아웃"></td>																		
+																		<td><input class="form-control text-center p-0" type="text" value="WEST OUT"></td>																		
 																		<td><input class="form-control text-center p-0" type="text" value="CO"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td><input class="form-control text-center p-0" type="text" value="50"></td>

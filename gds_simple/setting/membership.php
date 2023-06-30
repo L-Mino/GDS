@@ -34,8 +34,8 @@
                                             <span>적용일자</span>
                                             <div class="form-check form-check-inline ps-0 me-0">
                                                 <select class="form-select text-blue fw-semibold border-0 h-100">
-                                                    <option value="2023.06.30 (일)" selected>2023.05.01 (월)</option>
-                                                    <option value="2023.06.30 (화)">2023.05.02 (화)</option>
+                                                    <option value="2023.06.30 (금)" selected>2023.06.30 (금)</option>
+                                                    <option value="2023.07.01 (토)">2023.07.01 (토)</option>
                                                 </select>
                                             </div>
                                             <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>

@@ -54,10 +54,10 @@
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
-													<option value="베어 인">베어 인</option>
+													<option value="EAST IN">EAST IN</option>
 													<option value="베어 아웃">베어 아웃</option>
-													<option value="크리크 인">크리크 인</option>
-													<option value="크리크 아웃">크리크 아웃</option>
+													<option value="WEST IN">WEST IN</option>
+													<option value="WEST OUT">WEST OUT</option>
 												</select>
 											</div>
 											
@@ -334,7 +334,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">베어 IN</th>
+																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
@@ -361,7 +361,7 @@
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
-																		<td><span class="table-em complete" role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:58</span></td>
+																		<td><span role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:58</span></td>
 																		<td></td>
 																		<td>160</td>
 																		<td></td>
@@ -371,7 +371,7 @@
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
-																		<td><span role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50</span></td>
+																		<td><span class="table-em checkin" role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
 																		<td>소확행</td>
@@ -654,7 +654,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">베어 OUT</th>
+																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
@@ -971,7 +971,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">크리크 IN</th>
+																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
@@ -1294,7 +1294,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">크리크 OUT</th>
+																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
@@ -2181,7 +2181,7 @@
 															<div class="d-flex align-items-center gap-5 me-5">
 																<span class="h6 mb-0">23.05.01 (월)</span>
 																<span class="h6 mb-0">06:50</span>
-																<span class="h6 mb-0">크리크 아웃</span>
+																<span class="h6 mb-0">WEST OUT</span>
 															</div>
 
 															<div class="d-flex gap-2 ms-5">
@@ -2620,7 +2620,7 @@
 															<div class="d-flex align-items-center gap-5 me-5">
 																<span class="h6 mb-0">23.05.01 (월)</span>
 																<span class="h6 mb-0">06:50</span>
-																<span class="h6 mb-0">크리크 아웃</span>
+																<span class="h6 mb-0">WEST OUT</span>
 															</div>
 
 															<div class="d-flex gap-2 ms-5">
@@ -2730,7 +2730,7 @@
 															<div class="d-flex align-items-center gap-5 me-5">
 																<span class="h6 mb-0">23.05.01 (월)</span>
 																<span class="h6 mb-0">06:50</span>
-																<span class="h6 mb-0">크리크 아웃</span>
+																<span class="h6 mb-0">WEST OUT</span>
 															</div>
 
 															<div class="d-flex gap-2 ms-5">
@@ -3175,7 +3175,7 @@
 															<div class="d-flex align-items-center gap-5 me-5">
 																<span class="h6 mb-0">23.05.01 (월)</span>
 																<span class="h6 mb-0">06:50</span>
-																<span class="h6 mb-0">크리크 아웃</span>
+																<span class="h6 mb-0">WEST OUT</span>
 															</div>
 
 															<div class="d-flex gap-2 ms-5">

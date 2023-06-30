@@ -34,8 +34,8 @@
                                             <span>적용일자</span>
                                             <div class="form-check form-check-inline ps-0 me-0">
                                                 <select class="form-select text-blue fw-semibold border-0 h-100">
-                                                    <option value="2023.06.30 (일)" selected>2023.05.01 (월)</option>
-                                                    <option value="2023.06.30 (화)">2023.05.02 (화)</option>
+                                                    <option value="2023.06.30 (금)" selected>2023.06.30 (금)</option>
+                                                    <option value="2023.07.01 (토)">2023.07.01 (토)</option>
                                                 </select>
                                             </div>
                                             <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>
@@ -54,13 +54,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td rowspan="3" class="fw-semibold">4인</td>
-                                                    <td class="border-bottom-0">
-                                                        <select class="form-select w-auto mx-auto">
-                                                            <option value="3인" selected>3인</option>
-                                                            <option value="2인">2인</option>
-                                                            <option value="1인">1인</option>
-                                                        </select>
-                                                    </td>
+                                                    <td class="border-bottom-0">3인</td>
                                                     <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
@@ -72,13 +66,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="border-bottom-0">
-                                                        <select class="form-select w-auto mx-auto">
-                                                            <option value="3인">3인</option>
-                                                            <option value="2인" selected>2인</option>
-                                                            <option value="1인">1인</option>
-                                                        </select>
-                                                    </td>
+                                                    <td class="border-bottom-0">2인</td>
                                                     <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
@@ -90,13 +78,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
-                                                        <select class="form-select w-auto mx-auto">
-                                                            <option value="3인">3인</option>
-                                                            <option value="2인">2인</option>
-                                                            <option value="1인" selected>1인</option>
-                                                        </select>
-                                                    </td>
+                                                    <td>1인</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
@@ -109,12 +91,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td rowspan="2" class="fw-semibold">3인</td>
-                                                    <td class="border-bottom-0">
-                                                        <select class="form-select w-auto mx-auto">
-                                                            <option value="2인" selected>2인</option>
-                                                            <option value="1인">1인</option>
-                                                        </select>
-                                                    </td>
+                                                    <td class="border-bottom-0">2인</td>
                                                     <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
@@ -126,12 +103,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
-                                                        <select class="form-select w-auto mx-auto">
-                                                            <option value="2인">2인</option>
-                                                            <option value="1인" selected>1인</option>
-                                                        </select>
-                                                    </td>
+                                                    <td>1인</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>

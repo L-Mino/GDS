@@ -86,10 +86,10 @@
 											<div class="d-flex align-items-center gap-2 mb-3">
 												<div class="form-check form-check-inline align-top p-0 m-0">
 													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="코스 선택">
-														<option value="베어 인">베어 인</option>
-														<option value="베어 아웃">베어 아웃</option>
-														<option value="크리크 인">크리크 인</option>
-														<option value="크리크 아웃">크리크 아웃</option>
+														<option value="EAST IN">EAST IN</option>
+														<option value="EAST OUT">EAST OUT</option>
+														<option value="WEST IN">WEST IN</option>
+														<option value="WEST OUT">WEST OUT</option>
 													</select>
 												</div>
 

@@ -152,7 +152,7 @@
 																		<td>8,000</td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -183,7 +183,7 @@
 																		<td>8,000</td>
 																		<td>50%</td>																		
 																		<td>4,000</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																	
 																	<tr>
@@ -214,7 +214,7 @@
 																		<td>15,000</td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -245,7 +245,7 @@
 																		<td>80,000</td>
 																		<td>100%</td>																		
 																		<td>0</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																			
 																	<tr>
@@ -276,7 +276,7 @@
 																		<td>80,000</td>
 																		<td>50%</td>																		
 																		<td>40,000</td>																																				
-																		<td>비고내용</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>																	
 																</tbody>
@@ -326,7 +326,7 @@
 																		<td>50,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
-																		<td>비고</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -334,7 +334,7 @@
 																		<td>10,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
-																		<td>비고</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -342,7 +342,7 @@
 																		<td>10,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
-																		<td>비고</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
@@ -350,31 +350,31 @@
 																		<td>30,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
-																		<td>비고</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>특별할인 5</td>
 																		<td>50,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고</td>
+																		<td>5</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>주니어할인 7</td>
 																		<td>70,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고</td>
+																		<td>6</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>직원할인 8</td>
-																		<td>70,000</td>
+																		<td>80,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>4</td>
-																		<td>비고</td>
+																		<td>7</td>
+																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																</tbody>

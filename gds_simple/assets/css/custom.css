@@ -393,6 +393,7 @@ thead.table-red th {border-color:#EAD9DC; }
 .table tr td .table-em {display:inline-block; border-radius:3px; padding:2px 4px; }
 .table tr td .table-em.disabled {width:100%; background:#e2e3e5 !important; color:rgba(0,0,0,.5) !important; }
 .table tr td .table-em.complete {background:#EEF6E5; color:#1F813A; }
+.table tr td .table-em.checkin {background:#EFF2F7; }
 .table tr td .table-em.sat {background:#DAF1FF; color:#0576B9; }
 .table tr td .table-em.sun {background:#FFF1F1; color:#D44556; }
 .table tr td .table-em.vvip {background:#F8F9FA; }

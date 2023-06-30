@@ -112,32 +112,32 @@
 														<li>
 															<div class="dropdown-item">
 																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" id="select_course02" value="베어 인">
-																	<label class="form-check-label w-100" for="select_course02">베어 인</label>
+																	<input class="form-check-input" type="checkbox" id="select_course02" value="EAST IN">
+																	<label class="form-check-label w-100" for="select_course02">EAST IN</label>
 																</div>
 															</div>
 														</li>
 														<li>
 															<div class="dropdown-item">
 																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" id="select_course03" value="베어 아웃">
-																	<label class="form-check-label w-100" for="select_course03">베어 아웃</label>
+																	<input class="form-check-input" type="checkbox" id="select_course03" value="EAST OUT">
+																	<label class="form-check-label w-100" for="select_course03">EAST OUT</label>
 																</div>
 															</div>
 														</li>
 														<li>
 															<div class="dropdown-item">
 																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" id="teetimeday04" value="크리크 인">
-																	<label class="form-check-label w-100" for="teetimeday04">크리크 인</label>
+																	<input class="form-check-input" type="checkbox" id="teetimeday04" value="WEST IN">
+																	<label class="form-check-label w-100" for="teetimeday04">WEST IN</label>
 																</div>
 															</div>
 														</li>
 														<li>
 															<div class="dropdown-item">
 																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" id="teetimeday05" value="크리크 아웃">
-																	<label class="form-check-label w-100" for="teetimeday05">크리크 아웃</label>
+																	<input class="form-check-input" type="checkbox" id="teetimeday05" value="WEST OUT">
+																	<label class="form-check-label w-100" for="teetimeday05">WEST OUT</label>
 																</div>
 															</div>
 														</li>
@@ -145,10 +145,10 @@
 												</div>												
 												<!--div class="form-check form-check-inline align-top ps-0 m-0">
 													<select class="form-select select_course" multiple="multiple" value="코스 선택...">
-														<option value="베어 인" selected>베어 인</option>
-														<option value="베어 아웃" selected>베어 아웃</option>
-														<option value="크리크 인" selected>크리크 인</option>
-														<option value="크리크 아웃" selected>크리크 아웃</option>
+														<option value="EAST IN" selected>EAST IN</option>
+														<option value="EAST OUT" selected>EAST OUT</option>
+														<option value="WEST IN" selected>WEST IN</option>
+														<option value="WEST OUT" selected>WEST OUT</option>
 													</select>
 												</div-->
 											</div>
