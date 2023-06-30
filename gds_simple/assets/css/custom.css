@@ -48,17 +48,18 @@ body[data-sidebar-size=sm] .company-name {display:none; }
 /*=====================
 	account
 =====================*/
-.account-pages {}
-.account-pages .login-wrap {width:1200px; height:712px; background:#fff; margin:0 auto; }
+.account-pages .login-wrap {width:1200px; min-width:1200px; height:712px; background:#fff; margin:0 auto; }
 .account-pages .login-wrap .login-left {background:url(../images/content/login_bg.png) no-repeat left top; padding:60px 50px; }
-.account-pages .login-wrap .login-right {padding:60px 120px; }
-.account-pages .login-wrap .login-text-wrap {}
+.account-pages .login-wrap .login-right {padding:80px 120px 53px; }
 .account-pages .login-wrap .login-tit {font-size:32px; font-weight:600; color:#fff; }
-.account-pages .login-wrap .login-txt {font-size:16px; color:#FFF;	line-height:28px; }
+.account-pages .login-wrap .login-txt {font-size:14px; color:#FFF; line-height:25px; margin:10px 0 0 0; }
+.account-pages .login-wrap .login-name {display:inline-block; font-size:42px; font-weight:600; margin-top:60px; }
+.account-pages .login-wrap .input-wrap {margin-top:30px; }
+.account-pages .login-wrap .form-floating > label {top:-2px; height:18px; left:5px; background:#fff; padding:0 3px; margin:0; opacity:1; }
 .account-pages .login-wrap input[type=text],
 .account-pages .login-wrap input[type=email],
 .account-pages .login-wrap input[type=password] {height:56px; padding:0 20px; }
-.account-pages .login-wrap button[type=submit] {height:56px; font-size:16px; }
+.account-pages .login-wrap button[type=submit] {height:63px !important; font-size:20px; }
 .account-pages .login-wrap #remember-check {color:#7D8298; }
 .account-pages .login-wrap .lang-select {width:160px; border-bottom:1px solid #D9D9D9; }
 .account-pages .login-wrap .email-wrap {position:relative; }
@@ -69,6 +70,7 @@ body[data-sidebar-size=sm] .company-name {display:none; }
 .account-pages .login-wrap .password-wrap {position:relative; }
 .account-pages .login-wrap .password-wrap input {padding-right:50px; }
 .account-pages .login-wrap .password-wrap i {position:absolute; right:20px; top:20px; color:#ADADAD; cursor:pointer; }
+.account-pages .login-wrap .login-desc {color:#BEBEBE;	font-size:16px; margin-top:98px; }
 
 
 /*=====================
@@ -127,16 +129,17 @@ header .nav li a.gnb_setting.active {background:url(../images/common/gnb_setting
 header .nav li a.active .gnb_ico,
 header .nav li a:hover .gnb_ico {fill:#003562; transition:all 0.3s ease; }
 header .nav li a:hover .gnb_tit {top:45px; opacity:1; }
-header .head-lang-change::after {content:"\f0140"; display:inline-block; font:normal normal normal 24px/1 "Material Design Icons"; font-size:23px; text-rendering:auto; vertical-align:sub; line-height:inherit; -webkit-font-smoothing:antialiased; }
-header .head-lang-change-menu {left:-25px !important; padding:10px 5px; }
-header .head-lang-change-menu li {margin-top:4px; }
-header .head-lang-change-menu li:first-child {margin-top:0; }
-header .head-lang-change-menu li .dropdown-item {position:relative; width:104px; height:31px; font-size:13px; text-align:left; padding:6px 0 7px 11px; }
-header .head-lang-change-menu li .dropdown-item:hover {background:var(--bs-dropdown-link-active-bg); border-radius:4px; }
-header .head-lang-change-menu li .dropdown-item.active {background:var(--bs-dropdown-link-active-bg); font-weight:bold; border-radius:4px; }
-header .head-lang-change-menu li .dropdown-item.active:before {content:""; position:absolute; width:3px; height:14px; left:0; top:9px; background:#0576B9; border-radius:4px; }
-header .head-lang-change-menu li .dropdown-item img {vertical-align:top; margin-top:3px; }
 header .head_right .btn {height:auto; }
+
+.head-lang-change::after {content:"\f0140"; display:inline-block; font:normal normal normal 24px/1 "Material Design Icons"; font-size:23px; text-rendering:auto; vertical-align:sub; line-height:inherit; -webkit-font-smoothing:antialiased; }
+.head-lang-change-menu {left:-25px !important; padding:10px 5px; }
+.head-lang-change-menu li {margin-top:4px; }
+.head-lang-change-menu li:first-child {margin-top:0; }
+.head-lang-change-menu li .dropdown-item {position:relative; width:104px; height:31px; font-size:13px; text-align:left; padding:6px 0 7px 11px; }
+.head-lang-change-menu li .dropdown-item:hover {background:var(--bs-dropdown-link-active-bg); border-radius:4px; }
+.head-lang-change-menu li .dropdown-item.active {background:var(--bs-dropdown-link-active-bg); font-weight:bold; border-radius:4px; }
+.head-lang-change-menu li .dropdown-item.active:before {content:""; position:absolute; width:3px; height:14px; left:0; top:9px; background:#0576B9; border-radius:4px; }
+.head-lang-change-menu li .dropdown-item img {vertical-align:top; margin-top:3px; }
 
 
 /*=====================
@@ -234,7 +237,7 @@ body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li:hover>ul {backgrou
 .fc .fc-daygrid-day-frame {min-height:64.5px; }
 .fc-event {height:20px; line-height:20px !important; padding:0 5px; margin:0; }
 .fc-h-event .fc-event-main-frame {height:20px; cursor:inherit; padding:0; }
-.fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title {font-size:11px; padding:0; }
+.fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title {font-size:12px; font-weight:600; color:#495057; padding:0; }
 .fc .fc-daygrid-body-natural .fc-daygrid-day-events {margin:0 2px 2px; }
 .teetime-calendar .fc-button-group button {background-color:transparent; }
 .fc-col-header, .fc-daygrid-body, .fc-scrollgrid-sync-table {width:100% !important; }
@@ -270,6 +273,9 @@ body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li:hover>ul {backgrou
 .fc-event.teetime02 {background:#C593E2; color:#fff; }
 .fc-event.greenfee01 {background:#97CDA2; color:#fff; }
 .fc-event.greenfee02 {background:#9BCAD6; color:#fff; }
+.fc-event.lowSeason {background:#EFF2F7; color:#495057; }
+.fc-event.peakSeason {background:rgba(247, 209, 122, 0.50); color:#495057; }
+.fc-event.highSeason {background:#FBE2DC; color:#495057; }
 .fc-event.holiday {background:transparent; color:#D33F3F; border:1px solid #D33F3F; }
 .fc-event.dayoff {background:transparent; color:#0468FF; border:1px solid #0468FF; }
 
@@ -881,7 +887,7 @@ a:hover {color:inherit; text-decoration:none; }
 [data-layout-mode=dark] ::-ms-input-placeholder {color:#9399A3; }
 
 body[data-topbar=dark] #page-topbar {border-color:transparent; }
-body[data-topbar=dark] header .head-lang-change-menu li .dropdown-item.active:before {background:#32A8A8; }
+body[data-topbar=dark] .head-lang-change-menu li .dropdown-item.active:before {background:#32A8A8; }
 
 body[data-sidebar=dark] .vertical-menu {background:#141522; }
 body[data-sidebar=dark] .notice_element {background:#141522; }

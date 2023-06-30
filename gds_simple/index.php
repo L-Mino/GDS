@@ -27,30 +27,35 @@
 					</div>
 
 					<div class="col-6 login-right">
-						<div class="lang-select">
+						<div class="lang-select ms-auto">
 							<select class="form-select bg-transparent rounded-0">
 								<option value="한국어" selected="">한국어</option>
 								<option value="English">English</option>
 								<option value="日本語">日本語</option>
-								<option value="简体中文">简体中文</option>
 								<option value="Tiếng Việt">Tiếng Việt</option>
+								<option value="简体中文">简体中文</option>
+								<option value="Tagalog">Tagalog</option>
+								<option value="ภาษาไทย">ภาษาไทย</option>
 							</select>
 						</div>
 
-						<div class="mt-3">
+						<span class="login-name">Sign in</span>
+
+						<div class="input-wrap">
 							<form action="dashboard/dashboard.php">
 								<!--div class="email-wrap mb-3">
 									<label for="username">Email</label>
 									<input type="email" class="form-control" id="username" placeholder="Email">
 								</div-->
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="floatingInput">
-									<label for="floatingInput">Email</label>
+									<input type="email" class="form-control" id="username">
+									<label for="username">Email</label>
 								</div>								
 		
 								<div class="password-wrap form-floating mb-3">
-									<input type="password" class="form-control" id="floatingPassword">
-									<label for="floatingPassword">Password</label>
+									<i class="fa fa-eye fa-lg"></i>
+									<input type="password" class="form-control" id="userpassword">
+									<label for="userpassword">Password</label>
 								</div>
 
 								<!--div class="password-wrap mb-3 ">
@@ -60,18 +65,19 @@
 								</div-->
 
 								<div class="text-end">
-									<div class="form-check form-check-inline m-0">    
+									<div class="form-check form-check-inline m-0 mb-2">    
 										<input type="checkbox" class="form-check-input font-size-16" id="remember-check">
-										<label class="form-check-label" for="remember-check">Remember</label>
+										<label class="form-check-label text-gray" for="remember-check">Remember</label>
 									</div>
 								</div>
-								
 		
 								<div class="mt-4">
-									<button class="btn btn-primary w-md waves-effect waves-light w-100" type="submit">로그인</button>
+									<button class="btn btn-primary w-md waves-effect waves-light w-100" type="submit">Sign in</button>
 								</div>
 							</form>
 						</div>
+
+						<p class="login-desc text-center mb-0">2023 © Tiger GDS.</p>
 					</div>
 				</div>
 			</div>
@@ -87,9 +93,9 @@
 			$('.password-wrap i').on('click',function(){
 				$('input').toggleClass('active');
 				if($('input').hasClass('active')){
-					$(this).attr('class','fa fa-eye-slash fa-lg').prev('input').attr('type','text');
+					$(this).attr('class','fa fa-eye-slash fa-lg').next('input').attr('type','text');
 				}else{
-					$(this).attr('class','fa fa-eye fa-lg').prev('input').attr('type','password');
+					$(this).attr('class','fa fa-eye fa-lg').next('input').attr('type','password');
 				}
 			});
 		});

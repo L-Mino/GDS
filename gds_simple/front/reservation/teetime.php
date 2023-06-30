@@ -2889,87 +2889,87 @@
 					{
 						events: [
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
-								start:'2023-06-01',
-								displayOrder:1
-							},
-							{
-								className:'teetime01',
-								title:'T 60 / 60',
-								start:'2023-06-02',
-								displayOrder:1
-							},
-							{
-								className:'teetime01',
-								title:'T 60 / 60',
-								start:'2023-06-03',
-								displayOrder:1
-							},
-							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-04',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-05',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-06',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-07',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-08',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-09',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-10',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-11',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-12',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-13',
 								displayOrder:1
 							},
 							{
-								className:'teetime01',
-								title:'T 60 / 60',
+								className:'lowSeason',
+								title:'51 / 60',
 								start:'2023-06-14',
+								displayOrder:1
+							},
+							{
+								className:'lowSeason',
+								title:'51 / 60',
+								start:'2023-06-15',
+								displayOrder:1
+							},
+							{
+								className:'lowSeason',
+								title:'51 / 60',
+								start:'2023-06-16',
+								displayOrder:1
+							},
+							{
+								className:'lowSeason',
+								title:'51 / 60',
+								start:'2023-06-17',
 								displayOrder:1
 							}
 						]
@@ -2977,183 +2977,101 @@
 					{
 						events: [
 							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-01',
-								displayOrder:2
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-18',
+								displayOrder:1
 							},
 							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-02',
-								displayOrder:2
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-19',
+								displayOrder:1
 							},
 							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-03',
-								displayOrder:2
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-20',
+								displayOrder:1
 							},
 							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-04',
-								displayOrder:2
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-21',
+								displayOrder:1
 							},
 							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-05',
-								displayOrder:2
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-22',
+								displayOrder:1
 							},
 							{
-								className:'greenfee01',
-								title:'Green Fee',
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-23',
+								displayOrder:1
+							},
+							{
+								className:'peakSeason',
+								title:'40 / 60',
+								start:'2023-06-24',
+								displayOrder:1
+							}
+						]
+					},
+					{
+						events: [
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-25',
+								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-26',
+								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-27',
+								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-28',
+								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-29',
+								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-06-30',
+								displayOrder:1
+							}
+						]
+					},
+					{
+						events: [
+							{
+								className:'holiday',
+								title:'현충일',
 								start:'2023-06-06',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-07',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-08',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-09',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-10',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-11',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-12',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-13',
-								displayOrder:2
-							},
-							{
-								className:'greenfee01',
-								title:'Green Fee',
-								start:'2023-06-14',
-								displayOrder:2
-							}
-						]
-					},
-					{
-						events: [
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-15',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-16',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-17',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-18',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-19',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-20',
-								displayOrder:1
-							},
-							{
-								className:'teetime02',
-								title:'T 40 / 40',
-								start:'2023-06-21',
+								end:'2023-06-06',
+								textColor: '#D33F3F',
 								displayOrder:1
 							}
 						]
-					},
-					{
-						events: [
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-15',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-16',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-17',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-18',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-19',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-20',
-								displayOrder:1
-							},
-							{
-								className:'greenfee02',
-								title:'Green Fee',
-								start:'2023-06-21',
-								displayOrder:1
-							}
-						]
-					}
+					}					
 				],
 				eventClick: function(event) {
 					var modal = $('.calendarModal');

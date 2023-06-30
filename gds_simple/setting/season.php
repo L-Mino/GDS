@@ -306,37 +306,13 @@
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
-					eventSources: [
-						// your event source
-						{
-							events: [
-								{
-									className:'holiday',
-									title:'현충일',
-									start:'2023-06-06',
-									end:'2023-06-06',
-									textColor: '#D33F3F',
-									displayOrder:1
-								}
-							]
-						}
-					],
-					dateClick: function(event) {
+					dateClick: function(date) {
+						//alert('Clicked on: ' + date.dateStr);
 						var modal = $('.addEventModal');
 						modal.modal();
+						$('.addEventModal').find('.datepicker').val(date.dateStr);
 						$('.addEventModal').modal('show');
 					}
-					/*
-				    googleCalendarApiKey : 'AIzaSyAspeHMYvboTABHhq1oAWFOQ-huDZqjzNM',
-					eventOrder : 'displayOrder', 
-					eventSources :[ 
-						{
-							googleCalendarId : 'ko.south_korea.official#holiday@group.v.calendar.google.com',
-							className:'holiday',
-							textColor: '#D33F3F',
-							displayOrder:1	
-						} 
-					]*/
 				});
 
 				var calendar02 = new FullCalendar.Calendar(calendarEl02, {
@@ -378,6 +354,21 @@
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
+					eventSources: [
+						// your event source
+						{
+							events: [
+								{
+									className:'dayoff',
+									title:'내부공사',
+									start:'2023-07-10',
+									end:'2023-07-13',
+									textColor: '#0468FF',
+									displayOrder:2
+								}
+							]
+						}
+					],
 					dateClick: function(event) {
 						var modal = $('.addEventModal');
 						modal.modal();
@@ -390,8 +381,8 @@
 				$('.fc-toggleButton-button').text('달력 접기');
 				$('.teetime-calendar .fc-header-toolbar button').removeClass('fc-button-primary');
 			});
-		</script>		
-
+		</script>			
+		
 		<!-- App js -->
 		<script src="/gds_simple/assets/js/app.js"></script>
 
