@@ -65,7 +65,7 @@
 
                                                     <tbody>
                                                         <tr>
-                                                            <td>adminadminadminadmin</td>
+                                                            <td>admin01</td>
                                                             <td>
 																<select class="form-select w-auto mx-auto">
 																	<option value="통합관리자" selected>통합관리자</option>
@@ -222,7 +222,7 @@
 												</colgroup>
 
 												<tbody>
-													<tr class="table-info">
+													<tr class="table-bg-gray">
 														<th class="text-end">그룹 선택</th>
 														<td>
 															<select class="form-select">

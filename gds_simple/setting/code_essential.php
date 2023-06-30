@@ -957,6 +957,9 @@
 																<colgroup>
 																	<col style="min-width:120px;">
 																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px;">
+																	<col style="min-width:100px;">
+																	<col style="min-width:100px;">																	
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
@@ -966,6 +969,9 @@
 																	<tr>
 																		<th>구분명</th>
 																		<th>사용안함</th>
+																		<th>위약기간</th>
+																		<th>위약금</th>
+																		<th>위약퍼센트</th>																			
 																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>저장</th>
@@ -976,6 +982,9 @@
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약기간"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약금"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약퍼센트"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
@@ -983,6 +992,9 @@
 																	<tr>
 																		<td>위약금 30%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>1</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -990,6 +1002,9 @@
 																	<tr>
 																		<td>위약금 50%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>2</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -997,6 +1012,9 @@
 																	<tr>
 																		<td>예약금지 1M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>3</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1004,6 +1022,9 @@
 																	<tr>
 																		<td>예약금지 2M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>4</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1011,6 +1032,9 @@
 																	<tr>
 																		<td>예약금지 3M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>5</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1018,6 +1042,9 @@
 																	<tr>
 																		<td>위약금 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>
 																		<td>6</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1025,6 +1052,9 @@
 																	<tr>
 																		<td>위약금 20</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>7</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1032,6 +1062,9 @@
 																	<tr>
 																		<td>위약금 30</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td></td>
+																		<td>50,000</td>
+																		<td></td>																		
 																		<td>7</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>

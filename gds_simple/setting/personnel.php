@@ -38,7 +38,7 @@
                                                     <option value="2023.06.30 (화)">2023.05.02 (화)</option>
                                                 </select>
                                             </div>
-                                            <span class="text-gray ms-auto">적용일시: 2023.06.30 00:00:00</span>
+                                            <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>
 											<button type="button" class="btn btn-outline-custom"> 저장</button>
 										</div>
 
@@ -54,14 +54,14 @@
                                             <tbody>
                                                 <tr>
                                                     <td rowspan="3" class="fw-semibold">4인</td>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <select class="form-select w-auto mx-auto">
                                                             <option value="3인" selected>3인</option>
                                                             <option value="2인">2인</option>
                                                             <option value="1인">1인</option>
                                                         </select>
                                                     </td>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
                                                             <div class="form-check form-check-inline ps-2 m-0">
@@ -72,14 +72,14 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <select class="form-select w-auto mx-auto">
                                                             <option value="3인">3인</option>
                                                             <option value="2인" selected>2인</option>
                                                             <option value="1인">1인</option>
                                                         </select>
                                                     </td>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
                                                             <div class="form-check form-check-inline ps-2 m-0">
@@ -109,13 +109,13 @@
                                                 </tr>
                                                 <tr>
                                                     <td rowspan="2" class="fw-semibold">3인</td>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <select class="form-select w-auto mx-auto">
                                                             <option value="2인" selected>2인</option>
                                                             <option value="1인">1인</option>
                                                         </select>
                                                     </td>
-                                                    <td>
+                                                    <td class="border-bottom-0">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <span>그린피의</span>
                                                             <div class="form-check form-check-inline ps-2 m-0">

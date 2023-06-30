@@ -67,6 +67,7 @@
 																<select class="form-select w-auto border-0 mx-auto">
 																	<option value="주중" selected>주중</option>
 																	<option value="주말">주말</option>
+																	<option value="공휴일">공휴일</option>
 																</select>
                                                             </td>
                                                             <td class="border-bottom-0">
@@ -107,7 +108,7 @@
 																	<div>
 																		<div class="form-check form-check-inline p-0 m-0">
 																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주중 인원</option>
+																				<option value="주중 인원" disabled selected>주중 인원</option>
 																				<option value="주중 4인">주중 4인</option>
 																				<option value="주중 3인">주중 3인</option>
 																				<option value="주중 2인">주중 2인</option>
@@ -119,7 +120,7 @@
 																	<div>
 																		<div class="form-check form-check-inline p-0 m-0">
 																			<select class="form-select border-0" required>
-																				<option value="" disabled selected>주말 인원</option>
+																				<option value="주말 인원" disabled selected>주말 인원</option>
 																				<option value="주말 4인">주말 4인</option>
 																				<option value="주말 3인">주말 3인</option>
 																				<option value="주말 2인">주말 2인</option>
@@ -127,6 +128,17 @@
 																			</select> 
 																		</div>
 																	</div>
+																	<div>
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<select class="form-select border-0" required>
+																				<option value="공휴일 인원" disabled selected>공휴일 인원</option>
+																				<option value="공휴일 4인">공휴일 4인</option>
+																				<option value="공휴일 3인">공휴일 3인</option>
+																				<option value="공휴일 2인">공휴일 2인</option>
+																				<option value="공휴일 1일">공휴일 1일</option>
+																			</select> 
+																		</div>
+																	</div>																	
 																</div>
 															</td>
                                                         </tr>

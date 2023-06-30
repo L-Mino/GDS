@@ -68,6 +68,7 @@
 															<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">VIP</button></li>
+																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
 															</ul>
 														</div>
 
@@ -77,6 +78,7 @@
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">사용중</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">대기</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">사용불가</button></li>
+																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
 															</ul>
 														</div>
 													</div>
@@ -103,6 +105,7 @@
 																	<ul class="dropdown-menu dropdown-menu-dark">
 																		<li><button type="button" class="dropdown-item">일반</button></li>
 																		<li><button type="button" class="dropdown-item">VIP</button></li>
+																		<li><button type="button" class="dropdown-item">지정</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -114,6 +117,7 @@
 																		<li><button type="button" class="dropdown-item">사용중</button></li>
 																		<li><button type="button" class="dropdown-item">대기</button></li>
 																		<li><button type="button" class="dropdown-item">사용불가</button></li>
+																		<li><button type="button" class="dropdown-item">지정</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -133,6 +137,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -148,6 +153,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -163,6 +169,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -171,13 +178,14 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 															<td>0004</td>
-															<td>일반</td>
+															<td>지정</td>
 															<td><input class="form-control text-center p-0" type="text" value="2"></td>
 															<td>
 																<select class="form-select form-select-sm w-auto mx-auto">
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -193,6 +201,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -208,6 +217,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -223,6 +233,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -238,6 +249,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -253,6 +265,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -268,6 +281,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -283,6 +297,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -298,6 +313,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -313,6 +329,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -328,6 +345,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -343,6 +361,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -358,6 +377,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -373,6 +393,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -388,6 +409,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -403,6 +425,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -418,6 +441,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -433,6 +457,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -448,6 +473,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -463,6 +489,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -478,6 +505,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -493,6 +521,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -508,6 +537,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -523,6 +553,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text" value="VIP"></td>
@@ -566,6 +597,7 @@
 															<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">VIP</button></li>
+																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
 															</ul>
 														</div>
 
@@ -575,6 +607,7 @@
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">사용중</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">대기</button></li>
 																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">사용불가</button></li>
+																<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
 															</ul>
 														</div>
 													</div>
@@ -601,6 +634,7 @@
 																	<ul class="dropdown-menu dropdown-menu-dark">
 																		<li><button type="button" class="dropdown-item">일반</button></li>
 																		<li><button type="button" class="dropdown-item">VIP</button></li>
+																		<li><button type="button" class="dropdown-item">지정</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -612,6 +646,7 @@
 																		<li><button type="button" class="dropdown-item">사용중</button></li>
 																		<li><button type="button" class="dropdown-item">대기</button></li>
 																		<li><button type="button" class="dropdown-item">사용불가</button></li>
+																		<li><button type="button" class="dropdown-item">지정</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -631,6 +666,7 @@
 																	<option value="대기">대기</option>
 																	<option value="사용중" selected>사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="사용불가">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -646,6 +682,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -661,6 +698,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -676,6 +714,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -691,6 +730,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -706,6 +746,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -721,6 +762,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -736,6 +778,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -751,6 +794,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -766,6 +810,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -781,6 +826,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -796,6 +842,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -811,6 +858,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -826,6 +874,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -841,6 +890,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -856,6 +906,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -871,6 +922,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -886,6 +938,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -901,6 +954,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -916,6 +970,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -931,6 +986,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -946,6 +1002,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -961,6 +1018,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -976,6 +1034,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -991,6 +1050,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1006,6 +1066,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1021,6 +1082,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>

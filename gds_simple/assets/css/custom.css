@@ -46,6 +46,32 @@ body[data-sidebar-size=sm] .company-name {display:none; }
 
 
 /*=====================
+	account
+=====================*/
+.account-pages {}
+.account-pages .login-wrap {width:1200px; height:712px; background:#fff; margin:0 auto; }
+.account-pages .login-wrap .login-left {background:url(../images/content/login_bg.png) no-repeat left top; padding:60px 50px; }
+.account-pages .login-wrap .login-right {padding:60px 120px; }
+.account-pages .login-wrap .login-text-wrap {}
+.account-pages .login-wrap .login-tit {font-size:32px; font-weight:600; color:#fff; }
+.account-pages .login-wrap .login-txt {font-size:16px; color:#FFF;	line-height:28px; }
+.account-pages .login-wrap input[type=text],
+.account-pages .login-wrap input[type=email],
+.account-pages .login-wrap input[type=password] {height:56px; padding:0 20px; }
+.account-pages .login-wrap button[type=submit] {height:56px; font-size:16px; }
+.account-pages .login-wrap #remember-check {color:#7D8298; }
+.account-pages .login-wrap .lang-select {width:160px; border-bottom:1px solid #D9D9D9; }
+.account-pages .login-wrap .email-wrap {position:relative; }
+/* .account-pages .login-wrap .email-wrap label,
+.account-pages .login-wrap .password-wrap label {display:none; position:absolute; left:10px; top:-9px; line-height:18px; font-size:13px; color:#0576B9; background:#fff; padding:0 3px; margin-bottom:0; }
+.account-pages .login-wrap .email-wrap:focus label,
+.account-pages .login-wrap .password-wrap:focus label {display:block; } */
+.account-pages .login-wrap .password-wrap {position:relative; }
+.account-pages .login-wrap .password-wrap input {padding-right:50px; }
+.account-pages .login-wrap .password-wrap i {position:absolute; right:20px; top:20px; color:#ADADAD; cursor:pointer; }
+
+
+/*=====================
 	header
 =====================*/
 header .head_left {position:absolute; top:0; left:0; min-width:240px; height:60px; }
@@ -328,10 +354,11 @@ thead.table-red {background:#F6EFF0; }
 thead.table-red th {border-color:#EAD9DC; }
 
 .table-fixed-head {margin-bottom:0 !important; }
-.table-fixed-head .table {border-collapse:separate; border-spacing:0; margin-bottom:0; }
+.table-fixed-head .table {border-spacing:0; margin-bottom:0; }
 .table-fixed-head .table thead {position:sticky; top:0; background:#eff2f7; z-index:1; }
 
 .booking-group {display:block; }
+.booking-group .booking-area .table {border-collapse:separate; }
 .booking-group .booking-area:first-child .table thead {background:#EEFBFF; }
 .booking-group .booking-area:first-child .table thead th {border-color:#D2E9F0; }
 .booking-group .booking-area:nth-child(2) .table thead {background:#FCF7EC; }
@@ -534,16 +561,6 @@ select option[value=""][disabled] {display:none; }
 .perpage-select:before {position:absolute; width:9px; height:5px; content:"\F229"; }
 .pagination .page-item .page-link {background:none !important; border:0; }
 .pagination .page-item svg {fill:#495057; }
-
-.account-pages {background:#fff; }
-.account-pages input[type=text],
-.account-pages input[type=email],
-.account-pages input[type=password] {height:48px; background:#F3F3F3; /*border:0;*/ }
-.account-pages button[type=submit] {height:48px; font-size:14px; font-weight:700; }
-.account-pages .lang-select {top:50px; right:60px; width:160px; border-bottom:1px solid #D9D9D9; }
-.account-pages .password-wrap {position:relative; }
-.account-pages .password-wrap input {padding-right:50px; }
-.account-pages .password-wrap i {position:absolute; right:16px; top:42px; color:#ADADAD; cursor:pointer; }
 
 
 /*=====================

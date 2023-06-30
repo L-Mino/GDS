@@ -38,7 +38,7 @@
                                                     <option value="2023.05.02 (화)">2023.05.02 (화)</option>
                                                 </select>
                                             </div>
-                                            <span class="text-gray ms-auto">적용일시: 2023.06.30 00:00:00</span>
+                                            <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>
 											<button type="button" class="btn btn-outline-custom"> 저장</button>
 										</div>
 
@@ -134,7 +134,7 @@
                                                     <option value="2023.05.02 (화)">2023.05.02 (화)</option>
                                                 </select>
                                             </div>
-                                            <span class="text-gray ms-auto">적용일시: 2023.06.30 00:00:00</span>
+                                            <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>
 											<button type="button" class="btn btn-outline-custom"> 저장</button>
 										</div>
 
