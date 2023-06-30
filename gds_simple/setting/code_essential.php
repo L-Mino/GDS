@@ -993,8 +993,8 @@
 																		<td>위약금 30%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td></td>
-																		<td>50,000</td>
-																		<td></td>																		
+																		<td></td>
+																		<td>30%</td>																		
 																		<td>1</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1003,8 +1003,8 @@
 																		<td>위약금 50%</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td></td>
-																		<td>50,000</td>
 																		<td></td>																		
+																		<td>50%</td>
 																		<td>2</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -1012,8 +1012,8 @@
 																	<tr>
 																		<td>예약금지 1M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>1M</td>
 																		<td></td>
-																		<td>50,000</td>
 																		<td></td>																		
 																		<td>3</td>
 																		<td></td>
@@ -1022,8 +1022,8 @@
 																	<tr>
 																		<td>예약금지 2M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>2M</td>
 																		<td></td>
-																		<td>50,000</td>
 																		<td></td>																		
 																		<td>4</td>
 																		<td></td>
@@ -1032,8 +1032,8 @@
 																	<tr>
 																		<td>예약금지 3M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>3M</td>
 																		<td></td>
-																		<td>50,000</td>
 																		<td></td>																		
 																		<td>5</td>
 																		<td></td>
@@ -1043,7 +1043,7 @@
 																		<td>위약금 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td></td>
-																		<td>50,000</td>
+																		<td>100,000</td>
 																		<td></td>
 																		<td>6</td>
 																		<td></td>
@@ -1053,7 +1053,7 @@
 																		<td>위약금 20</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td></td>
-																		<td>50,000</td>
+																		<td>200,000</td>
 																		<td></td>																		
 																		<td>7</td>
 																		<td></td>
@@ -1063,7 +1063,7 @@
 																		<td>위약금 30</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td></td>
-																		<td>50,000</td>
+																		<td>300,000</td>
 																		<td></td>																		
 																		<td>7</td>
 																		<td></td>
@@ -1085,7 +1085,6 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:70px; width:70px;">																	
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1095,7 +1094,6 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>기본값</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1106,7 +1104,6 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1114,7 +1111,6 @@
 																	</tr>
 																	<tr>
 																		<td>선불</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>																		
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>1</td>
 																		<td></td>
@@ -1122,7 +1118,6 @@
 																	</tr>
 																	<tr>
 																		<td>후불</td>
-																		<td><input class="form-check-input" type="radio" name="radio01" checked></td>																																				
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>2</td>
 																		<td></td>
@@ -1130,7 +1125,6 @@
 																	</tr>
 																	<tr>
 																		<td>미수</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>3</td>
 																		<td></td>
@@ -1153,7 +1147,6 @@
 																<colgroup>
 																	<col style="min-width:120px;">
 																	<col style="min-width:70px; width:70px;">
-																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
@@ -1162,7 +1155,6 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>기본값</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1173,7 +1165,6 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1181,7 +1172,6 @@
 																	</tr>
 																	<tr>
 																		<td>카드</td>
-																		<td><input class="form-check-input" type="radio" name="radio02" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>1</td>
 																		<td></td>
@@ -1189,7 +1179,6 @@
 																	</tr>
 																	<tr>
 																		<td>현금</td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>2</td>
 																		<td></td>
@@ -1197,7 +1186,6 @@
 																	</tr>
 																	<tr>
 																		<td>마일리지</td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>3</td>
 																		<td></td>
@@ -1205,7 +1193,6 @@
 																	</tr>
 																	<tr>
 																		<td>쿠폰</td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
 																		<td>4</td>
 																		<td></td>
@@ -1361,7 +1348,6 @@
 																	<col style="min-width:120px;">
 																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
-																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
 																	<col style="min-width:70px; width:70px;">
@@ -1371,7 +1357,6 @@
 																	<tr>
 																		<th>구분명</th>
 																		<th>단축코드</th>
-																		<th>기본값</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1383,7 +1368,6 @@
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1392,7 +1376,6 @@
 																	<tr>
 																		<td>4인 필수</td>
 																		<td>4</td>
-																		<td><input class="form-check-input" type="radio" name="radio03" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
@@ -1401,7 +1384,6 @@
 																	<tr>
 																		<td>3인 이상</td>
 																		<td>3</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
@@ -1410,7 +1392,6 @@
 																	<tr>
 																		<td>2인 이상</td>
 																		<td>2</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -1419,7 +1400,6 @@
 																	<tr>
 																		<td>1인 가능</td>
 																		<td>1</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td></td>

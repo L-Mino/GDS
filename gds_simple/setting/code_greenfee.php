@@ -62,7 +62,6 @@
 																	<col style="min-width:120px;">
 																	<col style="min-width:120px;">
 																	<col style="min-width:70px; width:70px;">
-																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:90px;">
 																	<col style="min-width:130px;">
@@ -73,7 +72,6 @@
 																	<tr>
 																		<th>그린피 설정 코드</th>
 																		<th>그린피 분류</th>
-																		<th>기본값</th>
 																		<th>사용안함</th>
 																		<th>가격</th>
 																		<th>비고</th>
@@ -96,7 +94,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" disabled></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
@@ -116,7 +113,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>140,000</td>
 																		<td></td>
@@ -136,7 +132,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
 																		<td></td>
@@ -156,7 +151,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio01" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>160,000</td>
 																		<td></td>
@@ -176,7 +170,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
 																		<td></td>
@@ -196,7 +189,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio01"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
 																		<td></td>
@@ -217,7 +209,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>70,000</td>
 																		<td></td>
@@ -237,7 +228,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio02" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>80,000</td>
 																		<td></td>
@@ -257,7 +247,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio02"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>90,000</td>
 																		<td></td>
@@ -278,7 +267,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>140,000</td>
 																		<td></td>
@@ -298,7 +286,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio03" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
 																		<td></td>
@@ -318,7 +305,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>160,000</td>
 																		<td></td>
@@ -338,7 +324,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
 																		<td></td>
@@ -358,7 +343,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio03"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
 																		<td></td>
@@ -379,7 +363,6 @@
 																				<option value="9홀 추가" selected>9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio04" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>70,000</td>
 																		<td></td>
@@ -399,7 +382,6 @@
 																				<option value="9홀 추가" selected>9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio04"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>80,000</td>
 																		<td></td>
@@ -419,7 +401,6 @@
 																				<option value="9홀 추가" selected>9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio04"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>90,000</td>
 																		<td></td>
@@ -440,7 +421,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio05" checked></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
 																		<td></td>
@@ -460,7 +440,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio05"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>190,000</td>
 																		<td></td>
@@ -480,7 +459,6 @@
 																				<option value="9홀 추가">9홀 추가</option>
 																			</select>
 																		</td>
-																		<td><input class="form-check-input" type="radio" name="radio05"></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>200,000</td>
 																		<td></td>

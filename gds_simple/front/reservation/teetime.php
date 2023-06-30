@@ -1520,8 +1520,9 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">155,000</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">185,000</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-15</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-16</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
 													</ul>
 												</div>
 												
@@ -1865,8 +1866,9 @@
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">155,000</button></li>
-																			<li><button type="button" class="dropdown-item">185,000</button></li>
+																			<li><button type="button" class="dropdown-item">18h-15</button></li>
+																			<li><button type="button" class="dropdown-item">18h-16</button></li>
+																			<li><button type="button" class="dropdown-item">18h-17</button></li>
 																		</ul>
 																	</div>
 																</th>
