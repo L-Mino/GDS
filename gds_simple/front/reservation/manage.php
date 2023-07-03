@@ -96,8 +96,9 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">155,000</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">185,000</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-15</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-16</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
 													</ul>
 												</div>
 
@@ -114,10 +115,12 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">캐디 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">프로</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">드라이빙</button></li>
 													</ul>
 												</div>
 
@@ -126,16 +129,20 @@
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">5인승 전동 카트</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2인승 전동 카트</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 선택 가능</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1인 수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">무료 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
 													</ul>
 												</div>
 
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 50% 할인</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 50% 할인</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">조식 뷔페 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 50% 할인</button></li>
 													</ul>
 												</div>
 
@@ -338,7 +345,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -349,7 +356,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -360,7 +367,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -371,7 +378,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -382,7 +389,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -393,7 +400,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -404,7 +411,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -415,7 +422,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -426,7 +433,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -437,7 +444,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -448,7 +455,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -459,7 +466,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -470,7 +477,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -481,7 +488,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -492,7 +499,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -503,7 +510,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -514,7 +521,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -525,7 +532,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -536,7 +543,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -547,7 +554,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -558,7 +565,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -569,7 +576,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -580,7 +587,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -591,7 +598,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -602,7 +609,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -613,7 +620,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -624,7 +631,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -635,7 +642,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -646,7 +653,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -657,7 +664,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																</tbody>
@@ -692,7 +699,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -703,7 +710,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -714,7 +721,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -725,7 +732,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -736,7 +743,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -747,7 +754,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -758,7 +765,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -769,7 +776,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -780,7 +787,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -791,7 +798,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -802,7 +809,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -813,7 +820,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -824,7 +831,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -835,7 +842,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -846,7 +853,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -857,7 +864,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -868,7 +875,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -879,7 +886,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -890,7 +897,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -901,7 +908,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -912,7 +919,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -923,7 +930,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -934,7 +941,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -945,7 +952,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -956,7 +963,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -967,7 +974,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -978,7 +985,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -989,7 +996,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1000,7 +1007,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1011,7 +1018,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																</tbody>
@@ -1046,7 +1053,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1057,7 +1064,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1068,7 +1075,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1079,7 +1086,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1090,7 +1097,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1101,7 +1108,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1112,7 +1119,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1123,7 +1130,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1134,7 +1141,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1145,7 +1152,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1156,7 +1163,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1167,7 +1174,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1178,7 +1185,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1189,7 +1196,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1200,7 +1207,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1211,7 +1218,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1222,7 +1229,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1233,7 +1240,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1244,7 +1251,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1255,7 +1262,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1266,7 +1273,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1277,7 +1284,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1288,7 +1295,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1299,7 +1306,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1310,7 +1317,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1321,7 +1328,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1332,7 +1339,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1343,7 +1350,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1354,7 +1361,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1365,7 +1372,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																</tbody>
@@ -1400,7 +1407,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1411,7 +1418,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1422,7 +1429,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1433,7 +1440,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1444,7 +1451,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1455,7 +1462,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1466,7 +1473,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1477,7 +1484,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1488,7 +1495,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1499,7 +1506,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1510,7 +1517,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1521,7 +1528,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1532,7 +1539,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1543,7 +1550,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1554,7 +1561,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1565,7 +1572,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1576,7 +1583,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1587,7 +1594,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1598,7 +1605,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1609,7 +1616,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1620,7 +1627,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1631,7 +1638,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1642,7 +1649,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1653,7 +1660,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1664,7 +1671,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1675,7 +1682,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1686,7 +1693,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1697,7 +1704,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1708,7 +1715,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
@@ -1719,7 +1726,7 @@
 																		<td>4</td>
 																		<td>N</td>
 																		<td>5-전동</td>
-																		<td>아이스커피 50% 할인</td>
+																		<td>아메리카노 50% 할인</td>
 																		<td>B_골팡</td>
 																	</tr>
 																</tbody>

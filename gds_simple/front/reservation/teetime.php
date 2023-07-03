@@ -191,10 +191,12 @@
 																	<td>
 																		<select class="form-select form-select-sm w-auto mx-auto" required>
 																			<option value="" disabled selected>캐디</option>
-																			<option value="노캐디">노캐디</option>
-																			<option value="신입">신입</option>
 																			<option value="일반">일반</option>
+																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디">노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
@@ -202,15 +204,19 @@
 																			<option value="" disabled selected>카트</option>
 																			<option value="5인승 전동 카트">5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select form-select-sm w-auto mx-auto" required>
 																			<option value="" disabled selected>이벤트 설정</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
+																			<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																			<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																			<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
+																			<option value="카트 무료">카트 무료</option>
+																			<option value="카트 50% 할인">카트 50% 할인</option>
 																		</select>
 																	</td>
 																</tr>
@@ -252,10 +258,12 @@
 																	<td>
 																		<select class="form-select w-auto mx-auto" required>
 																			<option value="" disabled selected>캐디</option>
-																			<option value="노캐디">노캐디</option>
-																			<option value="신입">신입</option>
 																			<option value="일반">일반</option>
+																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디">노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
@@ -263,15 +271,19 @@
 																			<option value="" disabled selected>카트</option>
 																			<option value="5인승 전동 카트">5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto" required>
 																			<option value="" disabled selected>이벤트 설정</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
+																			<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																			<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																			<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
+																			<option value="카트 무료">카트 무료</option>
+																			<option value="카트 50% 할인">카트 50% 할인</option>
 																		</select>
 																	</td>
 																</tr>
@@ -313,26 +325,32 @@
 																	<td>
 																		<select class="form-select w-auto mx-auto" required>
 																			<option value="" disabled selected>캐디</option>
-																			<option value="노캐디">노캐디</option>
-																			<option value="신입">신입</option>
 																			<option value="일반">일반</option>
+																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디">노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select form-select-sm w-auto mx-auto" required>
-																			<option value="" disabled selected>카트</option>
+																		<option value="" disabled selected>카트</option>
 																			<option value="5인승 전동 카트">5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto" required>
 																			<option value="" disabled selected>이벤트 설정</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-																			<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
+																			<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
+																			<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
+																			<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
+																			<option value="카트 무료">카트 무료</option>
+																			<option value="카트 50% 할인">카트 50% 할인</option>
 																		</select>
 																	</td>
 																</tr>
@@ -382,7 +400,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>1</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -401,23 +419,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -431,7 +452,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>2</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -450,23 +471,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -480,7 +504,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>3</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -499,23 +523,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -529,7 +556,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>4</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -548,23 +575,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -578,7 +608,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>5</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -597,23 +627,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -627,7 +660,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>6</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -646,23 +679,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -676,7 +712,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>7</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -695,23 +731,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -725,7 +764,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>8</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -744,23 +783,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -774,7 +816,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>9</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -793,23 +835,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -823,7 +868,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>10</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -842,23 +887,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -872,7 +920,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>11</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -891,23 +939,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -921,7 +972,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>12</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -940,23 +991,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -970,7 +1024,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>13</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -989,23 +1043,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1019,7 +1076,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>14</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1038,23 +1095,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1068,7 +1128,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>15</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1087,23 +1147,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1117,7 +1180,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>16</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1136,23 +1199,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1166,7 +1232,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1185,23 +1251,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1215,7 +1284,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1234,23 +1303,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1264,7 +1336,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1283,23 +1355,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1313,7 +1388,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1332,23 +1407,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1362,7 +1440,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17(월)</td>
-																	<td>메이플</td>																	
+																	<td>EAST IN</td>																	
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1381,23 +1459,26 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="노캐디" selected>노캐디</option>
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
+																			<option value="노캐디" selected>노캐디</option>
+																			<option value="지정">지정</option>
+																			<option value="드라이빙">드라이빙</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="5인승 전동 카트" selected>5인승 전동 카트</option>
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
-																			<option value="카트 선택 가능">카트 선택 가능</option>
-																			<option value="수동 카트">수동 카트</option>
+																			<option value="1인 수동 카트">1인 수동 카트</option>
+																			<option value="무료 카트">무료 카트</option>
+																			<option value="No 카트">No 카트</option>
 																		</select>
 																	</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
-																			<input class="form-control" type="text" placeholder="아이스 커피 50% 할인">
+																			<input class="form-control" type="text" placeholder="아메리카노 50% 할인">
 																		</div>
 																	</td>
 																	<td>
@@ -1539,10 +1620,12 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">캐디 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">프로</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">드라이빙</button></li>
 													</ul>
 												</div>
 
@@ -1551,16 +1634,20 @@
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">5인승 전동 카트</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2인승 전동 카트</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 선택 가능</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1인 수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">무료 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
 													</ul>
 												</div>
 												
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 50% 할인</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 50% 할인</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">조식 뷔페 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 50% 할인</button></li>
 													</ul>
 												</div>
 											</div>
@@ -1831,8 +1918,10 @@
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">A</button></li>
-																			<li><button type="button" class="dropdown-item">B</button></li>
+																			<li><button type="button" class="dropdown-item">EAST IN</button></li>
+																			<li><button type="button" class="dropdown-item">EAST OUT</button></li>
+																			<li><button type="button" class="dropdown-item">WEST IN</button></li>
+																			<li><button type="button" class="dropdown-item">WEST OUT</button></li>
 																		</ul>
 																	</div>
 																</th>
@@ -1887,10 +1976,12 @@
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-center dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">노캐디</button></li>
 																			<li><button type="button" class="dropdown-item">일반</button></li>
 																			<li><button type="button" class="dropdown-item">신입</button></li>
 																			<li><button type="button" class="dropdown-item">프로</button></li>
+																			<li><button type="button" class="dropdown-item">노캐디</button></li>
+																			<li><button type="button" class="dropdown-item">지정</button></li>
+																			<li><button type="button" class="dropdown-item">드라이빙</button></li>
 																		</ul>
 																	</div>
 																</th>
@@ -1900,8 +1991,9 @@
 																		<ul class="dropdown-menu dropdown-menu-center dropdown-menu-dark">
 																			<li><button type="button" class="dropdown-item">5인승 전동 카트</button></li>
 																			<li><button type="button" class="dropdown-item">2인승 전동 카트</button></li>
-																			<li><button type="button" class="dropdown-item">카트 선택 가능</button></li>
-																			<li><button type="button" class="dropdown-item">수동 카트</button></li>
+																			<li><button type="button" class="dropdown-item">1인 수동 카트</button></li>
+																			<li><button type="button" class="dropdown-item">무료 카트</button></li>
+																			<li><button type="button" class="dropdown-item">No 카트</button></li>
 																		</ul>
 																	</div>
 																</th>
@@ -1909,8 +2001,11 @@
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-center dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">아이스커피 50% 할인</button></li>
-																			<li><button type="button" class="dropdown-item">아이스커피 무료</button></li>																	
+																			<li><button type="button" class="dropdown-item">아메리카노 무료 제공</button></li>
+																			<li><button type="button" class="dropdown-item">아메리카노 50% 할인</button></li>
+																			<li><button type="button" class="dropdown-item">조식 뷔페 무료 제공</button></li>
+																			<li><button type="button" class="dropdown-item">카트 무료</button></li>
+																			<li><button type="button" class="dropdown-item">카트 50% 할인</button></li>
 																		</ul>
 																	</div>
 																</th>
@@ -1926,15 +2021,15 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>B</td>
+																<td>WEST OUT</td>
 																<td>07:00</td>
-																<td class="text-truncate">홍길동</td>
+																<td class="text-truncate">예약 가능</td>
 																<td>B_골팡</td>
-																<td>155,000</td>
+																<td>18h-15</td>
 																<td>4</td>
 																<td>노캐디</td>
 																<td>5인승 전동 카트</td>
-																<td>아이스 커피 무료 제공</td>
+																<td>아메리카노 무료 제공</td>
 															</tr>
 															<tr>
 																<td>
@@ -1944,15 +2039,15 @@
 																	</div>
 																</td>
 																<td>23.04.16 (일)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td>B_골팡</td>
-																<td>155,000</td>
+																<td>18h-15</td>
 																<td>3</td>
 																<td>일반</td>
 																<td>2인승 전동 카트</td>
-																<td>아이스 커피 50% 할인</td>
+																<td>아메리카노 50% 할인</td>
 															</tr>
 															<tr>
 																<td>
@@ -1962,15 +2057,15 @@
 																	</div>
 																</td>
 																<td>23.04.15 (토)</td>
-																<td>B</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 불가</td>
 																<td>C_카카오</td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>2</td>
 																<td>신입</td>
 																<td>2인승 전동 카트</td>
-																<td>아이스 커피 50% 할인</td>
+																<td>아메리카노 50% 할인</td>
 															</tr>
 															<tr>
 																<td>
@@ -1980,15 +2075,15 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td>프로</td>
-																<td>수동 카트</td>
-																<td>아이스 커피 50% 할인</td>
+																<td>5인승 전동카트</td>
+																<td>아메리카노 50% 할인</td>
 															</tr>
 															<tr>
 																<td>
@@ -1998,15 +2093,15 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>B</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
-																<td>아이스 커피 50% 할인</td>
+																<td>5인승 전동카트</td>
+																<td>아메리카노 50% 할인</td>
 															</tr>
 															<tr>
 																<td>
@@ -2016,14 +2111,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2034,14 +2129,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2052,14 +2147,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약불가</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>1인 수동 카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2070,14 +2165,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST OUT</td>
 																<td>07:00</td>
 																<td>예약불가</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2088,14 +2183,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST OUT</td>
 																<td>07:00</td>
 																<td>예약불가</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2106,14 +2201,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>2인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2124,14 +2219,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2142,14 +2237,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2160,14 +2255,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2178,14 +2273,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2196,14 +2291,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약불가</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2214,14 +2309,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2232,14 +2327,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2250,14 +2345,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2268,14 +2363,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>WEST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2286,14 +2381,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2304,14 +2399,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2322,14 +2417,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2340,14 +2435,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2358,14 +2453,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2376,14 +2471,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2394,14 +2489,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST OUT</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2412,14 +2507,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2430,14 +2525,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 															<tr>
@@ -2448,14 +2543,14 @@
 																	</div>
 																</td>
 																<td>23.04.17 (월)</td>
-																<td>A</td>
+																<td>EAST IN</td>
 																<td>07:00</td>
 																<td>예약 가능</td>
 																<td></td>
-																<td>185,000</td>
+																<td>18h-16</td>
 																<td>4</td>
 																<td></td>
-																<td>수동 카트</td>
+																<td>5인승 전동카트</td>
 																<td></td>
 															</tr>
 														</tbody>
@@ -2573,7 +2668,7 @@
 															<td>비회원 18 - 180,000</td>
 															<td>노캐디</td>
 															<td>5인승 전동 카트</td>
-                                                            <td>아이스 커피 50% 할인</td>
+                                                            <td>아메리카노 50% 할인</td>
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
@@ -2582,7 +2677,7 @@
 															<td>비회원 18 - 180,000</td>
 															<td>프로</td>
 															<td>수동 카트</td>
-                                                            <td>아이스 커피 50% 할인</td>
+                                                            <td>아메리카노 50% 할인</td>
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
@@ -2591,7 +2686,7 @@
 															<td>비회원 18 - 180,000</td>
 															<td>일반</td>
 															<td>수동 카트</td>
-                                                            <td>아이스 커피 50% 할인</td>
+                                                            <td>아메리카노 50% 할인</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

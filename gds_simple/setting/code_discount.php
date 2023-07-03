@@ -30,7 +30,7 @@
 								<div class="card mb-0"">
 									<div class="card-body">
 										<div class="d-flex align-items-center mb-3">
-											<span class="code-title">상품 할인</span>
+											<span class="code-title">상품 할인 설정</span>
 											<div class="form-check form-check-inline ms-auto me-0">
 												<input type="checkbox" class="form-check-input" id="toggleCheck">
 												<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
@@ -272,51 +272,6 @@
 							</div>
 						</div>
 		                <!--//row -  -->
-
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
-							<div class="modal-dialog modal-dialog-centered modal-sm">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="addCodeModalLabel">할인 코드 적용 일자 등록</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
-									<div class="modal-body">
-										<div class="border-box border-bottom-0">
-											<table class="table table-layout-fixed mb-0">
-												<colgroup>
-													<col style="width:80px;">
-													<col style="width:auto">
-												</colgroup>
-
-												<tbody>
-													<tr>
-														<th class="text-end">적용일자</th>
-														<td><input type="text" class="form-control datepicker w-100"></td>
-													</tr>
-													<tr>
-														<th class="text-end">가져오기</th>
-														<td>
-															<select class="form-select">
-																<option value="사용안함" selected>사용안함</option>
-																<option value="23.05.22 (월)">23.05.22 (월)</option>
-																<option value="23.05.21 (일)">23.05.21 (일)</option>
-																<option value="23.05.20 (토)">23.05.20 (토)</option>
-																<option value="23.05.19 (금)">23.05.19 (금)</option>
-																<option value="23.05.18 (목)">23.05.18 (목)</option>
-															</select>
-														</td>
-													</tr>														
-												</tbody>
-											</table>
-										</div>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-custom">등록</button>
-									</div>
-								</div><!-- /.modal-content -->
-							</div><!-- /.modal-dialog -->
-						</div>
-						<!-- //modal - addCodeModal -->
 
 						<!-- end Content -->
 

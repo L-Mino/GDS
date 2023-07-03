@@ -1662,9 +1662,10 @@
 														<th>코스</th>
 														<td>
 															<select class="form-select">
-																<option value="코스1" selected>코스1</option>
-																<option value="코스2">코스2</option>
-																<option value="코스3">코스3</option>
+																<option value="EAST IN" selected>EAST IN</option>
+																<option value="EAST OUT">EAST OUT</option>
+																<option value="WEST IN">WEST IN</option>
+																<option value="WEST OUT">WEST OUT</option>
 															</select>
 														</td>
 													</tr>

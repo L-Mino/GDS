@@ -32,7 +32,7 @@
 										<div class="d-flex">
 											<div class="code-con-left">
 												<div class="d-flex justify-content-between align-items-center mb-3">
-													<span class="code-title">대분류</span>
+													<span class="code-title">상품 코드 분류</span>
 													<button type="button" class="btn btn-outline-custom"  data-bs-toggle="modal" data-bs-target=".addCodeModal">+ 추가</button>
 												</div>
 												<div class="tab-code">

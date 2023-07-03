@@ -21,7 +21,7 @@
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_standard.php">상품 코드 설정</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_discount.php">상품 할인 설정</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_event.php">티타임 이벤트 설정</a></li>						
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_member.php">회원 할인</a></li>                        
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_member.php">회원 지정 할인</a></li>                        
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/code_hole.php">홀별 정산</a></li>
                     </ul>
                 </li>

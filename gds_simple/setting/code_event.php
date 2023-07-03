@@ -30,7 +30,7 @@
 								<div class="card mb-0"">
 									<div class="card-body">
 										<div class="d-flex align-items-center mb-3">
-											<span class="code-title">이벤트 상품 설정</span>
+											<span class="code-title">티타임 이벤트 설정</span>
 											<div class="form-check form-check-inline ms-auto me-0">
 												<input type="checkbox" class="form-check-input" id="toggleCheck">
 												<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
@@ -66,18 +66,18 @@
 														<td>
 															<div class="d-flex border-bottom">
 																<select class="form-select">
-																	<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																	<option value="분류 선택" selected disabled>상품 할인 선택</option>																																						
 																	<option value="선택안함">선택안함</option>																			
 																	<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
 																	<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>
-																	<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공조식 뷔페 무료 제공</option>
+																	<option value="조식 뷔페 무료 제공">조식 뷔페 무료 제공</option>
 																	<option value="카트 무료">카트 무료</option>
 																	<option value="카트 50% 할인">카트 50% 할인</option>
 																</select>
 															</div>
 															<div class="d-flex border-bottom">
 																<select class="form-select">
-																	<option value="분류 선택" selected disabled>분류 선택</option>																																						
+																	<option value="분류 선택" selected disabled>상품 할인 선택</option>																																						
 																	<option value="선택안함">선택안함</option>																			
 																	<option value="아메리카노 무료 제공">아메리카노 무료 제공</option>
 																	<option value="아메리카노 50% 할인">아메리카노 50% 할인</option>

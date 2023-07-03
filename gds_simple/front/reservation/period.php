@@ -79,8 +79,9 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">155,000</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">185,000</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-15</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-16</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
 													</ul>
 												</div>
 												
@@ -97,10 +98,12 @@
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">캐디 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">프로</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">드라이빙</button></li>
 													</ul>
 												</div>
 
@@ -109,16 +112,20 @@
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">5인승 전동 카트</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2인승 전동 카트</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 선택 가능</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1인 수동 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">무료 카트</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
 													</ul>
 												</div>
 												
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 50% 할인</button></li>
-														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 50% 할인</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">조식 뷔페 무료 제공</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 무료</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 50% 할인</button></li>
 													</ul>
 												</div>
 												
@@ -258,8 +265,10 @@
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																<ul class="dropdown-menu dropdown-menu-dark" data-popper-placement="bottom-start">
-																	<li><button type="button" class="dropdown-item">코스1</button></li>
-																	<li><button type="button" class="dropdown-item">코스2</button></li>
+																	<li><button type="button" class="dropdown-item">EAST IN</button></li>
+																	<li><button type="button" class="dropdown-item">EAST OUT</button></li>
+																	<li><button type="button" class="dropdown-item">WEST IN</button></li>
+																	<li><button type="button" class="dropdown-item">WEST OUT</button></li>
 																</ul>
 															</div>
 														</th>
@@ -269,8 +278,9 @@
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																<ul class="dropdown-menu dropdown-menu-dark" data-popper-placement="bottom-start">
-																	<li><button type="button" class="dropdown-item">155,000</button></li>
-																	<li><button type="button" class="dropdown-item">185,000</button></li>
+																	<li><button type="button" class="dropdown-item">18h-15</button></li>
+																	<li><button type="button" class="dropdown-item">18h-16</button></li>
+																	<li><button type="button" class="dropdown-item">18h-17</button></li>
 																</ul>
 															</div>
 														</th>																
@@ -289,10 +299,12 @@
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																<ul class="dropdown-menu dropdown-menu-dark" data-popper-placement="bottom-start">
-																	<li><button type="button" class="dropdown-item">노캐디</button></li>
-																	<li><button type="button" class="dropdown-item">신입</button></li>
 																	<li><button type="button" class="dropdown-item">일반</button></li>
+																	<li><button type="button" class="dropdown-item">신입</button></li>
 																	<li><button type="button" class="dropdown-item">프로</button></li>
+																	<li><button type="button" class="dropdown-item">노캐디</button></li>
+																	<li><button type="button" class="dropdown-item">지정</button></li>
+																	<li><button type="button" class="dropdown-item">드라이빙</button></li>
 																</ul>
 															</div>
 														</th>
@@ -302,8 +314,9 @@
 																<ul class="dropdown-menu dropdown-menu-dark" data-popper-placement="bottom-start">
 																	<li><button type="button" class="dropdown-item">5인승 전동 카트</button></li>
 																	<li><button type="button" class="dropdown-item">2인승 전동 카트</button></li>
-																	<li><button type="button" class="dropdown-item">카트 선택 가능</button></li>
-																	<li><button type="button" class="dropdown-item">수동 카트</button></li>
+																	<li><button type="button" class="dropdown-item">1인 수동 카트</button></li>
+																	<li><button type="button" class="dropdown-item">무료 카트</button></li>
+																	<li><button type="button" class="dropdown-item">No 카트</button></li>
 																</ul>
 															</div>
 														</th>
@@ -311,8 +324,11 @@
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																<ul class="dropdown-menu dropdown-menu-dark" data-popper-placement="bottom-start">
-																	<li><button type="button" class="dropdown-item">아이스커피 50% 할인</button></li>
-																	<li><button type="button" class="dropdown-item">아이스커피 50% 할인</button></li>
+																	<li><button type="button" class="dropdown-item">아메리카노 무료 제공</button></li>
+																	<li><button type="button" class="dropdown-item">아메리카노 50% 할인</button></li>
+																	<li><button type="button" class="dropdown-item">조식 뷔페 무료 제공</button></li>
+																	<li><button type="button" class="dropdown-item">카트 무료</button></li>
+																	<li><button type="button" class="dropdown-item">카트 50% 할인</button></li>
 																</ul>
 															</div>
 														</th>																
@@ -346,14 +362,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>A</td>
+														<td>WEST IN</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>노 캐디</td>
 														<td>5인승 전동 카트</td>
-														<td>아이스커피 50% 할인</td>
+														<td>아메리카노 50% 할인</td>
 														<td>B_골팡</td>
 														<td>선불/입금대기</td>
 														<td>GX/2일</td>
@@ -370,16 +386,16 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>800,000</td>
+														<td>18h-16</td>
 														<td>4</td>
 														<td>신입</td>
 														<td>2인승 전동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>																
 														<td>B_골팡</td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>GX/2일</td>
 														<td>04-15 16:35:03</td>
 														<td>B_golfang_A007</td>
@@ -394,14 +410,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -418,14 +434,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>A</td>
+														<td>WEST IN</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>프로</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>B_골팡</td>
 														<td>선불/입금대기</td>
 														<td></td>
@@ -442,16 +458,16 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>800,000</td>
+														<td>18h-16</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>B_골팡</td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
 														<td>B_golfang_A007</td>
@@ -466,14 +482,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -490,14 +506,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -514,14 +530,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -538,14 +554,14 @@
 															</div>
 														</td>
 														<td>06.05 (월)</td>
-														<td>B</td>
+														<td>WEST OUT</td>
 														<td>07:14</td>
 														<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">홍길동</span></td>
-														<td>200,000</td>
+														<td>18h-17</td>
 														<td>4</td>
 														<td>일반</td>
-														<td>수동 카트</td>
-														<td>아이스커피 50% 할인</td>																
+														<td>5인승 전동 카트</td>
+														<td>아메리카노 50% 할인</td>																
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -664,9 +680,10 @@
 														<th>코스</th>
 														<td>
 															<select class="form-select">
-																<option value="코스1" selected>코스1</option>
-																<option value="코스2">코스2</option>
-																<option value="코스3">코스3</option>
+																<option value="EAST IN" selected>EAST IN</option>
+																<option value="EAST OUT">EAST OUT</option>
+																<option value="WEST IN">WEST IN</option>
+																<option value="WEST OUT">WEST OUT</option>
 															</select>
 														</td>
 													</tr>

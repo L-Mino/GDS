@@ -114,6 +114,19 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td class="fw-semibold">2인</td>
+                                                    <td>1인</td>
+                                                    <td>
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <span>그린피의</span>
+                                                            <div class="form-check form-check-inline ps-2 m-0">
+                                                                <input class="form-control input_w60 text-center" type="text" value="20">
+                                                            </div>
+                                                            <span class="ms-2">%</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
                                             </tbody>
                                         </table>
 									</div>

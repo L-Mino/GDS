@@ -28,7 +28,11 @@
 						<div class="row">
 							<div class="col">
 								<div class="card">
-									<h5 class="border-bottom py-3 px-3 mb-0">골프장 정보</h3>
+									<div class="d-flex align-items-center border-bottom col-9 py-3 px-3 pe-0">
+										<h5 class="mb-0">골프장 정보</h5>
+										<button type="button" class="btn btn-outline-custom ms-auto">수정</button>
+									</div>
+
 									<div class="card-body">
 										<div class="row mb-4">
                                             <label for="companyName" class="col-auto col-form-label fw-bold info-tit ps-3">회사명</label>
@@ -247,11 +251,14 @@
 						<div class="row">
 							<div class="col">
 								<div class="card">
-									<h5 class="border-bottom py-3 px-3 mb-0">코스 기본 정보
-										<a href="javascript:void(0);" class="d-inline-block align-text-top" data-bs-toggle="tooltip" title="Default tooltip">
-											<i class="fas fa-question-circle text-secondary tooltip-ico"></i>
-										</a>
-									</h5>
+									<div class="d-flex align-items-center border-bottom col-9 py-3 px-3 pe-0">
+										<h5 class="mb-0">코스 기본 정보
+											<a href="javascript:void(0);" class="d-inline-block align-text-top" data-bs-toggle="tooltip" title="Default tooltip">
+												<i class="fas fa-question-circle text-secondary tooltip-ico"></i>
+											</a>
+										</h5>
+										<button type="button" class="btn btn-outline-custom ms-auto">수정</button>
+									</div>								
 
 									<div class="card-body">
 										<ul class="nav nav-tabs-custom mb-3" role="tablist">
@@ -569,7 +576,15 @@
 						<div class="row">
 							<div class="col">
 								<div class="card">
-									<h5 class="border-bottom py-3 px-3 mb-0">부대시설</h3>
+									<div class="d-flex align-items-center border-bottom col-9 py-3 px-3 pe-0">
+										<h5 class="mb-0">부대시설
+											<a href="javascript:void(0);" class="d-inline-block align-text-top" data-bs-toggle="tooltip" title="Default tooltip">
+												<i class="fas fa-question-circle text-secondary tooltip-ico"></i>
+											</a>
+										</h5>
+										<button type="button" class="btn btn-outline-custom ms-auto">수정</button>
+									</div>			
+
 									<div class="card-body">
 										<div class="row mb-2">
                                             <label for="picName" class="col-auto col-form-label fw-bold info-tit ps-3">숙박</label>
@@ -637,7 +652,11 @@
 						<div class="row">
 							<div class="col">
 								<div class="card">
-									<h5 class="border-bottom py-3 px-3 mb-0">기타</h3>
+									<div class="d-flex align-items-center border-bottom col-9 py-3 px-3 pe-0">
+										<h5 class="mb-0">기타</h5>
+										<button type="button" class="btn btn-outline-custom ms-auto">수정</button>
+									</div>	
+									
 									<div class="card-body">
 										<!--div class="row mb-2">
                                             <label for="picName" class="col-auto col-form-label fw-bold info-tit ps-3">기존 ERP</label>
