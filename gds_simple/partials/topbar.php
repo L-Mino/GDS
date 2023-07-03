@@ -86,7 +86,7 @@
 
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="d-xl-inline-block ms-1">AGL 사업부 | 임홍재</span>
+                    <span class="d-xl-inline-block ms-1">백오피스 | 임홍재</span>
                     <i class="mdi mdi-chevron-down d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
