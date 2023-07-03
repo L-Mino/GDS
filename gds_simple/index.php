@@ -48,14 +48,14 @@
 									<input type="email" class="form-control" id="username" placeholder="Email">
 								</div-->
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="username" placeholder="Email">
-									<label for="username">Email</label>
+									<input type="email" class="form-control" id="user_id" placeholder="Email">
+									<label for="user_id">Email</label>
 								</div>								
 		
 								<div class="password-wrap form-floating mb-3">
 									<i class="fa fa-eye fa-lg"></i>
-									<input type="password" class="form-control" id="userpassword" placeholder="Password">
-									<label for="userpassword">Password</label>
+									<input type="password" class="form-control" id="user_password" placeholder="Password">
+									<label for="user_password">Password</label>
 								</div>
 
 								<!--div class="password-wrap mb-3 ">
@@ -72,7 +72,7 @@
 								</div>
 		
 								<div class="mt-4">
-									<button class="btn btn-primary w-md waves-effect waves-light w-100" type="submit">Sign in</button>
+									<button class="btn btn-primary w-md waves-effect waves-light w-100 submit" type="button">Sign in</button>
 								</div>
 							</form>
 						</div>
@@ -90,19 +90,23 @@
 		$(function(){
 			"use strict";
 			
-			$('#username, #userpassword').focus(function(){
+			if($('#user_id, #user_password').val() != ""){
+				$(this).next('label').addClass("focus");
+			}
+
+			$('#user_id, #user_password').focus(function(){
 				$(this).next('label').addClass("focus");
 			});
 			
-			$('#username, #userpassword').blur(function(){
+			$('#user_id, #user_password').blur(function(){
 				if($(this).val() == ""){
 					$(this).next('label').removeClass("focus");
 				}
 			});			
 
 			$('.password-wrap i').on('click',function(){
-				$('input').toggleClass('active');
-				if($('input').hasClass('active')){
+				$('#user_password').toggleClass('active');
+				if($('#user_password').hasClass('active')){
 					$(this).attr('class','fa fa-eye-slash fa-lg').next('input').attr('type','text');
 				}else{
 					$(this).attr('class','fa fa-eye fa-lg').next('input').attr('type','password');

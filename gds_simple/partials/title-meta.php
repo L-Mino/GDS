@@ -4,4 +4,4 @@
 <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
 <meta content="Pichforest" name="author" />
 <!-- App favicon -->
-<link rel="shortcut icon" href="/gds_simple/assets/images/favicon.ico">
+<link rel="shortcut icon" href="/gds_simple/assets/images/favicon_d.ico">

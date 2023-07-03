@@ -1663,171 +1663,6 @@
 													<option value="이벤트">이벤트</option>
 												</select>
 											</div>
-											<!--div class="btn-group">
-												<button class="btn dropdown-toggle" type="button" id="" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">컬럼 선택 <i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark">
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="select_course01" value="전체">
-																<label class="form-check-label w-100" for="select_course01">전체</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="select_course02" value="예약일">
-																<label class="form-check-label w-100" for="select_course02">예약일</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="select_course03" value="코스">
-																<label class="form-check-label w-100" for="select_course03">코스</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday04" value="시간">
-																<label class="form-check-label w-100" for="teetimeday04">시간</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday05" value="인원">
-																<label class="form-check-label w-100" for="teetimeday05">인원</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday06" value="예약상태">
-																<label class="form-check-label w-100" for="teetimeday06">예약상태</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday07" value="블럭">
-																<label class="form-check-label w-100" for="teetimeday07">블럭</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday08" value="그린피">
-																<label class="form-check-label w-100" for="teetimeday08">그린피</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday09" value="그린피">
-																<label class="form-check-label w-100" for="teetimeday09">그린피</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday10" value="캐디">
-																<label class="form-check-label w-100" for="teetimeday10">캐디</label>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div class="dropdown-item">
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday10" value="이벤트 설정">
-																<label class="form-check-label w-100" for="teetimeday11">이벤트 설정</label>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">예약 상태 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 가능 처리</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 불가 처리</button></li>
-													<li><div class="dropdown-divider"></div></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">티타임 추가</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">티타임 삭제</button></li>
-												</ul>
-											</div>
-
-											<div class="btn-group btn-group-first">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">채널 블럭 지정<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">골프장</button></li>
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">Only AGL</button></li>
-													<li><div class="dropdown-divider"></div></li>
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">B_Agent_1</button></li>
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">B_Agency_1</button></li>
-													<li><div class="dropdown-divider"></div></li>
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">C_Golfnow</button></li>
-													<li><div class="dropdown-divider"></div></li>
-													<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>													
-												</ul>
-											</div>
-
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">155,000</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">185,000</button></li>
-												</ul>
-											</div>
-											
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">인원 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">4</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">3</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1</button></li>
-												</ul>
-											</div>
-
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">캐디 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">프로</button></li>
-												</ul>
-											</div>
-
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">카트 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">5인승 전동 카트</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2인승 전동 카트</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 선택 가능</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">수동 카트</button></li>
-												</ul>
-											</div>
-											
-											<div class="btn-group">
-												<button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경<i class="mdi mdi-chevron-down"></i></button>
-												<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 50% 할인</button></li>
-													<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아이스커피 무료</button></li>
-												</ul>
-											</div-->
 										</div>
 
 										<div class="row">
@@ -3154,7 +2989,101 @@
 								title:'10 / 60',
 								start:'2023-06-30',
 								displayOrder:1
+							},
+							{
+								className:'highSeason',
+								title:'10 / 60',
+								start:'2023-07-01',
+								displayOrder:1
 							}
+
+						]
+					},
+					{
+						events: [
+							{
+								className:'closeSeason',
+								start:'2023-07-02',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-03',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-04',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-05',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-06',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-07',
+								displayOrder:1
+							},
+							{
+								className:'closeSeason',
+								start:'2023-07-08',
+								displayOrder:1
+							}
+
+						]
+					},
+					{
+						events: [
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-09',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-10',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-11',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-12',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-13',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-14',
+								displayOrder:1
+							},
+							{
+								className:'offSeason',
+								title:'51 / 60',
+								start:'2023-07-15',
+								displayOrder:1
+							}
+
 						]
 					},
 					{

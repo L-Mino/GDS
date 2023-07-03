@@ -70,7 +70,8 @@
 
 										<div class="row">
 											<div class="col-12">
-												<div class="table-fixed-head mb-3" data-simplebar>
+												<!-- <div class="table-fixed-head mb-3" data-simplebar> -->
+												<div class="table-responsive table-fixed-head mb-3" data-simplebar>
 													<table class="table table-hover text-center w-100 nowrap">
 														<colgroup>
 															<col style="min-width:70px;">

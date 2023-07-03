@@ -124,6 +124,26 @@ $(function(){
 		$('#notice-count-message').html(text_length + '/' + text_max);
 	});
 
+	/*$('.table').on('show.bs.dropdown', function () {
+		SimpleBar.instances.get(document.querySelector('[data-simplebar]'));
+		SimpleBar.removeObserver();
+		console.log('aa');
+	});*/
+	$('.table thead').on('shown.bs.dropdown', function(e) {
+		//const simpleBar = new SimpleBar(document.querySelector('[data-simplebar]'));
+		//simpleBar.recalculate();
+		//$('[data-simplebar]').simplebar('recalculate');
+		//document.querySelector('[data-simplebar]').remove();
+		console.log('aa');
+    });
+	  
+
+   
+	// $('.table').on('hide.bs.dropdown', function () {
+	// 	$('.simplebar-mask').css( "overflow", "auto" );
+	// });
+   
+
 	checkSelect();
    	datePicker();
 });
