@@ -128,13 +128,14 @@ $(function(){
 		SimpleBar.instances.get(document.querySelector('[data-simplebar]'));
 		SimpleBar.removeObserver();
 		console.log('aa');
-	});*/
+	});
 	$('.table thead').on('shown.bs.dropdown', function(e) {
 		$('.table-responsive').css('overflow', 'inherit');
     });
 	$('.table thead').on('hide.bs.dropdown', function () {
 		$('.table-responsive').css('overflow', 'auto');
 	});
+	*/
    
 
 	checkSelect();
