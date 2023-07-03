@@ -51,6 +51,10 @@
 													<div class="tab-pane fade show active" id="code01" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">채널별 그린피</span>
+															<div class="form-check form-check-inline ms-auto me-0">
+																<input type="checkbox" class="form-check-input" id="toggleCheck">
+																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
+															</div>
 															<!--span class="mx-2">-</span-->
 															<!--span>설명</span-->
 														</div>

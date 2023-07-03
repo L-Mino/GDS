@@ -48,13 +48,13 @@
 									<input type="email" class="form-control" id="username" placeholder="Email">
 								</div-->
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="username">
+									<input type="email" class="form-control" id="username" placeholder="Email">
 									<label for="username">Email</label>
 								</div>								
 		
 								<div class="password-wrap form-floating mb-3">
 									<i class="fa fa-eye fa-lg"></i>
-									<input type="password" class="form-control" id="userpassword">
+									<input type="password" class="form-control" id="userpassword" placeholder="Password">
 									<label for="userpassword">Password</label>
 								</div>
 
@@ -90,6 +90,16 @@
 		$(function(){
 			"use strict";
 			
+			$('#username, #userpassword').focus(function(){
+				$(this).next('label').addClass("focus");
+			});
+			
+			$('#username, #userpassword').blur(function(){
+				if($(this).val() == ""){
+					$(this).next('label').removeClass("focus");
+				}
+			});			
+
 			$('.password-wrap i').on('click',function(){
 				$('input').toggleClass('active');
 				if($('input').hasClass('active')){

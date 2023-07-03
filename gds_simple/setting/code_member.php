@@ -53,7 +53,11 @@
 															<span class="code-title">그린피 코드</span>
 															<!--span class="mx-2">-</span-->
 															<!--span>설명</span-->
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
+															<div class="form-check form-check-inline ms-auto me-0">
+																<input type="checkbox" class="form-check-input" id="toggleCheck">
+																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
+															</div>																		
+															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0">

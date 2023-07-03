@@ -146,6 +146,10 @@
 															<span class="code-title">회원 유형</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
+															<div class="form-check form-check-inline ms-auto me-0">
+																<input type="checkbox" class="form-check-input" id="toggleCheck">
+																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
+															</div>															
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0">
