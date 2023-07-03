@@ -67,6 +67,7 @@
 																	<col style="min-width:120px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:100px; width:100px;">
+																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:90px;">
 																	<col style="min-width:130px;">
 																	<col style="min-width:70px; width:70px;">
@@ -78,6 +79,455 @@
 																		<th>그린피 분류</th>
 																		<th>사용안함</th>
 																		<th>가격</th>
+																		<th>정렬</th>
+																		<th>비고</th>
+																		<th>등록/수정일</th>
+																		<th>저장</th>
+																	</tr>
+																</thead>
+
+																<tbody>
+																	<tr>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="그린피 설정 코드"></td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" disabled></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="가격"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-14</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>140,000</td>
+																		<td>1</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-15</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>150,000</td>
+																		<td>2</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-16</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>160,000</td>
+																		<td>3</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-17</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>170,000</td>
+																		<td>4</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>18h-18</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀" selected>18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>180,000</td>
+																		<td>5</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	
+																	<tr>
+																		<td>9h-7</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>70,000</td>
+																		<td>6</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>9h-8</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>80,000</td>
+																		<td>7</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>9h-9</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀" selected>9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>90,000</td>
+																		<td>8</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+
+																	<tr>
+																		<td>+18h_14</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>140,000</td>
+																		<td>9</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+18h_15</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>150,000</td>
+																		<td>10</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+18h_16</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>160,000</td>
+																		<td>11</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+18h_17</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>170,000</td>
+																		<td>12</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+18h_18</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가" selected>18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>180,000</td>
+																		<td>13</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+
+																	<tr>
+																		<td>+9h_7</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>70,000</td>
+																		<td>14</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+9h_8</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>80,000</td>
+																		<td>15</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>+9h_9</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한">무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가" selected>9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>90,000</td>
+																		<td>16</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+
+																	<tr>
+																		<td>무제한_18</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>180,000</td>
+																		<td>17</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>무제한_19</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>190,000</td>
+																		<td>18</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																	<tr>
+																		<td>무제한_20</td>
+																		<td>
+																			<select class="form-select form-select-center ps-0">
+																				<option value="18홀">18홀</option>
+																				<option value="9홀">9홀</option>
+																				<option value="27홀">27홀</option>
+																				<option value="36홀">36홀</option>
+																				<option value="무제한" selected>무제한</option>
+																				<option value="18홀 추가">18홀 추가</option>
+																				<option value="9홀 추가">9홀 추가</option>
+																			</select>
+																		</td>
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
+																		<td>200,000</td>
+																		<td>19</td>
+																		<td></td>
+																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+
+													<div class="tab-pane fade" id="code02" role="tabpanel">
+														<div class="d-flex align-items-center mb-3">
+															<span class="code-title">그린피 설정</span>
+															<!--span class="mx-2">-</span-->
+															<!--span>설명</span-->
+															<div class="form-check form-check-inline ms-auto me-0">
+																<input type="checkbox" class="form-check-input" id="toggleCheck">
+																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
+															</div>															
+															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
+														</div>
+
+														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
+															<table class="table text-center w-100 mb-0 nowrap">
+																<colgroup>
+																	<col style="min-width:120px;">
+																	<col style="min-width:120px;">
+																	<col style="min-width:70px; width:70px;">
+																	<col style="min-width:100px; width:100px;">
+																	<col style="min-width:60px; width:60px;">
+																	<col style="min-width:90px;">
+																	<col style="min-width:130px;">
+																	<col style="min-width:70px; width:70px;">
+																</colgroup>
+
+																<thead>
+																	<tr>
+																		<th>그린피 설정 코드</th>
+																		<th>그린피 분류</th>
+																		<th>사용안함</th>
+																		<th>가격</th>
+																		<th>정렬</th>
 																		<th>비고</th>
 																		<th>등록/수정일</th>
 																		<th>저장</th>
@@ -100,6 +550,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>																		
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
@@ -119,6 +570,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>140,000</td>
+																		<td>1</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -138,6 +590,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
+																		<td>2</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -157,6 +610,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>160,000</td>
+																		<td>3</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -176,6 +630,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
+																		<td>4</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -195,6 +650,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
+																		<td>5</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -215,6 +671,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>70,000</td>
+																		<td>6</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -234,6 +691,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>80,000</td>
+																		<td>7</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -253,6 +711,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>90,000</td>
+																		<td>8</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -273,6 +732,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>140,000</td>
+																		<td>9</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -292,6 +752,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>150,000</td>
+																		<td>10</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -311,6 +772,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>160,000</td>
+																		<td>11</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -330,6 +792,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>170,000</td>
+																		<td>12</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -349,6 +812,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
+																		<td>13</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -369,6 +833,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>70,000</td>
+																		<td>14</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -388,6 +853,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>80,000</td>
+																		<td>15</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -407,6 +873,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>90,000</td>
+																		<td>16</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -427,6 +894,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>180,000</td>
+																		<td>17</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -446,6 +914,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>190,000</td>
+																		<td>18</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -465,6 +934,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>200,000</td>
+																		<td>19</td>
 																		<td></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
@@ -472,7 +942,7 @@
 																</tbody>
 															</table>
 														</div>
-													</div>
+													</div>													
 												</div>
 											</div>
 										</div>

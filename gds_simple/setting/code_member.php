@@ -47,7 +47,7 @@
 													<col style="min-width:100px; width:100px;">													
 													<col style="min-width:120px;">
 													<col style="min-width:70px;">
-													<col style="min-width:80px;">
+													<col style="min-width:60px; width:60px;">
 													<col style="min-width:300px;">
 													<col style="min-width:70px; width:70px;">
 												</colgroup>
@@ -58,7 +58,7 @@
 														<th>단축코드</th>														
 														<th>할인금액</th>
 														<th>사용안함</th>
-														<th>정렬순서</th>
+														<th>정렬</th>
 														<th>비고</th>
 														<th>저장</th>
 													</tr>
@@ -70,7 +70,7 @@
 														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
 														<td><input class="form-control form-control-em text-center p-0 " type="text" placeholder="110,000"></td>
 														<td><input class="form-check-input" type="checkbox" disabled></td>
-														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬순서"></td>
+														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 														<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 													</tr>
@@ -113,6 +113,7 @@
 													<tr>
 														<td>특별할인 5</td>
 														<td>S5</td>
+														<td>50,000</td>
 														<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 														<td>4</td>
 														<td>비고</td>
@@ -121,6 +122,7 @@
 													<tr>
 														<td>주니어할인 7</td>
 														<td>J7</td>
+														<td>70,000</td>
 														<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 														<td>4</td>
 														<td>비고</td>
@@ -128,7 +130,8 @@
 													</tr>
 													<tr>
 														<td>직원할인 8</td>
-														<td>M7</td>
+														<td>M8</td>
+														<td>80,000</td>
 														<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 														<td>4</td>
 														<td>비고</td>

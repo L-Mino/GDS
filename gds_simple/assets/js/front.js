@@ -130,18 +130,11 @@ $(function(){
 		console.log('aa');
 	});*/
 	$('.table thead').on('shown.bs.dropdown', function(e) {
-		//const simpleBar = new SimpleBar(document.querySelector('[data-simplebar]'));
-		//simpleBar.recalculate();
-		//$('[data-simplebar]').simplebar('recalculate');
-		//document.querySelector('[data-simplebar]').remove();
-		console.log('aa');
+		$('.table-responsive').css('overflow', 'inherit');
     });
-	  
-
-   
-	// $('.table').on('hide.bs.dropdown', function () {
-	// 	$('.simplebar-mask').css( "overflow", "auto" );
-	// });
+	$('.table thead').on('hide.bs.dropdown', function () {
+		$('.table-responsive').css('overflow', 'auto');
+	});
    
 
 	checkSelect();
