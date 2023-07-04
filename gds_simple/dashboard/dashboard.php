@@ -252,6 +252,21 @@
 								<div class="card">
 									<div class="card-body">
 										<div class="d-flex align-items-center mb-3">
+											<h4 class="card-title">연도별 매출 분석</h4>
+										</div>
+
+										<div id="line_chart_datalabel" class="apex-charts" dir="ltr"></div>  
+									</div>
+								</div>
+							</div>
+						</div>
+		                <!--//row -->
+
+						<div class="row">
+							<div class="col">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center mb-3">
 											<h4 class="card-title">주간 예약현황</h4>
 											
 											<div class="d-flex align-items-center gap-2 ms-auto">
@@ -590,6 +605,8 @@
 			"use strict";
 			menuActive(1); //OneDepth
 			
+
+
 			var sparklineoptions1 = {
 				series: [{
 					data: [12, 14, 2, 47, 42, 15, 47, 75, 65, 19, 14]
