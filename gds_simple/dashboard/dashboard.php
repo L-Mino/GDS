@@ -1172,6 +1172,13 @@
 						type: "line",
 						data: [23, 42, 35, 27, 43]
 				}],
+				grid: {
+					show: true,
+					row: {
+						colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+			            opacity:0.5
+			        }
+				},                
 				stroke: {
 					width: [0, 2]
 				},
