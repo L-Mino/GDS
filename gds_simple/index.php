@@ -72,7 +72,7 @@
 								</div>
 		
 								<div class="mt-4">
-									<button class="btn btn-primary w-md waves-effect waves-light w-100 submit" type="button">Sign in</button>
+									<button class="btn btn-primary w-md waves-effect waves-light w-100 submit" type="button" onclick="location.href='http://agl0064.dothome.co.kr/gds_simple/dashboard/dashboard.php'">Sign in</button>
 								</div>
 							</form>
 						</div>
