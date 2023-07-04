@@ -604,7 +604,9 @@
 												</tr>
 											</tbody>
 										</table>										
-									</div>
+
+                                        <p class="desc text-end font-size-11 mt-3">(단위: 10,000원)</p>
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -829,11 +831,11 @@
 				},
 				yaxis: {
 					title: {
-						text: "매출액"
+						text: "매출액 (단위 : 10000원)"
 					},
 					labels: {
 						formatter: function(val) {
-							return Number(val).toLocaleString() + "원"
+							return Number(val).toLocaleString()
 						}
 					}					
 				},
@@ -932,11 +934,11 @@
 				},
 				yaxis: {
 					title: {
-						text: "매출액"
+						text: "매출액 (단위 : 10000원)"
 					},
 					labels: {
 						formatter: function(val) {
-							return Number(val).toLocaleString() + "원"
+							return Number(val).toLocaleString()
 						}
 					}										
 				},
