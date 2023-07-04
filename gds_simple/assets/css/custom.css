@@ -475,6 +475,17 @@ th.table-gray {background:#EFF2F7; border-color:#E9EBEC; }
 
 .simplebar-wrapper {padding-bottom:15px; }
 
+.chart-info {display:flex; list-style:none; padding-left:0; margin:26px 0; }
+.chart-info li {text-align:center; border-right:1px solid #EFF2F7; padding:5px 36px 5px 0; margin-right:35px; }
+.chart-info li:last-child {border-right:0; padding-right:0; margin-right:0; }
+.chart-info li p {margin-bottom:0; }
+.chart-info li .num {font-size:20px; font-weight:600; }
+.chart-info li .tit {font-size:11px; margin-top:6px; }
+.chart-info li:first-child .num {color:#F1BA4C; }
+.chart-info li:nth-child(2) .num {color:#2CB57E; }
+.chart-info li:nth-child(3) .num {color:#0576B9; }
+.chart-info li:nth-child(4) .num {color:#495057; }
+
 
 /*=====================
 	input

@@ -433,7 +433,58 @@
 										<div class="d-flex align-items-center mb-3">
 											<h4 class="card-title">연도별 매출 분석</h4>
 										</div>
-                                        <img src="/gds_simple/assets/images/temp/dashboard01.png">
+
+										<ul class="nav nav-tabs-custom me-auto" role="tablist">
+											<li class="nav-item">
+												<a class="nav-link active" data-bs-toggle="tab" href="#annualSales01" role="tab">
+													<span>월 매출액</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" data-bs-toggle="tab" href="#annualSales02" role="tab">
+													<span>예약률</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" data-bs-toggle="tab" href="#annualSales03" role="tab">
+													<span>가동률</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" data-bs-toggle="tab" href="#annualSales04" role="tab">
+													<span>내장객 수</span>
+												</a>
+											</li>											
+										</ul>
+
+										<div class="tab-content">
+											<div class="tab-pane active" id="annualSales01" role="tabpanel">
+												<ul class="chart-info">
+													<li>
+														<p class="num">1,498,150</p>
+														<p class="tit">2021 연간 매출액</p>
+													</li>
+													<li>
+														<p class="num">1,698,150</p>
+														<p class="tit">2022 연간 매출액</p>
+													</li>
+													<li>
+														<p class="num">1,798,150</p>
+														<p class="tit">2023 연간 매출액</p>
+													</li>
+													<li>
+														<p class="num">+ 3.2% <i class="bx bx-trending-up align-middle font-size-18 text-danger"></i></p>
+														<p class="tit">전년대비 증감율</p>
+													</li>														
+												</ul>
+
+												<div id="annualSalesChart" class="apex-charts" dir="ltr"></div>  
+											</div>
+
+											<div class="tab-pane" id="annualSales02" role="tabpanel">
+
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -444,12 +495,120 @@
 							<div class="col">
 								<div class="card">
 									<div class="card-body">
-                                        <img src="/gds_simple/assets/images/temp/dashboard02.png">
+										<div class="d-flex align-items-center mb-3">
+											<h4 class="card-title">매출 현황 분석</h4>
+											<div class="btn-group ms-auto">
+												<button type="button" class="btn btn-outline-custom">일별</button>
+												<button type="button" class="btn btn-outline-custom">주별</button>												
+												<button type="button" class="btn btn-custom">월별</button>
+												<button type="button" class="btn btn-outline-custom">분기별</button>
+											</div>
+										</div>
+
+										<div id="salesStatusChart" class="apex-charts" dir="ltr"></div>  
+
+										<table class="table table-responsive w-100 text-center nowrap mt-5 mb-0">
+											<thead>
+												<tr>
+													<th style="width:90px;">구분</th>
+													<th>1월</th>
+													<th>2월</th>
+													<th>3월</th>
+													<th>4월</th>
+													<th>5월</th>
+													<th>6월</th>
+													<th>7월</th>
+													<th>8월</th>
+													<th>9월</th>
+													<th>10월</th>
+													<th>11월</th>
+													<th>12월</th>
+												</tr>
+											</thead>
+
+											<tbody>
+												<tr>
+													<th class="text-blue ps-0">합계</th>
+													<td>1,300,000</td>
+													<td>5,200,000</td>
+													<td>16,000,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+												</tr>
+												<tr>
+													<th class="ps-0">그린피</th>
+													<td>1,300,000</td>
+													<td>5,200,000</td>
+													<td>16,000,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+												</tr>
+												<tr>
+													<th class="ps-0">식음</th>
+													<td>1,300,000</td>
+													<td>5,200,000</td>
+													<td>16,000,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+												</tr>
+												<tr>
+													<th class="ps-0">프로샵</th>
+													<td>1,300,000</td>
+													<td>5,200,000</td>
+													<td>16,000,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+												</tr>
+												<tr>
+													<th class="ps-0">기타</th>
+													<td>1,300,000</td>
+													<td>5,200,000</td>
+													<td>16,000,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+													<td>5,200,000</td>
+												</tr>
+											</tbody>
+										</table>										
 									</div>
 								</div>
 							</div>
 						</div>
-		                <!--//row -->                        
+		                <!--//row -->
 
 						<div class="row">
 							<div class="col">
@@ -465,7 +624,7 @@
 														<h4 class="font-size-18">$486.257</h4>
 													</div>
 													<div class="pt-1">
-														<p class="mb-0 text-danger fw-semibold font-size-14 mt-4">+2.3% <i class="bx bx-trending-up font-size-18"></i></p>
+														<p class="mb-0 text-danger fw-semibold font-size-14 mt-4">+2.3% <i class="bx bx-trending-up align-middle font-size-18"></i></p>
 													</div>
 													<div class="ms-2">
 														<div id="chart-sparkline1" dir="ltr"></div>
@@ -479,7 +638,7 @@
 														<h4 class="font-size-18">$280.526</h4>
 													</div>
 													<div class="pt-1">
-														<p class="mb-0 text-danger fw-semibold font-size-14 mt-4">+1.5% <i class="bx bx-trending-up font-size-18"></i></p>
+														<p class="mb-0 text-danger fw-semibold font-size-14 mt-4">+1.5% <i class="bx bx-trending-up align-middle font-size-18"></i></p>
 													</div>
 													<div class="ms-2">
 														<div id="chart-sparkline2" dir="ltr"></div>
@@ -493,7 +652,7 @@
 														<h4 class="font-size-18">$280.526</h4>
 													</div>
 													<div class="pt-1">
-														<p class="mb-0 text-primary fw-semibold font-size-14 mt-4">-1.5% <i class="bx bx-trending-down font-size-18"></i></p>
+														<p class="mb-0 text-primary fw-semibold font-size-14 mt-4">-1.5% <i class="bx bx-trending-down align-middlefont-size-18"></i></p>
 													</div>
 													<div class="ms-2">
 														<div id="chart-sparkline3" dir="ltr"></div>
@@ -626,39 +785,39 @@
 						show: !1
 					}
 				},
-				colors: ["#0576B9", "#2CB57E", "#FEB137"],
+				colors: ["#FEB137", "#2CB57E", "#0576B9"],
 				dataLabels: {
 					enabled: !1
 				},
 				stroke: {
-					width: [2, 2, 2],
+					width: 2,
 					curve: "straight"
 				},
 				series: [
 					{
-						name: "2023",
-						data: [98123, 98123, 98123, 98123, 98123, 98123, 98123, 98123, 98123, 98123, 98123, 98123]
+						name: "2021",
+						data: [98123, 88123, 78123, 88123, 98123, 108123, 78123, 88123, 98123, 88123, 78123, 88123]
 					}, 
 					{
 						name: "2022",
-						data: [88123, 88123, 88123, 88123, 88123, 88123, 88123, 88123, 88123, 88123, 88123, 88123]
+						data: [116000, 106000, 98123, 101230, 111230, 121230, 98123, 128123, 88123, 108123, 98123, 118123]
 					}, 
 					{
-						name: "2021",
-						data: [78123, 78123, 78123, 78123, 78123, 78123, 78123, 78123, 78123, 78123, 78123, 78123]
+						name: "2023",
+						data: [163000, 153000, 143000, 153000, 163000, 173000, 143000, 153000, 173000, 163000, 133000, 163000]
 					}
 				],
 				grid: {
+					show: true,
 					row: {
-						colors: ["transparent", "transparent", "transparent", "transparent", "transparent"],
-						opacity: .2
-					},
-					borderColor: "#f1f1f1"
+						colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+			            opacity:0.5
+			        }
 				},
 				markers: {
 					style: "inverted",
 					colors: "#ffffff",
-					strokeColors: ["#0576B9", "#2CB57E", "#FEB137"],
+					strokeColors: ["#FEB137", "#2CB57E", "#0576B9"],
 					strokeWidth: 3,
 					size: 5,
 					hover: {
@@ -666,12 +825,17 @@
 					}
 				},
 				xaxis: {
-					categories: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"],
+					categories: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
 				},
 				yaxis: {
 					title: {
 						text: "매출액"
-					}
+					},
+					labels: {
+						formatter: function(val) {
+							return Number(val).toLocaleString() + "원"
+						}
+					}					
 				},
 				legend: {
 					show: true,
@@ -680,21 +844,132 @@
 						vertical: 5
 					}
 				},
-				responsive: [{
-					breakpoint: 600,
-					options: {
-						chart: {
-							toolbar: {
-								show: !1
-							}
-						},
-						legend: {
-							show: !1
+				tooltip: {
+					enabled: true,
+					followCursor: true,
+					intersect: false,
+					inverseOrder: true,
+					style: {
+						fontSize: '11px'
+					},
+					onDatasetHover: {
+						highlightDataSeries: true,
+					},
+					x: {
+						show: true,
+						fontWeight: 600,
+						formatter: function (value) {
+							return value + "월 매출";
 						}
+					},
+					marker: {
+						show: true,
 					}
-				}]
-			}, salesAnalysisChart = new ApexCharts(document.querySelector("#salesAnalysisChart"), options);
-			salesAnalysisChart.render();
+				}
+			}, annualSalesChart = new ApexCharts(document.querySelector("#annualSalesChart"), options);
+			annualSalesChart.render();
+
+			var options = {
+				chart: {
+					height: 380,
+					type: "line",
+					zoom: {
+						enabled: !1
+					},
+					toolbar: {
+						show: !1
+					}
+				},
+				colors: ["#6D52BA", "#2CB57E", "#FEB137", "#0576B9", "#74788D"],
+				dataLabels: {
+					enabled: !1
+				},
+				stroke: {
+					width: 2,
+					curve: "straight"
+				},
+				series: [
+					{
+						name: "합계",
+						data: [263423, 263423, 178123, 188123, 198123, 208123, 178123, 188123, 198123, 188123, 178123, 188123]
+					},
+					{
+						name: "그린피",
+						data: [98123, 88123, 78123, 88123, 98123, 108123, 78123, 88123, 98123, 88123, 78123, 88123]
+					}, 
+					{
+						name: "식음",
+						data: [60000, 50000, 70000, 80000, 90000, 50000, 60000, 40000, 60000, 50000, 70000, 80000]
+					}, 
+					{
+						name: "프로샵",
+						data: [50000, 60000, 40000, 30000, 60000, 40000, 20000, 50000, 60000, 40000, 50000, 20000]
+					},
+					{
+						name: "기타",
+						data: [18000, 28000, 18000, 28000, 18000, 38000, 18000, 28000, 18000, 28000, 18000, 38000]
+					}					
+				],
+				grid: {
+					show: true,
+					row: {
+						colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+			            opacity:0.5
+			        }
+				},
+				markers: {
+					style: "inverted",
+					colors: "#ffffff",
+					strokeColors: ["#6D52BA", "#2CB57E", "#FEB137", "#0576B9", "#74788D"],
+					strokeWidth: 3,
+					size: 5,
+					hover: {
+						size: 6
+					}
+				},
+				xaxis: {
+					categories: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"]
+				},
+				yaxis: {
+					title: {
+						text: "매출액"
+					},
+					labels: {
+						formatter: function(val) {
+							return Number(val).toLocaleString() + "원"
+						}
+					}										
+				},
+				legend: {
+					show: true,
+					itemMargin: {
+						horizontal: 15,
+						vertical: 5
+					}
+				},
+				tooltip: {
+					enabled: true,
+					followCursor: true,
+					intersect: false,
+					style: {
+						fontSize: '11px'
+					},
+					onDatasetHover: {
+						highlightDataSeries: true,
+					},
+					x: {
+						show: true,
+						fontWeight: 600,
+						formatter: function (value) {
+							return value + "월 매출";
+						}
+					},
+					marker: {
+						show: true,
+					}
+				}
+			}, salesStatusChart = new ApexCharts(document.querySelector("#salesStatusChart"), options);
+			salesStatusChart.render();			
 
 
 			var sparklineoptions1 = {
