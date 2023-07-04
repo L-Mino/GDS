@@ -433,14 +433,23 @@
 										<div class="d-flex align-items-center mb-3">
 											<h4 class="card-title">연도별 매출 분석</h4>
 										</div>
-
-
-										<div id="salesAnalysisChart" class="apex-charts" dir="ltr"></div>  
+                                        <img src="/gds_simple/assets/images/temp/01.png" alt="">
 									</div>
 								</div>
 							</div>
 						</div>
 		                <!--//row -->
+
+						<div class="row">
+							<div class="col">
+								<div class="card">
+									<div class="card-body">
+                                        <img src="/gds_simple/assets/images/temp/02.png">
+									</div>
+								</div>
+							</div>
+						</div>
+		                <!--//row -->                        
 
 						<div class="row">
 							<div class="col">
