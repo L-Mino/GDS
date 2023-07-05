@@ -731,7 +731,7 @@
 
 													<div class="tab-pane fade" id="code08" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">캐디 유형</span>
+															<span class="code-title">카트 유형</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -822,7 +822,7 @@
 													
 													<div class="tab-pane fade" id="code09" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">카트 유형</span>
+															<span class="code-title">캐디 유형</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>
@@ -860,7 +860,7 @@
 																	</tr>
 																	<tr>
 																		<td>일반 캐디</td>
-																		<td></td>
+																		<td>C</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
@@ -868,7 +868,7 @@
 																	</tr>
 																	<tr>
 																		<td>노캐디</td>
-																		<td></td>
+																		<td>N</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
@@ -876,7 +876,7 @@
 																	</tr>
 																	<tr>
 																		<td>시니어 캐디</td>
-																		<td></td>
+																		<td>S</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -884,7 +884,7 @@
 																	</tr>
 																	<tr>
 																		<td>주니어 캐디</td>
-																		<td></td>
+																		<td>J</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td></td>
@@ -892,7 +892,7 @@
 																	</tr>
 																	<tr>
 																		<td>프로 캐디</td>
-																		<td></td>
+																		<td>P</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>5</td>
 																		<td></td>
@@ -900,7 +900,7 @@
 																	</tr>
 																	<tr>
 																		<td>지정 캐디</td>
-																		<td></td>
+																		<td>A</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>6</td>
 																		<td></td>
