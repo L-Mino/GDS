@@ -66,7 +66,6 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:90px;">																	
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
@@ -77,7 +76,6 @@
 																<thead>
 																	<tr>
 																		<th>상품코드</th>
-																		<th>단축코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -88,8 +86,17 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td>
+																			<select class="form-select">
+																				<option value="선택" selected disabled>선택</option>
+																				<option value="일반 캐디">일반 캐디</option>
+																				<option value="노캐디">노캐디</option>
+																				<option value="시니어 캐디">시니어 캐디</option>
+																				<option value="주니어 캐디">주니어 캐디</option>
+																				<option value="프로 캐디">프로 캐디</option>
+																				<option value="지정 캐디">지정 캐디</option>
+																			</select>
+																		</td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -98,7 +105,6 @@
 																	</tr> 
 																	<tr>
 																		<td>일반 캐디</td>
-																		<td>C</td>
 																		<td>150,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
@@ -107,7 +113,6 @@
 																	</tr>
 																	<tr>
 																		<td>신입 캐디</td>
-																		<td>J</td>
 																		<td>120,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
@@ -116,7 +121,6 @@
 																	</tr>
 																	<tr>
 																		<td>프로 캐디</td>
-																		<td>P</td>
 																		<td>180,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
@@ -125,7 +129,6 @@
 																	</tr>
 																	<tr>
 																		<td>노캐디</td>
-																		<td>N</td>
 																		<td>0</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
@@ -134,7 +137,6 @@
 																	</tr>
 																	<tr>
 																		<td>지정 캐디</td>
-																		<td>A</td>
 																		<td>200,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>5</td>
@@ -143,7 +145,6 @@
 																	</tr>
 																	<tr>
 																		<td>드라이빙캐디</td>
-																		<td>D</td>
 																		<td>80,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>6</td>
@@ -165,7 +166,6 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:90px;">																	
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
@@ -176,7 +176,6 @@
 																<thead>
 																	<tr>
 																		<th>상품코드</th>
-																		<th>단축코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -187,8 +186,17 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td>
+																			<select class="form-select">
+																				<option value="선택" selected disabled>선택</option>
+																				<option value="5인 전동" >5인 전동</option>
+																				<option value="4인 카트">4인 카트</option>
+																				<option value="2인 카트">2인 카트</option>
+																				<option value="6인 전동">6인 전동</option>
+																				<option value="수동 카트">수동 카트</option>
+																				<option value="NO카트">NO카트</option>
+																			</select>
+																		</td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -196,8 +204,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>5인승 전동카트</td>
-																		<td>5P</td>
+																		<td>5인 전동</td>
 																		<td>100,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
@@ -205,8 +212,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>2인승 전동 카트</td>
-																		<td>2P</td>
+																		<td>2인 전동</td>
 																		<td>60,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
@@ -214,8 +220,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>1인 수동 카트</td>
-																		<td>1H</td>
+																		<td>1인 수동</td>
 																		<td>15,000</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
@@ -224,7 +229,6 @@
 																	</tr>
 																	<tr>
 																		<td>무료 카트</td>
-																		<td>0C</td>
 																		<td>0</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
@@ -233,7 +237,6 @@
 																	</tr>
 																	<tr>
 																		<td>No 카트</td>
-																		<td>Nc</td>
 																		<td>0</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>5</td>
