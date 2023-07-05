@@ -72,7 +72,7 @@
 																<th>단축 코드</th>
 																<th>그린피 할인</th>
 																<th>대표 전화</th>
-																<th>결재 구분</th>
+																<th>결제 구분</th>
 																<th>정산 마감</th>
 																<th>담당자명</th>
 																<th>ID(EMAIL)</th>
@@ -331,7 +331,7 @@
 
 																<tbody>
 																	<tr class="table-bg-gray">
-																		<th>결재 구분</th>
+																		<th>결제 구분</th>
 																		<td>
 																			<div class="form-check form-check-inline ms-10">
 																				<input class="form-check-input" type="radio" name="payRadios" id="payRadios1" value="option1" checked>

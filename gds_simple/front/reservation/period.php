@@ -371,8 +371,8 @@
 														<td>5인승 전동 카트</td>
 														<td>아메리카노 50% 할인</td>
 														<td>B_골팡</td>
-														<td>선불/입금대기</td>
-														<td>GX/2일</td>
+														<td>선불 / 입금 대기</td>
+														<td>GX / 2일</td>
 														<td>04-15 16:35:03</td>
 														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
@@ -396,7 +396,7 @@
 														<td>아메리카노 50% 할인</td>																
 														<td>B_골팡</td>
 														<td>18h-17</td>
-														<td>GX/2일</td>
+														<td>GX / 2일</td>
 														<td>04-15 16:35:03</td>
 														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
@@ -443,7 +443,7 @@
 														<td>5인승 전동 카트</td>
 														<td>아메리카노 50% 할인</td>																
 														<td>B_골팡</td>
-														<td>선불/입금대기</td>
+														<td>선불 / 입금 대기</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
 														<td>abcdefg1234@gmail.com</td>
