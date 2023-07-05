@@ -2651,7 +2651,7 @@
 																<th>구분</th>
 																<th>경로</th>
 																<th>예약자명</th>
-																<th>작업일시</th>
+																<th>작업 일시</th>
 																<th>비고</th>
 																<th>작업자</th>
 																<th>IP</th>
@@ -2762,7 +2762,7 @@
 																		<td>010-1224-2323</td>
 																	</tr>
 																	<tr class="table-bg-gray">
-																		<th>변경일자</th>
+																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
 																		</td>
@@ -3207,7 +3207,7 @@
 																		<td>010-1224-2323</td>
 																	</tr>
 																	<tr class="table-bg-gray">
-																		<th>변경일자</th>
+																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
 																		</td>

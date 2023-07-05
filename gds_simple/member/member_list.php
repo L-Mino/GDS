@@ -497,7 +497,7 @@
 																<i class="bx bx-calendar font-size-15 ms-1 me-3"></i>
 															</div>
 														</td>
-														<th>백보관</th>
+														<th>백 보관</th>
 														<td>
 															<div class="form-check form-check-inline ms-10">
 																<input class="form-check-input" type="radio" name="radio02" id="radio02_01" value="보관" checked>
@@ -1343,36 +1343,36 @@
 											<tbody>
 												<tr>
 													<td>4</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>불만/캐디</td>
+													<td>불만 / 캐디</td>
 													<td>고객지원(프론트)</td>
 													<td>조치완료</td>
 													<td class="text-start text-truncate">홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고 </td>
 												</tr>
 												<tr>
 													<td>3</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>칭찬/식음</td>
+													<td>칭찬 / 식음</td>
 													<td>지원팀(식음파트)</td>
 													<td><span class="text-primary">미조치</span></td>
 													<td class="text-start text-truncate">그늘집 만두가 유명하다고 해서 먹어봤는데 너무 맛있어요!!</td>
 												</tr>
 												<tr>
 													<td>2</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>건의/코스관리</td>
+													<td>건의 / 코스 관리</td>
 													<td>고객지원(경기)</td>
 													<td>조치완료</td>
 													<td class="text-start text-truncate">오늘 이 골프장에 처음 온 골린이지만, 하늘 코스 전체적으로 티박스 잔디가...</td>
 												</tr>
 												<tr>
 													<td>1</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>건의/식음</td>
+													<td>건의 / 식음</td>
 													<td>지원팀(식음파트)</td>
 													<td><span class="text-primary">미조치</span></td>
 													<td class="text-start text-truncate">메뉴에 마라탕이 추가 됐으면 좋겠어요.</td>
@@ -1534,7 +1534,7 @@
 											<tbody>
 												<tr>
 													<td>2</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
 													<td>베어IN</td>
 													<td>베어OUT</td>
@@ -1542,7 +1542,7 @@
 												</tr>
 												<tr>
 													<td>1</td>
-													<td>23.05.25(월)</td>
+													<td>23.05.25 (월)</td>
 													<td>07:00</td>
 													<td>베어IN</td>
 													<td>베어OUT</td>

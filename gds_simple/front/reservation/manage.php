@@ -40,11 +40,11 @@
 											</div>
 
 											<div class="form-check form-check-inline ps-0 me-0">
-												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.01(목)">
+												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.01 (목)">
 											</div>
 											<span class="dash">~</span>
 											<div class="form-check form-check-inline ps-0 me-0">
-												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.02(금)">
+												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.02 (금)">
 											</div>
 
 											<div class="form-check form-check-inline search-area ps-0 me-0">
