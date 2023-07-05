@@ -17,8 +17,8 @@
                     </a>
                     <ul class="sub-menu mm-show" aria-expanded="true">
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/member/member_list.php">회원 관리</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 내장현황</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 매출현황</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 내장 현황</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 매출 현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">개인정보 파기 안내</a></li>
                         <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#"><span key="t-">회원 등급 / 권한(중복)</span></a></li-->
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">마케팅</a></li>
