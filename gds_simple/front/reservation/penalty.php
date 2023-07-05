@@ -31,7 +31,7 @@
 									<div class="card-body">
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
-												<input type="text" class="form-control form-control-em datepicker p-0" placeholder="23.05.01(월)">
+												<input type="text" class="form-control form-control-em datepicker p-0" placeholder="23.05.01 (월)">
 											</div>
 											<span class="dash">~</span>
 											<div class="form-check form-check-inline ps-0 me-0">

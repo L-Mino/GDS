@@ -216,7 +216,7 @@
 														<option value="미국">미국</option>
 													</select>
 												</td>
-												<th>핸드폰<span class="text-primary">*</span></th>
+												<th>연락처<span class="text-primary">*</span></th>
 												<td>
 													<div class="d-flex">
 														<div class="form-check form-check-inline p-0 m-0">
@@ -1346,8 +1346,8 @@
 													<td>23.05.25 (월)</td>
 													<td>07:00</td>
 													<td>불만 / 캐디</td>
-													<td>고객지원(프론트)</td>
-													<td>조치완료</td>
+													<td>고객 지원(프론트)</td>
+													<td>조치 완료</td>
 													<td class="text-start text-truncate">홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고 </td>
 												</tr>
 												<tr>
@@ -1364,8 +1364,8 @@
 													<td>23.05.25 (월)</td>
 													<td>07:00</td>
 													<td>건의 / 코스 관리</td>
-													<td>고객지원(경기)</td>
-													<td>조치완료</td>
+													<td>고객 지원(경기)</td>
+													<td>조치 완료</td>
 													<td class="text-start text-truncate">오늘 이 골프장에 처음 온 골린이지만, 하늘 코스 전체적으로 티박스 잔디가...</td>
 												</tr>
 												<tr>

@@ -1656,7 +1656,7 @@
 												<tbody>
 													<tr class="table-bg-gray">
 														<th>일자</th>
-														<td><span class="ps-10">23.05.01(월)</span></td>
+														<td><span class="ps-10">23.05.01 (월)</span></td>
 													</tr>
 													<tr>
 														<th>코스</th>
@@ -1746,7 +1746,7 @@
 															<th>No</th>
 															<th>회원 이름</th>
 															<th>우선 순위</th>
-															<th>휴대폰</th>
+															<th>연락처</th>
 															<th>시간 I</th>
 															<th>시간 II</th>
 															<th>취소
@@ -2030,7 +2030,7 @@
 																<td><input type="text" class="form-control"></td>
 															</tr>
 															<tr>
-																<th>휴대폰</th>
+																<th>연락처</th>
 																<td>
 																	<input type="text" class="form-control">
 																</td>
@@ -3680,7 +3680,7 @@
 												</td>
 											</tr>
 											<tr>
-												<th>핸드폰<span class="text-primary">*</span></th>
+												<th>연락처<span class="text-primary">*</span></th>
 												<td><input class="form-control" type="text"></td>
 												<th>ID(EMAIL)</th>
 												<td colspan="3"><input class="form-control" type="text"></td>

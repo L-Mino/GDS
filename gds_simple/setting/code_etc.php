@@ -103,7 +103,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>코스관리</td>
+																		<td>코스 관리</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td>비고내용</td>

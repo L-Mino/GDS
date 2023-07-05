@@ -52,20 +52,20 @@
 													
 													<thead>
 														<tr>
-															<th>ID</th>
+															<th>ID(EMAIL)</th>
 															<th>그룹</th>
 															<th>이름</th>
 															<th>비밀번호</th>															
 															<th>부서</th>
 															<th>직급</th>
-															<th>핸드폰</th>															
+															<th>연락처</th>															
 															<th>비고</th>
 														</tr>
 													</thead>
 
                                                     <tbody>
                                                         <tr>
-                                                            <td>admin01</td>
+                                                            <td>admin01@gmail.com</td>
                                                             <td>
 																<select class="form-select w-auto mx-auto">
 																	<option value="통합관리자" selected>통합관리자</option>
@@ -101,7 +101,7 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td>admin02</td>
+                                                            <td>admin02@gmail.com</td>
                                                             <td>
 																<select class="form-select w-auto mx-auto">
 																	<option value="통합관리자">통합관리자</option>
@@ -265,7 +265,7 @@
 														</td>
 													</tr>
 													<tr>
-														<th class="text-end">핸드폰</th>
+														<th class="text-end">연락처</th>
 														<td>
 															<input type="text" class="form-control">
 														</td>

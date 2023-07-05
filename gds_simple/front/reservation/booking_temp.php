@@ -1677,7 +1677,7 @@
 																	<th>No</th>
 																	<th>우선 순위</th>
 																	<th>회원 이름</th>
-																	<th>휴대폰</th>
+																	<th>연락처</th>
 																	<th>시간 I</th>
 																	<th>시간 II</th>
 																	<th>취소
@@ -1914,7 +1914,7 @@
 																	<td><input type="text" class="form-control form-control-sm bg-light"></td>
 																</tr>
 																<tr>
-																	<th class="text-end">휴대폰</th>
+																	<th class="text-end">연락처</th>
 																	<td>
 																		<input type="text" class="form-control form-control-sm bg-light">
 																	</td>
@@ -2089,7 +2089,7 @@
 																		</td>
 																		<td colspan="2" class="ps-3">
 																			<div class="d-flex justify-content-between">
-																				<span class="fw-bold">01012345678</span>
+																				<span class="fw-bold">010-1234-5678</span>
 																				<div>
 																					<div class="form-check form-check-inline">
 																						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="남" checked="">

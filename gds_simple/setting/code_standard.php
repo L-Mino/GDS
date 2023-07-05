@@ -87,7 +87,7 @@
 																<tbody>
 																	<tr>
 																		<td>
-																			<select class="form-select">
+																			<select class="form-select w-auto mx-auto">
 																				<option value="선택" selected disabled>선택</option>
 																				<option value="일반 캐디">일반 캐디</option>
 																				<option value="노캐디">노캐디</option>
@@ -187,7 +187,7 @@
 																<tbody>
 																	<tr>
 																		<td>
-																			<select class="form-select">
+																			<select class="form-select w-auto mx-auto">
 																				<option value="선택" selected disabled>선택</option>
 																				<option value="5인 전동" >5인 전동</option>
 																				<option value="4인 카트">4인 카트</option>

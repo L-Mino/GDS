@@ -344,7 +344,7 @@
 													<tr>
 														<th><input class="form-check-input" type="checkbox"></th>
 														<th>홀</th>
-														<th>대여품목</th>
+														<th>대여 품목</th>
 														<th>대여료</th>
 													</tr>
 												</thead>
@@ -508,7 +508,7 @@
 															<th>입장료</th>
 															<th>카트료</th>
 															<th>대여료</th>
-															<th>추가카트료</th>
+															<th>추가 카트료</th>
 														</tr>
 													</thead>
 
@@ -681,7 +681,7 @@
 															<th>입장료</th>
 															<th>카트료</th>
 															<th>대여료</th>
-															<th>추가카트료</th>
+															<th>추가 카트료</th>
 														</tr>
 													</thead>
 

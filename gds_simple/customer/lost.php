@@ -86,42 +86,42 @@
 													<tbody>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>1</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>습득</td>
 															<td class="text-start text-truncate">타이틀 검정거리 측정기, 미즈노 검정벨트</td>
 															<td class="text-start">여락 파우더룸 바구니</td>
 															<td>홍길동</td>
-															<td>01012345678</td>
+															<td>010-1234-5678</td>
 															<td>수령 확인</td>
 														</tr>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>2</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>습득</td>
 															<td class="text-start text-truncate">풋조이 주머니 + 아디다스 골프화 265</td>
 															<td class="text-start">여락 589앞 바닥</td>
 															<td>방길동</td>
-															<td>01012345678</td>
+															<td>010-1234-5678</td>
 															<td></td>
 														</tr>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>3</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>분실</td>
 															<td class="text-start text-truncate">6번 아이언 커버(분홍색)</td>
 															<td class="text-start">3부 라운드중</td>
 															<td>박이순</td>
-															<td>01012345678</td>
+															<td>010-1234-5678</td>
 															<td>수령 예정</td>
 														</tr>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>4</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>분실</td>
 															<td class="text-start text-truncate">타이틀 보키웨지 56도</td>
 															<td class="text-start">누리코스 또는 그늘집</td>
 															<td>안영미</td>
-															<td>01012345678</td>
+															<td>010-1234-5678</td>
 															<td>전달</td>
 														</tr>
 													</tbody>
@@ -199,7 +199,7 @@
 							<div class="modal-dialog modal-dialog-centered modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="addLostModalLabel">분실/습득 관리</h5>
+										<h5 class="modal-title" id="addLostModalLabel">분실 / 습득 관리</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">
@@ -235,7 +235,7 @@
 																<td>
 																	<div class="d-flex align-items-center justify-content-between">
 																		<div class="form-check form-check-inline ps-0 me-0">
-																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.05.01(월)">
+																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.05.01 (월)">
 																		</div>
 																		<i class="bx bx-calendar font-size-15 ms-1 me-3"></i>
 																	</div>
@@ -291,7 +291,7 @@
 																<td>
 																	<div class="d-flex align-items-center justify-content-between">
 																		<div class="form-check form-check-inline ps-0 me-0">
-																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.05.01(월)">
+																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.05.01 (월)">
 																		</div>
 																		<i class="bx bx-calendar font-size-15 ms-1 me-3"></i>
 																	</div>
@@ -334,7 +334,7 @@
 									</div>
 									<div class="modal-footer">
 										<div class="d-flex justify-content-between align-items-center w-100 m-0">
-											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객지원(경기) / 김미영 팀장</p>
+											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객 지원(경기) / 김미영 팀장</p>
 											<div class="d-flex gap-2">
 												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>										
 												<button type="button" class="btn btn-custom">등록</button>
@@ -368,7 +368,7 @@
 														<th>분실일</th>
 														<td>
 															<div class="d-flex align-items-center">
-																<input type="text" class="form-control datepicker bg-transparent text-start border-0 flex-fill" value="23.05.02(화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
+																<input type="text" class="form-control datepicker bg-transparent text-start border-0 flex-fill" value="23.05.02 (화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
 															</div>
 														</td>
 														<th>분실자</th>
@@ -419,7 +419,7 @@
 														<th>전달일</th>
 														<td>
 															<div class="d-flex align-items-center">
-																<input type="text" class="form-control datepicker bg-transparent text-start border-0 flex-fill" value="23.05.06(화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
+																<input type="text" class="form-control datepicker bg-transparent text-start border-0 flex-fill" value="23.05.06 (화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
 															</div>
 														</td>
 														<th>상태</th>
@@ -489,7 +489,7 @@
 									</div>
 									<div class="modal-footer">
 										<div class="d-flex justify-content-between align-items-center w-100 m-0">
-											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객지원(경기) / 김미영 팀장</p>
+											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객 지원(경기) / 김미영 팀장</p>
 											<div class="d-flex gap-2">
 												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>										
 												<button type="button" class="btn btn-custom">저장</button>

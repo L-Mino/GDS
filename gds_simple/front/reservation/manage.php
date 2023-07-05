@@ -1776,7 +1776,7 @@
 												<tbody>
 													<tr class="table-bg-gray">
 														<th>일자</th>
-														<td><span class="ps-10">23.05.01(월)</span></td>
+														<td><span class="ps-10">23.05.01 (월)</span></td>
 													</tr>
 													<tr>
 														<th>코스</th>

@@ -61,7 +61,7 @@
 															<th>정산 마감</th>
 															<th>담당자명</th>
 															<th>ID(EMAIL)</th>
-															<th>핸드폰</th>
+															<th>연락처</th>
 														</tr>
 													</thead>
 

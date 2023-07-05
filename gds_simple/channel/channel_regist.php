@@ -76,7 +76,7 @@
 																<th>정산 마감</th>
 																<th>담당자명</th>
 																<th>ID(EMAIL)</th>
-																<th>핸드폰</th>
+																<th>연락처</th>
 															</tr>
 														</thead>
 
@@ -412,7 +412,7 @@
 																		</td>																		
 																	</tr>																		
 																	<tr class="table-bg-gray">																		
-																		<th>사용유무</th>
+																		<th>사용 유무</th>
 																		<td colspan="3">
 																			<div class="form-check form-check-inline ms-10">
 																				<input class="form-check-input" type="radio" name="useRadios" id="useRadios1" value="option1" checked>

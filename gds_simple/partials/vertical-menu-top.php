@@ -33,7 +33,7 @@
 
 									<div class="form-check">
 										<input class="form-check-input" type="radio" name="notice_radio" id="notice_radio04">
-										<label class="form-check-label fw-normal fs-12 align-text-bottom" for="notice_radio04">코스관리</label>
+										<label class="form-check-label fw-normal fs-12 align-text-bottom" for="notice_radio04">코스 관리</label>
 									</div>
 
 									<div class="form-check">
@@ -360,7 +360,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -373,7 +373,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -386,7 +386,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 										</tbody>
@@ -470,7 +470,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -483,7 +483,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -496,7 +496,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>No Caddy</td>
+												<td>노캐디</td>
 												<td>메모없음</td>
 											</tr>
 										</tbody>

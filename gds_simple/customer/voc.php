@@ -63,7 +63,7 @@
 														<col style="min-width:60px; width:60px;">
 														<col style="min-width:100px; width:100px;">
 														<col style="min-width:120px; width:120px;">
-														<col style="min-width:120px; width:120px;">
+														<col style="min-width:150px; width:150px;">
 														<col style="min-width:80px; width:80px;">
 														<col style="min-width:300px; width:auto;">
 													</colgroup>
@@ -84,40 +84,40 @@
 													<tbody>
 														<tr>
 															<td>1</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>07:00</td>
 															<td>홍길동</td>
-															<td>불만/캐디</td>
-															<td>고객지원(프론트)</td>
-															<td>조치완료</td>
+															<td>불만 / 캐디</td>
+															<td>고객 지원(프론트)</td>
+															<td>조치 완료</td>
 															<td class="text-start text-truncate">홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고홍길순 캐디 진행 미숙, 태도 나쁨, 스마트스코어 고객 번호 물어보지도 않고 </td>
 														</tr>
 														<tr>
 															<td>2</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>07:00</td>
 															<td>방길동</td>
-															<td>칭찬/식음</td>
+															<td>칭찬 / 식음</td>
 															<td>지원팀(식음파트)</td>
 															<td><span class="text-primary">미조치</span></td>
 															<td class="text-start text-truncate">그늘집 만두가 유명하다고 해서 먹어봤는데 너무 맛있어요!!</td>
 														</tr>
 														<tr>
 															<td>3</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>07:00</td>
 															<td>박이순</td>
-															<td>건의/코스관리</td>
-															<td>고객지원(경기)</td>
-															<td>조치완료</td>
+															<td>건의 / 코스 관리</td>
+															<td>고객 지원(경기)</td>
+															<td>조치 완료</td>
 															<td class="text-start text-truncate">오늘 이 골프장에 처음 온 골린이지만, 하늘 코스 전체적으로 티박스 잔디가...</td>
 														</tr>
 														<tr>
 															<td>4</td>
-															<td>23.05.25(월)</td>
+															<td>23.05.25 (월)</td>
 															<td>07:00</td>
 															<td>안영미</td>
-															<td>건의/식음</td>
+															<td>건의 / 식음</td>
 															<td>지원팀(식음파트)</td>
 															<td><span class="text-primary">미조치</span></td>
 															<td class="text-start text-truncate">메뉴에 마라탕이 추가 됐으면 좋겠어요.</td>
@@ -236,7 +236,7 @@
 													<tr>
 														<th>회원 번호</th> 
 														<td>90-1234-12</td>
-														<th>코스/시간</th>
+														<th>코스 / 시간</th>
 														<td><span>누리</span><span class="ms-3">07:08</span></td>
 													</tr>
 													<tr class="table-bg-gray">
@@ -249,20 +249,20 @@
 																	<option value="불만">불만</option>
 																</select>
 																<select class="form-select flex-fill ps-0">
-																	<option value="코스관리" selected>코스관리</option>
-																	<option value="코스관리">코스관리</option>
-																	<option value="코스관리">코스관리</option>
-																	<option value="코스관리">코스관리</option>
+																	<option value="코스 관리" selected>코스 관리</option>
+																	<option value="코스 관리">코스 관리</option>
+																	<option value="코스 관리">코스 관리</option>
+																	<option value="코스 관리">코스 관리</option>
 																</select>														
 															</div>
 														</td>
 														<th>참고 부서</th>
 														<td>
 															<select class="form-select ps-0">
-																<option value="고객지원(경기)" selected>고객지원(경기)</option>
-																<option value="고객지원(경기)">고객지원(경기)</option>
-																<option value="고객지원(경기)">고객지원(경기)</option>
-																<option value="고객지원(경기)">고객지원(경기)</option>
+																<option value="고객 지원(경기)" selected>고객 지원(경기)</option>
+																<option value="고객 지원(경기)">고객 지원(경기)</option>
+																<option value="고객 지원(경기)">고객 지원(경기)</option>
+																<option value="고객 지원(경기)">고객 지원(경기)</option>
 															</select>
 														</td>
 													</tr>												
@@ -291,24 +291,24 @@
 														<th>조치일</th>
 														<td>
 															<div class="d-flex align-items-center">
-																<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0 flex-fill" placeholder="23.05.02(화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
+																<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0 flex-fill" placeholder="23.05.02 (화)"> <i class="bx bx-calendar font-size-15 pe-12 ms-auto"></i>
 															</div>
 														</td>
-														<th>조치상태</th>
+														<th>조치 상태</th>
 														<td>
 															<select class="form-select ps-0">
-																<option value="조치대기">조치대기</option>
+																<option value="조치 대기">조치 대기</option>
 																<option value="조치중">조치중</option>
-																<option value="조치완료" selected>조치완료</option>
+																<option value="조치 완료" selected>조치 완료</option>
 															</select>
 														</td>
 													</tr>
 													<tr>
-														<th>조치부서</th>
+														<th>조치 부서</th>
 														<td>
 															<select class="form-select ps-0">
-																<option value="고객지원(경기)" selected>고객지원(경기)</option>
-																<option value="고객지원(경기)">고객지원(경기)</option>
+																<option value="고객 지원(경기)" selected>고객 지원(경기)</option>
+																<option value="고객 지원(경기)">고객 지원(경기)</option>
 															</select>
 														</td>
 														<th>조치자</th>
@@ -329,7 +329,7 @@
 									</div>
 									<div class="modal-footer">
 										<div class="d-flex justify-content-between align-items-center w-100 m-0">
-											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객지원(경기) / 홍길동 팀장</p>
+											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객 지원(경기) / 홍길동 팀장</p>
 											<div class="d-flex gap-2">
 												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
 												<button type="button" class="btn btn-custom">저장</button>

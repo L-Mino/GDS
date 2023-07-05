@@ -297,7 +297,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>코스관리</td>
+																		<td>코스 관리</td>
 																		<td></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
@@ -501,7 +501,7 @@
 																		<th>부서</th>																		
 																		<th>직급</th>																		
 																		<th>ID(EMAIL)</th>																		
-																		<th>핸드폰</th>																		
+																		<th>연락처</th>																		
 																		<th>정렬</th>
 																		<th>저장</th>
 																	</tr>
@@ -518,7 +518,7 @@
 																				<option value="프론트">프론트</option>
 																				<option value="예약실">예약실</option>
 																				<option value="경기팀">경기팀</option>
-																				<option value="코스관리">코스관리</option>
+																				<option value="코스 관리">코스 관리</option>
 																				<option value="식음">식음</option>
 																				<option value="프로샵">프로샵</option>
 																				<option value="용역">용역</option>
@@ -542,7 +542,7 @@
 																			</select>
 																		</td>																		
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="ID(EMAIL)"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="핸드폰"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="연락처"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -555,7 +555,7 @@
 																				<option value="프론트" checked>프론트</option>
 																				<option value="예약실">예약실</option>
 																				<option value="경기팀">경기팀</option>
-																				<option value="코스관리">코스관리</option>
+																				<option value="코스 관리">코스 관리</option>
 																				<option value="식음">식음</option>
 																				<option value="프로샵">프로샵</option>
 																				<option value="용역">용역</option>

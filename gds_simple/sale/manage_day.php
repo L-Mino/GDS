@@ -114,7 +114,7 @@
 																		<button class="btn boarder-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
 																			<li><button type="button" class="dropdown-item">결제 완료</button></li>
-																			<li><button type="button" class="dropdown-item">결제대기</button></li>
+																			<li><button type="button" class="dropdown-item">결제 대기</button></li>
 																		</ul>
 																	</div>
 																</th>

@@ -100,7 +100,7 @@
 														<input type="text" class="form-control" placeholder="ID(EMAIL)">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="핸드폰 번호">
+														<input type="text" class="form-control" placeholder="연락처">
 													</div>
 												</div>
                                             </div>
@@ -132,7 +132,7 @@
 														<input type="text" class="form-control" placeholder="ID(EMAIL)">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="핸드폰 번호">
+														<input type="text" class="form-control" placeholder="연락처">
 													</div>
 												</div>
                                             </div>
