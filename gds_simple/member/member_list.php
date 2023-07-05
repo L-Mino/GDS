@@ -93,7 +93,7 @@
 															<td>010-1234-5678</td>
 															<td>여</td>
 															<td>90-123457</td>
-															<td>인터넷회원</td>
+															<td>인터넷 회원</td>
 															<td>nh123@gmail.com</td>
 														</tr>
 													</tbody>
@@ -383,7 +383,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist03" role="tab">
-											<span>예약내역</span>
+											<span>예약 내역</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -529,7 +529,7 @@
 														<th>회원권</th>
 														<td>
 															<select class="form-select">
-																<option value="회원권 선택" selected>회원 등급</option>
+																<option value="회원권 선택" selected>회원권 선택</option>
 																<option value="회원권1" >회원권1</option>
 																<option value="회원권2" >회원권2</option>
 															</select>
@@ -1536,16 +1536,16 @@
 													<td>2</td>
 													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>베어IN</td>
-													<td>베어OUT</td>
+													<td>EAST IN</td>
+													<td>EAST OUT</td>
 													<td></td>
 												</tr>
 												<tr>
 													<td>1</td>
 													<td>23.05.25 (월)</td>
 													<td>07:00</td>
-													<td>베어IN</td>
-													<td>베어OUT</td>
+													<td>EAST IN</td>
+													<td>EAST OUT</td>
 													<td></td>
 												</tr>
 											</tbody>
