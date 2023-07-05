@@ -1323,7 +1323,7 @@
 												<col style="min-width:100px; width:100px;">
 												<col style="min-width:60px; width:60px;">
 												<col style="min-width:120px; width:120px;">
-												<col style="min-width:120px; width:120px;">
+												<col style="min-width:150px; width:150px;">
 												<col style="min-width:80px; width:80px;">
 												<col style="min-width:300px; width:auto;">
 											</colgroup>
