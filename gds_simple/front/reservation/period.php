@@ -147,7 +147,7 @@
 
 											<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-													<option value="예약상태">예약상태</option>
+													<option value="예약 상태">예약 상태</option>
 													<option value="블럭">블럭</option>
 													<option value="그린피">그린피</option>
 													<option value="인원">인원</option>
@@ -346,8 +346,8 @@
 														</th>
 														<th>결제 관리</th>
 														<th>예약 메모</th>
-														<th>접수일시</th>
-														<th>등록/ID</th>
+														<th>접수 일시</th>
+														<th>ID(EMAIL)</th>
 														<th>IP</th>
 														<th>비고</th>
 													</tr>
@@ -374,7 +374,7 @@
 														<td>선불/입금대기</td>
 														<td>GX/2일</td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td>비고테스트비고테스트</td>
 													</tr>
@@ -398,7 +398,7 @@
 														<td>18h-17</td>
 														<td>GX/2일</td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td>비고테스트비고테스트</td>
 													</tr>
@@ -422,7 +422,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -446,7 +446,7 @@
 														<td>선불/입금대기</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -470,7 +470,7 @@
 														<td>18h-17</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -494,7 +494,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -518,7 +518,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -542,7 +542,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -566,7 +566,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>

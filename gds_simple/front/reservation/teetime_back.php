@@ -94,7 +94,7 @@
 												</div>
 												<div class="form-check form-check-inline align-top">
 													<select class="form-select">
-														<option value="예약가능" selected="">예약가능</option>
+														<option value="예약 가능" selected="">예약 가능</option>
 														<option value="예약불가">예약불가</option>
 													</select>
 												</div>
@@ -207,7 +207,7 @@
 															<thead>
 																<tr>
 																	<th>구분</th>
-																	<th>시작시간 ~ 종료시간</th>
+																	<th>시작 시간 ~ 종료 시간</th>
 																	<th>티타임 간격</th>
 																	<th>인원</th>
 																	<th>캐디</th>
@@ -457,7 +457,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -499,7 +499,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -541,7 +541,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -583,7 +583,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -625,7 +625,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -667,7 +667,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -709,7 +709,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -751,7 +751,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -793,7 +793,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -835,7 +835,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -877,7 +877,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -919,7 +919,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -961,7 +961,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1003,7 +1003,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1045,7 +1045,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1087,7 +1087,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1129,7 +1129,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1171,7 +1171,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1213,7 +1213,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1255,7 +1255,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1297,7 +1297,7 @@
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
-																			<option value="예약가능" selected="">예약가능</option>
+																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
 																		</select>	
 																	</td>
@@ -1431,8 +1431,8 @@
 													<li>
 														<div class="dropdown-item">
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="teetimeday06" value="예약상태">
-																<label class="form-check-label w-100" for="teetimeday06">예약상태</label>
+																<input class="form-check-input" type="checkbox" id="teetimeday06" value="예약 상태">
+																<label class="form-check-label w-100" for="teetimeday06">예약 상태</label>
 															</div>
 														</div>
 													</li>
@@ -1647,7 +1647,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>예약상태
+															<th>예약 상태
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
@@ -1659,7 +1659,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>블럭지정
+															<th>블럭 지정
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
@@ -2337,7 +2337,7 @@
 													<thead>
 														<tr>
 															<th>구분</th>
-															<th>시작시간~종료시간</th>
+															<th>시작 시간~종료 시간</th>
 															<th>티타임 간격</th>
 															<th>캐디</th>
 															<th>이벤트</th>

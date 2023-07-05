@@ -62,7 +62,7 @@
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">내장인원</dt>
+													<dt class="me-2">내장 인원</dt>
 													<dd class="mb-0">360<span class="txt-line"></span>남260 / 여80</dd>
 												</dl>
 
@@ -265,7 +265,7 @@
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조변경</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
 												</div>
 
 												<div class="form-check form-check-inline align-top p-0 me-0">
@@ -518,11 +518,11 @@
 																<td>클라스</td>
 															</tr>
 															<tr>
-																<th>회원구분</th>
+																<th>회원 구분</th>
 																<td>일반회원</td>
-																<th>등급/번호</th>
+																<th>등급 / 번호</th>
 																<td>MVP 12-1324</td>
-																<th>할인코드</th>
+																<th>할인 코드</th>
 																<td>프로5</td>
 															</tr>
 															<tr>
@@ -676,7 +676,7 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="articleModalLabel">물품대여</h5>
+										<h5 class="modal-title" id="articleModalLabel">물품 대여</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 
@@ -1160,7 +1160,7 @@
 															<th>요금</th>
 															<th>홀</th>
 															<th>카트</th>
-															<th>할인금액</th>
+															<th>할인 금액</th>
 															<th>그린피</th>
 															<th>카트료</th>
 															<th>대여료</th>
@@ -1353,7 +1353,7 @@
 															<th>요금</th>
 															<th>홀</th>
 															<th>카트</th>
-															<th>할인금액</th>
+															<th>할인 금액</th>
 															<th>그린피</th>
 															<th>카트료</th>
 															<th>대여료</th>

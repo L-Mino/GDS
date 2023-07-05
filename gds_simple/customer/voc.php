@@ -71,13 +71,13 @@
 													<thead>
 														<tr>
 															<th>구분</th>
-															<th>경기일자</th>
+															<th>경기 일자</th>
 															<th>시간</th>
 															<th>내장자</th>
 															<th>유형</th>
-															<th>참고부서</th>
+															<th>참고 부서</th>
 															<th>조치</th>
-															<th>회원말씀</th>
+															<th>회원 말씀</th>
 														</tr>
 													</thead>
 
@@ -234,7 +234,7 @@
 														<td>010-1234-5678</td>
 													</tr>
 													<tr>
-														<th>회원번호</th> 
+														<th>회원 번호</th> 
 														<td>90-1234-12</td>
 														<th>코스/시간</th>
 														<td><span>누리</span><span class="ms-3">07:08</span></td>
@@ -256,7 +256,7 @@
 																</select>														
 															</div>
 														</td>
-														<th>참고부서</th>
+														<th>참고 부서</th>
 														<td>
 															<select class="form-select ps-0">
 																<option value="고객지원(경기)" selected>고객지원(경기)</option>

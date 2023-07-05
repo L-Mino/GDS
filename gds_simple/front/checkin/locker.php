@@ -51,10 +51,10 @@
 
 													<tbody>
 														<tr class="table-bg-gray">
-															<th>락카 시작번호</th>
-															<td><input class="form-control text-center p-0" type="text" placeholder="시작번호"></td>
-															<th>락카 종료번호</th>
-															<td><input class="form-control text-center p-0" type="text" placeholder="종료번호"></td>
+															<th>락카 시작 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="시작 번호"></td>
+															<th>락카 종료 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="종료 번호"></td>
 														</tr>
 													</tbody>
 												</table>
@@ -98,7 +98,7 @@
 													<thead>
 														<tr class="table-bg-gray">
 															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
-															<th>락카번호</th>
+															<th>락카 번호</th>
 															<th>구분
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -109,7 +109,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>발급순서</th>
+															<th>발급 순서</th>
 															<th>상태
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -580,10 +580,10 @@
 
 													<tbody>
 														<tr class="table-bg-gray">
-															<th>락카 시작번호</th>
-															<td><input class="form-control text-center p-0" type="text" placeholder="시작번호"></td>
-															<th>락카 종료번호</th>
-															<td><input class="form-control text-center p-0" type="text" placeholder="종료번호"></td>
+															<th>락카 시작 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="시작 번호"></td>
+															<th>락카 종료 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="종료 번호"></td>
 														</tr>
 													</tbody>
 												</table>
@@ -627,7 +627,7 @@
 													<thead>
 														<tr class="table-bg-gray">
 															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
-															<th>락카번호</th>
+															<th>락카 번호</th>
 															<th>구분
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -638,7 +638,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>발급순서</th>
+															<th>발급 순서</th>
 															<th>상태
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>

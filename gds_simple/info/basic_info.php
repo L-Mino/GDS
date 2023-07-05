@@ -71,7 +71,7 @@
 													</div>
 													<div class="col-2 ps-0">
 														<select class="form-select bordered" required="">
-															<option value="기본통화" selected="">기본통화</option>
+															<option value="기본 통화" selected="">기본 통화</option>
 															<option value="KRW">KRW</option>
 															<option value="USD">USD</option>
 															<option value="JPY">JPY</option>
@@ -97,10 +97,10 @@
 														<input type="text" class="form-control" placeholder="전화번호">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="이메일">
+														<input type="text" class="form-control" placeholder="ID(EMAIL)">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="휴대폰 번호">
+														<input type="text" class="form-control" placeholder="핸드폰 번호">
 													</div>
 												</div>
                                             </div>
@@ -129,10 +129,10 @@
 														<input type="text" class="form-control" placeholder="전화번호">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="이메일">
+														<input type="text" class="form-control" placeholder="ID(EMAIL)">
 													</div>
 													<div class="col-4 ps-0">
-														<input type="text" class="form-control" placeholder="휴대폰 번호">
+														<input type="text" class="form-control" placeholder="핸드폰 번호">
 													</div>
 												</div>
                                             </div>
@@ -201,9 +201,9 @@
 
 												<div class="row align-items-center mb-4">
 													<div class="col-12 ps-0">
-														<label for="file01" class="btn btn-outline-custom my-1">사업자등록증/명함 첨부</label>
+														<label for="file01" class="btn btn-outline-custom my-1">사업자등록증 / 명함 첨부</label>
 														<div class="filebox mt-2">
-															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input class="form-control upload-name" placeholder="사업자등록증 / 명함" readonly>
 															<input type="file" id="file01" multiple>
 														</div>
 													</div>
@@ -229,13 +229,13 @@
 
 												<div class="row align-items-center mb-2">
 													<div class="col-12 ps-0">
-														<label for="file02" class="btn btn-outline-custom my-1">사업자등록증/명함 첨부</label>
+														<label for="file02" class="btn btn-outline-custom my-1">사업자등록증 / 명함 첨부</label>
 														<div class="filebox mt-2">
-															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input class="form-control upload-name" placeholder="사업자등록증 / 명함" readonly>
 															<input type="file" id="file02">
 														</div>
 														<div class="filebox mt-2">
-															<input class="form-control upload-name" placeholder="사업자등록증/명함" readonly>
+															<input class="form-control upload-name" placeholder="사업자등록증 / 명함" readonly>
 															<input type="file" id="file02">
 														</div>														
 													</div>
@@ -342,10 +342,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -377,10 +377,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -412,10 +412,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -484,10 +484,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -519,10 +519,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -554,10 +554,10 @@
 														</div>
 														<div class="row align-items-center">
 															<div class="col-2">
-																<input type="text" class="form-control" placeholder="단축코드">
+																<input type="text" class="form-control" placeholder="단축 코드">
 															</div>
 															<div class="col-10">
-																단축코드는 알파벳 2자리로 설정합니다.
+																단축 코드는 알파벳 2자리로 설정합니다.
 															</div>
 														</div>
 													</div>
@@ -687,7 +687,7 @@
 														<div class="form-check-inline py-2">
                                                             <input class="form-check-input" type="checkbox" id="formCheck32">
                                                             <label class="form-check-label" for="formCheck32">
-                                                                이메일
+                                                                ID(EMAIL)
                                                             </label>
                                                         </div>
 														<div class="form-check-inline py-2">
@@ -708,7 +708,7 @@
                                         </div>
 
 										<div class="row">
-                                            <label for="picName" class="col-auto col-form-label fw-bold info-tit ps-3">예약방법</label>
+                                            <label for="picName" class="col-auto col-form-label fw-bold info-tit ps-3">예약 방법</label>
 
                                             <div class="col-10 info-con">
 												<div class="row align-items-center">
@@ -752,7 +752,7 @@
 								<div class="card">
 									<div class="card-body">
 										<div class="row align-items-center mb-2">
-                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">예약방법</span>
+                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">예약 방법</span>
 
                                             <div class="col-10 info-con ps-0">
 												<div class="form-check form-check-inline">
@@ -779,7 +779,7 @@
                                         </div>
 
 										<div class="row align-items-center mb-2">
-                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">1일 예약가능횟수</span>
+                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">1일 예약 가능횟수</span>
 
                                             <div class="col-10 info-con ps-0">
 												<div class="form-check form-check-inline">
@@ -1157,12 +1157,12 @@
                                         </div>
 
 										<div class="row align-items-center mb-2">
-                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">골프장 홈페이지<br>예약여부</span>
+                                            <span class="col-auto col-form-label fw-bold info-tit ps-3">골프장 홈페이지<br>예약 여부</span>
 
                                             <div class="col-10 info-con ps-0">
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" name="caddyRadio" id="caddyRadio01" value="예약가능" checked="">
-													<label class="form-check-label" for="caddyRadio01">예약가능</label>
+													<input class="form-check-input" type="radio" name="caddyRadio" id="caddyRadio01" value="예약 가능" checked="">
+													<label class="form-check-label" for="caddyRadio01">예약 가능</label>
 												</div>
 												<div class="form-check form-check-inline">
 													<input class="form-check-input" type="radio" name="caddyRadio" id="caddyRadio02" value="예약불가">

@@ -46,8 +46,8 @@
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="위약 구분">
 													<option value="노쇼">노쇼</option>
-													<option value="정상취소">정상취소</option>
-													<option value="우천취소">우천취소</option>
+													<option value="정상 취소">정상 취소</option>
+													<option value="우천 취소">우천 취소</option>
 													<option value="1일전 취소">1일전 취소</option>
 													<option value="2일전 취소">2일전 취소</option>
 													<option value="3일전 취소">3일전 취소</option>
@@ -111,8 +111,8 @@
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
 																			<li><button type="button" class="dropdown-item">노쇼</button></li>
-																			<li><button type="button" class="dropdown-item">정상취소</button></li>
-																			<li><button type="button" class="dropdown-item">우천취소</button></li>
+																			<li><button type="button" class="dropdown-item">정상 취소</button></li>
+																			<li><button type="button" class="dropdown-item">우천 취소</button></li>
 																			<li><button type="button" class="dropdown-item">1일전 취소</button></li>
 																			<li><button type="button" class="dropdown-item">2일전 취소</button></li>
 																			<li><button type="button" class="dropdown-item">3일전 취소</button></li>
@@ -162,8 +162,8 @@
 																<td>
 																	<select class="form-select w-auto mx-auto">
 																		<option value="노쇼" selected>노쇼</option>
-																		<option value="정상취소">정상취소</option>
-																		<option value="우천취소">우천취소</option>
+																		<option value="정상 취소">정상 취소</option>
+																		<option value="우천 취소">우천 취소</option>
 																		<option value="1일전 취소">1일전 취소</option>
 																		<option value="2일전 취소">2일전 취소</option>
 																		<option value="3일전 취소">3일전 취소</option>

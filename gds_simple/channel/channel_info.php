@@ -29,7 +29,7 @@
 								<div class="card">
 									<div class="card-body">
 										<div class="d-flex align-items-center"">
-											<h4 class="card-title">월별 채널 예약현황 조회</h4>
+											<h4 class="card-title">월별 채널 예약 현황 조회</h4>
 											<div class="form-check form-check-inline align-top me-0">
 												<select class="form-select font-size-16 fw-semibold text-primary">
 													<option value="2023.05" selected="">2023.05</option>
@@ -613,7 +613,7 @@
 																</div>
 															</th>
 															<th>예약 메모</th>
-															<th>접수일시</th>
+															<th>접수 일시</th>
 														</tr>
 													</thead>
 
@@ -881,7 +881,7 @@
 																</div>
 															</th>
 															<th>예약 메모</th>
-															<th>접수일시</th>
+															<th>접수 일시</th>
 														</tr>
 													</thead>
 
@@ -1149,7 +1149,7 @@
 																</div>
 															</th>
 															<th>예약 메모</th>
-															<th>접수일시</th>
+															<th>접수 일시</th>
 														</tr>
 													</thead>
 
@@ -1417,7 +1417,7 @@
 																</div>
 															</th>
 															<th>예약 메모</th>
-															<th>접수일시</th>
+															<th>접수 일시</th>
 														</tr>
 													</thead>
 
@@ -1685,7 +1685,7 @@
 																</div>
 															</th>
 															<th>예약 메모</th>
-															<th>접수일시</th>
+															<th>접수 일시</th>
 														</tr>
 													</thead>
 

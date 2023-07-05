@@ -75,7 +75,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -175,7 +175,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -267,7 +267,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -278,7 +278,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -357,7 +357,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -368,7 +368,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -431,7 +431,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -442,7 +442,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -505,7 +505,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -516,7 +516,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -579,7 +579,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -590,7 +590,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -645,7 +645,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -656,7 +656,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -711,7 +711,7 @@
 
 																<thead>
 																	<tr>
-																		<th>상품코드</th>
+																		<th>상품 코드</th>
 																		<th>가격</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
@@ -722,7 +722,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>

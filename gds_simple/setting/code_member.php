@@ -54,9 +54,9 @@
 
 												<thead>
 													<tr>
-														<th>할인코드</th>
-														<th>단축코드</th>														
-														<th>할인금액</th>
+														<th>할인 코드</th>
+														<th>단축 코드</th>														
+														<th>할인 금액</th>
 														<th>사용안함</th>
 														<th>정렬</th>
 														<th>비고</th>
@@ -67,7 +67,7 @@
 												<tbody>
 													<tr>
 														<td><input class="form-control form-control-em text-center p-0 " type="text" placeholder="VIP73"></td>
-														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 														<td><input class="form-control form-control-em text-center p-0 " type="text" placeholder="110,000"></td>
 														<td><input class="form-check-input" type="checkbox" disabled></td>
 														<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -163,7 +163,7 @@
 
 												<tbody>
 													<tr>
-														<th class="text-end">적용일자</th>
+														<th class="text-end">적용 일자</th>
 														<td><input type="text" class="form-control datepicker w-100"></td>
 													</tr>
 													<tr>

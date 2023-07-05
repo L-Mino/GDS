@@ -81,7 +81,7 @@
 																		<th>가격</th>
 																		<th>정렬</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -529,7 +529,7 @@
 																		<th>가격</th>
 																		<th>정렬</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -969,7 +969,7 @@
 
 												<tbody>
 													<tr>
-														<th class="text-end">적용일자</th>
+														<th class="text-end">적용 일자</th>
 														<td><input type="text" class="form-control datepicker w-100"></td>
 													</tr>
 													<tr>

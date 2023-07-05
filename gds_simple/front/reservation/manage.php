@@ -164,7 +164,7 @@
 
 											<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-													<option value="예약상태">예약상태</option>
+													<option value="예약 상태">예약 상태</option>
 													<option value="블럭">블럭</option>
 													<option value="그린피">그린피</option>
 													<option value="인원">인원</option>

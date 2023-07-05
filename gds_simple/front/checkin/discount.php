@@ -1,7 +1,7 @@
 <?php include "../../partials/main.php"; ?>
 
     <head>
-		<?php $title = '할인내역 관리'; include "../../partials/title-meta.php"; ?>
+		<?php $title = '할인 내역 관리'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
 
@@ -176,7 +176,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>할인금액</th>
+															<th>할인 금액</th>
 															<th>비고</th>
 														</tr>
 													</thead>

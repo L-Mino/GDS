@@ -442,7 +442,7 @@
 											</li>
 											<li class="nav-item">
 												<a class="nav-link" data-bs-toggle="tab" href="#annualSales02" role="tab">
-													<span>예약률</span>
+													<span>개예약률</span>
 												</a>
 											</li>
 											<li class="nav-item">
@@ -604,9 +604,7 @@
 												</tr>
 											</tbody>
 										</table>										
-
-                                        <p class="desc text-end font-size-11 mt-3">(단위: 10,000원)</p>
-                                    </div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -831,11 +829,11 @@
 				},
 				yaxis: {
 					title: {
-						text: "매출액 (단위 : 10000원)"
+						text: "매출액"
 					},
 					labels: {
 						formatter: function(val) {
-							return Number(val).toLocaleString()
+							return Number(val).toLocaleString() + "원"
 						}
 					}					
 				},
@@ -934,11 +932,11 @@
 				},
 				yaxis: {
 					title: {
-						text: "매출액 (단위 : 10000원)"
+						text: "매출액"
 					},
 					labels: {
 						formatter: function(val) {
-							return Number(val).toLocaleString()
+							return Number(val).toLocaleString() + "원"
 						}
 					}										
 				},
@@ -1174,13 +1172,6 @@
 						type: "line",
 						data: [23, 42, 35, 27, 43]
 				}],
-				grid: {
-					show: true,
-					row: {
-						colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
-			            opacity:0.5
-			        }
-				},                
 				stroke: {
 					width: [0, 2]
 				},

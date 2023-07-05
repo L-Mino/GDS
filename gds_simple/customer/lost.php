@@ -39,7 +39,7 @@
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="참고부서 선택">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="참고 부서 선택">
 													<option value="1">1</option>
 													<option value="2">2</option>
 													<option value="3">3</option>
@@ -73,7 +73,7 @@
 													<thead>
 														<tr>
 															<th>구분</th>
-															<th>등록일자</th>
+															<th>등록 일자</th>
 															<th>유형</th>
 															<th>물품명</th>
 															<th>장소</th>
@@ -92,7 +92,7 @@
 															<td class="text-start">여락 파우더룸 바구니</td>
 															<td>홍길동</td>
 															<td>01012345678</td>
-															<td>수령확인</td>
+															<td>수령 확인</td>
 														</tr>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>2</td>
@@ -112,7 +112,7 @@
 															<td class="text-start">3부 라운드중</td>
 															<td>박이순</td>
 															<td>01012345678</td>
-															<td>수령예정</td>
+															<td>수령 예정</td>
 														</tr>
 														<tr role="button" data-bs-toggle="modal" data-bs-target=".actionLostModal">
 															<td>4</td>
@@ -398,7 +398,7 @@
 													<tr>
 														<th>비고</th>
 														<td colspan="3">														
-															<input class="form-control" type="text" value="05월 06일 내장수령 예정">
+															<input class="form-control" type="text" value="05월 06일 내장 수령 예정">
 														</td>
 													</tr>													
 												</tbody>
@@ -430,7 +430,7 @@
 															</div>
 															<div class="form-check form-check-inline">
 																<input class="form-check-input" type="checkbox" id="check02" value="option2" checked>
-																<label class="form-check-label" for="check02">수령확인</label>
+																<label class="form-check-label" for="check02">수령 확인</label>
 															</div>															
 														</td>
 													</tr>
@@ -439,9 +439,9 @@
 														<td>																
 															<input class="form-control" type="text" value="홍길영">
 														</td>
-														<th>전달방법</th>
+														<th>전달 방법</th>
 														<td>																
-															<input class="form-control" type="text" value="내장수령">
+															<input class="form-control" type="text" value="내장 수령">
 														</td>
 													</tr>	
 													<tr>

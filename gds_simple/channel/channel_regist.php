@@ -68,14 +68,14 @@
 																</th>																
 																<th>형식</th>
 																<th>업체명</th>
-																<th>기본코드</th>
-																<th>단축코드</th>
+																<th>기본 코드</th>
+																<th>단축 코드</th>
 																<th>그린피 할인</th>
-																<th>대표전화</th>
-																<th>결재구분</th>
-																<th>정산마감</th>
+																<th>대표 전화</th>
+																<th>결재 구분</th>
+																<th>정산 마감</th>
 																<th>담당자명</th>
-																<th>이메일</th>
+																<th>ID(EMAIL)</th>
 																<th>핸드폰</th>
 															</tr>
 														</thead>
@@ -178,8 +178,8 @@
 										</div>
 
 										<p class="mt-3">
-											기본코드 - 채널 업체를 확인할 수 있는 8자 이내 코드 / 티타임 블럭 및 그린피 설정에 표시됨<br>
-											단축코드 - 채널 업체를 구분할 수 있는 2자 이내 코드 (B1,B2 / C1,C2) / 예약 현황에 표시됨
+											기본 코드 - 채널 업체를 확인할 수 있는 8자 이내 코드 / 티타임 블럭 및 그린피 설정에 표시됨<br>
+											단축 코드 - 채널 업체를 구분할 수 있는 2자 이내 코드 (B1,B2 / C1,C2) / 예약 현황에 표시됨
 										</p>
 									</div>
 								</div>
@@ -218,7 +218,7 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>																		
@@ -273,15 +273,15 @@
 
 																<tbody>
 																	<tr>
-																		<th>대표전화</th>
+																		<th>대표 전화</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>사업자번호</th>
+																		<th>사업자 번호</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>접속아이피</th>
+																		<th>접속 아이피</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -291,7 +291,7 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>이메일</th>
+																		<th>ID(EMAIL)</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -331,7 +331,7 @@
 
 																<tbody>
 																	<tr class="table-bg-gray">
-																		<th>결재구분</th>
+																		<th>결재 구분</th>
 																		<td>
 																			<div class="form-check form-check-inline ms-10">
 																				<input class="form-check-input" type="radio" name="payRadios" id="payRadios1" value="option1" checked>
@@ -342,7 +342,7 @@
 																				<label class="form-check-label fw-bold" for="payRadios2">후불</label>
 																			</div>
 																		</td>
-																		<th>정산마감일</th>
+																		<th>정산 마감일</th>
 																		<td>
 																			<div class="d-flex align-items-center">
 																				<span>매월</span>
@@ -391,8 +391,8 @@
 																			</div>
 																			<span>%</span>
 																			<div class="form-check form-check-inline ms-3 me-1">
-																				<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios2" value="할인금액">
-																				<label class="form-check-label fw-bold" for="gridRadios2">할인금액</label>
+																				<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios2" value="할인 금액">
+																				<label class="form-check-label fw-bold" for="gridRadios2">할인 금액</label>
 																			</div>		
 																			<div class="form-check form-check-inline p-0 m-0">
 																				<input class="form-control input_w110 text-end gridRadios2Input" type="text" disabled> 
@@ -437,7 +437,7 @@
 
 									<div class="modal-footer">
 										<div class="d-flex justify-content-between align-items-center w-100 m-0">
-											<p class="desc">Agent에 소속된 agency의 경우 총판 기본코드에 _(1) 사용 / 단축코드는 동일  |  GDS 정보 보안을 위해 구글 OTP 사용 필수 / OTP 사용 안내</p>
+											<p class="desc">Agent에 소속된 agency의 경우 총판 기본 코드에 _(1) 사용 / 단축 코드는 동일  |  GDS 정보 보안을 위해 구글 OTP 사용 필수 / OTP 사용 안내</p>
 											<div class="d-flex gap-2">
 												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
 												<button type="button" class="btn btn-custom">저장</button>
@@ -476,7 +476,7 @@
 					$('.gridRadios2Input').attr('disabled', 'disabled');
 					$('.gridRadios1Input').removeAttr('disabled');
 					$('.gridRadios1Input').focus();
-				} else if (valueCheck == '할인금액') {
+				} else if (valueCheck == '할인 금액') {
 					$('.gridRadios1Input').attr('disabled', 'disabled');
 					$('.gridRadios2Input').removeAttr('disabled');
 					$('.gridRadios2Input').focus();					

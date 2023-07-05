@@ -54,7 +54,7 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>
+															</div>															
 															<!--span class="mx-2">-</span-->
 															<!--span>설명</span-->
 														</div>
@@ -82,7 +82,7 @@
 																		<th>공급가</th>
 																		<th>부가세</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -211,7 +211,7 @@
 																		<th>공급가</th>
 																		<th>부가세</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -340,7 +340,7 @@
 																		<th>공급가</th>
 																		<th>부가세</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -469,7 +469,7 @@
 																		<th>공급가</th>
 																		<th>부가세</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -598,7 +598,7 @@
 																		<th>공급가</th>
 																		<th>부가세</th>
 																		<th>비고</th>
-																		<th>등록/수정일</th>
+																		<th>등록 / 수정일</th>
 																		<th>저장</th>
 																	</tr>
 																</thead>
@@ -722,7 +722,7 @@
 
 												<tbody>
 													<tr>
-														<th class="text-end">적용일자</th>
+														<th class="text-end">적용 일자</th>
 														<td><input type="text" class="form-control datepicker w-100"></td>
 													</tr>
 													<tr>

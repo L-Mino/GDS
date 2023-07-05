@@ -29,7 +29,7 @@
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<!--div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select" id="penaltySelect01">
-													<option value="회원구분" selected>회원구분</option>
+													<option value="회원 구분" selected>회원 구분</option>
 													<option value="임직원">임직원</option>
 													<option value="법인 회원">법인 회원</option>
 													<option value="인터넷 회원">인터넷 회원</option>
@@ -71,9 +71,9 @@
 															<th>성명</th>
 															<th>연락처</th>
 															<th>성별</th>
-															<th>회원번호</th>
-															<th>회원구분</th>
-															<th>ID(이메일)</th>
+															<th>회원 번호</th>
+															<th>회원 구분</th>
+															<th>ID(EMAIL)</th>
 														</tr>
 													</thead>
 
@@ -217,8 +217,19 @@
 													</select>
 												</td>
 												<th>핸드폰<span class="text-primary">*</span></th>
-												<td><input class="form-control" type="text"></td>
-												<th>이메일(ID)</th>
+												<td>
+													<div class="d-flex">
+														<div class="form-check form-check-inline p-0 m-0">
+															<select class="form-select w-auto">
+																<option value="+82" selected>+82</option>
+																<option value="+82">+82</option>
+																<option value="+82">+82</option>
+															</select>
+														</div>
+														<input class="form-control flex-fill" type="text">
+													</div>
+												</td>
+												<th>ID(EMAIL)</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 										</tbody>
@@ -238,7 +249,7 @@
 
 										<tbody>
 											<tr class="table-bg-gray">
-												<th>회원구분</th>
+												<th>회원 구분</th>
 												<td>
 													<select class="form-select">
 														<option value="임직원" selected>임직원</option>
@@ -247,18 +258,18 @@
 														<option value="비회원" >비회원</option>
 													</select>
 												</td>
-												<th>회원등급</th>
+												<th>회원 등급</th>
 												<td>
 													<select class="form-select">
-														<option value="회원등급" selected>회원등급</option>
-														<option value="회원등급" >회원등급</option>
+														<option value="회원 등급" selected>회원 등급</option>
+														<option value="회원 등급" >회원 등급</option>
 													</select>
 												</td>
-												<th>회원번호</th>
+												<th>회원 번호</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 											<tr>
-												<th>할인코드</th>
+												<th>할인 코드</th>
 												<td>
 													<div class="row w-100">
 														<div class="col-9">
@@ -325,17 +336,17 @@
 
 										<tbody>
 											<tr class="table-bg-gray">
-												<th>약관동의</th>
+												<th>약관 동의</th>
 												<td>필수 / 약관 /  광고</td>
-												<th>약관동의일</th>
+												<th>약관 동의일</th>
 												<td>2023.05.01</td>
-												<th>약관동의IP</th>
+												<th>약관 동의 IP</th>
 												<td>123.421.12.12</td>
 											</tr>
 											<tr>
 												<th>가입일</th>
 												<td>2023.05.01</td>
-												<th>수신동의</th>
+												<th>수신 동의</th>
 												<td colspan="3">
 													<div class="form-check form-check-inline">
 														<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
@@ -347,7 +358,7 @@
 													</div>
 													<div class="form-check form-check-inline">
 														<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
-														<label class="form-check-label" for="inlineCheckbox3">이메일</label>
+														<label class="form-check-label" for="inlineCheckbox3">EMAIL</label>
 													</div>
 												</td>
 											</tr>
@@ -355,7 +366,7 @@
 									</table>
 								</div>
 
-								<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+								<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 
 								<div class="border-bottom pb-3 mb-5"></div>
 
@@ -367,7 +378,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist02" role="tab">
-											<span>소속단체</span>
+											<span>소속 단체</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -377,17 +388,17 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist04" role="tab">
-											<span>예약대기</span>
+											<span>예약 대기</span>
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist05" role="tab">
-											<span>내장내역</span>
+											<span>내장 내역</span>
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist06" role="tab">
-											<span>위약내역</span>
+											<span>위약 내역</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -397,7 +408,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist08" role="tab">
-											<span>회원성향</span>
+											<span>회원 성향</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -407,7 +418,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist10" role="tab">
-											<span>서류/증빙</span>
+											<span>서류 / 증빙</span>
 										</a>
 									</li>										
 									<li class="nav-item">
@@ -458,7 +469,7 @@
 
 												<tbody>
 													<tr>
-														<th>예약여부</th>
+														<th>예약 여부</th>
 														<td>
 															<div class="form-check form-check-inline ms-10">
 																<input class="form-check-input" type="radio" name="radio01" id="radio01_01" value="유" checked>
@@ -469,9 +480,9 @@
 																<label class="form-check-label" for="radio01_02">무</label>
 															</div>
 														</td>
-														<th>주중예약수</th>
+														<th>주중 예약수</th>
 														<td><input class="form-control" type="text" value="0"></td>
-														<th>주말예약수</th>
+														<th>주말 예약수</th>
 														<td><input class="form-control" type="text" value="0"></td>
 													</tr>
 													<tr>
@@ -518,12 +529,12 @@
 														<th>회원권</th>
 														<td>
 															<select class="form-select">
-																<option value="회원권 선택" selected>회원등급</option>
+																<option value="회원권 선택" selected>회원 등급</option>
 																<option value="회원권1" >회원권1</option>
 																<option value="회원권2" >회원권2</option>
 															</select>
 														</td>
-														<th>주중요금</th>
+														<th>주중 요금</th>
 														<td>
 															<select class="form-select">
 																<option value="120" selected>120</option>
@@ -531,7 +542,7 @@
 																<option value="140" >140</option>
 															</select>
 														</td>
-														<th>주말요금</th>
+														<th>주말 요금</th>
 														<td>
 															<select class="form-select">
 																<option value="120" selected>120</option>
@@ -544,7 +555,7 @@
 											</table>
 										</div>
 
-										<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+										<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 									</div>
 
 									<div class="tab-pane" id="memberRegist02" role="tabpanel">
@@ -564,12 +575,12 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>단체년도</th>
-													<th>단체구분</th>
+													<th>단체 연도</th>
+													<th>단체 구분</th>
 													<th>단체명</th>
 													<th>단축명</th>
 													<th>회원 / 팀</th>
-													<th>희망 주/요일</th>
+													<th>희망 시기</th>
 													<th>총무</th>
 													<th>총무 연락처</th>
 												</tr>
@@ -688,7 +699,7 @@
 												<thead>
 													<tr>
 														<th>구분</th>
-														<th>예약일자</th>
+														<th>예약 일자</th>
 														<th>코스</th>
 														<th>시간</th>
 														<th>예약자명</th>
@@ -700,8 +711,8 @@
 														<th>채널</th>
 														<th>결제 관리</th>
 														<th>예약 메모</th>
-														<th>접수일시</th>
-														<th>등록/ID</th>
+														<th>접수 일시</th>
+														<th>ID(EMAIL)</th>
 														<th>IP</th>
 														<th>비고</th>
 													</tr>
@@ -723,7 +734,7 @@
 														<td>선불/입금대기</td>
 														<td>GX/2일</td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td>비고테스트비고테스트</td>
 													</tr>
@@ -742,7 +753,7 @@
 														<td>200,000</td>
 														<td>GX/2일</td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td>비고테스트비고테스트</td>
 													</tr>
@@ -761,7 +772,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -780,7 +791,7 @@
 														<td>선불/입금대기</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -799,7 +810,7 @@
 														<td>200,000</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -818,7 +829,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -837,7 +848,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -856,7 +867,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -875,7 +886,7 @@
 														<td>후불</td>
 														<td></td>
 														<td>04-15 16:35:03</td>
-														<td>B_golfang_A007</td>
+														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
 														<td></td>
 													</tr>
@@ -961,12 +972,12 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>희망일자</th>
-													<th>희망코스</th>
-													<th>희망시간1</th>
-													<th>희망시간2</th>
-													<th>적용코스</th>
-													<th>적용시간</th>
+													<th>희망 일자</th>
+													<th>희망 코스</th>
+													<th>희망 시간1</th>
+													<th>희망 시간2</th>
+													<th>적용 코스</th>
+													<th>적용 시간</th>
 													<th>비고</th>
 												</tr>
 											</thead>
@@ -1076,7 +1087,7 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>내장일자</th>
+													<th>내장 일자</th>
 													<th>코스</th>
 													<th>시간</th>
 													<th>그린피</th>
@@ -1200,7 +1211,7 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>예약일자</th>
+													<th>예약 일자</th>
 													<th>코스</th>
 													<th>티타임</th>
 													<th>예약자</th>
@@ -1320,12 +1331,12 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>경기일자</th>
+													<th>경기 일자</th>
 													<th>시간</th>
 													<th>유형</th>
-													<th>참고부서</th>
+													<th>참고 부서</th>
 													<th>조치</th>
-													<th>회원말씀</th>
+													<th>회원 말씀</th>
 												</tr>
 											</thead>
 
@@ -1460,7 +1471,7 @@
 																<label class="form-check-label" for="radio03_03">빠름</label>
 															</div>
 														</td>
-														<th>느린이유</th>
+														<th>느린 이유</th>
 														<td colspan="3"><input class="form-control" type="text" value="인터발이 너무 길어요. 진행포기 앞에 팀이 없어도 안감"></td>
 													</tr>
 													<tr>
@@ -1472,7 +1483,7 @@
 														<td><input class="form-control" type="text" value="자주하시는 말: 왜? 급해? 천천히 쳐"></td>
 													</tr>
 													<tr>
-														<th>캐디칭찬</th>
+														<th>캐디 칭찬</th>
 														<td><input class="form-control" type="text"></td>
 														<th>드라이버</th>
 														<td><input class="form-control" type="text" value="170m"></td>
@@ -1495,7 +1506,7 @@
 											</table>
 										</div>
 
-										<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+										<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 									</div>
 							
 									<div class="tab-pane" id="memberRegist09" role="tabpanel">
@@ -1512,7 +1523,7 @@
 											<thead>
 												<tr>
 													<th>구분</th>
-													<th>내장일자</th>
+													<th>내장 일자</th>
 													<th>시간</th>
 													<th>전반 코스</th>
 													<th>후반 코스</th>
@@ -1634,7 +1645,7 @@
 											</table>
 										</div>
 
-										<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+										<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 									</div>
 
 									<div class="tab-pane" id="memberRegist11" role="tabpanel">
@@ -1649,16 +1660,16 @@
 
 												<tbody>
 													<tr>
-														<th>차량번호</th>
+														<th>차량 번호</th>
 														<td><input class="form-control" type="text"></td>
-														<th>차량구분</th>
+														<th>차량 구분</th>
 														<td><input class="form-control" type="text"></td>
 													</tr>
 												</tbody>
 											</table>
 										</div>
 
-										<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+										<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 									</div>
 								</div>
 							</div>

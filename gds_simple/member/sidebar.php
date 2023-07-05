@@ -20,7 +20,7 @@
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 내장현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">회원별 매출현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">개인정보파기안내</a></li>
-                        <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#"><span key="t-">회원등급 / 권한(중복)</span></a></li-->
+                        <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#"><span key="t-">회원 등급 / 권한(중복)</span></a></li-->
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">마케팅</a></li>
                     </ul>
                 </li>

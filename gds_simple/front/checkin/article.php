@@ -1,7 +1,7 @@
 <?php include "../../partials/main.php"; ?>
 
     <head>
-		<?php $title = '물품대여 현황'; include "../../partials/title-meta.php"; ?>
+		<?php $title = '물품 대여 현황'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
 
@@ -68,7 +68,7 @@
 													<thead>
 														<tr>
 															<th>No</th>
-															<th>내장일자</th>
+															<th>내장 일자</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -80,7 +80,7 @@
 															</th>
 															<th>시간</th>
 															<th>내장자명</th>
-															<th>회원번호</th>
+															<th>회원 번호</th>
 															<th>대여품</th>
 															<th>공급가</th>
 															<th>부가세</th>

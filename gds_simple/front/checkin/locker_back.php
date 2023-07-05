@@ -94,10 +94,10 @@
 											</div>
 
 											<div class="d-flex flex-wrap gap-2 ms-auto">
-												<button type="button" class="btn btn-sm btn-custom">예약문자</button>
+												<button type="button" class="btn btn-sm btn-custom">예약 문자</button>
 												<button type="button" class="btn btn-sm btn-custom">SMS</button>
 												<button type="button" class="btn btn-sm btn-custom">팀추가</button>
-												<button type="button" class="btn btn-sm btn-custom">예약대기</button>
+												<button type="button" class="btn btn-sm btn-custom">예약 대기</button>
 											</div>
 										</div>
 

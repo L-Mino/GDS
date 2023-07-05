@@ -32,7 +32,7 @@
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select" id="penaltySelect01">
-													<option value="회원구분" selected>회원구분</option>
+													<option value="회원 구분" selected>회원 구분</option>
 													<option value="임직원">임직원</option>
 													<option value="법인 회원">법인 회원</option>
 													<option value="인터넷 회원">인터넷 회원</option>
@@ -67,12 +67,12 @@
 													<thead>
 														<tr>
 															<th>구분</th>
-															<th>단체년도</th>
-															<th>단체구분</th>
+															<th>단체 연도</th>
+															<th>단체 구분</th>
 															<th>단체명</th>
 															<th>단축명</th>															
 															<th>회원 / 팀</th>															
-															<th>희망시기</th>
+															<th>희망 시기</th>
 															<th>총무</th>
 															<th>총무 연락처</th>
 															<th>탈퇴</th>
@@ -201,7 +201,7 @@
 												<td><input class="form-control" type="text" value="92유공"></td>
 												<th>단축명</th>
 												<td><input class="form-control" type="text"></td>
-												<th>단체구분</th>
+												<th>단체 구분</th>
 												<td>
 													<select class="form-select">
 														<option value="연단체" selected>연단체</option>
@@ -210,14 +210,14 @@
 												</td>
 											</tr>
 											<tr>
-												<th>단체년도</th>
+												<th>단체 연도</th>
 												<td>
 													<select class="form-select">
 														<option value="2023" selected>2023</option>
 														<option value="2022">2022</option>
 													</select>
 												</td>
-												<th>성적산출</th>
+												<th>성적 산출</th>
 												<td>
 													<div class="form-check form-check-inline ms-10">
 														<input class="form-check-input" type="checkbox" id="calc01" value="option1">
@@ -228,7 +228,7 @@
 														<label class="form-check-label" for="calc02">스트로크</label>
 													</div>
 												</td>
-												<th>가입일자</th>
+												<th>가입 일자</th>
 												<td>
 													<div class="d-flex align-items-center justify-content-between">
 														<div class="form-check form-check-inline ps-0 me-0">
@@ -251,7 +251,7 @@
 														</div>
 													</div>
 												</td>
-												<th>희망시기</th>
+												<th>희망 시기</th>
 												<td>
 													<div class="form-check form-check-inline p-0 m-0">
 														<select class="form-select">
@@ -273,7 +273,7 @@
 														</select>
 													</div>
 												</td>
-												<th>희망시간</th>
+												<th>희망 시간</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 											<tr>
@@ -281,10 +281,10 @@
 												<td>
 													<div class="d-flex align-items-center">
 														<input class="form-check-input ms-10" type="checkbox">
-														<span class="ms-2">탈퇴일시 23.10.12 09:00:00</span>
+														<span class="ms-2">탈퇴 일시 23.10.12 09:00:00</span>
 													</div>
 												</td>
-												<th>단체번호</th>
+												<th>단체 번호</th>
 												<td><span class="ms-10">123456</span></td>
 												<th>비밀번호</th>
 												<td><input class="form-control" type="text"></td>
@@ -315,7 +315,7 @@
 												<td><input class="form-control" type="text"></td>
 												<th>연락처</th>
 												<td><input class="form-control" type="text"></td>
-												<th>ID(이메일)</th>
+												<th>ID(EMAIL)</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 										</tbody>
@@ -340,14 +340,14 @@
 												<td><input class="form-control" type="text"></td>
 												<th>연락처</th>
 												<td><input class="form-control" type="text"></td>
-												<th>ID(이메일)</th>
+												<th>ID(EMAIL)</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 										</tbody>
 									</table>
 								</div>
 
-								<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+								<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 							</div>
 						</div>
 		                <!--//offcanvas -->

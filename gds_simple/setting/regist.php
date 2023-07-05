@@ -259,7 +259,7 @@
 														</td>
 													</tr>													
 													<tr>
-														<th class="text-end">아이디(이메일)</th>
+														<th class="text-end">ID(EMAIL)</th>
 														<td>
 															<input type="text" class="form-control">
 														</td>

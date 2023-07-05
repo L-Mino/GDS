@@ -53,14 +53,14 @@
 															</th>
 															<th>형식</th>
 															<th>업체명</th>
-															<th>기본코드 1</th>
-															<th>단축코드</th>
+															<th>기본 코드 1</th>
+															<th>단축 코드</th>
 															<th>그린피 할인율</th>
-															<th>대표전화</th>
-															<th>결재구분</th>
-															<th>정산마감</th>
+															<th>대표 전화</th>
+															<th>결재 구분</th>
+															<th>정산 마감</th>
 															<th>담당자명</th>
-															<th>이메일</th>
+															<th>ID(EMAIL)</th>
 															<th>핸드폰</th>
 														</tr>
 													</thead>
@@ -162,8 +162,8 @@
 										</div>
 
 										<p class="mt-3">
-											기본코드 - 채널 업체를 확인할 수 있는 8자 이내 코드 / 티타임 블럭 및 그린피 설정에 표시됨<br>
-											단축코드 - 채널 업체를 구분할 수 있는 2자 이내 코드 (B1,B2 / C1,C2) / 예약 현황에 표시됨
+											기본 코드 - 채널 업체를 확인할 수 있는 8자 이내 코드 / 티타임 블럭 및 그린피 설정에 표시됨<br>
+											단축 코드 - 채널 업체를 구분할 수 있는 2자 이내 코드 (B1,B2 / C1,C2) / 예약 현황에 표시됨
 										</p>
 									</div>
 								</div>
@@ -212,11 +212,11 @@
 																				<option value="채널 형식">채널 형식</option>
 																			</select>
 																		</th>
-																		<th class="text-end">기본코드</th>
+																		<th class="text-end">기본 코드</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">단축코드</th>
+																		<th class="text-end">단축 코드</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -226,15 +226,15 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">대표전화</th>
+																		<th class="text-end">대표 전화</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">사업자번호</th>
+																		<th class="text-end">사업자 번호</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">접속아이피</th>
+																		<th class="text-end">접속 아이피</th>
 																		<td>
 																			<input class="form-control" type="text" >
 																		</td>
@@ -244,7 +244,7 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">이메일</th>
+																		<th class="text-end">ID(EMAIL)</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -282,11 +282,11 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">결재구분</th>
+																		<th class="text-end">결재 구분</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">정산마감</th>
+																		<th class="text-end">정산 마감</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -325,7 +325,7 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">아이디(이메일)</th>
+																		<th class="text-end">ID(EMAIL)</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -343,7 +343,7 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th class="text-end">아이디(이메일)</th>
+																		<th class="text-end">ID(EMAIL)</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
@@ -375,7 +375,7 @@
 										<div class="row">
 											<div class="col">
 												<p class="mb-0">
-													Agent에 소속된 agency의 경우 총판 기본코드에 _(1) 사용 / 단축코드는 동일<br>
+													Agent에 소속된 agency의 경우 총판 기본 코드에 _(1) 사용 / 단축 코드는 동일<br>
 													GDS 정보 보안을 위해 구글 OTP 사용 필수 / OTP 사용 안내
 												</p>
 											</div>

@@ -1745,7 +1745,7 @@
 														<tr>
 															<th>No</th>
 															<th>회원 이름</th>
-															<th>우선순위</th>
+															<th>우선 순위</th>
 															<th>휴대폰</th>
 															<th>시간 I</th>
 															<th>시간 II</th>
@@ -1758,7 +1758,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>취소구분</th>
+															<th>취소 구분</th>
 															<th>비고</th>
 														</tr>
 													</thead>
@@ -2026,7 +2026,7 @@
 																<td><input type="text" class="form-control"></td>
 															</tr>
 															<tr>
-																<th>우선순위</th>
+																<th>우선 순위</th>
 																<td><input type="text" class="form-control"></td>
 															</tr>
 															<tr>
@@ -2046,7 +2046,7 @@
 																</td>
 															</tr>
 															<tr>
-																<th>희망시간 I</th>
+																<th>희망 시간 I</th>
 																<td>
 																	<select class="form-select">
 																		<option value="09시" selected>09시</option>
@@ -2077,7 +2077,7 @@
 																</td>
 															</tr>
 															<tr>
-																<th>희망시간 II</th>
+																<th>희망 시간 II</th>
 																<td>
 																	<select class="form-select">
 																		<option value="09시" selected>09시</option>
@@ -2108,11 +2108,11 @@
 																</td>
 															</tr>
 															<tr>
-																<th>확정코스</th>
+																<th>확정 코스</th>
 																<td></td>
 															</tr>
 															<tr>
-																<th>확정시간</th>
+																<th>확정 시간</th>
 																<td></td>
 															</tr>
 															<tr>
@@ -2164,7 +2164,7 @@
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-bs-toggle="tab" href="#bookingModalTab06" role="tab">
-														<span>예약확정 SMS</span>
+														<span>예약 확정 SMS</span>
 													</a>
 												</li>
 											</ul>
@@ -2246,7 +2246,7 @@
 																			<select class="form-select">
 																				<option value="전화" selected>전화</option>
 																				<option value="팩스">팩스</option>
-																				<option value="이메일">이메일</option>
+																				<option value="ID(EMAIL)">ID(EMAIL)</option>
 																				<option value="방문">방문</option>
 																				<option value="PC-Web">PC-Web</option>
 																				<option value="Mobile-Web">Mobile-Web</option>
@@ -3624,9 +3624,9 @@
 										</div>
 									</div>
 									<div class="modal-footer">
-										<p class="desc">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+										<p class="desc">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 										<!--div class="d-flex justify-content-between align-items-center w-100 m-0">
-											<p class="desc">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+											<p class="desc">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 											<div class="d-flex gap-2">
 												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
 												<button type="button" class="btn btn-custom">저장</button>
@@ -3682,7 +3682,7 @@
 											<tr>
 												<th>핸드폰<span class="text-primary">*</span></th>
 												<td><input class="form-control" type="text"></td>
-												<th>이메일(ID)</th>
+												<th>ID(EMAIL)</th>
 												<td colspan="3"><input class="form-control" type="text"></td>
 											</tr>
 										</tbody>
@@ -3702,7 +3702,7 @@
 
 										<tbody>
 											<tr class="table-bg-gray">
-												<th>회원구분</th>
+												<th>회원 구분</th>
 												<td>
 													<select class="form-select">
 														<option value="임직원" selected>임직원</option>
@@ -3711,18 +3711,18 @@
 														<option value="비회원" >비회원</option>
 													</select>
 												</td>
-												<th>회원등급</th>
+												<th>회원 등급</th>
 												<td>
 													<select class="form-select">
-														<option value="회원등급" selected>회원등급</option>
-														<option value="회원등급" >회원등급</option>
+														<option value="회원 등급" selected>회원 등급</option>
+														<option value="회원 등급" >회원 등급</option>
 													</select>
 												</td>
-												<th>회원번호</th>
+												<th>회원 번호</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 											<tr class="table-bg-gray">
-												<th>할인코드1</th>
+												<th>할인 코드1</th>
 												<td>
 													<div class="row w-100">
 														<div class="col-9">
@@ -3738,7 +3738,7 @@
 														</div>
 													</div>
 												</td>
-												<th>할인코드2</th>
+												<th>할인 코드2</th>
 												<td>
 													<div class="row w-100">
 														<div class="col-9">
@@ -3754,7 +3754,7 @@
 														</div>
 													</div>
 												</td>
-												<th>할인코드3</th>
+												<th>할인 코드3</th>
 												<td>
 													<div class="row w-100">
 														<div class="col-9">
@@ -3788,7 +3788,7 @@
 														<option value="부산">부산</option>
 													</select>
 												</td>
-												<th>수신동의</th>
+												<th>수신 동의</th>
 												<td>
 													<div class="form-check form-check-inline">
 														<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
@@ -3800,7 +3800,7 @@
 													</div>
 													<div class="form-check form-check-inline">
 														<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
-														<label class="form-check-label" for="inlineCheckbox3">이메일</label>
+														<label class="form-check-label" for="inlineCheckbox3">ID(EMAIL)</label>
 													</div>
 												</td>
 											</tr>
@@ -3838,22 +3838,22 @@
 
 										<tbody>
 											<tr class="table-bg-gray">
-												<th>약관동의</th>
+												<th>약관 동의</th>
 												<td colspan="5">필수 / 약관 /  광고</td>
 											</tr>
 											<tr class="table-bg-gray">
 												<th>가입일</th>
 												<td>2023.05.01</td>
-												<th>약관동의일</th>
+												<th>약관 동의일</th>
 												<td>2023.05.01</td>
-												<th>약관동의IP</th>
+												<th>약관 동의 IP</th>
 												<td>123.421.12.12</td>
 											</tr>
 										</tbody>
 									</table>
 								</div>
 
-								<p class="desc mt-3">최초수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
+								<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 
 								<div class="border-bottom pb-3 mb-5"></div>
 
@@ -3865,7 +3865,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist02" role="tab">
-											<span>소속단체</span>
+											<span>소속 단체</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -3880,12 +3880,12 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist05" role="tab">
-											<span>내장내역</span>
+											<span>내장 내역</span>
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist06" role="tab">
-											<span>위약내역</span>
+											<span>위약 내역</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -3895,7 +3895,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist08" role="tab">
-											<span>회원성향</span>
+											<span>회원 성향</span>
 										</a>
 									</li>
 									<li class="nav-item">

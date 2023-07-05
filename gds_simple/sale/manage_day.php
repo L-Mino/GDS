@@ -109,16 +109,16 @@
 																<th>그늘집</th>
 																<th>합계</th>
 																<th>할인</th>
-																<th>결제완료
+																<th>결제 완료
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">결제완료</button></li>
+																			<li><button type="button" class="dropdown-item">결제 완료</button></li>
 																			<li><button type="button" class="dropdown-item">결제대기</button></li>
 																		</ul>
 																	</div>
 																</th>
-																<th>결제구분
+																<th>결제 구분
 																	<div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">

@@ -53,12 +53,12 @@
 
 													<div class="btn-group ms-auto">
 														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조변경</button>
+														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
 														<button type="button" class="btn btn-outline-custom">복사</button>
 														<button type="button" class="btn btn-outline-custom">이동</button>
-														<button type="button" class="btn btn-outline-custom">선불입력</button>
+														<button type="button" class="btn btn-outline-custom">선불 입력</button>
 														<button type="button" class="btn btn-outline-custom">정산</button>
-														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">내장확정</button>
+														<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">내장 확정</button>
 													</div>
 												</div>
 
@@ -84,7 +84,7 @@
 															<th><input class="form-check-input text-dark" type="checkbox"></th>
 															<th>No</th>
 															<th>내장일</th>
-															<th>예약시간</th>
+															<th>예약 시간</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -107,7 +107,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>할인코드
+															<th>할인 코드
 																<div class="dropdown d-inline-block">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
@@ -116,7 +116,7 @@
 																	</ul>
 																</div>
 															</th>
-															<th>할인금액</th>
+															<th>할인 금액</th>
 															<th>비고</th>
 														</tr>
 													</thead>
@@ -334,7 +334,7 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="articleModalLabel">물품대여</h5>
+										<h5 class="modal-title" id="articleModalLabel">물품 대여</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">

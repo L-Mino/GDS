@@ -64,12 +64,12 @@
 
 											<div class="btn-group ms-auto">
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조변경</button>
+												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
 												<button type="button" class="btn btn-outline-custom">복사</button>
 												<button type="button" class="btn btn-outline-custom">이동</button>
-												<button type="button" class="btn btn-outline-custom">선불입력</button>
+												<button type="button" class="btn btn-outline-custom">선불 입력</button>
 												<button type="button" class="btn btn-outline-custom">정산</button>
-												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">내장확정</button>
+												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">내장 확정</button>
 											</div>
 										</div>
 
@@ -309,7 +309,7 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="articleModalLabel">물품대여</h5>
+										<h5 class="modal-title" id="articleModalLabel">물품 대여</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">

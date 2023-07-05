@@ -89,7 +89,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -100,7 +100,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -180,7 +180,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>																		
+																		<th>단축 코드</th>																		
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -191,7 +191,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -255,7 +255,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>																		
+																		<th>단축 코드</th>																		
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -266,7 +266,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -354,7 +354,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>																		
+																		<th>단축 코드</th>																		
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -365,7 +365,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -496,12 +496,12 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>부서</th>																		
 																		<th>직급</th>																		
-																		<th>이메일</th>																		
-																		<th>휴대폰</th>																		
+																		<th>ID(EMAIL)</th>																		
+																		<th>핸드폰</th>																		
 																		<th>정렬</th>
 																		<th>저장</th>
 																	</tr>
@@ -510,7 +510,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td>
 																			<select class="form-select form-select-center ps-0">
@@ -541,8 +541,8 @@
 																				<option value="계약직">계약직</option>
 																			</select>
 																		</td>																		
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="이메일"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="휴대폰"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="ID(EMAIL)"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="핸드폰"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
@@ -608,7 +608,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -619,7 +619,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -675,7 +675,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -686,7 +686,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -750,7 +750,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -761,7 +761,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -841,7 +841,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -852,7 +852,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -932,7 +932,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -943,7 +943,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1031,7 +1031,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1042,14 +1042,14 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
-																		<td>정상취소</td>
+																		<td>정상 취소</td>
 																		<td></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
@@ -1057,7 +1057,7 @@
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
-																		<td>우천취소</td>
+																		<td>우천 취소</td>
 																		<td></td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
@@ -1122,7 +1122,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1133,7 +1133,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1208,7 +1208,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>위약기간</th>
 																		<th>위약금</th>
@@ -1222,7 +1222,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약기간"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약금"></td>
@@ -1345,7 +1345,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1356,7 +1356,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1412,7 +1412,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1423,7 +1423,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1487,7 +1487,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>																		
+																		<th>단축 코드</th>																		
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1498,7 +1498,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1553,7 +1553,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>																		
+																		<th>단축 코드</th>																		
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1564,7 +1564,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1619,7 +1619,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1630,7 +1630,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" maxlength="5" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1693,7 +1693,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1704,7 +1704,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1759,7 +1759,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1770,7 +1770,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1825,7 +1825,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축코드</th>
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1836,7 +1836,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축코드"></td>
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>

@@ -17,12 +17,12 @@
                     </a>
                     <ul class="sub-menu mm-show" aria-expanded="true">
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/teetime.php">티타임 생성</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/manage.php">티타임 관리</a></li>						
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/manage.php">티타임 관리</a></li>
                         <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/greenfee.php">그린피 적용</a></li-->
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/booking.php">예약 접수</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/period.php">기간별 예약 현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/penalty.php">위약 관리</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/rule.php">예약 / 취소 규정</a></li>												
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/rule.php">예약 / 취소 규정</a></li>
                         <!--li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/reservation/channel.php">예약 채널 관리</a></li-->
                     </ul>
                 </li>
@@ -37,8 +37,8 @@
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/manage2.php">내장 등록2</a></li>						
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/status.php">내장 현황 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/guest.php">내장객 현황</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/article.php">물품대여 현황</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/discount.php">할인내역 관리</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/article.php">물품 대여 현황</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/discount.php">할인 내역 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/guestbook.php">방명록 인쇄</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/locker.php">락카 배치표</a></li>
                     </ul>

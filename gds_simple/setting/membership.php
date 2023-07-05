@@ -31,14 +31,14 @@
 									<div class="card-body">
                                         <h4 class="card-title">회원권 설정</h4>
 										<div class="d-flex flex-wrap align-items-center gap-2 my-3">
-                                            <span>적용일자</span>
+                                            <span>적용 일자</span>
                                             <div class="form-check form-check-inline ps-0 me-0">
                                                 <select class="form-select text-blue fw-semibold border-0 h-100">
                                                     <option value="2023.06.30 (금)" selected>2023.06.30 (금)</option>
                                                     <option value="2023.07.01 (토)">2023.07.01 (토)</option>
                                                 </select>
                                             </div>
-                                            <span class="text-gray ms-auto me-3">적용일시: 2023.06.30 00:00:00</span>
+                                            <span class="text-gray ms-auto me-3">적용 일시: 2023.06.30 00:00:00</span>
 											<button type="button" class="btn btn-outline-custom"> 저장</button>
 										</div>
 
@@ -142,12 +142,12 @@
                                                 <table class="table table-layout-fixed text-center table-yellow w-100 mb-0">
                                                     <thead>
                                                         <tr>
-                                                            <th colspan="3">월 예약가능 횟수</th>
+                                                            <th colspan="3">월 예약 가능 횟수</th>
                                                         </tr>
                                                         <tr>
                                                             <th class="fw-normal">월 전체 횟수</th>
                                                             <th class="fw-normal">평일</th>
-                                                            <th class="fw-normal px-0">주말/공휴일</th>
+                                                            <th class="fw-normal px-0">주말 / 공휴일</th>
                                                         </tr>
                                                     </thead>
 

@@ -456,7 +456,7 @@
 
 												<tbody>
 													<tr>
-														<th class="text-end">적용일자</th>
+														<th class="text-end">적용 일자</th>
 														<td><input type="text" class="form-control datepicker w-100"></div> %</td>
 													</tr>
 													<tr>
