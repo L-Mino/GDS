@@ -2588,9 +2588,10 @@
 															<div class="tab-content rounded bg-info-subtle p-3">
 																<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
 																	<textarea rows="7" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적
-																	락카내 쓰레기 정리 요청
-																	2023.04.10 (토) 프론트 이지연 대리
-																	조치 요청 전달 후 처리 완료</textarea>
+																		락카내 쓰레기 정리 요청
+																		2023.04.10 (토) 프론트 이지연 대리
+																		조치 요청 전달 후 처리 완료
+																	</textarea>
 																</div>
 
 																<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
