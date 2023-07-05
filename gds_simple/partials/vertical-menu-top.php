@@ -360,7 +360,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -373,7 +373,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -386,7 +386,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 										</tbody>
@@ -470,7 +470,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -483,7 +483,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 											<tr>
@@ -496,7 +496,7 @@
 												<td>165,000</td>
 												<td>4명</td>
 												<td>AGL</td>
-												<td>노캐디</td>
+												<td>No Caddy</td>
 												<td>메모없음</td>
 											</tr>
 										</tbody>
