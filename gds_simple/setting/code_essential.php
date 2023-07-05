@@ -51,7 +51,7 @@
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code12">위약 사유</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code13">위약 조치</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code14">결제 구분</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">결재 방법</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">결제 방법</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code16">예약 메모</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code17">임시 단체</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code18">내장 인원</a></li>
@@ -1393,7 +1393,7 @@
 
 													<div class="tab-pane fade" id="code15" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">결재 방법</span>
+															<span class="code-title">결제 방법</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
 														</div>

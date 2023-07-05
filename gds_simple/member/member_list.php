@@ -732,7 +732,7 @@
 														<td>아이스커피 50% 할인</td>
 														<td>B_골팡</td>
 														<td>선불/입금대기</td>
-														<td>GX/2일</td>
+														<td>GX / 2일</td>
 														<td>04-15 16:35:03</td>
 														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
@@ -751,7 +751,7 @@
 														<td>아이스커피 50% 할인</td>
 														<td>B_골팡</td>
 														<td>200,000</td>
-														<td>GX/2일</td>
+														<td>GX / 2일</td>
 														<td>04-15 16:35:03</td>
 														<td>abcdefg1234@gmail.com</td>
 														<td>215.123.125.198</td>
@@ -986,20 +986,20 @@
 												<tr>
 													<td>1</td>
 													<td>23.06.05 (월)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>08:00</td>
 													<td>09:00</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>09:00</td>
 													<td>비고테스트비고테스트</td>
 												</tr>
 												<tr>
 													<td>2</td>
 													<td>23.06.05 (월)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>08:00</td>
 													<td>09:00</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>09:00</td>
 													<td>비고테스트비고테스트</td>
 												</tr>
@@ -1104,7 +1104,7 @@
 												<tr>
 													<td>2</td>
 													<td>23.06.05 (월)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>08:00</td>
 													<td>510,000</td>
 													<td>20,000</td>
@@ -1117,7 +1117,7 @@
 												<tr>
 													<td>1</td>
 													<td>23.06.05 (월)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>08:00</td>
 													<td>510,000</td>
 													<td>20,000</td>
@@ -1228,7 +1228,7 @@
 												<tr>
 													<td>2</td>
 													<td>23.06.15 (금)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>11:33</td>
 													<td>홍길동</td>
 													<td>노쇼</td>
@@ -1241,7 +1241,7 @@
 												<tr>
 													<td>1</td>
 													<td>23.06.15 (금)</td>
-													<td>BI</td>
+													<td>EI</td>
 													<td>11:33</td>
 													<td>홍길동</td>
 													<td>노쇼</td>
