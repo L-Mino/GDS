@@ -73,7 +73,7 @@
 															<th>성별</th>
 															<th>회원번호</th>
 															<th>회원구분</th>
-															<th>ID</th>
+															<th>ID(이메일)</th>
 														</tr>
 													</thead>
 

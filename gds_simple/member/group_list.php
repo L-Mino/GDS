@@ -72,7 +72,7 @@
 															<th>단체명</th>
 															<th>단축명</th>															
 															<th>회원 / 팀</th>															
-															<th>희망 주/요일</th>
+															<th>희망시기</th>
 															<th>총무</th>
 															<th>총무 연락처</th>
 															<th>탈퇴</th>
@@ -251,7 +251,7 @@
 														</div>
 													</div>
 												</td>
-												<th>희망 주/요일</th>
+												<th>희망시기</th>
 												<td>
 													<div class="form-check form-check-inline p-0 m-0">
 														<select class="form-select">
@@ -273,7 +273,7 @@
 														</select>
 													</div>
 												</td>
-												<th>희망 시간</th>
+												<th>희망시간</th>
 												<td><input class="form-control" type="text"></td>
 											</tr>
 											<tr>
@@ -313,7 +313,7 @@
 											<tr class="table-bg-gray">
 												<th>담당자명</th>
 												<td><input class="form-control" type="text"></td>
-												<th>담당 연락처</th>
+												<th>연락처</th>
 												<td><input class="form-control" type="text"></td>
 												<th>ID(이메일)</th>
 												<td><input class="form-control" type="text"></td>
@@ -338,7 +338,7 @@
 											<tr class="table-bg-gray">
 												<th>담당자명</th>
 												<td><input class="form-control" type="text"></td>
-												<th>담당 연락처</th>
+												<th>연락처</th>
 												<td><input class="form-control" type="text"></td>
 												<th>ID(이메일)</th>
 												<td><input class="form-control" type="text"></td>

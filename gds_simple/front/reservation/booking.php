@@ -74,12 +74,12 @@
 											<div class="btn-group">
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button>												
-												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".standbyModal">예약대기</button>
+												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".standbyModal">예약 대기</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(3) a').tab('show');">복사</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(4) a').tab('show');">이동</button>
-												<button type="button" class="btn btn-outline-custom">예약가능</button>
-												<button type="button" class="btn btn-outline-custom">예약문자</button>
-												<button type="button" class="btn btn-outline-custom">임의문자</button>												
+												<button type="button" class="btn btn-outline-custom">예약 가능</button>
+												<button type="button" class="btn btn-outline-custom">예약 문자</button>
+												<button type="button" class="btn btn-outline-custom">임의 문자</button>												
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
@@ -1709,7 +1709,7 @@
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="bookingModalLabel">예약대기 등록</h5>
+										<h5 class="modal-title" id="bookingModalLabel">예약 대기 등록</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">
@@ -1744,9 +1744,9 @@
 													<thead>
 														<tr>
 															<th>No</th>
-															<th>회원이름</th>
+															<th>회원 이름</th>
 															<th>우선순위</th>
-															<th>휴대전화</th>
+															<th>휴대폰</th>
 															<th>시간 I</th>
 															<th>시간 II</th>
 															<th>취소
@@ -1754,7 +1754,7 @@
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
 																		<li><button type="button" class="dropdown-item teetimeModifyBtn">대기중</button></li>
-																		<li><button type="button" class="dropdown-item teetimeModifyBtn">대기취소</button></li>
+																		<li><button type="button" class="dropdown-item teetimeModifyBtn">대기 취소</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -1774,7 +1774,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1792,7 +1792,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1810,7 +1810,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1828,7 +1828,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1846,7 +1846,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1864,7 +1864,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1882,7 +1882,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1900,7 +1900,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1918,7 +1918,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -1936,7 +1936,7 @@
 															<td>
 																<select class="form-select w-auto h-100 mx-auto">
 																	<option value="대기중" selected>대기중</option>
-																	<option value="대기취소">대기취소</option>
+																	<option value="대기 취소">대기 취소</option>
 																</select>
 															</td>
 															<td>
@@ -2018,11 +2018,11 @@
 
 														<tbody>
 															<tr class="table-bg-gray">
-																<th>희망일자</th>
+																<th>희망 일자</th>
 																<td>05월 04일 (목)</td>
 															</tr>
 															<tr>
-																<th>회원이름</th>
+																<th>회원 이름</th>
 																<td><input type="text" class="form-control"></td>
 															</tr>
 															<tr>
@@ -2030,7 +2030,7 @@
 																<td><input type="text" class="form-control"></td>
 															</tr>
 															<tr>
-																<th>휴대전화</th>
+																<th>휴대폰</th>
 																<td>
 																	<input type="text" class="form-control">
 																</td>
@@ -3875,7 +3875,7 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist04" role="tab">
-											<span>예약대기</span>
+											<span>예약 대기</span>
 										</a>
 									</li>
 									<li class="nav-item">

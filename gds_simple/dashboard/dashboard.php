@@ -37,7 +37,7 @@
 												</select>
 											</div>
 											
-											<span class="fs-16 fw-bold">예약현황</span>
+											<span class="fs-16 fw-bold">예약 현황</span>
 											
 											<span class="dividing-line"></span>
 											
@@ -252,7 +252,7 @@
 								<div class="card">
 									<div class="card-body">
 										<div class="d-flex align-items-center mb-3">
-											<h4 class="card-title">주간 예약현황</h4>
+											<h4 class="card-title">주간 예약 현황</h4>
 											
 											<div class="d-flex align-items-center gap-2 ms-auto">
 												<button type="button" class="bg-transparent border-0"><span class="fc-icon fc-icon-chevrons-left fs-4 text-gray"></span></button>
