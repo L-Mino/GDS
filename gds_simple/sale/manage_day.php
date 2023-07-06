@@ -723,7 +723,7 @@
 												</table>
 											</div>
 
-											<div class="border-box border-bottom-0 mt-3">
+											<div class="border-box border-bottom-0 mt-1">
 												<table class="table table-layout-fixed mb-0">
 													<colgroup>
 														<col style="width:100px;">
