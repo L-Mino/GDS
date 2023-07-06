@@ -650,7 +650,7 @@
 														<th><span class="ms-1">홀 추가</span></th>
 														<td>
 															<div class="form-check form-check-inline me-2">
-																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio01" value="9홀" checked>
+																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio01" value="9홀" onclick="$(this).parents('td').find('select').focus();" checked>
 																<label class="form-check-label" for="addHoleRadio01">9홀</label>
 															</div>
 															<div class="form-check form-check-inline p-0 m-0">
@@ -664,7 +664,7 @@
 														</td>
 														<td>														
 															<div class="form-check form-check-inline me-2">
-																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio02" value="18홀">
+																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio02" value="18홀" onclick="$(this).parents('td').find('select').focus();">
 																<label class="form-check-label" for="addHoleRadio02">18홀</label>
 															</div>
 															<div class="form-check form-check-inline p-0 m-0">
