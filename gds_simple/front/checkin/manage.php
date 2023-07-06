@@ -260,7 +260,7 @@
 									<div class="card guest-right mb-0">
 										<div class="card-body">
 											<div class="d-flex align-items-center gap-2 mb-3">
-												<span class="fs-16 fw-bold">06:30  WI  김길동</span>
+												<span class="fs-16 fw-bold">06:30  EI  김길동</span>
 												<div class="btn-group ms-auto">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
