@@ -443,7 +443,7 @@
 														</tr>
 														<tr>
 															<td></td>
-															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue">상세 내역서</button></td>
+															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
 															<td></td>
 															<td></td>
 															<td class="fw-semibold text-red">770,000</td>
@@ -557,7 +557,7 @@
 														</tr>
 														<tr>
 															<td></td>
-															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue">상세 내역서</button></td>
+															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
 															<td></td>
 															<td></td>
 															<td class="fw-semibold text-red">770,000</td>
@@ -809,6 +809,235 @@
 							</div>
 						</div>
 		                <!--//row -->
+
+						<div class="modal fade detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered modal-full">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="detailModalLabel">상세 내역서</h5>
+										<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+
+									<div class="modal-body">
+										<div class="d-flex align-items-center gap-2 mb-3">
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="구분 선택">
+													<option value="개별">개별</option>
+													<option value="팀별">팀별</option>
+												</select>
+											</div>
+
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="업장 선택">
+													<option value="입장료">입장료</option>
+													<option value="카트료">카트료</option>
+													<option value="대여료">대여료</option>
+													<option value="프로샵">프로샵</option>
+													<option value="식음료">식음료</option>
+													<option value="객실료">객실료</option>
+												</select>
+											</div>
+
+											<div class="form-check form-check-inline ms-3">
+												<input class="form-check-input" type="checkbox" id="totalCheck">
+												<label class="form-check-label" for="totalCheck">집계</label>
+											</div>
+
+											<button type="button" class="btn btn-outline-custom ms-auto">인쇄</button>
+										</div>
+										
+										<table class="table table-layout-fixed text-center table-select mb-0">
+											<colgroup>
+												<col style="min-width:40px; width:40px;">
+												<col style="min-width:60px; width:60px;">
+												<col style="min-width:60px; width:60px;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+											</colgroup>
+
+											<thead>
+												<tr>
+													<th><input class="form-check-input" type="checkbox" name="tableCheckAll" checked></th>
+													<th colspan="3">항목</th>
+													<th>수량</th>
+													<th>금액</th>
+													<th>성명</th>
+													<th>시간</th>
+													<th>캐디</th>
+													<th>전표 No</th>
+												</tr>
+											</thead>
+
+											<tbody>
+												<tr class="fw-semibold table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start">입장료</td>
+													<td colspan="2" class="text-start"></td>
+													<td>4</td>
+													<td>670,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start">홍길동</td>
+													<td class="text-start"></td>
+													<td></td>
+													<td>160,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start">강길동</td>
+													<td class="text-start"></td>
+													<td></td>
+													<td>170,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start">안길동</td>
+													<td class="text-start"></td>
+													<td></td>
+													<td>170,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start">진길동</td>
+													<td class="text-start"></td>
+													<td></td>
+													<td>170,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="fw-semibold table-active">												
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start">카트료</td>
+													<td colspan="2" class="text-start"></td>
+													<td>4</td>
+													<td>100,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="fw-semibold table-active">												
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start">식음료</td>
+													<td colspan="2" class="text-start">대식당, 그늘집</td>
+													<td></td>
+													<td>100,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="fw-semibold table-active">												
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td colspan="2" class="text-start">대식당</td>
+													<td></td>
+													<td>80,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start"></td>
+													<td class="text-start">한우소고기국밥</td>
+													<td>4</td>
+													<td>80,000</td>
+													<td>홍길동</td>
+													<td>06:30</td>
+													<td></td>
+													<td>004-01</td>
+												</tr>
+												<tr class="fw-semibold table-active">												
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td colspan="2" class="text-start">그늘집</td>
+													<td></td>
+													<td>20,000</td>
+													<td></td>
+													<td></td>
+													<td></td>
+													<td></td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start"></td>
+													<td class="text-start">콜드브루 아이스커피</td>
+													<td>1</td>
+													<td>12,000</td>
+													<td>홍길동</td>
+													<td>07:40</td>
+													<td></td>
+													<td>004-02</td>
+												</tr>
+												<tr class="table-active">
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td class="text-start"></td>
+													<td class="text-start"></td>
+													<td class="text-start">커피(아메리카노)</td>
+													<td>1</td>
+													<td>8,000</td>
+													<td>홍길동</td>
+													<td>07:40</td>
+													<td></td>
+													<td>004-03</td>
+												</tr>
+											</tbody>
+										</table>
+										
+										<div class="border-box border-top-0 border-bottom-0">
+											<table class="table table-layout-fixed text-center mb-0">
+												<colgroup>
+													<col style="width:120px;">
+													<col style="width:865px;">
+													<col style="width:auto;">
+												</colgroup>
+
+												<tbody>
+													<tr class="table-bg-gray">
+														<th>합계</th>
+														<td class="fw-semibold text-blue">826,000</td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div>
+						<!-- //modal - copyModal -->
 
 						<!-- end Content -->
 
