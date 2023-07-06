@@ -1,6 +1,6 @@
 <?php include "../../partials/main.php"; ?>
 
-    <head>
+    <head>>
 		<?php $title = '내장등록'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
@@ -30,7 +30,7 @@
 										<div class="d-flex align-items-center flex-wrap gap-2">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg border-0 h-100">
-													<option value="2023.05.01 (일)" selected>2023.05.01 (월)</option>
+													<option value="2023.05.01 (일)" selected>2023.06.23 (금)</option>
 													<option value="2023.05.02 (화)">2023.05.02 (화)</option>
 												</select>
 											</div>
@@ -260,7 +260,7 @@
 									<div class="card guest-right mb-0">
 										<div class="card-body">
 											<div class="d-flex align-items-center gap-2 mb-3">
-												<span class="fs-16 fw-bold">06:30  BO  김길동</span>
+												<span class="fs-16 fw-bold">06:30  WI  김길동</span>
 												<div class="btn-group ms-auto">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
@@ -626,14 +626,12 @@
 										<div class="border-box border-bottom-0">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
-													<col style="width:90px;">
 													<col style="width:auto">
 												</colgroup>
 
 												<tbody>
-													<tr>
-														<th>일자</th>
-														<td><span>23.05.01 (월)</span><span class="ms-5">06:30  WI 김동준</span></td>
+													<tr class="table-bg-gray">
+														<td><span class="text-primary fw-semibold ms-2">23.06.23 (금)</span><span class="ms-5">06:30&nbsp;&nbsp;&nbsp;WI&nbsp;&nbsp;&nbsp;김동준&nbsp;&nbsp;&nbsp;18h-20</span></td>
 													</tr>
 												</tbody>
 											</table>
@@ -648,15 +646,15 @@
 												</colgroup>
 
 												<tbody>
-													<tr class="table-bg-gray">	
-														<th>홀 추가</th>
+													<tr>	
+														<th><span class="ms-1">홀 추가</span></th>
 														<td>
-															<div class="form-check form-check-inline m-0">
+															<div class="form-check form-check-inline me-2">
 																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio01" value="9홀" checked>
 																<label class="form-check-label" for="addHoleRadio01">9홀</label>
 															</div>
 															<div class="form-check form-check-inline p-0 m-0">
-																<select class="form-select">
+																<select class="form-select" onclick="$(this).parents('td').find('input[type=radio]').prop('checked', true);">
 																	<option value="추가 그린피" selected disabled>추가 그린피</option>
 																	<option value="+9H-11">+9H-11</option>
 																	<option value="+9H-12">+9H-12</option>
@@ -665,12 +663,12 @@
 															</div>
 														</td>
 														<td>														
-															<div class="form-check form-check-inline m-0">
+															<div class="form-check form-check-inline me-2">
 																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio02" value="18홀">
 																<label class="form-check-label" for="addHoleRadio02">18홀</label>
 															</div>
 															<div class="form-check form-check-inline p-0 m-0">
-																<select class="form-select">
+																<select class="form-select" onclick="$(this).parents('td').find('input[type=radio]').prop('checked', true);">
 																	<option value="추가 그린피" selected disabled>추가 그린피</option>
 																	<option value="18h-15">18h-15</option>
 																	<option value="18h-16">18h-16</option>
