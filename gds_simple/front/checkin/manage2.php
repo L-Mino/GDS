@@ -1570,9 +1570,10 @@
 														<th>코스</th>
 														<td>
 															<select class="form-select">
-																<option value="코스1" selected>코스1</option>
-																<option value="코스2">코스2</option>
-																<option value="코스3">코스3</option>
+																<option value="WEST IN" selected>WEST IN</option>
+																<option value="WEST OUT">WEST OUT</option>
+																<option value="EAST IN">EAST IN</option>
+																<option value="EAST OUT">EAST OUT</option>
 															</select>
 														</td>
 													</tr>
@@ -1580,7 +1581,7 @@
 														<th>홀</th>
 														<td>
 															<select class="form-select">
-																<option value="18홀" selected>18홀</option>
+																<option value="9홀" selected>9홀</option>
 																<option value="18홀">18홀</option>
 															</select>
 														</td>

@@ -615,7 +615,7 @@
 		                <!--//modal - confirmModal -->
 
 						<div class="modal fade addHoleModal" tabindex="-1" aria-labelledby="addHoleModalLabel" aria-modal="true" role="dialog">
-							<div class="modal-dialog modal-dialog-centered modal-sm">
+							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
 										<h5 class="modal-title" id="addHoleModalLabel">홀 추가</h5>
@@ -626,42 +626,240 @@
 										<div class="border-box border-bottom-0">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
-													<col style="width:70px;">
+													<col style="width:90px;">
 													<col style="width:auto">
 												</colgroup>
 
 												<tbody>
-													<tr class="table-bg-gray">
+													<tr>
 														<th>일자</th>
-														<td><span class="ps-10">23.05.01 (월)</span></td>
-													</tr>
-													<tr>
-														<th>코스</th>
-														<td>
-															<select class="form-select">
-																<option value="WEST IN" selected>WEST IN</option>
-																<option value="WEST OUT">WEST OUT</option>
-																<option value="EAST IN">EAST IN</option>
-																<option value="EAST OUT">EAST OUT</option>
-															</select>
-														</td>
-													</tr>
-													<tr>
-														<th>홀</th>
-														<td>
-															<select class="form-select">
-																<option value="9홀" selected>9홀</option>
-																<option value="18홀">18홀</option>
-															</select>
-														</td>
-													</tr>
-													<tr>
-														<th>시간</th>
-														<td><input type="text" class="form-control input_time w-100" onkeydown="checkNumber()" maxlength="4" placeholder="24:00"></td>
+														<td><span>23.05.01 (월)</span><span class="ms-5">06:30  WI 김동준</span></td>
 													</tr>
 												</tbody>
 											</table>
 										</div>
+
+										<div class="border-box border-bottom-0 mt-3">
+											<table class="table table-layout-fixed mb-0">
+												<colgroup>
+													<col style="width:90px;">
+													<col style="width:auto">
+													<col style="width:auto">													
+												</colgroup>
+
+												<tbody>
+													<tr class="table-bg-gray">	
+														<th>홀 추가</th>
+														<td>
+															<div class="form-check form-check-inline m-0">
+																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio01" value="9홀" checked>
+																<label class="form-check-label" for="addHoleRadio01">9홀</label>
+															</div>
+															<div class="form-check form-check-inline p-0 m-0">
+																<select class="form-select">
+																	<option value="추가 그린피" selected disabled>추가 그린피</option>
+																	<option value="+9H-11">+9H-11</option>
+																	<option value="+9H-12">+9H-12</option>
+																	<option value="+9H-13">+9H-13</option>
+																</select>
+															</div>
+														</td>
+														<td>														
+															<div class="form-check form-check-inline m-0">
+																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio02" value="18홀">
+																<label class="form-check-label" for="addHoleRadio02">18홀</label>
+															</div>
+															<div class="form-check form-check-inline p-0 m-0">
+																<select class="form-select">
+																	<option value="추가 그린피" selected disabled>추가 그린피</option>
+																	<option value="18h-15">18h-15</option>
+																	<option value="18h-16">18h-16</option>
+																	<option value="18h-17">18h-17</option>
+																</select>
+															</div>																														
+														</td>															
+													</tr>
+												</tbody>
+											</table>
+										</div>										
+
+										<div class="table-fixed-head" data-simplebar style="max-height:167px;">
+											<table class="table table-layout-fixed text-center mb-0" >
+												<colgroup>
+													<col style="width:25%;">
+													<col style="width:25%;">
+													<col style="width:25%;">
+													<col style="width:25%;">
+												</colgroup>
+
+												<thead>
+													<tr>
+														<th>WI</th>
+														<th>WO</th>
+														<th>EI</th>
+														<th>EO</th>
+													</tr>
+												</thead>
+
+												<tbody>
+													<tr>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio01" value="11:30" checked>
+																<label class="form-check-label" for="addHoleTimeRadio01">11:30</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio02" value="11:40">
+																<label class="form-check-label" for="addHoleTimeRadio02">11:40</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio03" value="11:30">
+																<label class="form-check-label" for="addHoleTimeRadio03">11:30</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio04" value="11:40">
+																<label class="form-check-label" for="addHoleTimeRadio04">11:40</label>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio05" value="11:37">
+																<label class="form-check-label" for="addHoleTimeRadio05">11:37</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio06" value="11:47">
+																<label class="form-check-label" for="addHoleTimeRadio06">11:47</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio07" value="11:37">
+																<label class="form-check-label" for="addHoleTimeRadio07">11:37</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio08" value="11:47">
+																<label class="form-check-label" for="addHoleTimeRadio08">11:47</label>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio09" value="11:44">
+																<label class="form-check-label" for="addHoleTimeRadio09">11:44</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio10" value="11:54">
+																<label class="form-check-label" for="addHoleTimeRadio10">11:54</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio11" value="11:44">
+																<label class="form-check-label" for="addHoleTimeRadio11">11:44</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio12" value="11:54">
+																<label class="form-check-label" for="addHoleTimeRadio12">11:54</label>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio13" value="11:51">
+																<label class="form-check-label" for="addHoleTimeRadio13">11:51</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio14" value="12:01">
+																<label class="form-check-label" for="addHoleTimeRadio14">12:01</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio15" value="11:51">
+																<label class="form-check-label" for="addHoleTimeRadio15">11:51</label>
+															</div>
+														</td>
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="addHoleTimeRadio" id="addHoleTimeRadio16" value="12:01">
+																<label class="form-check-label" for="addHoleTimeRadio16">12:01</label>
+															</div>
+														</td>
+													</tr>													
+												</tbody>
+											</table>
+										</div>
+
+										<table class="table table-hover text-center mt-4 mb-0">
+											<colgroup>
+												<col style="min-width:40px; width:40px;">
+												<col style="min-width:120px;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+												<col style="width:auto;">
+											</colgroup>
+
+											<thead>
+												<tr>
+													<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll" checked></th>
+													<th>내장객</th>
+													<th>추가 그린피</th>
+													<th>추가 카트피</th>
+													<th>추가 캐디피</th>
+												</tr>
+											</thead>
+
+											<tbody>
+												<tr>
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td>김동준</td>
+													<td>110,000</td>
+													<td>12,500</td>
+													<td>150,000</td>
+												</tr>
+												<tr>
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td>김아연</td>
+													<td>110,000</td>
+													<td>12,500</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td>김민준</td>
+													<td>110,000</td>
+													<td>12,500</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
+													<td>김백동</td>
+													<td>110,000</td>
+													<td>12,500</td>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>										
 									</div>
 
 									<div class="modal-footer">
