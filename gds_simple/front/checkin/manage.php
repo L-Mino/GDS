@@ -800,21 +800,21 @@
 													<tbody>
 														<tr class="table-active">
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이승준</td>
 															<td>이승준 3팀</td>
 														</tr>
 														<tr>
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이성호</td>
 															<td>이승준 3팀</td>
 														</tr>
 														<tr>
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이성호</td>
 															<td>이승준 3팀</td>
@@ -863,7 +863,7 @@
 														<tr class="table-active">
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>이호권</td>
 															<td>남자</td>
 															<td>999</td>
@@ -878,7 +878,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>정영철</td>
 															<td>남자</td>
 															<td>999</td>
@@ -893,7 +893,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>윤종간</td>
 															<td>남자</td>
 															<td>999</td>
@@ -974,21 +974,21 @@
 													<tbody>
 														<tr>
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이승준</td>
 															<td>이승준 3팀</td>
 														</tr>
 														<tr class="table-active">
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이성호</td>
 															<td>이승준 3팀</td>
 														</tr>
 														<tr>
 															<td>13:48</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>이성호</td>
 															<td>이승준 3팀</td>
@@ -1037,7 +1037,7 @@
 														<tr class="table-active">
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>이성호</td>
 															<td>남자</td>
 															<td>999</td>
@@ -1052,7 +1052,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>조현욱</td>
 															<td>남자</td>
 															<td>999</td>
@@ -1067,7 +1067,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>정영철</td>
 															<td>남자</td>
 															<td>999</td>
@@ -1082,7 +1082,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>김동안</td>
 															<td>남자</td>
 															<td>999</td>
@@ -1097,7 +1097,7 @@
 														<tr>
 															<td><input class="form-check-input" type="checkbox"></td>
 															<td>13:56</td>
-															<td>CI</td>
+															<td>EI</td>
 															<td>장만덕</td>
 															<td>남자</td>
 															<td>999</td>
@@ -1284,21 +1284,21 @@
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>CO</td>
+															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
@@ -1477,21 +1477,21 @@
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>BI</td>
+															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
 															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
 															<td>13:48</td>
-															<td>CO</td>
+															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
