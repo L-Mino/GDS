@@ -846,7 +846,7 @@
 											<button type="button" class="btn btn-outline-custom ms-auto">인쇄</button>
 										</div>
 										
-										<table class="table table-layout-fixed text-center table-select mb-0">
+										<table class="table table-layout-fixed text-center table-hover mb-0">
 											<colgroup>
 												<col style="min-width:40px; width:40px;">
 												<col style="min-width:60px; width:60px;">
