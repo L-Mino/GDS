@@ -693,7 +693,9 @@ a:hover {color:inherit; text-decoration:none; }
 	padding margin
 =====================*/
 .pt-10 {padding-top:10px !important; }
+.pt-12 {padding-top:12px !important; }
 .ps-10 {padding-left:10px; }
+.pe-10 {padding-right:10px; }
 .pe-12 {padding-right:12px; }
 .pe-20 {padding-right:20px; } 
 

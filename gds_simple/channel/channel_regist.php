@@ -281,10 +281,11 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>접속 아이피</th>
+																		<th>연락처</th>
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
+
 																	</tr>
 																	<tr>
 																		<th>담당자 성명</th>
@@ -295,14 +296,32 @@
 																		<td>
 																			<input class="form-control" type="text">
 																		</td>
-																		<th>연락처</th>
-																		<td>
-																			<input class="form-control" type="text">
+																		<th rowspan="2" class="align-top pt-12">접속 아이피</th>
+																		<td rowspan="2" class="align-top">
+																			<div class="d-flex">
+																				<div class="col pe-10" data-simplebar style="max-height:110px;">
+																					<div class="form-check form-check-inline w-100 p-0 me-0">
+																						<input class="form-control" type="text">
+																					</div>
+																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																						<input class="form-control" type="text">
+																					</div>
+																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																						<input class="form-control" type="text">
+																					</div>
+																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																						<input class="form-control" type="text">
+																					</div>																					
+																				</div>
+																				<div class="col-3 text-end">
+																					<button type="button" class="btn btn-outline-custom w-100">추가</button>
+																				</div>
+																			</div>
 																		</td>
 																	</tr>
 																	<tr>
 																		<th class="align-top pt-2">주소</th>
-																		<td colspan="5">
+																		<td colspan="3">
 																			<div class="d-flex gap-2 mb-2">
 																				<div class="form-check form-check-inline p-0 m-0">
 																					<input type="text" id="daum_postcode" class="form-control postcode" placeholder="우편번호">
@@ -402,13 +421,9 @@
 																		<th>티타임 배정</th>
 																		<td>
 																			<div class="form-check form-check-inline ms-10">
-																				<input class="form-check-input" type="radio" name="teeRadios" id="teeRadios1" value="option1" checked>
-																				<label class="form-check-label fw-bold" for="teeRadios1">티타임 배정</label>
+																				<input class="form-check-input" type="checkbox" id="teecheck" value="배정" checked>
+																				<label class="form-check-label fw-bold" for="teecheck">배정</label>
 																			</div>
-																			<div class="form-check form-check-inline">
-																				<input class="form-check-input" type="radio" name="teeRadios" id="teeRadios2" value="option2">
-																				<label class="form-check-label fw-bold" for="teeRadios2">블럭만 배정</label>
-																			</div>		
 																		</td>																		
 																	</tr>																		
 																	<tr class="table-bg-gray">																		

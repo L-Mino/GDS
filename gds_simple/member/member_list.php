@@ -171,7 +171,6 @@
 							<div class="offcanvas-header pb-0">
 								<h5 id="CollectiveRegistrationLabel">회원 정보</h5>
 								<div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
-									<button type="button" class="btn btn-outline-custom">비밀번호 변경</button>
 									<button type="button" class="btn btn-outline-custom">저장</button>
 									<button type="button" class="btn btn-outline-custom" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
 								</div>
