@@ -338,7 +338,7 @@
 															</td>
 															<td>110,000</td>
 															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
 															<td>
 																<div class="d-flex align-items-center">
 																	<select class="form-select w-auto py-0 mx-auto">
@@ -381,7 +381,7 @@
 															</td>
 															<td>110,000</td>
 															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
 															<td>
 																<div class="d-flex align-items-center">
 																	<select class="form-select w-auto py-0 mx-auto">
@@ -423,7 +423,7 @@
 															</td>
 															<td>110,000</td>
 															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
 															<td>
 																<div class="d-flex align-items-center">
 																	<select class="form-select w-auto py-0 mx-auto">
@@ -465,7 +465,7 @@
 															</td>
 															<td>110,000</td>
 															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N"></td>
+															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
 															<td>
 																<div class="d-flex align-items-center">
 																	<select class="form-select w-auto py-0 mx-auto">
@@ -639,9 +639,10 @@
 														<th>코스</th>
 														<td>
 															<select class="form-select">
-																<option value="코스1" selected>코스1</option>
-																<option value="코스2">코스2</option>
-																<option value="코스3">코스3</option>
+																<option value="WEST IN" selected>WEST IN</option>
+																<option value="WEST OUT">WEST OUT</option>
+																<option value="EAST IN">EAST IN</option>
+																<option value="EAST OUT">EAST OUT</option>
 															</select>
 														</td>
 													</tr>
@@ -649,7 +650,7 @@
 														<th>홀</th>
 														<td>
 															<select class="form-select">
-																<option value="18홀" selected>18홀</option>
+																<option value="9홀" selected>9홀</option>
 																<option value="18홀">18홀</option>
 															</select>
 														</td>
