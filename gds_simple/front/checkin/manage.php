@@ -631,7 +631,7 @@
 
 												<tbody>
 													<tr class="table-bg-gray">
-														<td><span class="text-primary fw-semibold ms-2">23.06.23 (금)</span><span class="ms-5">06:30&nbsp;&nbsp;&nbsp;WI&nbsp;&nbsp;&nbsp;김동준&nbsp;&nbsp;&nbsp;18h-20</span></td>
+														<td><span class="text-blue fw-semibold ms-2">23.06.23 (금)</span><span class="ms-5">06:30&nbsp;&nbsp;&nbsp;WI&nbsp;&nbsp;&nbsp;김동준&nbsp;&nbsp;&nbsp;18h-20</span></td>
 													</tr>
 												</tbody>
 											</table>
