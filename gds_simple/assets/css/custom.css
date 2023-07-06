@@ -603,8 +603,9 @@ select option[value=""][disabled] {display:none; }
 .btn.btn-custom {color:#fff; background:#0576B9; border:1px solid #0576B9; }
 .btn.btn-custom:hover {color:#fff; background:#2CB57E; border:1px solid #2CB57E; }
 .btn.btn-outline-custom {color:#495057; background:transparent; border:1px solid #D7DADE; }
-.btn.btn-outline-custom:hover {color:#fff; background:#2CB57E; border:1px solid #2CB57E; }
+.btn.btn-outline-custom:hover {color:#fff !important; background:#2CB57E; border:1px solid #2CB57E; }
 .btn.btn-outline-custom.rounded-0 {height:auto !important; line-height:inherit; }
+.btn.btn-outline-custom.text-blue {color:#0576B9; }
 
 .dropdown .btn {height:30px; color:#323232; font-size:13px !important; padding:3px 10px 4px 10px !important; }
 .table thead tr th .dropdown {height:auto !important; }
