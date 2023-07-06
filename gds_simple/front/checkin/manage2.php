@@ -82,7 +82,7 @@
 															<col style="width:30px;">
 															<col style="min-width:40px;">
 															<col style="width:50px;">
-															<col style="width:50px;">
+															<col style="min-width:40px; width:40px;">
 															<col style="min-width:40px; width:40px;">
 															<col style="min-width:60px;">
 															<col style="min-width:80px; width:auto;">
