@@ -82,7 +82,7 @@
 															<col style="width:30px;">
 															<col style="min-width:40px;">
 															<col style="width:50px;">
-															<col style="width:40px;">
+															<col style="width:50px;">
 															<col style="min-width:40px; width:40px;">
 															<col style="min-width:60px;">
 															<col style="min-width:80px; width:auto;">
@@ -143,7 +143,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">1</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
@@ -363,7 +363,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">2</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
@@ -583,7 +583,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">3</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
@@ -803,7 +803,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
@@ -1023,7 +1023,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">5</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
@@ -1243,7 +1243,7 @@
 																<td rowspan="4"><input class="form-check-input" type="checkbox"></td>
 																<td rowspan="4">6</td>
 																<td rowspan="4">06:50</td>
-																<td rowspan="4">BO</td>
+																<td rowspan="4">EO</td>
 																<td rowspan="4">4</td>
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
