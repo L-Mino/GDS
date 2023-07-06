@@ -32,7 +32,7 @@
 										<div class="d-flex align-items-center flex-wrap gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg border-0 h-100">
-													<option value="2023.05.01 (일)" selected>2023.05.01 (월)</option>
+													<option value="2023.05.01 (일)" selected>2023.06.23 (금)</option>
 													<option value="2023.05.02 (화)">2023.05.02 (화)</option>
 												</select>
 											</div>
@@ -1564,7 +1564,7 @@
 												<tbody>
 													<tr class="table-bg-gray">
 														<th>일자</th>
-														<td><span class="ps-10">23.05.01 (월)</span></td>
+														<td><span class="ps-10">23.06.23 (금)</span></td>
 													</tr>
 													<tr>
 														<th>코스</th>

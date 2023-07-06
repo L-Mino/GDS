@@ -32,7 +32,7 @@
 										<div class="d-flex align-items-center flex-wrap gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg bg-transparent border-0 h-100">
-													<option value="2023.05.01 (일)" selected>2023.05.01 (월)</option>
+													<option value="2023.05.01 (일)" selected>2023.06.23 (금)</option>
 													<option value="2023.05.02 (화)">2023.05.02 (화)</option>
 												</select>
 											</div>
@@ -75,7 +75,7 @@
 
 										<div class="row">
 											<div class="col">
-												<table class="table table-fixed text-center table-select">
+												<table class="table text-center table-select">
 													<colgroup>
 														<col style="width:auto;">
 														<col style="width:auto;">
@@ -84,11 +84,7 @@
 														<col style="width:auto;">
 														<col style="width:auto;">
 														<col style="width:auto;">
-														<col style="width:60px;">
-														<col style="width:60px;">
-														<col style="width:60px;">
-														<col style="width:60px;">
-														<col style="width:60px;">
+														<col style="width:auto;">
 														<col style="width:auto;">
 														<col style="width:auto;">
 														<col style="width:auto;">
@@ -104,8 +100,10 @@
 																<div class="dropdown d-inline-block table-head-drop">
 																	<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																	<ul class="dropdown-menu dropdown-menu-dark">
-																		<li><button type="button" class="dropdown-item">A</button></li>
-																		<li><button type="button" class="dropdown-item">B</button></li>
+																		<li><button type="button" class="dropdown-item">WI</button></li>
+																		<li><button type="button" class="dropdown-item">WO</button></li>
+																		<li><button type="button" class="dropdown-item">EI</button></li>
+																		<li><button type="button" class="dropdown-item">EO</button></li>																		
 																	</ul>
 																</div>
 															</th>
@@ -113,7 +111,7 @@
 															<th>예약자</th>
 															<th>단체명</th>
 															<th>N</th>
-															<th colspan="5">내장객</th>
+															<th>내장객</th>
 															<th>홀</th>
 															<th>F</th>
 															<th>G</th>
@@ -131,11 +129,7 @@
 															<td>김동준</td>
 															<td>클라스</td>
 															<td></td>
-															<td>김동준</td>
-															<td>박윤규</td>
-															<td>최원석</td>
-															<td>김채원</td>
-															<td></td>
+															<td>김동준 박윤규 최원석 김채원</td>
 															<td></td>
 															<td>O</td>
 															<td>O</td>
@@ -150,11 +144,7 @@
 															<td>김동준</td>
 															<td>클라스</td>
 															<td></td>
-															<td>김민석</td>
-															<td>정해영</td>
-															<td>박순옥</td>
-															<td>유승</td>
-															<td></td>
+															<td>김민석 정해영 박순옥 유승민 이나연</td>
 															<td></td>
 															<td></td>
 															<td></td>
@@ -175,10 +165,6 @@
 															<td></td>
 															<td></td>
 															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
 														</tr>
 														<tr>
 															<td>4</td>
@@ -188,11 +174,7 @@
 															<td>최영희</td>
 															<td>싱글도전</td>
 															<td></td>
-															<td>서태진</td>
-															<td>이강준</td>
-															<td>황현민</td>
-															<td>안상운</td>
-															<td></td>
+															<td>서태진 이강준 황현민</td>
 															<td></td>
 															<td>O</td>
 															<td>O</td>
@@ -207,11 +189,7 @@
 															<td>최영희</td>
 															<td>싱글도전</td>
 															<td></td>
-															<td>최영희</td>
-															<td>우혜자</td>
-															<td>김판식</td>
-															<td>고승미</td>
-															<td></td>
+															<td>최영희 우혜자 김판식 고승미</td>
 															<td></td>
 															<td></td>
 															<td></td>
