@@ -839,7 +839,7 @@
 											</div>
 
 											<div class="form-check form-check-inline ms-3">
-												<input class="form-check-input" type="checkbox" id="totalCheck">
+												<input class="form-check-input" type="checkbox" id="totalCheck" checked>
 												<label class="form-check-label" for="totalCheck">집계</label>
 											</div>
 
