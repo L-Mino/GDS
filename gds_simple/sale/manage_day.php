@@ -293,7 +293,7 @@
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>													
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-													<button type="button" class="btn btn-outline-custom">영수증</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
 													<button type="button" class="btn btn-outline-custom">락카 자동 반납</button>
 													<button type="button" class="btn btn-outline-custom">팀 추가</button>
 												</div>
@@ -1306,6 +1306,15 @@
 											</table>
 										</div>
 									</div>
+									
+									<div class="modal-footer">
+										<div class="d-flex justify-content-between align-items-center w-100 m-0">
+											<div class="d-flex gap-2 ms-auto">
+												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+												<button type="button" class="btn btn-custom">저장</button>
+											</div>
+										</div>
+									</div>
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
@@ -1320,257 +1329,298 @@
 									</div>
 
 									<div class="modal-body">
-										<div class="border-box border-bottom-0">
-											<table class="table table-layout-fixed mb-0">
-												<colgroup>
-													<col style="width:100px;">
-													<col style="width:auto;">
-												</colgroup>
+										<p class="fw-semibold">집계대상자 <span class="text-blue">안현우</span> 님께 <span class="text-blue">입장료, 대식당</span> 요금이 이동됩니다.</p>
 
-												<tbody>
-													<tr>
-														<th>분할 방식</th>
-														<td>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitType" id="splitType01" value="전체 1/n" checked>
-																<label class="form-check-label" for="splitType01">전체 1/n</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitType" id="splitType02" value="팀별 1/n">
-																<label class="form-check-label" for="splitType02">팀별 1/n</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitType" id="splitType03" value="부분 1/n">
-																<label class="form-check-label" for="splitType03">부분 1/n</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitType" id="splitType04" value="수동분할">
-																<label class="form-check-label" for="splitType04">수동분할</label>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<th>분할 단위</th>
-														<td>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitUnit" id="splitUnit01" value="10원" checked>
-																<label class="form-check-label" for="splitUnit01">10원</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitUnit" id="splitUnit02" value="50원">
-																<label class="form-check-label" for="splitUnit02">50원</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitUnit" id="splitUnit03" value="100원">
-																<label class="form-check-label" for="splitUnit03">100원</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitUnit" id="splitUnit04" value="500원">
-																<label class="form-check-label" for="splitUnit04">500원</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="radio" name="splitUnit" id="splitUnit05" value="1,000원">
-																<label class="form-check-label" for="splitUnit05">1,000원</label>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<th>분할 업장</th>
-														<td>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany01" value="전체" checked>
-																<label class="form-check-label" for="splitCompany01">전체</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany02" value="입장료" checked>
-																<label class="form-check-label" for="splitCompany02">입장료</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany03" value="카트료" checked>
-																<label class="form-check-label" for="splitCompany03">카트료</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany04" value="대여료" checked>
-																<label class="form-check-label" for="splitCompany04">대여료</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany05" value="프로샵" checked>
-																<label class="form-check-label" for="splitCompany05">프로샵</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany06" value="대식당" checked>
-																<label class="form-check-label" for="splitCompany06">대식당</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany07" value="스타트" checked>
-																<label class="form-check-label" for="splitCompany07">스타트</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany08" value="그늘집" checked>
-																<label class="form-check-label" for="splitCompany08">그늘집</label>
-															</div>
-															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" id="splitCompany09" value="숙박" checked>
-																<label class="form-check-label" for="splitCompany09">숙박</label>
-															</div>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-										
-										<table class="table table-layout-fixed text-center table-hover mt-3 mb-0">
-											<colgroup>
-												<col style="min-width:40px; width:40px;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="width:auto;">
-												<col style="min-width:40px; width:40px;">												
-											</colgroup>
+										<div class="d-flex gap-4">
+											<div class="col-1">
+												<div class="card border-bottom-0 m-0">
+													<table class="table table-layout-fixed table-hover mb-0">
+														<thead>
+															<tr>
+																<th class="text-center fw-normal">이동업장</th>
+															</tr>
+														</thead>
 
-											<thead>
-												<tr>
-													<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
-													<th>시간</th>
-													<th>코스</th>
-													<th>락카</th>
-													<th>성명</th>
-													<th>이용금액</th>
-													<th>미정산액</th>
-													<th>조정액</th>
-													<th>제외</th>
-												</tr>
-											</thead>
+														<tbody>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheckAll" id="moveModalCheckAll">
+																		<label class="form-check-label" for="moveModalCheckAll">전체</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck01">
+																		<label class="form-check-label" for="moveModalCheck01">카트료</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck02">
+																		<label class="form-check-label" for="moveModalCheck02">대여료</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck03">
+																		<label class="form-check-label" for="moveModalCheck03">프로샵</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck04">
+																		<label class="form-check-label" for="moveModalCheck04">대식당</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck05">
+																		<label class="form-check-label" for="moveModalCheck05">스타트</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck06">
+																		<label class="form-check-label" for="moveModalCheck06">그늘집</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck07">
+																		<label class="form-check-label" for="moveModalCheck07">객실료</label>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
 
-											<tbody>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td>07:35</td>
-													<td>WI</td>
-													<td>121</td>
-													<td>홍길동</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>122</td>
-													<td>안현우</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>123</td>
-													<td>홍길동</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>124</td>
-													<td>장한서</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td>07:42</td>
-													<td>WI</td>
-													<td>200</td>
-													<td>박제춘</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>201</td>
-													<td>서강희</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>202</td>
-													<td>안길현</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-												<tr>
-													<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-													<td></td>
-													<td></td>
-													<td>203</td>
-													<td>오민석</td>
-													<td>185,000</td>
-													<td>185,000</td>
-													<td></td>
-													<td><input class="form-check-input" type="checkbox"></td>
-												</tr>
-											</tbody>
-										</table>
-										
-										<div class="border-box border-top-0 border-bottom-0">
-											<table class="table table-layout-fixed mb-0">
-												<colgroup>
-													<col style="width:344px;">
-													<col style="width:370px;">
-													<col style="width:170px;">
-													<col style="width:170px;">
-													<col style="width:170px;">
-													<col style="width:auto;">
-												</colgroup>
+											<div class="flex-fill">
+												<table class="table table-hover text-center mb-0">
+													<colgroup>
+														<col style="min-width:40px; width:40px;">
+														<col style="width:auto;">
+													</colgroup>
 
-												<tbody>
-													<tr class="table-bg-gray">
-														<td>
-															<span class="fw-semibold ms-1">팀수</span>
-															<span class="fw-semibold text-blue ms-1">3</span>
-															<span class="fw-semibold ms-4">인원</span>
-															<span class="fw-semibold text-blue ms-1">12</span>
-														</td>
-														<td class="text-center"><span class="txt-line"></span></td>
-														<td class="text-center"><span class="fw-semibold text-red">2,230,000</span></td>
-														<td class="text-center"><span class="fw-semibold">0</span></td>
-														<td class="text-center"><span class="fw-semibold text-blue">2,230,000</span></td>
-														<td></td>
-													</tr>
-												</tbody>
-											</table>
+													<thead>
+														<tr>
+															<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+															<th>시간</th>
+															<th>코스</th>
+															<th>락카</th>
+															<th>성명</th>
+															<th>이용금액</th>
+															<th>입장료</th>
+															<th>카트료</th>
+															<th>대여료</th>
+															<th>프로샵</th>
+															<th>대식당</th>
+															<th>스타트</th>
+															<th>그늘집</th>
+														</tr>
+													</thead>
+
+													<tbody>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td>07:35</td>
+															<td>WI</td>
+															<td>121</td>
+															<td>홍길동</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td></td>
+															<td></td>
+															<td>122</td>
+															<td>안현우</td>
+															<td>750,000</td>
+															<td>625,000</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>0</td>
+															<td>100,000</td>
+															<td>0</td>
+															<td>0</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td></td>
+															<td></td>
+															<td>123</td>
+															<td>김길동</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+														</tr>
+														<tr>
+															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td></td>
+															<td></td>
+															<td>124</td>
+															<td>장한서</td>
+															<td>50,000</td>
+															<td>0</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>25,000</td>
+															<td>0</td>
+															<td>0</td>
+															<td>0</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
 										</div>
 									</div>
+
+									<div class="modal-footer">
+										<div class="d-flex justify-content-between align-items-center w-100 m-0">
+											<div class="d-flex gap-2 ms-auto">
+												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+												<button type="button" class="btn btn-custom">저장</button>
+											</div>
+										</div>
+									</div>									
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - moveModal -->						
+						<!-- //modal - moveModal -->
+
+						<div class="modal fade receiptModal" tabindex="-1" aria-labelledby="receiptModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered modal-sm">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="receiptModalLabel">영수증</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>								
+									<div class="modal-body">
+										<div class="border-box border-bottom-0">
+											<table class="table table-layout-fixed mb-0">
+												<tbody>
+													<tr class="table-bg-gray">
+														<td>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="receiptRadio" id="receiptRadio01" value="캐디피" checked>
+																<label class="form-check-label" for="receiptRadio01">캐디피</label>
+															</div>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="receiptRadio" id="receiptRadio02" value="카트료">
+																<label class="form-check-label" for="receiptRadio02">카트료</label>
+															</div>
+															<div class="form-check form-check-inline">
+																<input class="form-check-input" type="radio" name="receiptRadio" id="receiptRadio03" value="일반">
+																<label class="form-check-label" for="receiptRadio03">일반</label>
+															</div>
+														</td>
+													</tr>
+												</tbody>	
+											</table>
+										</div>	
+
+										<div class="border-box border-bottom-0 mt-3">
+											<table class="table table-layout-fixed mb-0">
+												<colgroup>
+													<col style="width:70px;">
+													<col style="width:auto">
+												</colgroup>
+												
+												<tbody>
+													<tr>
+														<th>제목</th>
+														<td><span class="ps-10">캐디피 영수증</span></td>
+													</tr>
+													<tr>
+														<th>영업 일자</th>
+														<td>
+															<div class="d-flex align-items-center justify-content-between">
+																<div class="form-check form-check-inline ps-0 me-0">
+																	<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="2023.07.06">
+																</div>
+																<i class="bx bx-calendar font-size-15 ms-1 me-3"></i>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<th>코스</th>
+														<td>
+															<select class="form-select">
+																<option value="WI" selected>WI</option>
+																<option value="WO">WO</option>
+																<option value="EI">EI</option>
+																<option value="EO">EO</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<th>시간</th>
+														<td><input type="text" class="form-control input_time w-100" maxlength="4" value="07:00"></td>
+													</tr>
+													<tr>
+														<th>예약자</th>
+														<td><input type="text" class="form-control" value="장미진"></td>
+													</tr>
+													<tr>
+														<th>내장자</th>
+														<td><input type="text" class="form-control" value="박시훈"></td>
+													</tr>
+													<tr>
+														<th>단체명</th>
+														<td>
+															<select class="form-select">
+																<option value="오소리 골프" selected>오소리 골프</option>
+																<option value="오리 골프">오리 골프</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<th>캐디명</th>
+														<td><input type="text" class="form-control" value="이현영"></td>
+													</tr>
+													<tr>
+														<th>금액</th>
+														<td><input type="text" class="form-control" value="140,000"></td>
+													</tr>													
+												</tbody>	
+											</table>
+										</div>									
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-outline-custom">인쇄</button>
+									</div>									
+								</div>
+							</div>
+						</div>
+		                <!--//modal - addHoleModal -->																		
 
 						<!-- end Content -->
 
