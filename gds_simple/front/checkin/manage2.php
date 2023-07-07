@@ -8,6 +8,7 @@
 	<?php include "../../partials/body.php"; ?>
 
         <!-- Begin page -->
+
         <div id="layout-wrapper">
 
 			<?php include "../../partials/topbar.php"; ?>
@@ -22,9 +23,7 @@
 					<?php include "../../partials/notice.php"; ?>
 
                     <div class="container-fluid">
-
 						<!-- start Content -->
-
 						<div class="row">
 							<div class="col">
 								<div class="card">
@@ -148,7 +147,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -201,7 +200,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -254,7 +253,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -307,7 +306,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -368,7 +367,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -421,7 +420,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -474,7 +473,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -527,7 +526,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -588,7 +587,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -641,7 +640,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -694,7 +693,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -747,7 +746,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -808,7 +807,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -861,7 +860,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -914,7 +913,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -967,7 +966,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -1028,7 +1027,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1081,7 +1080,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1134,7 +1133,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1187,7 +1186,7 @@
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -1248,7 +1247,7 @@
 																<td rowspan="4">김동준</td>
 																<td rowspan="4">클라스</td>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1301,7 +1300,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박윤규" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1354,7 +1353,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="최원석" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남" selected>남</option>
@@ -1407,7 +1406,7 @@
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="김채원" style="width:50px;"></td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="남">남</option>
@@ -1527,7 +1526,7 @@
 								</div>
 							</div>
 						</div>
-		                <!--//row - 내장관리 -->
+		                <!--//row -->
 
 						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
@@ -2431,13 +2430,11 @@
 						<!-- end Content -->
 
                     </div><!-- container-fluid -->
-
                 </div><!-- End Page-content -->
 
 				<?php include "../../partials/footer.php"; ?>
 
             </div><!-- end main content-->
-
         </div><!-- END layout-wrapper -->
 
 		<?php include "../../partials/right-sidebar.php"; ?>

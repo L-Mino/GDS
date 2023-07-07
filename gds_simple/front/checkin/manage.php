@@ -1,6 +1,6 @@
 <?php include "../../partials/main.php"; ?>
 
-    <head>>
+    <head>
 		<?php $title = '내장등록'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
@@ -10,15 +10,16 @@
         <!-- Begin page -->
 
         <div id="layout-wrapper">
+
 			<?php include "../../partials/topbar.php"; ?>
 			<?php include "../sidebar.php"; ?>
+
             <!-- ============================================================== -->
-
             <!-- Start right Content here -->
-
             <!-- ============================================================== -->
             <div class="main-content">
                 <div class="page-content">
+
 					<?php include "../../partials/notice.php"; ?>
 
                     <div class="container-fluid">
@@ -891,7 +892,7 @@
 
 												<tbody>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -909,7 +910,7 @@
 														<td>10,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -927,7 +928,7 @@
 														<td>20,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀" selected>홀</option>
@@ -1699,30 +1700,26 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - moveModal -->
+						<!-- //modal - moveModal -->					
 
 						<!-- end Content -->
+
                     </div><!-- container-fluid -->
                 </div><!-- End Page-content -->
 
 				<?php include "../../partials/footer.php"; ?>
 
-			</div><!-- end main content-->
+            </div><!-- end main content-->
         </div><!-- END layout-wrapper -->
 
 		<?php include "../../partials/right-sidebar.php"; ?>
 		<?php include "../../partials/vendor-scripts.php"; ?>
+
 		<script>
 		$(function(){
 			"use strict";
 			menuActive(2); //OneDepth
 		});
-
-		function lockerPrint(num) {
-			var lockerNum = $(num).prev().val();
-
-			
-		}
 		</script>
 
 		<!-- App js -->
