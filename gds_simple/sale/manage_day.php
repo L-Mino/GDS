@@ -294,8 +294,8 @@
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
-													<button type="button" class="btn btn-outline-custom">락카 자동 반납</button>
-													<button type="button" class="btn btn-outline-custom">팀 추가</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">락카 자동 반납</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button>
 												</div>
 
 												<div class="form-check form-check-inline align-top p-0 me-0">
@@ -820,6 +820,23 @@
 							</div>
 						</div>
 		                <!--//row -->
+
+						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-body">
+										<p class="text-center font-size-14 fw-semibold pt-4 mb-0">락카 자동 반납하시겠습니까?</p>
+									</div>
+									<div class="modal-footer">
+										<div class="d-flex justify-content-center w-100 gap-2 pb-3">
+											<button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+											<button type="button" class="btn btn-custom">확인</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- //modal - confirmModal -->
 
 						<div class="modal fade detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
@@ -1564,7 +1581,7 @@
 														<td>
 															<div class="d-flex align-items-center justify-content-between">
 																<div class="form-check form-check-inline ps-0 me-0">
-																	<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="2023.07.06">
+																	<input type="text" class="form-control datepicker text-start border-0 bg-transparent" value="23.07.06 (목)">
 																</div>
 																<i class="bx bx-calendar font-size-15 ms-1 me-3"></i>
 															</div>
@@ -1620,10 +1637,76 @@
 								</div>
 							</div>
 						</div>
-		                <!--//modal - addHoleModal -->																		
+		                <!--//modal - addHoleModal -->			
+						
+						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered modal-sm">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="addTeamModalLabel">팀 추가</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="border-box border-bottom-0">
+											<table class="table table-layout-fixed mb-0">
+												<colgroup>
+													<col style="width:70px;">
+													<col style="width:auto">
+												</colgroup>
+
+												<tbody>
+													<tr class="table-bg-gray">
+														<th>일자</th>
+														<td><span class="ps-10">23.05.01 (월)</span></td>
+													</tr>
+													<tr>
+														<th>코스</th>
+														<td>
+															<select class="form-select">
+																<option value="EAST IN" selected="">EAST IN</option>
+																<option value="EAST OUT">EAST OUT</option>
+																<option value="WEST IN">WEST IN</option>
+																<option value="WEST OUT">WEST OUT</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<th>홀</th>
+														<td>
+															<select class="form-select">
+																<option value="18홀" selected="">18홀</option>
+																<option value="18홀">18홀</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<th>부</th>
+														<td>
+															<select class="form-select">
+																<option value="1부" selected="">1부</option>
+																<option value="2부">2부</option>
+																<option value="3부">3부</option>
+															</select>
+														</td>
+													</tr>													
+													<tr>
+														<th>시간</th>
+														<td><input type="text" class="form-control" placeholder="24:00"></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+										<button type="button" class="btn btn-custom">저장</button>
+									</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div>
+						<!--//modal - addTeamModal -->									
 
 						<!-- end Content -->
-
                     </div><!-- container-fluid -->
 
                 </div><!-- End Page-content -->
