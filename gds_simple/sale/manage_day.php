@@ -53,27 +53,37 @@
 
 											<div class="d-flex align-items-center gap-4 ms-auto">
 												<dl class="d-flex mb-0">
-													<dt class="me-2">예약팀</dt>
+													<dt class="me-2">내장팀</dt>
 													<dd class="mb-0">135</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">내장팀</dt>
+													<dt class="me-2">정산팀</dt>
 													<dd class="mb-0">121</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">내장 인원</dt>
+													<dt class="me-2">미정산팀</dt>
+													<dd class="mb-0">100</dd>
+												</dl>
+
+												<dl class="d-flex mb-0">
+													<dt class="me-2">인원</dt>
 													<dd class="mb-0">360<span class="txt-line"></span>남260 / 여80</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">취소</dt>
-													<dd class="mb-0">13</dd>
+													<dt class="me-2">9H</dt>
+													<dd class="mb-0">0</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">노쇼</dt>
+													<dt class="me-2">18H</dt>
+													<dd class="mb-0">100</dd>
+												</dl>
+
+												<dl class="d-flex mb-0">
+													<dt class="me-2">기타</dt>
 													<dd class="mb-0">0</dd>
 												</dl>
 											</div>
