@@ -1550,7 +1550,7 @@
 										<div class="border-box border-bottom-0 mt-3">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
-													<col style="width:70px;">
+													<col style="width:75px;">
 													<col style="width:auto">
 												</colgroup>
 												
