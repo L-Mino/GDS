@@ -1609,12 +1609,13 @@
 										<h5 class="modal-title" id="articleModalLabel">물품 대여</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
+
 									<div class="modal-body">
 										<div class="border-box border-bottom-0">
 											<table class="table table-fixed table-responsive w-100 text-center nowrap mb-0">
 												<thead>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
 														<th>홀</th>
 														<th>대여 품목</th>
 														<th>대여료</th>
@@ -1623,7 +1624,7 @@
 
 												<tbody>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -1641,7 +1642,7 @@
 														<td>10,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -1659,7 +1660,7 @@
 														<td>20,000</td>
 													</tr>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀" selected>홀</option>
@@ -1683,6 +1684,7 @@
 											</table>
 										</div>
 									</div>
+
 									<div class="modal-footer">
 										<div class="d-flex gap-2">
 											<button type="button" class="btn btn-custom">삭제</button>

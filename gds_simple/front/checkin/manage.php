@@ -883,7 +883,7 @@
 											<table class="table table-fixed table-responsive w-100 text-center nowrap mb-0">
 												<thead>
 													<tr>
-														<th><input class="form-check-input" type="checkbox"></th>
+														<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
 														<th>홀</th>
 														<th>대여 품목</th>
 														<th>대여료</th>
@@ -892,7 +892,7 @@
 
 												<tbody>
 													<tr>
-														<td><input class="form-check-input" type="checkbox"></td>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -910,7 +910,7 @@
 														<td>10,000</td>
 													</tr>
 													<tr>
-														<td><input class="form-check-input" type="checkbox"></td>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -928,7 +928,7 @@
 														<td>20,000</td>
 													</tr>
 													<tr>
-														<td><input class="form-check-input" type="checkbox"></td>
+														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀" selected>홀</option>
