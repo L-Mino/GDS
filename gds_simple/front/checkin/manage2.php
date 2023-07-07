@@ -1600,7 +1600,7 @@
 								</div>
 							</div>
 						</div>
-		                <!--//modal - addHoleModal -->						
+		                <!--//modal - addHoleModal -->
 
 						<div class="modal fade articleModal" tabindex="-1" aria-labelledby="articleModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
