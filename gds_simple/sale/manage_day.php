@@ -550,7 +550,7 @@
 															<td>
 																<div class="d-flex align-items-center gap-1">
 																	<input class="form-control text-center p-0 mx-auto" type="text" id="lockerNum01" value="1125">
-																	<a href="javascript:void(0);" onclick="print_btn('lockerNum01');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<a href="javascript:void(0);" onclick="print_btn('lockerNum01') ;"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																</div>
 															</td>
 															<td>195,000</td>
