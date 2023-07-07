@@ -279,3 +279,34 @@ function checkSelect(){
 		}
 	});		
 }
+
+function print_btn(target_id){
+	var initBody = document.body.innerHTML;
+	window.onbeforeprint = function(){
+		document.body.innerHTML = document.getElementById(target_id).innerHTML;
+	}
+	window.onafterprint = function(){
+		console.log(document.body.innerHTML);
+		document.body.innerHTML = initBody;
+	}
+	window.print();
+	setTimeout(function() {
+		location.reload();
+   }, 250);
+}
+
+function lockerPrint(el){
+	var lockerNum = el.prev('input').val();
+	var initBody = document.body.innerHTML;
+	window.onbeforeprint = function(){
+		document.body.innerHTML = el;
+		//document.body.innerHTML = el.prev('input').html();
+	}
+	window.onafterprint = function(){
+		document.body.innerHTML = initBody;
+	}
+	window.print();
+	setTimeout(function() {
+		location.reload();
+   }, 250);
+}

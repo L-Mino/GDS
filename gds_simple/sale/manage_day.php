@@ -549,8 +549,8 @@
 															<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
 															<td>
 																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																	<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	<input class="form-control text-center p-0 mx-auto" type="text" id="lockerNum01" value="1125">
+																	<a href="javascript:void(0);" onclick="print_btn('lockerNum01');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																</div>
 															</td>
 															<td>195,000</td>
@@ -1564,7 +1564,7 @@
 											</table>
 										</div>	
 
-										<div class="border-box border-bottom-0 mt-3">
+										<div id="receiptPrint" class="border-box border-bottom-0 mt-3">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
 													<col style="width:75px;">
@@ -1632,7 +1632,7 @@
 										</div>									
 									</div>
 									<div class="modal-footer">
-										<button type="button" class="btn btn-outline-custom">인쇄</button>
+										<button type="button" class="btn btn-outline-custom" onclick="print_btn('receiptPrint');">인쇄</button>
 									</div>									
 								</div>
 							</div>
