@@ -2314,17 +2314,13 @@
 																	<tr>
 																		<th>예약 메모</th>
 																		<td colspan="3">
-																			<div class="row w-100">
-																				<div class="col">
-																					<div class="form-check form-check-inline align-top p-0">
-																						<select class="form-select w-auto">
-																							<option value="COF4" selected>COF4</option>
-																							<option value="PG/3">PG/3</option>
-																						</select>
-																					</div>
-																					<span class="d-inline-block align-text-top pt-1">4인 커피 무료 제공</span>
-																				</div>
+																			<div class="form-check form-check-inline align-top p-0 m-0">
+																				<select class="form-select w-auto">
+																					<option value="COF4" selected>COF4</option>
+																					<option value="PG/3">PG/3</option>
+																				</select>
 																			</div>
+																			<span class="d-inline-block align-text-top pt-1">4인 커피 무료 제공</span>
 																		</td>
 																	</tr>
 																	<tr>
@@ -2332,31 +2328,43 @@
 																		<td colspan="3">
 																			<input class="form-control" type="text">
 																		</td>
-																	</tr>
-																	<tr>
-																		<th>예약 취소</th>
-																		<td>
-																			<select class="form-select py-0">
-																				<option value="정상 취소" selected>정상 취소</option>
-																				<option value="우천 취소">우천 취소</option>
-																				<option value="노쇼">노쇼</option>
-																				<option value="1일전 임박취소">1일전 임박취소</option>
-																				<option value="2일전 임박취소">2일전 임박취소</option>
-																				<option value="3일전 임박취소">3일전 임박취소</option>
-																			</select>
-																		</td>
-																		<th>위약 조치</th>
-																		<td>
-																			<select class="form-select py-0">
-																				<option value="위약금 10" selected>위약금 10</option>
-																				<option value="위약금 30%">위약금 30%</option>
-																				<option value="예약금지 1M">예약금지 1M</option>
-																				<option value="Rain Check">Rain Check</option>
-																			</select>
-																		</td>
-																	</tr>
+												  					</tr>
 																</tbody>
 															</table>
+														</div>
+
+														<div class="border-box d-flex table-bg-gray py-2 mt-2">
+															<div class="col-4">
+																<select class="form-select py-0">
+																	<option value="취소 / 위약 선택" selected>취소 / 위약 선택</option>
+																	<option value="정상 취소">정상 취소</option>
+																	<option value="우천 취소">우천 취소</option>
+																	<option value="노쇼">노쇼</option>
+																	<option value="1일전 임박취소">1일전 임박취소</option>
+																	<option value="2일전 임박취소">2일전 임박취소</option>
+																	<option value="3일전 임박취소">3일전 임박취소</option>
+																</select>
+															</div>
+
+															<div class="col-4">
+																<select class="form-select py-0">
+																	<option value="위약 사유 선택" selected>위약 사유 선택</option>
+																	<option value="우천 취소">우천 취소</option>
+																	<option value="개인 사정">개인 사정</option>
+																	<option value="일정 변경">일정 변경</option>
+																	<option value="사고">사고</option>
+																	<option value="기타">기타</option>
+																</select>
+															</div>
+															<div class="col-4">
+																<select class="form-select col-4 py-0">
+																	<option value="위약 조치 선택" selected>위약 조치 선택</option>
+																	<option value="위약금 10" >위약금 10</option>
+																	<option value="위약금 30%">위약금 30%</option>
+																	<option value="예약금지 1M">예약금지 1M</option>
+																	<option value="Rain Check">Rain Check</option>
+																</select>
+															</div>
 														</div>
 
 														<ul class="nav nav-tabs-custom mt-4 mb-3" role="tablist">

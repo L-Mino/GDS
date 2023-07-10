@@ -463,17 +463,12 @@
 														</thead>
 
 														<tbody>
-															<tr>
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td>06:50</td>
 																<td>WI</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" id="lockerNum01" value="1111">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1111');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>홍길동</td>
+																<td>1111 <a href="javascript:void(0);" onclick="lockerPrint('1111');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>185,000</td>
 																<td>0</td>
 																<td class="text-blue">185,000</td>
@@ -487,17 +482,12 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1123');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>이길동</td>
+																<td>1123 <a href="javascript:void(0);" onclick="lockerPrint('1123');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -511,17 +501,12 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1124');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>박길동</td>
+																<td>1124 <a href="javascript:void(0);" onclick="lockerPrint('1124');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -535,17 +520,12 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1125');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>장길동</td>
+																<td>1125 <a href="javascript:void(0);" onclick="lockerPrint('1125');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -584,13 +564,8 @@
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td>06:50</td>
 																<td>WI</td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1311">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1311');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>홍길동</td>
+																<td>1311 <a href="javascript:void(0);" onclick="lockerPrint('1311');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>185,000</td>
 																<td>0</td>
 																<td class="text-blue">185,000</td>
@@ -608,13 +583,8 @@
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1323">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1323');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>이길동</td>
+																<td>1323 <a href="javascript:void(0);" onclick="lockerPrint('1323');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -632,13 +602,8 @@
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1324">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1324');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>박길동</td>
+																<td>1324 <a href="javascript:void(0);" onclick="lockerPrint('1324');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -656,13 +621,8 @@
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
-																<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
-																<td>
-																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1325">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1325');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																	</div>
-																</td>
+																<td>장길동</td>
+																<td>1325 <a href="javascript:void(0);" onclick="lockerPrint('1325');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -1759,7 +1719,206 @@
 								</div>
 							</div>
 						</div>
-		                <!--//modal - addHoleModal -->			
+		                <!--//modal - receiptModal -->
+
+						<div class="modal fade paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="paymentModalLabel">요금 결제</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>								
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-6">
+												<div class="card">
+													<div class="card-body">
+														<span class="font-size-14 fw-semibold">신용카드 / 현금 영수증(자진) 승인</span>
+														<div class="border-box border-bottom-0 mt-3">
+															<table class="table table-layout-fixed mb-0">
+																<colgroup>
+																	<col style="width:105px;">
+																	<col style="width:auto">
+																</colgroup>
+																
+																<tbody>
+																	<tr>
+																		<th>정산 일자</th>
+																		<td><span class="ps-10">2023.07.06</span></td>
+																	</tr>
+																	<tr>
+																		<th>내장자 명</th>
+																		<td><span class="ps-10">홍길동</span></td>
+																	</tr>
+																	<tr>
+																		<th class="fw-semibold text-blue">결제 총액</th>
+																		<td class="pe-42 text-end"><span class="fw-semibold text-blue pe-16">235,000</span> 원</td>
+																	</tr>																	
+																	<tr>
+																		<th>카드 결제</th>
+																		<td class="pe-42">
+																			<div class="d-flex align-items-center gap-2">
+																				<input type="text" class="form-control text-end" value="135,000"> 원
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>현금 결제</th>
+																		<td class="pe-42">
+																			<div class="d-flex align-items-center gap-2">
+																				<input type="text" class="form-control text-end" value="100,000"> 원
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th class="fw-semibold text-red">합계 금액</th>
+																		<td class="pe-42 text-end"><span class="fw-semibold text-red pe-16">235,000</span> 원</td>
+																	</tr>
+																	<tr>
+																		<th>할부 기간</th>
+																		<td class="pe-30">
+																			<div class="d-flex align-items-center justify-content-end gap-2">
+																				<input type="text" class="form-control input_w35 text-center p-0" value="00"> 개월
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>현금 발급 구분</th>
+																		<td class="pe-30">
+																			<div class="d-flex align-items-center justify-content-end gap-2">
+																				xxxxxxxxxxxxxx
+																				<div class="form-check form-check-inline me-0">
+																					<input class="form-check-input" type="checkbox" id="cardCheck" checked>
+																					<label class="form-check-label" for="cardCheck">카드</label>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>카드 번호</th>
+																		<td>
+																			<div class="d-flex align-items-center gap-2">
+																				<input type="text" class="form-control" value="12345678910">
+																				<button type="button" class="btn btn-outline-custom text-blue">Sign</button>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>카드명 / 매입사</th>
+																		<td><span class="ps-10">삼성아멕스 / 삼성</span></td>
+																	</tr>
+																	<tr>
+																		<th>승인번호</th>
+																		<td>
+																			<input type="text" class="form-control" value="12345">
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>원 승인번호</th>
+																		<td>
+																			<input type="text" class="form-control" value="12345">
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>원 승인일자</th>
+																		<td>
+																			<div class="d-flex align-items-center justify-content-between">
+																				<div class="form-check form-check-inline ps-0 me-0">
+																					<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.07.06">
+																				</div>
+																				<i class="bx bx-calendar font-size-15 ms-1 me-2"></i>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>성명</th>
+																		<td>
+																			<input type="text" class="form-control" value="홍길동">
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>전화번호</th>
+																		<td>
+																			<input type="text" class="form-control" value="010-1234-5678">
+																		</td>
+																	</tr>																	
+																	<tr>
+																		<th>회원번호</th>
+																		<td>
+																			<input type="text" class="form-control" value="46-9144">
+																		</td>
+																	</tr>
+																	<tr>
+																		<th>비고</th>
+																		<td>
+																			<input type="text" class="form-control">
+																		</td>
+																	</tr>
+																</tbody>	
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-6">
+												<div class="card">
+													<div class="card-body">
+														<div class="d-flex gap-2">
+															<div class="col-6">
+																<div class="d-grid">
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio01" autocomplete="off" checked>
+																	<label class="btn btn-radio-blue" for="payment01-radio01">신용 카드</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio02" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment01-radio02">상품권</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio03" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment01-radio03">선불 카드</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio04" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment01-radio04">채널 선결제</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio05" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment01-radio05">미수</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio06" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment01-radio06">예치금</label>
+																	<input type="radio" class="btn-check" name="payment01-radio" id="payment01-radio07" autocomplete="off">
+																	<label class="btn btn-radio-blue mb-0" for="payment01-radio07">현금 (IC)</label>
+																</div>
+															</div>
+															<div class="col-6">
+																<div class="d-grid">
+																	<input type="radio" class="btn-check" name="payment02-radio" id="payment02-radio01" autocomplete="off" checked>
+																	<label class="btn btn-radio-blue" for="payment02-radio01">현금 영수증(자진)</label>
+																	<input type="radio" class="btn-check" name="payment02-radio" id="payment02-radio02" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment02-radio02">현금 영수증(개인)</label>
+																	<input type="radio" class="btn-check" name="payment02-radio" id="payment02-radio03" autocomplete="off">
+																	<label class="btn btn-radio-blue" for="payment02-radio03">현금 영수증(법인)</label>
+																	<input type="radio" class="btn-check" name="payment02-radio" id="payment02-radio04" autocomplete="off">
+																	<label class="btn btn-radio-blue mb-0" for="payment02-radio04">현금</label>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="form-check form-check-inline mt-2">
+													<input class="form-check-input" type="checkbox" id="cashReceiptCheck">
+													<label class="form-check-label" for="cashReceiptCheck">현금 영수증 터치(키보드) 입력</label>
+												</div>
+
+												<div class="bg-info-subtle p-3 mt-3">
+													<textarea rows="11" class="form-control bg-transparent border-0 p-0" style="resize:none;"></textarea>
+												</div>
+
+												<div class="d-flex justify-content-end gap-2 mt-3">
+													<button type="button" class="btn btn-custom px-3">닫기</button>
+													<button type="button" class="btn btn-custom px-3">승인</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		                <!--//modal - receiptModal -->						
 
 						<!-- end Content -->
                     </div><!-- container-fluid -->
@@ -1780,6 +1939,10 @@
 			"use strict";
 			menuActive(3); //OneDepth
 		});
+
+		function paymentModal(){
+			$('.paymentModal').modal('toggle');
+		}
 		</script>
 
 		<!-- App js -->

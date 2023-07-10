@@ -37,6 +37,7 @@
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/personnel.php">인원변경 그린피</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/holiday.php">공휴일 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/breach.php">위약 조치</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/deployment.php">캐디 / 카트 배치</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/season.php">시즌 / 휴장일 관리</a></li>						
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/setting/shortcut.php">단축키 안내</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="#">실시간 API</a></li>

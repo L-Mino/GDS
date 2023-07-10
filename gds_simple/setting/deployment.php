@@ -1,7 +1,7 @@
 <?php include "../partials/main.php"; ?>
 
     <head>
-		<?php $title = '위반 조치'; include "../partials/title-meta.php"; ?>
+		<?php $title = '캐디 / 카트 배치'; include "../partials/title-meta.php"; ?>
 		<?php include "../partials/head-css.php"; ?>
     </head>
 

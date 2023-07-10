@@ -82,7 +82,6 @@
 															<col style="min-width:150px;">
 															<col style="min-width:150px;">
 															<col style="min-width:150px;">
-															<col style="min-width:150px;">
 															<col style="min-width:200px;">
 															<col style="min-width:200px;">
 															<col style="min-width:300px; width:300px;">
@@ -121,15 +120,6 @@
 																	</div>
 																</th>
 																<th>위약 사유</th>
-																<th>위약 코드
-																	<div class="dropdown d-inline-block">
-																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
-																		<ul class="dropdown-menu dropdown-menu-dark">
-																			<li><button type="button" class="dropdown-item">위약 코드1</button></li>
-																			<li><button type="button" class="dropdown-item">위약 코드2</button></li>
-																		</ul>
-																	</div>
-																</th>
 																<th>위약 조치</th>
 																<th>내장 금지</th>
 																<th>비고</th>
@@ -174,9 +164,6 @@
 																	<input type="text" class="form-control text-center p-0 mx-auto" value="개인사정">
 																</td>
 																<td>
-																	<input type="text" class="form-control text-center p-0 mx-auto" value="abdfd">
-																</td>
-																<td>
 																	<input type="text" class="form-control text-center p-0 mx-auto" value="위약금 10만원">
 																</td>
 																<td>내장 금지 2023.06.20</td>
@@ -191,7 +178,6 @@
 																<td>010-1234-5678</td>
 																<td>노쇼</td>
 																<td>개인사정</td>
-																<td></td>
 																<td>위약금 10만원 입금 확인</td>
 																<td>내장 금지 2023.06.20</td>
 																<td></td>
