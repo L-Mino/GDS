@@ -396,8 +396,11 @@
 											<div class="d-flex align-items-center gap-2 mb-3">
 												<span class="fs-16 fw-bold">06:50  WI  1부</span>
 												<div class="btn-group ms-auto">
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>													
+													<button type="button" class="btn btn-outline-custom">합산</button>
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
+													<button type="button" class="btn btn-outline-custom">직전 취소</button>
+													<button type="button" class="btn btn-outline-custom">요금 환원</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
 												</div>
 
@@ -473,7 +476,7 @@
 																</td>
 																<td>185,000</td>
 																<td>0</td>
-																<td>185,000</td>
+																<td class="text-blue">185,000</td>
 																<td></td>
 																<td>160,000</td>
 																<td>25,000</td>
@@ -497,7 +500,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -521,7 +524,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -545,7 +548,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -556,9 +559,9 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr class="table-bg-gray">
 																<td></td>
-																<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+																<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
 																<td></td>
 																<td></td>
 																<td class="fw-semibold text-red">770,000</td>
@@ -575,7 +578,7 @@
 																<td class="fw-semibold"></td>
 															</tr>
 															<tr>
-																<td colspan="17" class="bg-secondary p-0" style="height:1px"></td>
+																<td colspan="17" class="table-line"></td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
@@ -590,7 +593,7 @@
 																</td>
 																<td>185,000</td>
 																<td>0</td>
-																<td>185,000</td>
+																<td class="text-blue">185,000</td>
 																<td></td>
 																<td>160,000</td>
 																<td>25,000</td>
@@ -614,7 +617,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -638,7 +641,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -662,7 +665,7 @@
 																</td>
 																<td>195,000</td>
 																<td>0</td>
-																<td>195,000</td>
+																<td class="text-blue">195,000</td>
 																<td></td>
 																<td>170,000</td>
 																<td>25,000</td>
@@ -673,9 +676,9 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr class="table-bg-gray">
 																<td></td>
-																<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+																<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
 																<td></td>
 																<td></td>
 																<td class="fw-semibold text-red">770,000</td>
@@ -692,13 +695,13 @@
 																<td class="fw-semibold"></td>
 															</tr>
 															<tr>
-																<td colspan="17" class="bg-secondary p-0" style="height:1px"></td>
+																<td colspan="17" class="table-line"></td>
 															</tr>															
 														</tbody>
 													</table>
 												</div>
 
-												<div class="border-box border-bottom-0 mt-3">
+												<div class="blue-box border-bottom-0 mt-3">
 													<table class="table table-layout-fixed mb-0">
 														<colgroup>
 															<col style="width:256px;">
@@ -710,7 +713,7 @@
 														</colgroup>
 
 														<tbody>
-															<tr class="table-bg-gray">
+															<tr>
 																<td>
 																	<span class="fw-semibold ms-1">팀수</span>
 																	<span class="fw-semibold text-blue ms-1">3</span>

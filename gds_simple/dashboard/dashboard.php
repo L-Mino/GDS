@@ -83,11 +83,11 @@
 																<th colspan="5">EAST IN</th>
 															</tr>
 															<tr>
-																<td></th>
-																<td class="fw-normal">티타임</td>
-																<td class="fw-normal">예약</td>
-																<td class="fw-normal">잔여</td>
-																<td class="fw-normal">내장객수</td>
+																<th></th>
+																<th class="fw-normal">티타임</th>
+																<th class="fw-normal">예약</th>
+																<th class="fw-normal">잔여</th>
+																<th class="fw-normal">내장객수</th>
 															</tr>
 														</thead>
 
@@ -124,11 +124,11 @@
 																<th colspan="5">EAST OUT</th>
 															</tr>
 															<tr>
-																<td></th>
-																<td class="fw-normal">티타임</td>
-																<td class="fw-normal">예약</td>
-																<td class="fw-normal">잔여</td>
-																<td class="fw-normal">내장객수</td>
+																<th></th>
+																<th class="fw-normal">티타임</th>
+																<th class="fw-normal">예약</th>
+																<th class="fw-normal">잔여</th>
+																<th class="fw-normal">내장객수</th>
 															</tr>
 														</thead>
 
@@ -165,11 +165,11 @@
 																<th colspan="5">WEST IN</th>
 															</tr>
 															<tr>
-																<td></th>
-																<td class="fw-normal">티타임</td>
-																<td class="fw-normal">예약</td>
-																<td class="fw-normal">잔여</td>
-																<td class="fw-normal">내장객수</td>
+																<th></th>
+																<th class="fw-normal">티타임</th>
+																<th class="fw-normal">예약</th>
+																<th class="fw-normal">잔여</th>
+																<th class="fw-normal">내장객수</th>
 															</tr>
 														</thead>
 
@@ -206,11 +206,11 @@
 																<th colspan="5">WEST OUT</th>
 															</tr>
 															<tr>
-																<td></th>
-																<td class="fw-normal">티타임</td>
-																<td class="fw-normal">예약</td>
-																<td class="fw-normal">잔여</td>
-																<td class="fw-normal">내장객수</td>
+																<th></th>
+																<th class="fw-normal">티타임</th>
+																<th class="fw-normal">예약</th>
+																<th class="fw-normal">잔여</th>
+																<th class="fw-normal">내장객수</th>
 															</tr>
 														</thead>
 

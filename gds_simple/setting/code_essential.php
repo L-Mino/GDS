@@ -49,15 +49,14 @@
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code10">그린피 분류</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code11">위약 구분</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code12">위약 사유</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code13">위약 조치</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code14">결제 구분</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">결제 방법</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code16">예약 메모</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code17">임시 단체</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code18">내장 인원</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code19">휴장 코드 </a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code20">성수기 (시즌) 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code21">장비</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code13">결제 구분</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code14">결제 방법</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code15">예약 메모</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code16">임시 단체</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code17">내장 인원</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code18">휴장 코드 </a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code19">성수기 (시즌) 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code20">장비</a></li>
 													</ul>
 												</div>
 											</div>
@@ -1186,146 +1185,6 @@
 
 													<div class="tab-pane fade" id="code13" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
-															<span class="code-title">위약 조치</span>
-															<!--span class="mx-2">-</span>
-															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
-														</div>
-
-														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
-															<table class="table text-center w-100 mb-0 nowrap">
-																<colgroup>
-																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">
-																	<col style="min-width:70px; width:70px;">
-																	<col style="min-width:100px;">
-																	<col style="min-width:100px;">
-																	<col style="min-width:100px;">																	
-																	<col style="min-width:60px; width:60px;">
-																	<col style="min-width:200px;">
-																	<col style="min-width:70px; width:70px;">
-																</colgroup>
-
-																<thead>
-																	<tr>
-																		<th>구분명</th>
-																		<th>단축 코드</th>
-																		<th>사용안함</th>
-																		<th>위약기간</th>
-																		<th>위약금</th>
-																		<th>위약퍼센트</th>																			
-																		<th>정렬</th>
-																		<th>비고</th>
-																		<th>저장</th>
-																	</tr>
-																</thead>
-
-																<tbody>
-																	<tr>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
-																		<td><input class="form-check-input" type="checkbox" disabled></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약기간"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약금"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="위약퍼센트"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
-																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 30%</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td></td>
-																		<td></td>
-																		<td>30%</td>																		
-																		<td>1</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 50%</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td></td>
-																		<td></td>																		
-																		<td>50%</td>
-																		<td>2</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>예약금지 1M</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>1M</td>
-																		<td></td>
-																		<td></td>																		
-																		<td>3</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>예약금지 2M</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>2M</td>
-																		<td></td>
-																		<td></td>																		
-																		<td>4</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>예약금지 3M</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td>3M</td>
-																		<td></td>
-																		<td></td>																		
-																		<td>5</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 10</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td></td>
-																		<td>100,000</td>
-																		<td></td>
-																		<td>6</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 20</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td></td>
-																		<td>200,000</td>
-																		<td></td>																		
-																		<td>7</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																	<tr>
-																		<td>위약금 30</td>
-																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
-																		<td></td>
-																		<td>300,000</td>
-																		<td></td>																		
-																		<td>7</td>
-																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>													
-
-													<div class="tab-pane fade" id="code14" role="tabpanel">
-														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">결제 구분</span>
 															<!--span class="mx-2">-</span>
 															<span>설명설명설명설명설명설명설명설명설명설명설명설명설명</span-->
@@ -1391,7 +1250,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code15" role="tabpanel">
+													<div class="tab-pane fade" id="code14" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">결제 방법</span>
 															<!--span class="mx-2">-</span>
@@ -1466,7 +1325,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code16" role="tabpanel">
+													<div class="tab-pane fade" id="code15" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">예약 메모</span>
 															<!--span class="mx-2">-</span>
@@ -1533,7 +1392,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code17" role="tabpanel">
+													<div class="tab-pane fade" id="code16" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">임시 단체</span>
 															<!--span class="mx-2">-</span>
@@ -1599,7 +1458,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code18" role="tabpanel">
+													<div class="tab-pane fade" id="code17" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">내장 인원</span>
 															<!--span class="mx-2">-</span>
@@ -1673,7 +1532,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code19" role="tabpanel">
+													<div class="tab-pane fade" id="code18" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">휴장 코드</span>
 															<!--span class="mx-2">-</span>
@@ -1739,7 +1598,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code20" role="tabpanel">
+													<div class="tab-pane fade" id="code19" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">성수기 (시즌) 코드</span>
 															<!--span class="mx-2">-</span>
@@ -1805,7 +1664,7 @@
 														</div>
 													</div>
 
-													<div class="tab-pane fade" id="code21" role="tabpanel">
+													<div class="tab-pane fade" id="code20" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">장비</span>
 															<!--span class="mx-2">-</span>
