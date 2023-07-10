@@ -286,7 +286,6 @@ function print_btn(target_id){
 		document.body.innerHTML = document.getElementById(target_id).innerHTML;
 	}
 	window.onafterprint = function(){
-		console.log(document.body.innerHTML);
 		document.body.innerHTML = initBody;
 	}
 	window.print();
@@ -295,11 +294,11 @@ function print_btn(target_id){
    }, 250);
 }
 
-function lockerPrint(el){
-	var lockerNum = el.prev('input').val();
+function lockerPrint(num){
+	var lockerNum = num.innerHTML;
 	var initBody = document.body.innerHTML;
 	window.onbeforeprint = function(){
-		document.body.innerHTML = el;
+		document.body.innerHTML = lockerNum;
 		//document.body.innerHTML = el.prev('input').html();
 	}
 	window.onafterprint = function(){
