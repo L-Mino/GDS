@@ -298,7 +298,7 @@ function lockerPrint(num){
 	//var lockerNum = num.innerHTML;
 	var initBody = document.body.innerHTML;
 	window.onbeforeprint = function(){
-		document.body.innerHTML = Num;
+		document.body.innerHTML = num;
 		//document.body.innerHTML = el.prev('input').html();
 	}
 	window.onafterprint = function(){

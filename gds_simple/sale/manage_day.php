@@ -120,7 +120,7 @@
 												</div>												
 											</div>
 
-											<div class="table-fixed-head card" data-simplebar style="max-height:calc(100vh - 516px);">
+											<div class="table-fixed-head card" data-simplebar style="max-height:calc(100vh - 518px);">
 												<table class="table table-sm table-layout-fixed table-hover text-center mb-0">
 													<colgroup>
 														<col style="width:55px;">
@@ -428,7 +428,7 @@
 												</div>
 											</div>
 
-											<div data-simplebar style="max-height:calc(100vh - 327px);">
+											<div data-simplebar style="max-height:calc(100vh - 328px);">
 												<div class="table-responsive table-fixed-head" data-simplebar>
 													<table class="table table-hover text-center mb-0">
 														<colgroup>
@@ -506,7 +506,7 @@
 																<td>
 																	<div class="d-flex align-items-center gap-1">
 																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<a href="javascript:void(0);" onclick="lockerPrint('1123');">><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -530,7 +530,7 @@
 																<td>
 																	<div class="d-flex align-items-center gap-1">
 																		<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<a href="javascript:void(0);" onclick="lockerPrint('1124');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -554,7 +554,7 @@
 																<td>
 																	<div class="d-flex align-items-center gap-1">
 																		<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<a href="javascript:void(0);" onclick="lockerPrint('1125');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -595,8 +595,8 @@
 																<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
 																<td>
 																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1311">
+																		<a href="javascript:void(0);" onclick="lockerPrint('1311');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>185,000</td>
@@ -619,8 +619,8 @@
 																<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
 																<td>
 																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1323">
+																		<a href="javascript:void(0);" onclick="lockerPrint('1323');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -643,8 +643,8 @@
 																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
 																<td>
 																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1324">
+																		<a href="javascript:void(0);" onclick="lockerPrint('1324');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -667,8 +667,8 @@
 																<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
 																<td>
 																	<div class="d-flex align-items-center gap-1">
-																		<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1325">
+																		<a href="javascript:void(0);" onclick="lockerPrint('1325');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
