@@ -120,7 +120,7 @@
 												</div>												
 											</div>
 
-											<div class="table-fixed-head card" data-simplebar style="max-height:469px;">
+											<div class="table-fixed-head card" data-simplebar style="max-height:calc(100vh - 516px);">
 												<table class="table table-sm table-layout-fixed table-hover text-center mb-0">
 													<colgroup>
 														<col style="width:55px;">
@@ -244,6 +244,123 @@
 															<td>18</td>
 															<td class="text-truncate">임시1</td>
 														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>														
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>
+														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
+															<td>06:50</td>
+															<td>EI</td>
+															<td>안은미</td>
+															<td>700,000</td>
+															<td></td>
+															<td>18</td>
+															<td class="text-truncate">임시1</td>
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -311,505 +428,507 @@
 												</div>
 											</div>
 
-											<div class="table-responsive table-fixed-head" data-simplebar>
-												<table class="table table-hover text-center mb-0">
-													<colgroup>
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="min-width:60px; width:auto;">
-														<col style="min-width:90px; width:auto;">
-														<col style="min-width:90px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-													</colgroup>
+											<div data-simplebar style="max-height:calc(100vh - 327px);">
+												<div class="table-responsive table-fixed-head" data-simplebar>
+													<table class="table table-hover text-center mb-0">
+														<colgroup>
+															<col style="width:auto;">
+															<col style="width:auto;">
+															<col style="min-width:60px; width:auto;">
+															<col style="min-width:90px; width:auto;">
+															<col style="min-width:90px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+														</colgroup>
 
-													<thead>
-														<tr>
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-															<th>시간</th>
-															<th>코스</th>
-															<th>성명</th>
-															<th>락카</th>
-															<th>잔액</th>
-															<th>지불액</th>
-															<th>합계</th>
-															<th>할인액</th>
-															<th>입장료</th>
-															<th>카트료</th>
-															<th>대여료</th>
-															<th>프로샵</th>
-															<th>대식당</th>
-															<th>스타트</th>
-															<th>그늘집</th>
-															<th>객실료</th>
-														</tr>
-													</thead>
+														<thead>
+															<tr>
+																<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																<th>시간</th>
+																<th>코스</th>
+																<th>성명</th>
+																<th>락카</th>
+																<th>잔액</th>
+																<th>지불액</th>
+																<th>합계</th>
+																<th>할인액</th>
+																<th>입장료</th>
+																<th>카트료</th>
+																<th>대여료</th>
+																<th>프로샵</th>
+																<th>대식당</th>
+																<th>스타트</th>
+																<th>그늘집</th>
+																<th>객실료</th>
+															</tr>
+														</thead>
 
-													<tbody>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>06:50</td>
-															<td>WI</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" id="lockerNum01" value="1111">
-																	<a href="javascript:void(0);" onclick="lockerPrint('1111');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>185,000</td>
-															<td>0</td>
-															<td>185,000</td>
-															<td></td>
-															<td>160,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td></td>
-															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
-															<td></td>
-															<td></td>
-															<td class="fw-semibold text-red">770,000</td>
-															<td class="fw-semibold">0</td>
-															<td class="fw-semibold text-blue">770,000</td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold">670,000</td>
-															<td class="fw-semibold">100,000</td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>06:50</td>
-															<td>WI</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>185,000</td>
-															<td>0</td>
-															<td>185,000</td>
-															<td></td>
-															<td>160,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td></td>
-															<td></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>195,000</td>
-															<td>0</td>
-															<td>195,000</td>
-															<td></td>
-															<td>170,000</td>
-															<td>25,000</td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td></td>
-															<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
-															<td></td>
-															<td></td>
-															<td class="fw-semibold text-red">770,000</td>
-															<td class="fw-semibold">0</td>
-															<td class="fw-semibold text-blue">770,000</td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold">670,000</td>
-															<td class="fw-semibold">100,000</td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-															<td class="fw-semibold"></td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+														<tbody>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>06:50</td>
+																<td>WI</td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" id="lockerNum01" value="1111">
+																		<a href="javascript:void(0);" onclick="lockerPrint('1111');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>185,000</td>
+																<td>0</td>
+																<td>185,000</td>
+																<td></td>
+																<td>160,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td></td>
+																<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+																<td></td>
+																<td></td>
+																<td class="fw-semibold text-red">770,000</td>
+																<td class="fw-semibold">0</td>
+																<td class="fw-semibold text-blue">770,000</td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold">670,000</td>
+																<td class="fw-semibold">100,000</td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>06:50</td>
+																<td>WI</td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="홍길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>185,000</td>
+																<td>0</td>
+																<td>185,000</td>
+																<td></td>
+																<td>160,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="이길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="박길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1124">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td></td>
+																<td></td>
+																<td><input class="form-control text-center p-0 mx-auto" type="text" value="장길동"></td>
+																<td>
+																	<div class="d-flex align-items-center gap-1">
+																		<input class="form-control text-center p-0 mx-auto" type="text" value="1125">
+																		<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																	</div>
+																</td>
+																<td>195,000</td>
+																<td>0</td>
+																<td>195,000</td>
+																<td></td>
+																<td>170,000</td>
+																<td>25,000</td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td></td>
+																<td colspan="2"><button type="button" class="btn btn btn-outline-custom text-blue" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+																<td></td>
+																<td></td>
+																<td class="fw-semibold text-red">770,000</td>
+																<td class="fw-semibold">0</td>
+																<td class="fw-semibold text-blue">770,000</td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold">670,000</td>
+																<td class="fw-semibold">100,000</td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+																<td class="fw-semibold"></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 
-											<div class="border-box border-bottom-0 mt-3">
-												<table class="table table-layout-fixed mb-0">
-													<colgroup>
-														<col style="width:256px;">
-														<col style="width:70px;">
-														<col style="width:80px;">
-														<col style="width:80px;">
-														<col style="width:80px;">
-														<col style="width:auto;">
-													</colgroup>
+												<div class="border-box border-bottom-0 mt-3">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:256px;">
+															<col style="width:70px;">
+															<col style="width:80px;">
+															<col style="width:80px;">
+															<col style="width:80px;">
+															<col style="width:auto;">
+														</colgroup>
 
-													<tbody>
-														<tr class="table-bg-gray">
-															<td>
-																<span class="fw-semibold ms-1">팀수</span>
-																<span class="fw-semibold text-blue ms-1">3</span>
-																<span class="fw-semibold ms-4">인원</span>
-																<span class="fw-semibold text-blue ms-1">12</span>
-															</td>
-															<td class="text-center"><span class="txt-line"></span></td>
-															<td class="text-center"><span class="fw-semibold text-red">1,930,000</span></td>
-															<td class="text-center"><span class="fw-semibold">0</span></td>
-															<td class="text-center"><span class="fw-semibold text-blue">2,230,000</span></td>
-															<td></td>
-														</tr>
-													</tbody>
-												</table>
-											
-												<table class="table table-layout-fixed mb-0">
-													<colgroup>
-														<col style="width:100px;">
-														<col style="width:auto;">
-														<col style="width:100px;">
-														<col style="width:auto;">													
-														<col style="width:100px;">
-														<col style="width:auto;">													
-													</colgroup>
+														<tbody>
+															<tr class="table-bg-gray">
+																<td>
+																	<span class="fw-semibold ms-1">팀수</span>
+																	<span class="fw-semibold text-blue ms-1">3</span>
+																	<span class="fw-semibold ms-4">인원</span>
+																	<span class="fw-semibold text-blue ms-1">12</span>
+																</td>
+																<td class="text-center"><span class="txt-line"></span></td>
+																<td class="text-center"><span class="fw-semibold text-red">1,930,000</span></td>
+																<td class="text-center"><span class="fw-semibold">0</span></td>
+																<td class="text-center"><span class="fw-semibold text-blue">2,230,000</span></td>
+																<td></td>
+															</tr>
+														</tbody>
+													</table>
+												
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:100px;">
+															<col style="width:auto;">
+															<col style="width:100px;">
+															<col style="width:auto;">													
+															<col style="width:100px;">
+															<col style="width:auto;">													
+														</colgroup>
 
-													<tbody>
-														<tr>
-															<th>총금액 (12명)</th>
-															<td>2,230,000</td>
-															<th>1/N (12명)</th>
-															<td>185,833</td>
-															<th>06:50/N (8명)</th>
-															<td>375,000</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+														<tbody>
+															<tr>
+																<th>총금액 (12명)</th>
+																<td>2,230,000</td>
+																<th>1/N (12명)</th>
+																<td>185,833</td>
+																<th>06:50/N (8명)</th>
+																<td>375,000</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 
-											<div class="table-responsive table-fixed-head mt-3" data-simplebar>			
-												<table class="table table-hover text-center mb-0">
-													<colgroup>
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="min-width:50px; width:auto;">
-														<col style="min-width:60px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:80px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:70px; width:auto;">
-													</colgroup>
+												<div class="table-responsive table-fixed-head mt-3" data-simplebar>			
+													<table class="table table-hover text-center mb-0">
+														<colgroup>
+															<col style="width:auto;">
+															<col style="width:auto;">
+															<col style="min-width:50px; width:auto;">
+															<col style="min-width:60px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:80px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+															<col style="min-width:70px; width:auto;">
+														</colgroup>
 
-													<thead>
-														<tr>
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-															<th>No</th>
-															<th>락카</th>
-															<th>성명</th>
-															<th>지불 구분</th>
-															<th>금액</th>
-															<th>카드 번호</th>
-															<th>승인 번호</th>
-															<th>결제 항목</th>
-															<th>영수증</th>
-															<th>정산자</th>
-															<th>정산 시간</th>
-														</tr>
-													</thead>
+														<thead>
+															<tr>
+																<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																<th>No</th>
+																<th>락카</th>
+																<th>성명</th>
+																<th>지불 구분</th>
+																<th>금액</th>
+																<th>카드 번호</th>
+																<th>승인 번호</th>
+																<th>결제 항목</th>
+																<th>영수증</th>
+																<th>정산자</th>
+																<th>정산 시간</th>
+															</tr>
+														</thead>
 
-													<tbody>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>12</td>
-															<td>1241</td>
-															<td>홍길동</td>
-															<td>비씨카드</td>
-															<td>600,000</td>
-															<td>123456***</td>
-															<td>12345678</td>
-															<td>카드결제</td>
-															<td></td>
-															<td>ANNA88</td>
-															<td>09:47:16</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>11</td>
-															<td>1241</td>
-															<td>김길동</td>
-															<td>국민카드</td>
-															<td>200,000</td>
-															<td>123456***</td>
-															<td>12345678</td>
-															<td>카드결제</td>
-															<td></td>
-															<td>ANNA88</td>
-															<td>08:00:21</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>10</td>
-															<td>1241</td>
-															<td>장길동</td>
-															<td>신한카드</td>
-															<td>200,000</td>
-															<td>123456***</td>
-															<td>12345678</td>
-															<td>카드결제</td>
-															<td></td>
-															<td>ANNA88</td>
-															<td>07:54:10</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td>9</td>
-															<td>1241</td>
-															<td>박길동</td>
-															<td>국민카드</td>
-															<td>200,000</td>
-															<td>123456***</td>
-															<td>12345678</td>
-															<td>카드결제</td>
-															<td></td>
-															<td>ANNA88</td>
-															<td>07:50:00</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+														<tbody>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>12</td>
+																<td>1241</td>
+																<td>홍길동</td>
+																<td>비씨카드</td>
+																<td>600,000</td>
+																<td>123456***</td>
+																<td>12345678</td>
+																<td>카드결제</td>
+																<td></td>
+																<td>ANNA88</td>
+																<td>09:47:16</td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>11</td>
+																<td>1241</td>
+																<td>김길동</td>
+																<td>국민카드</td>
+																<td>200,000</td>
+																<td>123456***</td>
+																<td>12345678</td>
+																<td>카드결제</td>
+																<td></td>
+																<td>ANNA88</td>
+																<td>08:00:21</td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>10</td>
+																<td>1241</td>
+																<td>장길동</td>
+																<td>신한카드</td>
+																<td>200,000</td>
+																<td>123456***</td>
+																<td>12345678</td>
+																<td>카드결제</td>
+																<td></td>
+																<td>ANNA88</td>
+																<td>07:54:10</td>
+															</tr>
+															<tr>
+																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																<td>9</td>
+																<td>1241</td>
+																<td>박길동</td>
+																<td>국민카드</td>
+																<td>200,000</td>
+																<td>123456***</td>
+																<td>12345678</td>
+																<td>카드결제</td>
+																<td></td>
+																<td>ANNA88</td>
+																<td>07:50:00</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 
-											<div class="border-box border-bottom-0 mt-1">
-												<table class="table table-layout-fixed mb-0">
-													<colgroup>
-														<col style="width:100px;">
-														<col style="width:auto;">
-														<col style="width:100px;">
-														<col style="width:auto;">													
-														<col style="width:100px;">
-														<col style="width:auto;">													
-													</colgroup>
+												<div class="border-box border-bottom-0 mt-1">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:100px;">
+															<col style="width:auto;">
+															<col style="width:100px;">
+															<col style="width:auto;">													
+															<col style="width:100px;">
+															<col style="width:auto;">													
+														</colgroup>
 
-													<tbody>
-														<tr class="table-bg-gray">
-															<th>미정산액</th>
-															<td class="fw-semibold text-blue">2,230,000</td>
-															<th>지불 합계</th>
-															<td class="fw-semibold text-red">185,833</td>
-															<th>선불액</th>
-															<td>375,000</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+														<tbody>
+															<tr class="table-bg-gray">
+																<th>미정산액</th>
+																<td class="fw-semibold text-blue">2,230,000</td>
+																<th>지불 합계</th>
+																<td class="fw-semibold text-red">185,833</td>
+																<th>선불액</th>
+																<td>375,000</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 
-											<div class="border-box mt-4">
-												<div class="pt-3 p-4">
-													<div class="d-flex align-items-center mb-3">
-														<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
-															<li class="nav-item">
-																<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-																	<span class="new">VOC</span>
-																</a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-																	<span class="new">프론트</span>
-																</a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-																	<span class="new">경기</span>
-																</a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-																	<span>식음</span>
-																</a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
-																	<span>프로샵</span>
-																</a>
-															</li>
-														</ul>
-														<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-													</div>
-
-													<div class="tab-content rounded bg-info-subtle p-3">
-														<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
-															<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;락카내 쓰레기 정리 요청&#13;2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+												<div class="border-box mt-4">
+													<div class="pt-3 p-4">
+														<div class="d-flex align-items-center mb-3">
+															<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
+																<li class="nav-item">
+																	<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+																		<span class="new">VOC</span>
+																	</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+																		<span class="new">프론트</span>
+																	</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+																		<span class="new">경기</span>
+																	</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+																		<span>식음</span>
+																	</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+																		<span>프로샵</span>
+																	</a>
+																</li>
+															</ul>
+															<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
 														</div>
 
-														<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
-															<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">조인 (2/1/1)&#13;홍길동 2인 010-1234-5678&#13;안영미 1인 010-1234-7878&#13;홍자인 1인 010-1234-4556 / 키오스크</textarea>
-														</div>
+														<div class="tab-content rounded bg-info-subtle p-3">
+															<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;락카내 쓰레기 정리 요청&#13;2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+															</div>
 
-														<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
-															<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-														</div>
-														
-														<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
-															<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-														</div>
+															<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">조인 (2/1/1)&#13;홍길동 2인 010-1234-5678&#13;안영미 1인 010-1234-7878&#13;홍자인 1인 010-1234-4556 / 키오스크</textarea>
+															</div>
 
-														<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
-															<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															</div>
+															
+															<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															</div>
+
+															<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
+																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+															</div>
 														</div>
 													</div>
 												</div>
