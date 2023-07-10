@@ -295,10 +295,10 @@ function print_btn(target_id){
 }
 
 function lockerPrint(num){
-	var lockerNum = num.innerHTML;
+	//var lockerNum = num.innerHTML;
 	var initBody = document.body.innerHTML;
 	window.onbeforeprint = function(){
-		document.body.innerHTML = lockerNum;
+		document.body.innerHTML = Num;
 		//document.body.innerHTML = el.prev('input').html();
 	}
 	window.onafterprint = function(){
