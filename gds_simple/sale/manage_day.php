@@ -506,7 +506,7 @@
 																<td>
 																	<div class="d-flex align-items-center gap-1">
 																		<input class="form-control text-center p-0 mx-auto" type="text" value="1123">
-																		<a href="javascript:void(0);" onclick="lockerPrint('1123');">><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+																		<a href="javascript:void(0);" onclick="lockerPrint('1123');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
 																	</div>
 																</td>
 																<td>195,000</td>
@@ -1489,8 +1489,8 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck01">
-																		<label class="form-check-label" for="moveModalCheck01">카트료</label>
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck01" checked>
+																		<label class="form-check-label" for="moveModalCheck01">입장료</label>
 																	</div>
 																</td>
 															</tr>
@@ -1498,7 +1498,7 @@
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck02">
-																		<label class="form-check-label" for="moveModalCheck02">대여료</label>
+																		<label class="form-check-label" for="moveModalCheck02">카트료</label>
 																	</div>
 																</td>
 															</tr>
@@ -1506,7 +1506,7 @@
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck03">
-																		<label class="form-check-label" for="moveModalCheck03">프로샵</label>
+																		<label class="form-check-label" for="moveModalCheck03">대여료</label>
 																	</div>
 																</td>
 															</tr>
@@ -1514,15 +1514,15 @@
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck04">
-																		<label class="form-check-label" for="moveModalCheck04">대식당</label>
+																		<label class="form-check-label" for="moveModalCheck04">프로샵</label>
 																	</div>
 																</td>
 															</tr>
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck05">
-																		<label class="form-check-label" for="moveModalCheck05">스타트</label>
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck05" checked>
+																		<label class="form-check-label" for="moveModalCheck05">대식당</label>
 																	</div>
 																</td>
 															</tr>
@@ -1530,7 +1530,7 @@
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck06">
-																		<label class="form-check-label" for="moveModalCheck06">그늘집</label>
+																		<label class="form-check-label" for="moveModalCheck06">스타트</label>
 																	</div>
 																</td>
 															</tr>
@@ -1538,7 +1538,15 @@
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck07">
-																		<label class="form-check-label" for="moveModalCheck07">객실료</label>
+																		<label class="form-check-label" for="moveModalCheck07">그늘집</label>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck08">
+																		<label class="form-check-label" for="moveModalCheck08">객실료</label>
 																	</div>
 																</td>
 															</tr>
@@ -1588,8 +1596,8 @@
 															<td>0</td>
 															<td>0</td>
 														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+														<tr class="table-active">
+															<td><input class="form-check-input" type="checkbox" name="tableCheck" checked></td>
 															<td></td>
 															<td></td>
 															<td>122</td>
