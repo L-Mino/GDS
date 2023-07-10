@@ -268,7 +268,8 @@ function checkSelect(){
 			$(this).parents('tr').addClass('table-active');
 		} else {
 			$(this).parents('tr').removeClass('table-active');
-			$(this).parents('table').find('thead input[type=checkbox][name=tableCheckAll]').prop('checked', false);
+			$(this).parents('table').find('input[type=checkbox][name=tableCheckAll]').parents('tr').removeClass('table-active');
+			$(this).parents('table').find('input[type=checkbox][name=tableCheckAll]').prop('checked', false);
 		}
 	});	
 	

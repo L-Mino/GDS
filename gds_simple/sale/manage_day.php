@@ -51,6 +51,11 @@
 												<label class="form-check-label" for="reserved">예약</label>
 											</div>
 
+											<div class="form-check form-check-inline me-2">
+												<input class="form-check-input" type="checkbox" id="lockerAutoCheck" checked>
+												<label class="form-check-label" for="lockerAutoCheck">락카 자동 반납</label>
+											</div>											
+
 											<div class="d-flex align-items-center gap-4 ms-auto">
 												<dl class="d-flex mb-0">
 													<dt class="me-2">내장팀</dt>
@@ -69,22 +74,7 @@
 
 												<dl class="d-flex mb-0">
 													<dt class="me-2">인원</dt>
-													<dd class="mb-0">360<span class="txt-line"></span>남260 / 여80</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">9H</dt>
-													<dd class="mb-0">0</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">18H</dt>
-													<dd class="mb-0">100</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">기타</dt>
-													<dd class="mb-0">0</dd>
+													<dd class="mb-0">360</dd>
 												</dl>
 											</div>
 										</div>
@@ -406,13 +396,9 @@
 											<div class="d-flex align-items-center gap-2 mb-3">
 												<span class="fs-16 fw-bold">06:50  WI  1부</span>
 												<div class="btn-group ms-auto">
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>													
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">락카 자동 반납</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button>
 												</div>
 
 												<div class="form-check form-check-inline align-top p-0 me-0">
@@ -589,6 +575,9 @@
 																<td class="fw-semibold"></td>
 															</tr>
 															<tr>
+																<td colspan="17" class="bg-secondary p-0" style="height:1px"></td>
+															</tr>
+															<tr>
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td>06:50</td>
 																<td>WI</td>
@@ -702,6 +691,9 @@
 																<td class="fw-semibold"></td>
 																<td class="fw-semibold"></td>
 															</tr>
+															<tr>
+																<td colspan="17" class="bg-secondary p-0" style="height:1px"></td>
+															</tr>															
 														</tbody>
 													</table>
 												</div>
@@ -1184,7 +1176,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - copyModal -->
+						<!-- //modal - detailModal -->
 
 						<div class="modal fade splitModal" tabindex="-1" aria-labelledby="splitModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
@@ -1486,7 +1478,7 @@
 																	</div>
 																</td>
 															</tr>
-															<tr>
+															<tr class="table-active">
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck01" checked>
@@ -1518,7 +1510,7 @@
 																	</div>
 																</td>
 															</tr>
-															<tr>
+															<tr class="table-active">
 																<td>
 																	<div class="form-check form-check-inline">
 																		<input class="form-check-input" type="checkbox" name="tableCheck" id="moveModalCheck05" checked>
@@ -1765,73 +1757,6 @@
 							</div>
 						</div>
 		                <!--//modal - addHoleModal -->			
-						
-						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" aria-modal="true" role="dialog">
-							<div class="modal-dialog modal-dialog-centered modal-sm">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="addTeamModalLabel">팀 추가</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
-									<div class="modal-body">
-										<div class="border-box border-bottom-0">
-											<table class="table table-layout-fixed mb-0">
-												<colgroup>
-													<col style="width:70px;">
-													<col style="width:auto">
-												</colgroup>
-
-												<tbody>
-													<tr class="table-bg-gray">
-														<th>일자</th>
-														<td><span class="ps-10">23.05.01 (월)</span></td>
-													</tr>
-													<tr>
-														<th>코스</th>
-														<td>
-															<select class="form-select">
-																<option value="EAST IN" selected="">EAST IN</option>
-																<option value="EAST OUT">EAST OUT</option>
-																<option value="WEST IN">WEST IN</option>
-																<option value="WEST OUT">WEST OUT</option>
-															</select>
-														</td>
-													</tr>
-													<tr>
-														<th>홀</th>
-														<td>
-															<select class="form-select">
-																<option value="18홀" selected="">18홀</option>
-																<option value="18홀">18홀</option>
-															</select>
-														</td>
-													</tr>
-													<tr>
-														<th>부</th>
-														<td>
-															<select class="form-select">
-																<option value="1부" selected="">1부</option>
-																<option value="2부">2부</option>
-																<option value="3부">3부</option>
-															</select>
-														</td>
-													</tr>													
-													<tr>
-														<th>시간</th>
-														<td><input type="text" class="form-control" placeholder="24:00"></td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
-										<button type="button" class="btn btn-custom">저장</button>
-									</div>
-								</div><!-- /.modal-content -->
-							</div><!-- /.modal-dialog -->
-						</div>
-						<!--//modal - addTeamModal -->									
 
 						<!-- end Content -->
                     </div><!-- container-fluid -->
