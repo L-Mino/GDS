@@ -364,10 +364,6 @@
 												</div>
 												<i class="bx bx-calendar font-size-15 me-4"></i>
 											</div>
-											<div class="form-check form-check-inline search-area ps-0 me-0">
-												<input class="form-control" type="text" value="홍길동">
-												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
-											</div>
 										</div>
 
 										<div class="row">
