@@ -29,7 +29,7 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-body">
-										<h4 class="card-title mb-3">예약 채널 관리</h4>
+										<h4 class="card-title mb-3">위약 관리</h4>
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<input type="text" class="form-control form-control-em datepicker p-0" placeholder="23.05.01 (월)">
@@ -115,7 +115,7 @@
 														</thead>
 
 														<tbody>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>9</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
@@ -133,7 +133,7 @@
 																</td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>8</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST IN</td>
@@ -151,7 +151,7 @@
 																</td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>7</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
@@ -169,7 +169,7 @@
 																</td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>6</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST IN</td>
@@ -187,7 +187,7 @@
 																</td>
 																<td>블랙리스트</td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>5</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST IN</td>
@@ -205,7 +205,7 @@
 																</td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>4</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST IN</td>
@@ -223,7 +223,7 @@
 																</td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>3</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
@@ -241,7 +241,7 @@
 																</td>
 																<td>블랙리스트</td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>2</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
@@ -259,7 +259,7 @@
 																</td>
 																<td>음주 만취 인사불성</td>
 															</tr>
-															<tr>
+															<tr role="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">
 																<td>1</td>
 																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
