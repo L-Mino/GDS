@@ -42,7 +42,7 @@
                                                     <col style="min-width:70px; width:70px;">
                                                     <col style="min-width:100px;">
                                                     <col style="min-width:100px;">
-                                                    <col style="min-width:100px;">																	
+                                                    <col style="min-width:180px;">																	
                                                     <col style="min-width:60px; width:60px;">
                                                     <col style="min-width:200px;">
                                                     <col style="min-width:70px; width:70px;">
@@ -54,7 +54,7 @@
                                                         <th>사용안함</th>
                                                         <th>위약 기간</th>
                                                         <th>위약금</th>
-                                                        <th>위약 퍼센트(팀그린피 기준)</th>																			
+                                                        <th>위약 퍼센트 (팀그린피 기준)</th>																			
                                                         <th>정렬</th>
                                                         <th>비고</th>
                                                         <th>저장</th>
