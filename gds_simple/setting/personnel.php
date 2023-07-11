@@ -46,7 +46,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>정상 인원</th>
-                                                    <th>선택 인원</th>
+                                                    <th>내장 인원</th>
                                                     <th>1인당 그린피 추가 금액</th>
                                                 </tr>
                                             </thead>
