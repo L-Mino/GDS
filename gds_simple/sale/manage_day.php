@@ -482,7 +482,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr ondblclick="paymentModal();">
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -501,7 +501,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr ondblclick="paymentModal();">
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -520,7 +520,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr ondblclick="paymentModal();">
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -560,7 +560,7 @@
 															<tr>
 																<td colspan="17" class="table-line"></td>
 															</tr>
-															<tr>
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td>06:50</td>
 																<td>WI</td>
@@ -579,7 +579,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -598,7 +598,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -617,7 +617,7 @@
 																<td></td>
 																<td></td>
 															</tr>
-															<tr>
+															<tr role="button" ondblclick="paymentModal();">
 																<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																<td></td>
 																<td></td>
@@ -922,11 +922,17 @@
 
 									<div class="modal-body">
 										<div class="d-flex align-items-center gap-2 mb-3">
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="구분 선택">
-													<option value="개별">개별</option>
-													<option value="팀별">팀별</option>
-												</select>
+											<div class="form-check form-check-inline me-2">
+												<input class="form-check-input courseMultipleRadio" type="radio" name="detailModalRadio" id="detailModalRadio01" value="팀별" checked>
+												<label class="form-check-label" for="detailModalRadio01">팀별</label>
+											</div>
+											<div class="form-check form-check-inline me-2">
+												<input class="form-check-input courseMultipleRadio" type="radio" name="detailModalRadio" id="detailModalRadio02" value="개인별">
+												<label class="form-check-label" for="detailModalRadio02">개인별</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input courseMultipleRadio" type="radio" name="detailModalRadio" id="detailModalRadio03" value="단체">
+												<label class="form-check-label" for="detailModalRadio03">단체</label>
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
@@ -938,11 +944,6 @@
 													<option value="식음료">식음료</option>
 													<option value="객실료">객실료</option>
 												</select>
-											</div>
-
-											<div class="form-check form-check-inline ms-3">
-												<input class="form-check-input" type="checkbox" id="totalCheck" checked>
-												<label class="form-check-label" for="totalCheck">집계</label>
 											</div>
 
 											<button type="button" class="btn btn-outline-custom ms-auto">인쇄</button>
@@ -1900,7 +1901,7 @@
 												</div>
 
 												<div class="form-check form-check-inline mt-2">
-													<input class="form-check-input" type="checkbox" id="cashReceiptCheck">
+													<input class="form-check-input" type="checkbox" id="cashReceiptCheck" checked>
 													<label class="form-check-label" for="cashReceiptCheck">현금 영수증 터치(키보드) 입력</label>
 												</div>
 
