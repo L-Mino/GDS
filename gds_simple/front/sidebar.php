@@ -35,6 +35,7 @@
                     <ul class="sub-menu mm-show" aria-expanded="true">
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/manage.php">내장 등록</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/manage2.php">내장 등록2</a></li>						
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/manage3.php">내장 등록3</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/status.php">내장 현황 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/guest.php">내장객 현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/front/checkin/article.php">물품 대여 현황</a></li>
