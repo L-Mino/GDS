@@ -1,7 +1,7 @@
 <?php include "../../partials/main.php"; ?>
 
     <head>
-		<?php $title = '내장등록'; include "../../partials/title-meta.php"; ?>
+		<?php $title = '내장 등록'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
 
