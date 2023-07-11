@@ -29,6 +29,7 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-body">
+										<h4 class="card-title mb-3">예약 채널 관리</h4>
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<input type="text" class="form-control form-control-em datepicker p-0" placeholder="23.05.01 (월)">
