@@ -642,6 +642,11 @@ select option[value=""][disabled] {display:none; }
 .desc {color:#AEBBC8; margin-bottom:0; }
 dt, dd {font-size:13px; }
 
+.status-request {display:inline-block; color:#495057; background:#F2F2F2; border-radius:3px; padding:2px 4px; }
+.status-waiting {display:inline-block; color:#E97E42; background:#FFF5DF; border-radius:3px; padding:2px 4px; }
+.status-complete {display:inline-block; color:#1F813A; background:#EEF6E5; border-radius:3px; padding:2px 4px; }
+.status-noreserv {display:inline-block; color:#D44556; background:#FFF1F1; border-radius:3px; padding:2px 4px; }
+
 
 /*=====================
 	color

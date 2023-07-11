@@ -1896,7 +1896,7 @@
 																	<label class="btn btn-radio-blue mb-0" for="payment02-radio04">현금</label>
 																</div>
 															</div>
-														</div>
+														</div> 
 													</div>
 												</div>
 

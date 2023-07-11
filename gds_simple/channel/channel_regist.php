@@ -187,265 +187,261 @@
 						</div>
 		                <!--//row - 그린피 설정 내역 -->
 
-						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelViewModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelRegistModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-xl modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="channelViewModalLabel">채널 등록</h5>
+										<h5 class="modal-title" id="channelRegistModalLabel">채널 등록</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">
 										<div class="row">
 											<div class="col">
-												<div class="row">
-													<div class="col">
-														<div class="border-box border-bottom-0 mb-3">
-															<table class="table table-layout-fixed mb-0">
-																<colgroup>
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																</colgroup>
+												<div class="border-box border-bottom-0 mb-3">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+														</colgroup>
 
-																<tbody>
-																	<tr>
-																		<th>채널 ID</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
-																		<th>단축 코드</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>																		
-																		<th>채널 구분</th>
-																		<td>
-																			<select class="form-select w-100">
-																				<option value="대리점" selected>대리점</option>
-																				<option value="총판">총판</option>
-																			</select>
-																		</td>
-																		<th>채널 형식</th>
-																		<td>
-																			<select class="form-select w-100">
-																				<option value="B2B" selected>B2B</option>
-																				<option value="B2C">B2C</option>
-																			</select>
-																		</td>
-																	</tr>
-																	<tr>
-																		<th>채널 업체명</th>
-																		<td colspan="3">
-																			<input class="form-control" type="text">
-																		</td>
-																		<th>국가</th>
-																		<td>
-																			<select class="form-select w-100">
-																				<option value="대한민국" selected>대한민국</option>
-																				<option value="일본">일본</option>
-																				<option value="미국">미국</option>
-																			</select>
-																		</td>
-																		<th>지역</th>
-																		<td>
-																			<select class="form-select w-100">
-																				<option value="서울" selected>서울</option>
-																				<option value="제주도">제주도</option>
-																			</select>
-																		</td>																																				
-																	</tr>
-																</tbody>
-															</table>
+														<tbody>
+															<tr>
+																<th>채널 ID</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
+																<th>단축 코드</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>																		
+																<th>채널 구분</th>
+																<td>
+																	<select class="form-select w-100">
+																		<option value="대리점" selected>대리점</option>
+																		<option value="총판">총판</option>
+																	</select>
+																</td>
+																<th>채널 형식</th>
+																<td>
+																	<select class="form-select w-100">
+																		<option value="B2B" selected>B2B</option>
+																		<option value="B2C">B2C</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<th>채널 업체명</th>
+																<td colspan="3">
+																	<input class="form-control" type="text">
+																</td>
+																<th>국가</th>
+																<td>
+																	<select class="form-select w-100">
+																		<option value="대한민국" selected>대한민국</option>
+																		<option value="일본">일본</option>
+																		<option value="미국">미국</option>
+																	</select>
+																</td>
+																<th>지역</th>
+																<td>
+																	<select class="form-select w-100">
+																		<option value="서울" selected>서울</option>
+																		<option value="제주도">제주도</option>
+																	</select>
+																</td>																																				
+															</tr>
+														</tbody>
+													</table>
 
-															<table class="table table-layout-fixed mb-0">
-																<colgroup>
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																</colgroup>
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+														</colgroup>
 
-																<tbody>
-																	<tr>
-																		<th>대표 전화</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
-																		<th>사업자 번호</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
-																		<th>연락처</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
+														<tbody>
+															<tr>
+																<th>대표 전화</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
+																<th>사업자 번호</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
+																<th>연락처</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
 
-																	</tr>
-																	<tr>
-																		<th>담당자 성명</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
-																		<th>ID(EMAIL)</th>
-																		<td>
-																			<input class="form-control" type="text">
-																		</td>
-																		<th rowspan="2" class="align-top pt-12">접속 아이피</th>
-																		<td rowspan="2" class="align-top">
-																			<div class="d-flex">
-																				<div class="col pe-10" data-simplebar style="max-height:110px;">
-																					<div class="form-check form-check-inline w-100 p-0 me-0">
-																						<input class="form-control" type="text">
-																					</div>
-																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
-																						<input class="form-control" type="text">
-																					</div>
-																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
-																						<input class="form-control" type="text">
-																					</div>
-																					<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
-																						<input class="form-control" type="text">
-																					</div>																					
-																				</div>
-																				<div class="col-3 text-end">
-																					<button type="button" class="btn btn-outline-custom w-100">추가</button>
-																				</div>
+															</tr>
+															<tr>
+																<th>담당자 성명</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
+																<th>ID(EMAIL)</th>
+																<td>
+																	<input class="form-control" type="text">
+																</td>
+																<th rowspan="2" class="align-top pt-12">접속 아이피</th>
+																<td rowspan="2" class="align-top">
+																	<div class="d-flex">
+																		<div class="col pe-10" data-simplebar style="max-height:110px;">
+																			<div class="form-check form-check-inline w-100 p-0 me-0">
+																				<input class="form-control" type="text">
 																			</div>
-																		</td>
-																	</tr>
-																	<tr>
-																		<th class="align-top pt-2">주소</th>
-																		<td colspan="3">
-																			<div class="d-flex gap-2 mb-2">
-																				<div class="form-check form-check-inline p-0 m-0">
-																					<input type="text" id="daum_postcode" class="form-control postcode" placeholder="우편번호">
-																				</div>
-																				<div class="col">
-																					<input type="text" id="daum_address" class="form-control addr" placeholder="주소">
-																				</div>
+																			<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																				<input class="form-control" type="text">
 																			</div>
-																			<input type="text" id="daum_detailAddress" class="form-control" placeholder="상세 주소">
-																		</td>																		
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-
-														<div class="border-box border-bottom-0 mb-3">
-															<table class="table table-layout-fixed mb-0">
-																<colgroup>
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																</colgroup>
-
-																<tbody>
-																	<tr class="table-bg-gray">
-																		<th>결제 구분</th>
-																		<td>
-																			<div class="form-check form-check-inline ms-10">
-																				<input class="form-check-input" type="radio" name="payRadios" id="payRadios1" value="option1" checked>
-																				<label class="form-check-label fw-bold" for="payRadios1">선불</label>
+																			<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																				<input class="form-control" type="text">
 																			</div>
-																			<div class="form-check form-check-inline">
-																				<input class="form-check-input" type="radio" name="payRadios" id="payRadios2" value="option2">
-																				<label class="form-check-label fw-bold" for="payRadios2">후불</label>
-																			</div>
-																		</td>
-																		<th>정산 마감일</th>
-																		<td>
-																			<div class="d-flex align-items-center">
-																				<span>매월</span>
-																				<select class="form-select w-auto">
-																					<option value="1" selected>1</option>
-																					<option value="2">2</option>
-																					<option value="3">3</option>
-																					<option value="4">4</option>
-																					<option value="5">5</option>
-																					<option value="6">6</option>
-																					<option value="7">7</option>
-																					<option value="30">30</option>
-																				</select>
-																				<span>일</span>
-																			</div>
-																		</td>
-																		<th>정산 통화</th>
-																		<td>
-																			<select class="form-select w-auto">
-																				<option value="USD" selected>USD</option>
-																				<option value="JPY">JPY</option>
-																			</select>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-															
-															<table class="table table-layout-fixed mb-0">
-																<colgroup>
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																	<col style="width:90px;">
-																	<col style="width:auto;">
-																</colgroup>
-
-																<tbody>
-																	<tr class="table-bg-gray">
-																		<th>그린피 할인</th>
-																		<td>
-																			<div class="form-check form-check-inline ms-10 me-1">
-																				<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios1" value="할인율" checked>
-																				<label class="form-check-label fw-bold" for="gridRadios1">할인율</label>
-																			</div>
-																			<div class="form-check form-check-inline p-0 m-0">
-																				<input class="form-control input_w50 text-center gridRadios1Input" type="text" maxlength="2">
-																			</div>
-																			<span>%</span>
-																			<div class="form-check form-check-inline ms-3 me-1">
-																				<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios2" value="할인 금액">
-																				<label class="form-check-label fw-bold" for="gridRadios2">할인 금액</label>
-																			</div>		
-																			<div class="form-check form-check-inline p-0 m-0">
-																				<input class="form-control input_w110 text-end gridRadios2Input" type="text" disabled> 
-																			</div>
-																			<span>원</span>
-																		</td>
-																		<th>티타임 배정</th>
-																		<td>
-																			<div class="form-check form-check-inline ms-10">
-																				<input class="form-check-input" type="checkbox" id="teecheck" value="배정" checked>
-																				<label class="form-check-label fw-bold" for="teecheck">배정</label>
-																			</div>
-																		</td>																		
-																	</tr>																		
-																	<tr class="table-bg-gray">																		
-																		<th>사용 유무</th>
-																		<td colspan="3">
-																			<div class="form-check form-check-inline ms-10">
-																				<input class="form-check-input" type="radio" name="useRadios" id="useRadios1" value="option1" checked>
-																				<label class="form-check-label fw-bold" for="useRadios1">사용</label>
-																			</div>
-																			<div class="form-check form-check-inline">
-																				<input class="form-check-input" type="radio" name="useRadios" id="useRadios2" value="option2">
-																				<label class="form-check-label fw-bold" for="useRadios2">사용안함</label>
-																			</div>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>															
-														</div>
-
-														<textarea class="form-control textarea-bg border-0 p-2" rows="3" placeholder="비고"></textarea>
-													</div>
+																			<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
+																				<input class="form-control" type="text">
+																			</div>																					
+																		</div>
+																		<div class="col-3 text-end">
+																			<button type="button" class="btn btn-outline-custom w-100">추가</button>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<th class="align-top pt-2">주소</th>
+																<td colspan="3">
+																	<div class="d-flex gap-2 mb-2">
+																		<div class="form-check form-check-inline p-0 m-0">
+																			<input type="text" id="daum_postcode" class="form-control postcode" placeholder="우편번호">
+																		</div>
+																		<div class="col">
+																			<input type="text" id="daum_address" class="form-control addr" placeholder="주소">
+																		</div>
+																	</div>
+																	<input type="text" id="daum_detailAddress" class="form-control" placeholder="상세 주소">
+																</td>																		
+															</tr>
+														</tbody>
+													</table>
 												</div>
+
+												<div class="border-box border-bottom-0 mb-3">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+														</colgroup>
+
+														<tbody>
+															<tr class="table-bg-gray">
+																<th>결제 구분</th>
+																<td>
+																	<div class="form-check form-check-inline ms-10">
+																		<input class="form-check-input" type="radio" name="payRadios" id="payRadios1" value="option1" checked>
+																		<label class="form-check-label fw-bold" for="payRadios1">선불</label>
+																	</div>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="radio" name="payRadios" id="payRadios2" value="option2">
+																		<label class="form-check-label fw-bold" for="payRadios2">후불</label>
+																	</div>
+																</td>
+																<th>정산 마감일</th>
+																<td>
+																	<div class="d-flex align-items-center">
+																		<span>매월</span>
+																		<select class="form-select w-auto">
+																			<option value="1" selected>1</option>
+																			<option value="2">2</option>
+																			<option value="3">3</option>
+																			<option value="4">4</option>
+																			<option value="5">5</option>
+																			<option value="6">6</option>
+																			<option value="7">7</option>
+																			<option value="30">30</option>
+																		</select>
+																		<span>일</span>
+																	</div>
+																</td>
+																<th>정산 통화</th>
+																<td>
+																	<select class="form-select w-auto">
+																		<option value="USD" selected>USD</option>
+																		<option value="JPY">JPY</option>
+																	</select>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:90px;">
+															<col style="width:auto;">
+															<col style="width:90px;">
+															<col style="width:auto;">
+														</colgroup>
+
+														<tbody>
+															<tr class="table-bg-gray">
+																<th>그린피 할인</th>
+																<td>
+																	<div class="form-check form-check-inline ms-10 me-1">
+																		<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios1" value="할인율" checked>
+																		<label class="form-check-label fw-bold" for="gridRadios1">할인율</label>
+																	</div>
+																	<div class="form-check form-check-inline p-0 m-0">
+																		<input class="form-control input_w50 text-center gridRadios1Input" type="text" maxlength="2">
+																	</div>
+																	<span>%</span>
+																	<div class="form-check form-check-inline ms-3 me-1">
+																		<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios2" value="할인 금액">
+																		<label class="form-check-label fw-bold" for="gridRadios2">할인 금액</label>
+																	</div>		
+																	<div class="form-check form-check-inline p-0 m-0">
+																		<input class="form-control input_w110 text-end gridRadios2Input" type="text" disabled> 
+																	</div>
+																	<span>원</span>
+																</td>
+																<th>티타임 배정</th>
+																<td>
+																	<div class="form-check form-check-inline ms-10">
+																		<input class="form-check-input" type="checkbox" id="teecheck" value="배정" checked>
+																		<label class="form-check-label fw-bold" for="teecheck">배정</label>
+																	</div>
+																</td>																		
+															</tr>																		
+															<tr class="table-bg-gray">																		
+																<th>사용 유무</th>
+																<td colspan="3">
+																	<div class="form-check form-check-inline ms-10">
+																		<input class="form-check-input" type="radio" name="useRadios" id="useRadios1" value="option1" checked>
+																		<label class="form-check-label fw-bold" for="useRadios1">사용</label>
+																	</div>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="radio" name="useRadios" id="useRadios2" value="option2">
+																		<label class="form-check-label fw-bold" for="useRadios2">사용안함</label>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>															
+												</div>
+
+												<textarea class="form-control textarea-bg border-0 p-2" rows="3" placeholder="비고"></textarea>
 											</div>
 										</div>
 									</div>
@@ -462,7 +458,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - 채널 등록 -->						
+						<!-- //modal - 채널 등록 -->
 
 						<!-- end Content -->
 

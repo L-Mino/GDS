@@ -1,7 +1,7 @@
 <?php include "../../partials/main.php"; ?>
 
     <head>
-		<?php $title = '위약관리'; include "../../partials/title-meta.php"; ?>
+		<?php $title = '위약 관리'; include "../../partials/title-meta.php"; ?>
 		<?php include "../../partials/head-css.php"; ?>
     </head>
 
@@ -44,27 +44,16 @@
 											</div>
 	
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="위약 구분">
-													<option value="노쇼">노쇼</option>
-													<option value="정상 취소">정상 취소</option>
-													<option value="우천 취소">우천 취소</option>
-													<option value="1일전 취소">1일전 취소</option>
-													<option value="2일전 취소">2일전 취소</option>
-													<option value="3일전 취소">3일전 취소</option>
-													<option value="4일전 취소">4일전 취소</option>
-												</select>
-											</div>
-
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="위약 코드">
-													<option value="1">1</option>
-													<option value="2">2</option>
-													<option value="3">3</option>
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="상태">
+													<option value="입금 요청">입금 요청</option>
+													<option value="입금 대기">입금 대기</option>
+													<option value="입금 완료">예약 금지</option>
+													<option value="예약 금지">예약 금지</option>
 												</select>
 											</div>
 
 											<div class="btn-group ms-auto">
-												<button class="btn btn-outline-custom" type="button">저장</button>
+												<button class="btn btn-outline-custom" type="button" data-bs-toggle="modal" data-bs-target=".penaltyRegistModal">등록</button>
 											</div><!-- /btn-group -->
 										</div>
 
@@ -75,24 +64,23 @@
 													<table class="table table-hover text-center w-100 nowrap">
 														<colgroup>
 															<col style="min-width:70px;">
-															<col style="min-width:130px;">
-															<col style="min-width:90px;">
-															<col style="min-width:90px;">
-															<col style="min-width:90px;">
-															<col style="min-width:150px;">
-															<col style="min-width:150px;">
-															<col style="min-width:150px;">
-															<col style="min-width:200px;">
-															<col style="min-width:200px;">
-															<col style="min-width:300px; width:300px;">
-														</colgroup>
-														
+															<col style="min-width: 100px;">
+															<col style="min-width: 100px;">
+															<col style="min-width: 60px;">
+															<col style="min-width: 80px;">
+															<col style="min-width: 120px;">
+															<col style="min-width: 100px;">
+															<col style="min-width: 100px;">
+															<col style="min-width:265px; width:265px;">
+															<col style="min-width:165px; width:165px;">
+														</colgroup>														
+
 														<thead>
 															<tr>
 																<th>순번</th>
 																<th>예약일</th>
 																<th>코스
-																	<div class="dropdown d-inline-block">
+																	<!--div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
 																			<li><button type="button" class="dropdown-item">EAST IN</button></li>
@@ -100,13 +88,13 @@
 																			<li><button type="button" class="dropdown-item">WEST IN</button></li>
 																			<li><button type="button" class="dropdown-item">WEST OUT</button></li>
 																		</ul>
-																	</div>
+																	</div-->
 																</th>
 																<th>티타임</th>
 																<th>예약자</th>
 																<th>연락처</th>
 																<th>위약 구분
-																	<div class="dropdown d-inline-block">
+																	<!--div class="dropdown d-inline-block">
 																		<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
 																		<ul class="dropdown-menu dropdown-menu-dark">
 																			<li><button type="button" class="dropdown-item">노쇼</button></li>
@@ -117,70 +105,176 @@
 																			<li><button type="button" class="dropdown-item">3일전 취소</button></li>
 																			<li><button type="button" class="dropdown-item">4일전 취소</button></li>
 																		</ul>
-																	</div>
+																	</div-->
 																</th>
 																<th>위약 사유</th>
 																<th>위약 조치</th>
-																<th>내장 금지</th>
 																<th>비고</th>
 															</tr>
 														</thead>
 
 														<tbody>
 															<tr>
-																<td>1</td>
-																<td>											
-																	<input type="text" class="form-control datepicker p-0 mx-auto" value="04월 04일 (화)">
-																</td>
-																<td>												
-																	<select class="form-select w-auto mx-auto">
-																		<option value="EAST IN" selected>EAST IN</option>
-																		<option value="EAST OUT">EAST OUT</option>
-																		<option value="WEST IN">WEST IN</option>
-																		<option value="WEST OUT">WEST OUT</option>
-																	</select>
-																</td>
+																<td>9</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST OUT</td>
+																<td>11:33</td>
+																<td>김미란</td>
+																<td>010-1234-5678</td>
+																<td>노쇼</td>
+																<td>기타</td>
 																<td>
-																	<input type="text" class="form-control text-center p-0 mx-auto" value="11:33">
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 30%<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">130,000</div>
+																		<div class="col text-end"><span class="status-complete">입금 완료</span></div>
+																	</div>
 																</td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>8</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST IN</td>
+																<td>11:33</td>
+																<td>장원석</td>
+																<td>010-1234-5678</td>
+																<td>노쇼</td>
+																<td>개인 사유</td>
 																<td>
-																	<input type="text" class="form-control text-center input_w70 p-0 mx-auto" value="홍길동">
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 50%<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">150,000</div>
+																		<div class="col text-end"><span class="status-request">입금 요청</span></div>
+																	</div>
 																</td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>7</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST OUT</td>
+																<td>10:33</td>
+																<td>이현</td>
+																<td>010-1234-5678</td>
+																<td>우천 취소</td>
+																<td>일정 변경</td>
 																<td>
-																	<input type="text" class="form-control text-center p-0 mx-auto" value="010-1234-5678">
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">예약금지 1M<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">23.08.10 (목)</div>
+																		<div class="col text-end"><span class="status-noreserv">예약 금지</span></div>
+																	</div>
 																</td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>6</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST IN</td>
+																<td>10:33</td>
+																<td>박기수</td>
+																<td>010-1234-5678</td>
+																<td>1일전 취소</td>
+																<td>티타임 변경</td>
 																<td>
-																	<select class="form-select w-auto mx-auto">
-																		<option value="노쇼" selected>노쇼</option>
-																		<option value="정상 취소">정상 취소</option>
-																		<option value="우천 취소">우천 취소</option>
-																		<option value="1일전 취소">1일전 취소</option>
-																		<option value="2일전 취소">2일전 취소</option>
-																		<option value="3일전 취소">3일전 취소</option>
-																		<option value="4일전 취소">4일전 취소</option>
-																	</select>
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">예약금지 2M<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">23.09.09 (토)</div>
+																		<div class="col text-end"><span class="status-noreserv">예약 금지</span></div>
+																	</div>
 																</td>
+																<td>블랙리스트</td>
+															</tr>
+															<tr>
+																<td>5</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST IN</td>
+																<td>10:33</td>
+																<td>정근석</td>
+																<td>010-1234-5678</td>
+																<td>2일전 취소</td>
+																<td>일정 변경</td>
 																<td>
-																	<input type="text" class="form-control text-center p-0 mx-auto" value="개인사정">
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">예약금지 3M<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">23.10.09 (월)</div>
+																		<div class="col text-end"><span class="status-noreserv">예약 금지</span></div>
+																	</div>
 																</td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>4</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST IN</td>
+																<td>10:33</td>
+																<td>양미리</td>
+																<td>010-1234-5678</td>
+																<td>3일전 취소</td>
+																<td>사고</td>
 																<td>
-																	<input type="text" class="form-control text-center p-0 mx-auto" value="위약금 10만원">
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 10<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">100,000</div>
+																		<div class="col text-end"><span class="status-request">입금 요청</span></div>
+																	</div>
 																</td>
-																<td>내장 금지 2023.06.20</td>
-																<td>음주 만취 인사불성</td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>3</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST OUT</td>
+																<td>09:05</td>
+																<td>박성일</td>
+																<td>010-1234-5678</td>
+																<td>4일전 취소</td>
+																<td>개인 사유</td>
+																<td>
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 20<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">200,000</div>
+																		<div class="col text-end"><span class="status-waiting">입금 요청</span></div>
+																	</div>
+																</td>
+																<td>블랙리스트</td>
 															</tr>
 															<tr>
 																<td>2</td>
-																<td>04월 04일 (화)</td>
+																<td>23.07.11 (화)</td>
 																<td>WEST OUT</td>
-																<td>11:33</td>
-																<td>홍길동</td>
+																<td>09:05</td>
+																<td>안지은</td>
+																<td>010-1234-5678</td>
+																<td>정상 취소</td>
+																<td>개인 사유</td>
+																<td>
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 30<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">300,000</div>
+																		<div class="col text-end"><span class="status-waiting">입금 대기</span></div>
+																	</div>
+																</td>
+																<td>음주 만취 인사불성</td>
+															</tr>
+															<tr>
+																<td>1</td>
+																<td>23.07.11 (화)</td>
+																<td>WEST OUT</td>
+																<td>09:05</td>
+																<td>박성일</td>
 																<td>010-1234-5678</td>
 																<td>노쇼</td>
-																<td>개인사정</td>
-																<td>위약금 10만원 입금 확인</td>
-																<td>내장 금지 2023.06.20</td>
-																<td></td>
+																<td>개인 사유</td>
+																<td>
+																	<div class="d-flex align-items-center gap-2">
+																		<div class="col-4 position-relative">위약금 30<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
+																		<div class="col-4">300,000</div>
+																		<div class="col text-end"><span class="status-complete">입금 완료</span></div>
+																	</div>
+																</td>
+																<td>음주 만취 인사불성</td>
 															</tr>
 														</tbody>
 													</table>
@@ -253,6 +347,170 @@
 							</div>
 						</div>
 		                <!--//row - 위약관리 -->
+
+						<div class="modal fade penaltyRegistModal" tabindex="-1" aria-labelledby="penaltyRegistModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="penaltyRegistModalLabel">위약 등록</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="d-flex border-bottom pb-3">
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="form-check form-check-inline ps-0 me-0">
+													<input type="text" class="form-control datepicker text-start border-0 bg-transparent fw-semibold font-size-16 p-0" placeholder="23.07.11 (화)">
+												</div>
+												<i class="bx bx-calendar font-size-15 me-4"></i>
+											</div>
+											<div class="form-check form-check-inline search-area ps-0 me-0">
+												<input class="form-control" type="text" value="홍길동">
+												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col">
+												<span class="d-inline-block fw-semibold font-size-15 mt-3 mb-2">위약 사항</span>
+												<div class="border-box border-bottom-0 mb-2">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:100px;">
+															<col style="width:auto;">
+															<col style="width:100px;">
+															<col style="width:auto;">
+														</colgroup>
+
+														<tbody>
+															<tr>
+																<th>예약자</th>
+																<td><span class="ps-10">홍길동</span></td>
+																<th>연락처</th>
+																<td><span class="ps-10">010-1234-5678</span></td>
+															</tr>
+															<tr>
+																<th>회원 번호</th>
+																<td><span class="ps-10">90-1234-12</span></td>
+																<th>코스 / 시간</th>
+																<td><span class="ps-10">WEST OUT</span><span class="ms-3">11:33</span></td>
+															</tr>
+															<tr>
+																<th>위약 구분</th>
+																<td>
+																	<select class="form-select">
+																		<option value="정상 취소" selected>정상 취소</option>
+																		<option value="우천 취소">우천 취소</option>
+																		<option value="1일전 취소">1일전 취소</option>
+																		<option value="2일전 취소">2일전 취소</option>
+																		<option value="3일전 취소">3일전 취소</option>
+																		<option value="4일전 취소">4일전 취소</option>
+																	</select>
+																</td>
+																<th>위약 사유</th>
+																<td>
+																	<select class="form-select">
+																		<option value="우천 취소" selected>우천 취소</option>
+																		<option value="개인 사정">개인 사정</option>
+																		<option value="일정 변경">일정 변경</option>
+																		<option value="사고">사고</option>
+																		<option value="기타">기타</option>
+																	</select>																	
+																</td>
+															</tr>															
+														</tbody>
+													</table>
+												</div>
+												<textarea class="form-control textarea-bg border-0 p-3" rows="4" style="resize:none;">음주 만취 인사불성</textarea>
+
+												<span class="d-inline-block fw-semibold font-size-15 mt-4 mb-2">조치 사항</span>
+												<div class="border-box border-bottom-0 mb-2">
+													<table class="table table-layout-fixed mb-0">
+														<colgroup>
+															<col style="width:100px;">
+															<col style="width:auto;">
+															<col style="width:100px;">
+															<col style="width:auto;">
+														</colgroup>
+
+														<tbody>
+															<tr class="table-bg-gray">
+																<th>위약 조치</th>
+																<td>
+																	<div class="row w-100">
+																		<div class="col-9">
+																			<select class="form-select w-auto">
+																				<option value="위약금 30" selected>위약금 30</option>
+																				<option value="위약금 20">위약금 20</option>
+																				<option value="위약금 10">위약금 10</option>
+																				<option value="예약금지 3M">예약금지 3M</option>
+																				<option value="예약금지 2M">예약금지 2M</option>
+																				<option value="예약금지 1M">예약금지 1M</option>
+																				<option value="위약금 50%">위약금 50%</option>
+																				<option value="위약금 30%">위약금 30%</option>
+																			</select>
+																		</div>
+																		<div class="col-3 text-end">
+																			<span class="d-inline-block align-text-top text-blue pt-1">300,000</span>
+																		</div>
+																	</div>
+																</td>
+																<th>조치 현황</th>
+																<td>
+																	<select class="form-select">
+																		<option value="입금 요청" selected>입금 요청</option>
+																		<option value="입금 대기">입금 대기</option>
+																		<option value="입금 완료">입금 완료</option>
+																		<option value="예약 금지">예약 금지</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<th>입금액</th>
+																<td><input class="form-control" type="text" value="300,000"></td>
+																<th>위약금 입금일</th>
+																<td>
+																	<div class="d-flex align-items-center justify-content-between">
+																		<div class="form-check form-check-inline ps-0 me-0">
+																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.07.11 (화)">
+																		</div>
+																		<i class="bx bx-calendar font-size-15 ms-1 me-2"></i>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<th>입금 비고</th>
+																<td><input class="form-control" type="text" value="현금 계산"></td>
+																<th>위약 해제일</th>
+																<td>
+																	<div class="d-flex align-items-center justify-content-between">
+																		<div class="form-check form-check-inline ps-0 me-0">
+																			<input type="text" class="form-control datepicker text-start border-0 bg-transparent" placeholder="23.07.11 (화)">
+																		</div>
+																		<i class="bx bx-calendar font-size-15 ms-1 me-2"></i>
+																	</div>
+																</td>
+															</tr>															
+														</tbody>
+													</table>
+												</div>
+												<textarea class="form-control textarea-bg border-0 p-3" rows="4" style="resize:none;">블랙 리스트</textarea>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-footer">
+										<div class="d-flex justify-content-between align-items-center w-100 m-0">
+											<p class="desc">등록일 : 2023/04/10 09:00:18 | 등록자 : 고객지원(경기) / 홍길동 팀장</p>
+											<div class="d-flex gap-2">
+												<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+												<button type="button" class="btn btn-custom">저장</button>
+											</div>
+										</div>
+									</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div>
+						<!-- //modal - 위약 등록 -->
 
 						<!-- end Content -->
 
