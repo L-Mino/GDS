@@ -429,7 +429,8 @@ th.table-gray {background:#EFF2F7; border-color:#E9EBEC; }
 
 .border-box {border:1px solid #E9EBEC; }
 .blue-box {border:1px solid #D2E9F0; }
-.blue-box table {background:#EEFBFF; }
+.blue-box .table {background:#EEFBFF; }
+.blue-box .table tbody tr th, .blue-box .table tbody tr td {border-color:#D2E9F0; }
 .table-layout-fixed {table-layout:fixed; }
 
 .app-search-wrap {position:relative; }
