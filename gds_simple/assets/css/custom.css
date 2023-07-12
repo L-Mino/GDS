@@ -399,7 +399,7 @@ thead.table-red th {border-color:#EAD9DC; }
 .dailyTeam-right {/*width:calc(100% - 270px);*/ flex:1; overflow:hidden; }
 
 .dashboard-wrap .booking-area {display:inline-block; min-width:335px; width:100%; vertical-align:top; border-radius:0.25rem; }
-.checkin-wrap {height:calc(100vh - 330px); overflow:hidden; }
+.checkin-wrap {height:calc(100vh - 240px); overflow:hidden; }
 .checkin-wrap .booking-area {display:inline-block; min-width:486px; width:100%; vertical-align:top; border-radius:0.25rem; }
 
 .table tr td .table-em {display:inline-block; border-radius:3px; padding:2px 4px; }

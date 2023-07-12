@@ -26,13 +26,13 @@
 						<!-- start Content -->
 						<div class="row">
 							<div class="col">
-								<div class="card mb-3">
+								<div class="card mb-0">
 									<div class="card-body">
-										<div class="d-flex align-items-center flex-wrap gap-2">
+										<div class="d-flex align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg border-0 h-100">
-													<option value="2023.05.01 (일)" selected>2023.06.23 (금)</option>
-													<option value="2023.05.02 (화)">2023.05.02 (화)</option>
+													<option value="23.05.01 (일)" selected>23.06.23 (금)</option>
+													<option value="23.05.02 (화)">23.05.02 (화)</option>
 												</select>
 											</div>
 
@@ -41,51 +41,8 @@
 												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
 											</div>
 
-											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="Unreserved">
-												<label class="form-check-label" for="Unreserved">미예약</label>
-											</div>
-
-											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="reserved">
-												<label class="form-check-label" for="reserved">예약</label>
-											</div>
-
-											<div class="d-flex align-items-center gap-4 ms-auto">
-												<dl class="d-flex mb-0">
-													<dt class="me-2">예약팀</dt>
-													<dd class="mb-0">135</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">내장팀</dt>
-													<dd class="mb-0">121</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">내장 인원</dt>
-													<dd class="mb-0">360<span class="txt-line"></span>남260 / 여80</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">취소</dt>
-													<dd class="mb-0">13</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">노쇼</dt>
-													<dd class="mb-0">0</dd>
-												</dl>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="card mb-0">
-									<div class="card-body">
-										<div class="d-flex align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="코스 선택">
 													<option value="EAST IN">EAST IN</option>
 													<option value="EAST OUT">EAST OUT</option>
 													<option value="WEST IN">WEST IN</option>
@@ -94,7 +51,7 @@
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="티타임 선택">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="티타임 선택">
 													<option value="1부">1부</option>
 													<option value="2부">2부</option>
 													<option value="3부">3부</option>
@@ -110,6 +67,28 @@
 												<input class="form-check-input" type="checkbox" id="confirmation">
 												<label class="form-check-label" for="confirmation">확정</label>
 											</div>
+
+											<div class="d-flex align-items-center gap-4 ms-5">
+												<dl class="d-flex mb-0">
+													<dt class="me-2">예약팀</dt>
+													<dd class="mb-0">135</dd>
+												</dl>
+
+												<dl class="d-flex mb-0">
+													<dt class="me-2">내장팀</dt>
+													<dd class="mb-0">121</dd>
+												</dl>
+
+												<dl class="d-flex mb-0">
+													<dt class="me-2">내장 인원</dt>
+													<dd class="mb-0">360</dd>
+												</dl>
+
+												<dl class="d-flex mb-0">
+													<dt class="me-2">노쇼</dt>
+													<dd class="mb-0">0</dd>
+												</dl>
+											</div>											
 										</div>
 
 										<div class="checkin-wrap">
