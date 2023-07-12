@@ -37,9 +37,9 @@
 											<div class="col-6">
 												<table class="table table-layout-fixed text-center mb-0">
 													<colgroup>
-														<col style="width:21%;">
+														<col style="width:110px;">
 														<col style="width:auto;">
-														<col style="width:21%;">
+														<col style="width:110px;">
 														<col style="width:auto;">
 													</colgroup>
 
@@ -51,24 +51,10 @@
 
 													<tbody>
 														<tr class="table-bg-gray">
-															<th class="text-end ps-0 pe-2">시작 / 종료 번호</th>
-															<td class="text-start">
-																<div class="d-flex">
-																	<div class="form-check form-check-inline p-0 me-0">
-																		<input class="form-control text-center input_w50 mx-auto p-0" type="text" maxlength="4">
-																	</div>
-																	<span class="dash mx-1"> ~ </span>
-																	<div class="form-check form-check-inline p-0 me-0">
-																		<input class="form-control text-center input_w50 mx-auto p-0" type="text" maxlength="4">
-																	</div>
-																</div>
-															</td>
-															<th class="text-end ps-0 pe-2">발급 순서 설정</th>
-															<td class="text-start">
-																<div class="form-check form-check-inline p-0 me-0">
-																	<input class="form-control text-center input_w35 p-0" type="text" maxlength="2">
-																</div> 번 단위로 발급
-															</td>
+															<th>락카 시작 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="시작 번호"></td>
+															<th>락카 종료 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="종료 번호"></td>
 														</tr>
 													</tbody>
 												</table>
@@ -110,7 +96,7 @@
 													</colgroup>
 
 													<thead>
-														<tr>
+														<tr class="table-bg-gray">
 															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
 															<th>락카 번호</th>
 															<th>구분
@@ -580,9 +566,9 @@
 											<div class="col-6">
 												<table class="table table-layout-fixed text-center mb-0">
 													<colgroup>
-														<col style="width:21%;">
+														<col style="width:110px;">
 														<col style="width:auto;">
-														<col style="width:21%;">
+														<col style="width:110px;">
 														<col style="width:auto;">
 													</colgroup>
 
@@ -594,24 +580,10 @@
 
 													<tbody>
 														<tr class="table-bg-gray">
-															<th class="text-end ps-0 pe-2">시작 / 종료 번호</th>
-															<td class="text-start">
-																<div class="d-flex">
-																	<div class="form-check form-check-inline p-0 me-0">
-																		<input class="form-control text-center input_w50 mx-auto p-0" type="text" maxlength="4">
-																	</div>
-																	<span class="dash mx-1"> ~ </span>
-																	<div class="form-check form-check-inline p-0 me-0">
-																		<input class="form-control text-center input_w50 mx-auto p-0" type="text" maxlength="4">
-																	</div>
-																</div>
-															</td>
-															<th class="text-end ps-0 pe-2">발급 순서 설정</th>
-															<td class="text-start">
-																<div class="form-check form-check-inline p-0 me-0">
-																	<input class="form-control text-center input_w35 p-0" type="text" maxlength="2">
-																</div> 번 단위로 발급
-															</td>
+															<th>락카 시작 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="시작 번호"></td>
+															<th>락카 종료 번호</th>
+															<td><input class="form-control text-center p-0" type="text" placeholder="종료 번호"></td>
 														</tr>
 													</tbody>
 												</table>
@@ -653,7 +625,7 @@
 													</colgroup>
 
 													<thead>
-														<tr>
+														<tr class="table-bg-gray">
 															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
 															<th>락카 번호</th>
 															<th>구분
@@ -710,7 +682,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -726,7 +698,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -742,7 +714,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -758,7 +730,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -774,7 +746,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -790,7 +762,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -822,7 +794,7 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>
+																	<option value="지정">지정</option>																	
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
