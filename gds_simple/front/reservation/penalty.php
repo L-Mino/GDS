@@ -45,7 +45,7 @@
 											</div>
 	
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="상태">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="조치 현황">
 													<option value="입금 요청">입금 요청</option>
 													<option value="입금 대기">입금 대기</option>
 													<option value="입금 완료">예약 금지</option>
@@ -236,7 +236,7 @@
 																	<div class="d-flex align-items-center gap-2">
 																		<div class="col-4 position-relative">위약금 20<span class="txt-line position-absolute top-50 start-100 translate-middle m-0 ms-1"></span></div>
 																		<div class="col-4">200,000</div>
-																		<div class="col text-end"><span class="status-waiting">입금 요청</span></div>
+																		<div class="col text-end"><span class="status-waiting">입금 대기</span></div>
 																	</div>
 																</td>
 																<td>블랙리스트</td>

@@ -81,517 +81,2673 @@
 									</div>
 								</div>
 
-								<div class="d-flex gap-3">
-									<div class="card guest-left mb-0">
-										<div class="card-body">
-											<div class="d-flex align-items-center gap-2 mb-3">
-												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="코스 선택">
-														<option value="EAST IN">EAST IN</option>
-														<option value="EAST OUT">EAST OUT</option>
-														<option value="WEST IN">WEST IN</option>
-														<option value="WEST OUT">WEST OUT</option>
-													</select>
-												</div>
-
-												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="티타임 선택">
-														<option value="1부">1부</option>
-														<option value="2부">2부</option>
-														<option value="3부">3부</option>
-													</select>
-												</div>
-
-												<div class="form-check form-check-inline ms-auto me-2">
-													<input class="form-check-input" type="checkbox" id="undetermined">
-													<label class="form-check-label" for="undetermined">미확정</label>
-												</div>
-
-												<div class="form-check form-check-inline me-0">
-													<input class="form-check-input" type="checkbox" id="confirmation">
-													<label class="form-check-label" for="confirmation">확정</label>
-												</div>
+								<div class="card mb-0">
+									<div class="card-body">
+										<div class="d-flex align-items-center gap-2 mb-3">
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
+													<option value="EAST IN">EAST IN</option>
+													<option value="EAST OUT">EAST OUT</option>
+													<option value="WEST IN">WEST IN</option>
+													<option value="WEST OUT">WEST OUT</option>
+												</select>
 											</div>
 
-											<div class="table-fixed-head" data-simplebar>
-												<table class="table table-hover text-center mb-0">
-													<thead>
-														<tr>
-															<th class="fw-normal">시간</th>
-															<th class="fw-normal">코스</th>
-															<th class="fw-normal">인원</th>
-															<th class="fw-normal">예약자</th>
-															<th class="fw-normal">단체명</th>
-														</tr>
-													</thead>
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="티타임 선택">
+													<option value="1부">1부</option>
+													<option value="2부">2부</option>
+													<option value="3부">3부</option>
+												</select>
+											</div>
 
-													<tbody>
-														<tr role="button" class="table-active" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td><span class="table-em complete">06:00</span></td>
-															<td>EI</td>
-															<td>4</td>
-															<td>김동준</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td><span class="table-em complete">06:00</span></td>
-															<td>EI</td>
-															<td>4</td>
-															<td>김길동</td>
-															<td class="text-truncate">길동이</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>																																										
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>														
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:00</td>
-															<td>EI</td>
-															<td>4</td>
-															<td>홍길동</td>
-															<td>클라스</td>
-														</tr>
-													</tbody>
-												</table>
+											<div class="form-check form-check-inline ms-3 me-2">
+												<input class="form-check-input" type="checkbox" id="undetermined">
+												<label class="form-check-label" for="undetermined">미확정</label>
+											</div>
+
+											<div class="form-check form-check-inline me-0">
+												<input class="form-check-input" type="checkbox" id="confirmation">
+												<label class="form-check-label" for="confirmation">확정</label>
+											</div>
+										</div>
+
+										<div class="checkin-wrap">
+											<div class="h-100" data-simplebar>
+												<div class="booking-group d-flex gap-3">
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table table-hover text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="7">EAST IN</th>
+																</tr>
+																<tr>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">인원</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
+
+															<tbody>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span class="opacity-50">안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span class="opacity-50">박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">EAST OUT</th>
+																</tr>
+																<tr>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">인원</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
+
+															<tbody>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span class="opacity-50">안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span class="opacity-50">박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">WEST IN</th>
+																</tr>
+																<tr>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">인원</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
+
+															<tbody>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span class="opacity-50">안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span class="opacity-50">박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">WEST OUT</th>
+																</tr>
+																<tr>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">인원</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
+
+															<tbody>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span class="opacity-50">안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span class="opacity-50">박길동</span>
+																			<span class="opacity-50">장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em checkin">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">	
+																	<td><span class="table-em">06:50</span></td>
+																	<td>홍길동</td>
+																	<td>임시1</td>
+																	<td>4</td>
+																	<td>
+																		<div class="d-flex justify-content-center gap-2">
+																			<span>홍길동</span>
+																			<span>박길동</span>
+																			<span>장길동</span>
+																			<span>안길동</span>
+																		</div>
+																	</td>																		
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>																		
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+						</div>
 
-									<div class="card guest-right mb-0">
-										<div class="card-body">
-											<div class="d-flex align-items-center gap-2 mb-3">
-												<span class="fs-16 fw-bold">06:30  EI  김길동</span>
-												<div class="btn-group ms-auto">
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
-												</div>
+						<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="manageCanvas" aria-labelledby="manageCanvasLabel">
+							<div class="offcanvas-header pb-0">
+								<h5 id="manageCanvasLabel">06:30&nbsp;&nbsp;EO&nbsp;&nbsp;박새로미</h5>
+								<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
+								<div class="d-flex flex-wrap justify-content-end gap-2">
+									<button type="button" class="btn btn-outline-custom ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
+									<button type="button" class="btn btn-outline-custom">저장</button>
+								</div>
+							</div>
+							<div class="offcanvas-body">
+								<div class="d-flex align-items-center gap-2 mb-3">
+									<div class="btn-group">
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
+									</div>
 
-												<div class="form-check form-check-inline align-top p-0 me-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-														<option value="단체명">단체명</option>
-														<option value="카트">카트</option>
-														<option value="카트료">카트료</option>
-														<option value="캐디">캐디</option>
-														<option value="캐디피">캐디피</option>
-														<option value="대여료">대여료</option>
-														<option value="총금액">총금액</option>
-													</select>
-												</div>
-											</div>
+									<div class="form-check form-check-inline align-top p-0 me-0">
+										<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+											<option value="단체명">단체명</option>
+											<option value="카트">카트</option>
+											<option value="카트료">카트료</option>
+											<option value="캐디">캐디</option>
+											<option value="캐디피">캐디피</option>
+											<option value="대여료">대여료</option>
+											<option value="총금액">총금액</option>
+										</select>
+									</div>
+								</div>
 
-											<div class="table-fixed-head" data-simplebar>
-												<table class="table table-hover text-center mb-0">
-													<colgroup>
-														<col style="min-width:80px; width:80px;">
-														<col style="min-width:120px; width:auto;">
-														<col style="min-width:70px; width:70px;">
-														<col style="min-width:90px; width:90px;">
-														<col style="min-width:70px; width:auto;">
-														<col style="width:60px;">
-														<col style="min-width:40px; width:40px;">
-														<col style="min-width:70px; width:auto;;">
-														<col style="min-width:70px; width:auto;;">
-														<col style="min-width:70px; width:auto;">
-														<col style="min-width:150px; width:auto;">															
-														<col style="min-width:70px; width:auto;">
-													</colgroup>
+								<div class="table-fixed-head" data-simplebar>
+									<table class="table table-hover text-center mb-0">
+										<colgroup>
+											<col style="min-width:80px; width:80px;">
+											<col style="min-width:120px; width:auto;">
+											<col style="min-width:70px; width:70px;">
+											<col style="min-width:90px; width:90px;">
+											<col style="min-width:70px; width:auto;">
+											<col style="width:60px;">
+											<col style="min-width:40px; width:40px;">
+											<col style="min-width:70px; width:auto;;">
+											<col style="min-width:70px; width:auto;;">
+											<col style="min-width:70px; width:auto;">
+											<col style="min-width:150px; width:auto;">															
+											<col style="min-width:70px; width:auto;">
+										</colgroup>
 
-													<thead>
-														<tr>
-															<th>
-																<div class="form-check form-check-inline">
-																	<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
-																	<label class="form-check-label fw-bold" for="checkAll">확정</label>
-																</div>
-															</th>
-															<th>내장객</th>
-															<th>성별</th>
-															<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
-															<th>그린피</th>
-															<th>홀</th>
-															<th>추가</th>
-															<th>카트</th>
-															<th>캐디</th>
-															<th>대여료</th>
-															<th>할인</th>
-															<th>총금액</th>
-														</tr>
-													</thead>
-
-													<tbody>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준"></td>
-															<td>
-																<select class="form-select w-auto py-0 mx-auto">
-																	<option value="남" selected>남</option>
-																	<option value="여">여</option>
-																</select>
-															</td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>110,000</td>
-															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="5-전동" selected>5-전동</option>
-																		<option value="2-전동">2-전동</option>
-																		<option value="수동">수동</option>
-																	</select>
-
-																	<span>100,000</span>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="P" selected>P</option>
-																		<option value="J">J</option>
-																		<option value="N">N</option>
-																	</select>
-																	<span>150,000</span>
-																</div>
-															</td>
-															<td>20,000</td>
-															<td>프로5 - 50,000</td>
-															<td>380,000</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김아연"></td>
-															<td>
-																<select class="form-select w-auto py-0 mx-auto">
-																	<option value="남" selected>남</option>
-																	<option value="여">여</option>
-																</select>
-															</td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>110,000</td>
-															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="5-전동" selected>5-전동</option>
-																		<option value="2-전동">2-전동</option>
-																		<option value="수동">수동</option>
-																	</select>
-																	<span>100,000</span>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="P" selected>P</option>
-																		<option value="J">J</option>
-																		<option value="N">N</option>
-																	</select>
-																	<span>150,000</span>
-																</div>
-															</td>
-															<td>20,000</td>
-															<td>프로5 - 50,000</td>
-															<td>380,000</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김민준"></td>
-															<td>
-																<select class="form-select w-auto py-0 mx-auto">
-																	<option value="남" selected>남</option>
-																	<option value="여">여</option>
-																</select>
-															</td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>110,000</td>
-															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="5-전동" selected>5-전동</option>
-																		<option value="2-전동">2-전동</option>
-																		<option value="수동">수동</option>
-																	</select>
-																	<span>100,000</span>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="P" selected>P</option>
-																		<option value="J">J</option>
-																		<option value="N">N</option>
-																	</select>
-																	<span>150,000</span>
-																</div>
-															</td>
-															<td>20,000</td>
-															<td>프로5 - 50,000</td>
-															<td>380,000</td>
-														</tr>
-														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="김백동"></td>
-															<td>
-																<select class="form-select w-auto py-0 mx-auto">
-																	<option value="남" selected>남</option>
-																	<option value="여">여</option>
-																</select>
-															</td>
-															<td>
-																<div class="d-flex align-items-center gap-1">
-																	<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-																	<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-																</div>
-															</td>
-															<td>110,000</td>
-															<td>18</td>
-															<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="5-전동" selected>5-전동</option>
-																		<option value="2-전동">2-전동</option>
-																		<option value="수동">수동</option>
-																	</select>
-																	<span>100,000</span>
-																</div>
-															</td>
-															<td>
-																<div class="d-flex align-items-center">
-																	<select class="form-select w-auto py-0 mx-auto">
-																		<option value="P" selected>P</option>
-																		<option value="J">J</option>
-																		<option value="N">N</option>
-																	</select>
-																	<span>150,000</span>
-																</div>
-															</td>
-															<td>20,000</td>
-															<td>프로5 - 50,000</td>
-															<td>380,000</td>
-														</tr>
-														<tr>
-															<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-
-											<div class="border-box mt-4">
-													<table class="table w-100 mb-0">
-														<colgroup>
-															<col style="width:90px;">
-															<col style="width:auto">
-															<col style="width:90px;">
-															<col style="width:auto">
-															<col style="width:90px;">
-															<col style="width:auto">
-														</colgroup>
-
-														<tbody>
-															<tr class="table-active">
-																<th>성명</th>
-																<td>김동준</td>
-																<th>연락처</th>
-																<td>010-1234-5678</td>
-																<th>단체명</th>
-																<td>클라스</td>
-															</tr>
-															<tr>
-																<th>회원 구분</th>
-																<td>일반회원</td>
-																<th>등급 / 번호</th>
-																<td>MVP 12-1324</td>
-																<th>할인 코드</th>
-																<td>프로5</td>
-															</tr>
-															<tr>
-																<th>내장 참고</th>
-																<td><input class="form-control" type="text"></td>
-																<th>회원 특성</th>
-																<td><input class="form-control" type="text"></td>
-																<th>기타 메모</th>
-																<td><input class="form-control" type="text"></td>
-															</tr>
-														</tbody>
-													</table>
-
-													<div class="pt-3 p-4">
-														<div class="d-flex align-items-center mb-3">
-															<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
-																<li class="nav-item">
-																	<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-																		<span class="new">VOC</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-																		<span class="new">프론트</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-																		<span class="new">경기</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-																		<span>식음</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
-																		<span>프로샵</span>
-																	</a>
-																</li>
-															</ul>
-															<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-														</div>
-
-														<div class="tab-content rounded bg-info-subtle p-3">
-															<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-															
-															<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-														</div>
+										<thead>
+											<tr>
+												<th>
+													<div class="form-check form-check-inline">
+														<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
+														<label class="form-check-label fw-bold" for="checkAll">확정</label>
 													</div>
-												</div>
+												</th>
+												<th>내장객</th>
+												<th>성별</th>
+												<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
+												<th>그린피</th>
+												<th>홀</th>
+												<th>추가</th>
+												<th>카트</th>
+												<th>캐디</th>
+												<th>대여료</th>
+												<th>할인</th>
+												<th>총금액</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="김동준"></td>
+												<td>
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="남" selected>남</option>
+														<option value="여">여</option>
+													</select>
+												</td>
+												<td>
+													<div class="d-flex align-items-center gap-1">
+														<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+														<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+													</div>
+												</td>
+												<td>110,000</td>
+												<td>18</td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="5-전동" selected>5-전동</option>
+															<option value="2-전동">2-전동</option>
+															<option value="수동">수동</option>
+														</select>
+
+														<span>100,000</span>
+													</div>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="P" selected>P</option>
+															<option value="J">J</option>
+															<option value="N">N</option>
+														</select>
+														<span>150,000</span>
+													</div>
+												</td>
+												<td>20,000</td>
+												<td>프로5 - 50,000</td>
+												<td>380,000</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="김아연"></td>
+												<td>
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="남" selected>남</option>
+														<option value="여">여</option>
+													</select>
+												</td>
+												<td>
+													<div class="d-flex align-items-center gap-1">
+														<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+														<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+													</div>
+												</td>
+												<td>110,000</td>
+												<td>18</td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="5-전동" selected>5-전동</option>
+															<option value="2-전동">2-전동</option>
+															<option value="수동">수동</option>
+														</select>
+														<span>100,000</span>
+													</div>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="P" selected>P</option>
+															<option value="J">J</option>
+															<option value="N">N</option>
+														</select>
+														<span>150,000</span>
+													</div>
+												</td>
+												<td>20,000</td>
+												<td>프로5 - 50,000</td>
+												<td>380,000</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="김민준"></td>
+												<td>
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="남" selected>남</option>
+														<option value="여">여</option>
+													</select>
+												</td>
+												<td>
+													<div class="d-flex align-items-center gap-1">
+														<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+														<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+													</div>
+												</td>
+												<td>110,000</td>
+												<td>18</td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="5-전동" selected>5-전동</option>
+															<option value="2-전동">2-전동</option>
+															<option value="수동">수동</option>
+														</select>
+														<span>100,000</span>
+													</div>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="P" selected>P</option>
+															<option value="J">J</option>
+															<option value="N">N</option>
+														</select>
+														<span>150,000</span>
+													</div>
+												</td>
+												<td>20,000</td>
+												<td>프로5 - 50,000</td>
+												<td>380,000</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="김백동"></td>
+												<td>
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="남" selected>남</option>
+														<option value="여">여</option>
+													</select>
+												</td>
+												<td>
+													<div class="d-flex align-items-center gap-1">
+														<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+														<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+													</div>
+												</td>
+												<td>110,000</td>
+												<td>18</td>
+												<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="5-전동" selected>5-전동</option>
+															<option value="2-전동">2-전동</option>
+															<option value="수동">수동</option>
+														</select>
+														<span>100,000</span>
+													</div>
+												</td>
+												<td>
+													<div class="d-flex align-items-center">
+														<select class="form-select w-auto py-0 mx-auto">
+															<option value="P" selected>P</option>
+															<option value="J">J</option>
+															<option value="N">N</option>
+														</select>
+														<span>150,000</span>
+													</div>
+												</td>
+												<td>20,000</td>
+												<td>프로5 - 50,000</td>
+												<td>380,000</td>
+											</tr>
+											<tr>
+												<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<div class="border-box mt-4">
+									<table class="table w-100 mb-0">
+										<colgroup>
+											<col style="width:90px;">
+											<col style="width:auto">
+											<col style="width:90px;">
+											<col style="width:auto">
+											<col style="width:90px;">
+											<col style="width:auto">
+										</colgroup>
+
+										<tbody>
+											<tr class="table-active">
+												<th>성명</th>
+												<td>김동준</td>
+												<th>연락처</th>
+												<td>010-1234-5678</td>
+												<th>단체명</th>
+												<td>클라스</td>
+											</tr>
+											<tr>
+												<th>회원 구분</th>
+												<td>일반회원</td>
+												<th>등급 / 번호</th>
+												<td>MVP 12-1324</td>
+												<th>할인 코드</th>
+												<td>프로5</td>
+											</tr>
+											<tr>
+												<th>내장 참고</th>
+												<td><input class="form-control" type="text"></td>
+												<th>회원 특성</th>
+												<td><input class="form-control" type="text"></td>
+												<th>기타 메모</th>
+												<td><input class="form-control" type="text"></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<div class="pt-3 p-4">
+										<div class="d-flex align-items-center mb-3">
+											<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
+												<li class="nav-item">
+													<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+														<span class="new">프론트</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+														<span class="new">경기</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+														<span class="new">식음</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+														<span class="new">프로샵</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link voc" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+														<span class="new">VOC</span>
+													</a>
+												</li>
+											</ul>
+											<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
+										</div>
+
+										<div class="tab-content rounded bg-info-subtle p-3">
+											<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+											</div>
+
+											<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
+
+											<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
+											
+											<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
+
+											<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
 										</div>
 									</div>
 								</div>
