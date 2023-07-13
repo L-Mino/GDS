@@ -669,9 +669,10 @@ dt, dd {font-size:13px; }
 .status-noreserv {display:inline-block; color:#D44556; background:#FFF1F1; border-radius:3px; padding:2px 4px; }
 
 .txt-line {display:inline-block; width:1px; height:14px; background:#E9EBEC; vertical-align:top; margin:3px 6px 0; }
-.txt-hline::before {display:inline-block; content:""; width:42px; height:0.5px; background:#d6d6d6; vertical-align:middle; margin-bottom:2px; }
+.txt-hline::before {display:inline-block; content:""; width:35px; height:0.5px; background:#d6d6d6; vertical-align:middle; margin:0 0 2px 3px; }
 
-.checkin-name {width:45px; text-align:left; white-space:nowrap; overflow:hidden; }
+.checkin-name {width:40px; text-align:left; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
+
 
 /*=====================
 	color
