@@ -84,18 +84,13 @@
 
 											<div class="d-flex align-items-center gap-4 ms-5">
 												<dl class="d-flex mb-0">
-													<dt class="me-2">예약팀</dt>
+													<dt class="me-2">예약</dt>
 													<dd class="mb-0">135</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">
-													<dt class="me-2">내장팀</dt>
+													<dt class="me-2">내장</dt>
 													<dd class="mb-0">121</dd>
-												</dl>
-
-												<dl class="d-flex mb-0">
-													<dt class="me-2">내장 인원</dt>
-													<dd class="mb-0">360</dd>
 												</dl>
 
 												<dl class="d-flex mb-0">

@@ -38,12 +38,12 @@
 											<div class="form-check form-check-inline ps-0 me-0">
 												<input type="text" class="form-control form-control-em datepicker p-0" placeholder="23.05.31(수)">
 											</div>
-	
+
 											<div class="form-check form-check-inline search-area ps-0 me-0">
 												<input class="form-control" type="text" placeholder="예약자">
 												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
 											</div>
-	
+
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="조치 현황">
 													<option value="입금 요청">입금 요청</option>
@@ -64,17 +64,17 @@
 												<div class="table-responsive table-fixed-head mb-3">
 													<table class="table table-hover text-center w-100 nowrap">
 														<colgroup>
-															<col style="min-width:70px;">
-															<col style="min-width: 100px;">
-															<col style="min-width: 100px;">
-															<col style="min-width: 60px;">
-															<col style="min-width: 80px;">
-															<col style="min-width: 120px;">
-															<col style="min-width: 100px;">
-															<col style="min-width: 100px;">
+															<col style="min-width:50px;">
+															<col style="min-width:100px;">
+															<col style="min-width:100px;">
+															<col style="min-width:60px;">
+															<col style="min-width:80px;">
+															<col style="min-width:120px;">
+															<col style="min-width:100px;">
+															<col style="min-width:100px;">
 															<col style="min-width:265px; width:265px;">
 															<col style="min-width:165px; width:165px;">
-														</colgroup>														
+														</colgroup>
 
 														<thead>
 															<tr>
@@ -296,10 +296,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -411,9 +411,9 @@
 																		<option value="일정 변경">일정 변경</option>
 																		<option value="사고">사고</option>
 																		<option value="기타">기타</option>
-																	</select>																	
+																	</select>
 																</td>
-															</tr>															
+															</tr>
 														</tbody>
 													</table>
 												</div>
@@ -486,7 +486,7 @@
 																		<i class="bx bx-calendar font-size-15 ms-1 me-2"></i>
 																	</div>
 																</td>
-															</tr>															
+															</tr>
 														</tbody>
 													</table>
 												</div>
