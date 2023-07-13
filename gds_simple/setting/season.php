@@ -32,17 +32,17 @@
 											<div class="col-6">
 												<div id="calendar01" class="teetime-calendar"></div>
 											</div>
-											
+
 											<div class="col-6">
 												<div id="calendar02" class="teetime-calendar"></div>
-											</div>											
+											</div>
 										</div>
 									</div>
-								</div>											
+								</div>
                             </div>
                         </div>
-		                <!--//row - calendar -->							
-						
+		                <!--//row - calendar -->
+
 						<div class="row">
 							<div class="col-12">
 								<div class="card">
@@ -99,10 +99,10 @@
 																<button type="button" class="btn btn-outline-custom">수정</button>
 																<button type="button" class="btn btn-outline-custom">삭제</button>
 															</td>
-														</tr>														
+														</tr>
 													</tbody>
 												</table>
-												
+
 												<div class="d-flex justify-content-end align-items-center pagenation-wrap">
 													<label class="d-flex position-relative gap-1 m-0">
 														<span class="text-secondary">페이지당 행 수:</span>
@@ -118,10 +118,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -169,7 +169,7 @@
 							</div>
 						</div>
 		                <!--//row -->
-						
+
 						<!-- Add New Event MODAL -->
 						<div class="modal fade addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
@@ -197,9 +197,13 @@
 																</div>
 																<div class="form-check form-check-inline p-0 ms-1">
 																	<select class="form-select">
-																		<option value="극성수기" selected>극성수기</option>
-																		<option value="성수기">성수기</option>
+																		<option value="휴장기" selected>휴장기</option>
+																		<option value="대회">대회</option>
+																		<option value="회원의 날">회원의 날</option>
+																		<option value="일반">일반</option>
 																		<option value="비수기">비수기</option>
+																		<option value="성수기">성수기</option>
+																		<option value="극성수기">극성수기</option>
 																	</select>
 																</div>
 															</div>
@@ -216,7 +220,7 @@
 													</tr>
 													<tr>
 														<th class="text-end">일자</th>
-														<td>			
+														<td>
 															<div class="d-flex">
 																<div class="form-check form-check-inline ps-0 me-0">
 																	<input type="text" class="form-control datepicker datepicker-today">
@@ -224,7 +228,7 @@
 																<span class="dash mx-1">~</span>
 																<div class="form-check form-check-inline ps-0 me-0">
 																	<input type="text" class="form-control datepicker datepicker-today">
-																</div> 
+																</div>
 															</div>
 														</td>
 													</tr>
@@ -277,7 +281,7 @@
 			menuActive(9); //OneDepth
 		});
 		</script>
-		
+
 		<!-- Calendar js -->
 		<script>
 			document.addEventListener('DOMContentLoaded', function() {
@@ -302,7 +306,7 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add('d-none'));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
@@ -327,11 +331,11 @@
 								$('.fc-view-harness').toggle();
 								$(this).toggleClass('hide');
 
-								if($(this).is('.hide')){	
-									$(this).attr('title', '달력 열기'); 
+								if($(this).is('.hide')){
+									$(this).attr('title', '달력 열기');
 									$(this).text('달력 열기');
 								} else {
-									$(this).attr('title', '달력 접기'); 
+									$(this).attr('title', '달력 접기');
 									$(this).text('달력 접기');
 								}
 							}
@@ -350,7 +354,7 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add("d-none"));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
@@ -381,8 +385,8 @@
 				$('.fc-toggleButton-button').text('달력 접기');
 				$('.teetime-calendar .fc-header-toolbar button').removeClass('fc-button-primary');
 			});
-		</script>			
-		
+		</script>
+
 		<!-- App js -->
 		<script src="/gds_simple/assets/js/app.js"></script>
 
