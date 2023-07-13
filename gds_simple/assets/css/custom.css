@@ -669,7 +669,7 @@ dt, dd {font-size:13px; }
 .status-noreserv {display:inline-block; color:#D44556; background:#FFF1F1; border-radius:3px; padding:2px 4px; }
 
 .txt-line {display:inline-block; width:1px; height:14px; background:#E9EBEC; vertical-align:top; margin:3px 6px 0; }
-.txt-hline {display:inline-block; width:39px; height:1px; background:#E9EBEC; vertical-align:top; }
+.txt-hline {display:inline-block; width:39px; height:1px; background:#d6d6d6; vertical-align:top; }
 
 
 /*=====================

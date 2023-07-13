@@ -132,7 +132,7 @@
 																	<td>홍길동</td>
 																	<td>임시1</td>
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
-																		<div class="d-flex align-items-center gap-2" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="클릭시 상세페이지로 이동">
+																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
 																			<span>홍길동길동</span>
 																			<span>박길동</span>
@@ -143,12 +143,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -168,12 +168,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
 																			<span class="status-ico"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -182,7 +182,7 @@
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
-																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="클릭시 상세페이지로 이동">
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num two">2</span>
 																			<span>홍길동</span>
@@ -192,11 +192,11 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
+																			<span class="status-ico front-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
+																			<span class="status-ico food-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																	</td>
@@ -731,12 +731,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -757,12 +757,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
 																			<span class="status-ico"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -783,11 +783,11 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
+																			<span class="status-ico front-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
+																			<span class="status-ico food-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																	</td>
@@ -1325,12 +1325,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -1351,12 +1351,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
 																			<span class="status-ico"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -1377,11 +1377,11 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
+																			<span class="status-ico front-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
+																			<span class="status-ico food-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																	</td>
@@ -1919,12 +1919,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -1945,12 +1945,12 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
-																			<span class="status-ico match-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="경기"></span>
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
 																			<span class="status-ico"></span>
-																			<span class="status-ico shop-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프로샵"></span>
+																			<span class="status-ico shop-new"></span>
 																		</div>
 																	</td>
 																</tr>
@@ -1971,11 +1971,11 @@
 																	<td>18</td>
 																	<td>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico front-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="프론트"></span>
+																			<span class="status-ico front-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																		<div class="d-flex justify-content-center">
-																			<span class="status-ico food-new" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="식음"></span>
+																			<span class="status-ico food-new"></span>
 																			<span class="status-ico"></span>
 																		</div>
 																	</td>
