@@ -156,7 +156,7 @@
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num three">3</span>
 																			<span class="checkin-name">홍길동</span>
-																			<span class="checkin-name opacity-50">박길동</span>
+																			<span class="checkin-name opacity-50">홍길동길동</span>
 																			<span class="checkin-name txt-hline"></span>
 																		</div>
 																	</td>
@@ -181,7 +181,7 @@
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num two">2</span>
 																			<span class="checkin-name">홍길동</span>
-																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">홍길동길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
