@@ -56,7 +56,7 @@
 												<div class="form-check form-check-inline ps-0 pe-2 me-0">
 													<input type="text" class="form-control datepicker" placeholder="종료일">
 												</div>
-												
+
 												<div class="form-check form-check-inline align-top p-0 me-2">
 													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-lang="zh_CN" title="요일 선택">
 														<option value="월">월</option>
@@ -68,14 +68,14 @@
 														<option value="일">일</option>
 													</select>
 												</div>
-												
+
 												<div class="form-check form-check-inline align-top p-0 me-2">
 													<select class="selectpicker show-tick" data-width="fit">
 														<option value="예약 가능" selected>예약 가능</option>
 														<option value="예약 불가">예약 불가</option>
 													</select>
 												</div>
-												
+
 												<div class="form-check form-check-inline align-top p-0 m-0">
 													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
 														<option value="EAST IN">EAST IN</option>
@@ -83,7 +83,7 @@
 														<option value="WEST IN">WEST IN</option>
 														<option value="WEST OUT">WEST OUT</option>
 													</select>
-												</div>														
+												</div>
 											</div>
 										</div>
 
@@ -400,7 +400,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>1</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -452,7 +452,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>2</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -504,7 +504,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>3</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -556,7 +556,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>4</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -608,7 +608,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>5</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -660,7 +660,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>6</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -712,7 +712,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>7</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -764,7 +764,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>8</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -816,7 +816,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>9</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -868,7 +868,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>10</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -920,7 +920,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>11</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -972,7 +972,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>12</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1024,7 +1024,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>13</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1076,7 +1076,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>14</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1128,7 +1128,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>15</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1180,7 +1180,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>16</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1232,7 +1232,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1284,7 +1284,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1336,7 +1336,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1388,7 +1388,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1440,7 +1440,7 @@
 		                                                            <td><input class="form-check-input" type="checkbox" checked></td>
 																	<td>17</td>
 																	<td>23.04.17 (월)</td>
-																	<td>EAST IN</td>																	
+																	<td>EAST IN</td>
 																	<td>07:00</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
@@ -1580,9 +1580,9 @@
 														<li><div class="dropdown-divider"></div></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button></li>
-													</ul>												
-												</div>													
-													
+													</ul>
+												</div>
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">채널 블럭 지정</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -1594,10 +1594,10 @@
 														<li><div class="dropdown-divider"></div></li>
 														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">C_Golfnow</button></li>
 														<li><div class="dropdown-divider"></div></li>
-														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>													
+														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -1606,7 +1606,7 @@
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">인원 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -1639,7 +1639,7 @@
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -2390,7 +2390,7 @@
 															</tr>
 														</tbody>
 													</table>
-												</div>													
+												</div>
 											</div>
 										</div>
 									</div>
@@ -2489,7 +2489,7 @@
 							</div>
 						</div>
 		                <!--//modal - modifyModal -->
-						
+
 						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
@@ -2538,7 +2538,7 @@
 																<option value="3부">3부</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th>시간</th>
 														<td><input type="text" class="form-control" placeholder="24:00"></td>
@@ -2554,7 +2554,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - addTeamModal -->						
+						<!-- //modal - addTeamModal -->
 
 						<!-- end Content -->
 
@@ -2668,16 +2668,16 @@
 				$(this).parents('table').find('tbody tr').addClass('table-active');
 			} else {
 				$(this).parents('table').find('input[type=checkbox]').prop('checked', false);
-				$(this).parents('table').find('tbody tr').removeClass('table-active');				
+				$(this).parents('table').find('tbody tr').removeClass('table-active');
 			}
 		});
-		
+
 		$('input[type=checkbox][name=tableCheck]').change(function() {
 			if ($(this).is(':checked')) {
 				$(this).parents('tr').addClass('table-active');
 			} else {
 				$(this).parents('tr').removeClass('table-active');
-				$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);				
+				$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);
 			}
 		});
 
@@ -2694,12 +2694,12 @@
 			$('.modifyTit').text(modifyTit.slice(0, -3))
 			$('.modifyTxt').text(modifyTxt)
 		}
-			
+
 		function canvas() {
 			var myOffcanvas = document.getElementById('CollectiveRegistration')
 			var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas)
 			bsOffcanvas.show();
-		}			
+		}
 		</script>
 
 		<!-- Calendar js -->
@@ -3029,6 +3029,34 @@
 					{
 						events: [
 							{
+								className:'competition',
+								title:'대회',
+								start:'2023-07-16',
+								displayOrder:1
+							},
+							{
+								className:'competition',
+								title:'대회',
+								start:'2023-07-17',
+								displayOrder:1
+							},
+							{
+								className:'competition',
+								title:'대회',
+								start:'2023-07-18',
+								displayOrder:1
+							},
+							{
+								className:'membershipDay',
+								title:'회원의 날',
+								start:'2023-07-19',
+								displayOrder:1
+							}
+						]
+					},
+					{
+						events: [
+							{
 								className:'holiday',
 								title:'현충일',
 								start:'2023-06-06',
@@ -3037,7 +3065,7 @@
 								displayOrder:1
 							}
 						]
-					}					
+					}
 				],
 				eventClick: function(event) {
 					var modal = $('.calendarModal');

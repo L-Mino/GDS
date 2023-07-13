@@ -282,6 +282,8 @@ body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li:hover>ul {backgrou
 .fc-event.offSeason {background:#F8F8F8; color:#495057; }
 .fc-event.holiday {background:transparent; color:#D33F3F; border:1px solid #D33F3F; }
 .fc-event.dayoff {background:transparent; color:#0468FF; border:1px solid #0468FF; }
+.fc-event.competition {background:#D1EDC3; color:#495057; }
+.fc-event.membershipDay {background:#EAE0FF; color:#495057; }
 
 .card-title {margin:0 0 10px 0; }
 .d-flex .card-title {line-height:1.5 !important; margin:0 0 0 0; }
@@ -623,6 +625,7 @@ select option[value=""][disabled] {display:none; }
 .table thead tr th .dropdown .dropdown-toggle {height:auto !important; line-height:inherit !important; background:transparent !important; border:transparent !important; padding:0 !important; vertical-align:revert; }
 
 .voc-btn {display:inline-block; height:18px; line-height:18px; font-size:10px; color:#0576B9; background:#EBF8FF; border-radius:3px; padding:0 4px; cursor:pointer; }
+
 
 /*=====================
 	tab
