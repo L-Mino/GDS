@@ -60,27 +60,27 @@
 													<option value="WEST OUT">WEST OUT</option>
 												</select>
 											</div>
-											
+
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="티타임 선택">
 													<option value="1부">1부</option>
 													<option value="2부">2부</option>
 													<option value="3부">3부</option>
 												</select>
-											</div>													
+											</div>
 										</div>
-										
+
 										<div class="d-flex flex-wrap align-items-center gap-2">
 											<div class="btn-group">
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button>
-												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button>												
+												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".standbyModal">예약 대기</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(3) a').tab('show');">복사</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(4) a').tab('show');">이동</button>
 												<button type="button" class="btn btn-outline-custom">예약 가능</button>
 												<button type="button" class="btn btn-outline-custom">우천 취소</button>
 												<button type="button" class="btn btn-outline-custom">예약 문자</button>
-												<button type="button" class="btn btn-outline-custom">임의 문자</button>												
+												<button type="button" class="btn btn-outline-custom">임의 문자</button>
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
@@ -94,8 +94,8 @@
 													<option value="C">C</option>
 													<option value="CH">CH</option>
 												</select>
-											</div>													
-										</div>												
+											</div>
+										</div>
 
 										<div class="border-bottom pb-4 mb-4"></div>
 
@@ -347,11 +347,12 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
 																<tbody>
-																	<tr>	
+																	<tr>
 																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td></td>
@@ -360,9 +361,19 @@
 																		<td></td>
 																		<td>J</td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico front-new"></span>
+																				<span class="status-ico match-new"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico food-new"></span>
+																				<span class="status-ico shop-new"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:58 <span class="checkin-num three">3</span></td>
 																		<td></td>
 																		<td>160</td>
@@ -370,9 +381,19 @@
 																		<td></td>
 																		<td>p</td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico front-new"></span>
+																				<span class="status-ico match-new"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico food-new"></span>
+																				<span class="status-ico shop-new"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num two">2</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -380,9 +401,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num one">1</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -390,9 +421,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>BA</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -400,9 +441,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -410,9 +461,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>BB</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -420,9 +481,19 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -430,9 +501,19 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -440,9 +521,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>CA</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -450,9 +541,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>CB</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -460,9 +561,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -470,9 +581,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -480,9 +601,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -490,9 +621,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -500,9 +641,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -510,9 +661,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -520,9 +681,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -530,16 +701,26 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -547,9 +728,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -557,9 +748,19 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -567,9 +768,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -577,9 +788,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -587,9 +808,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -597,9 +828,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -607,9 +848,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -617,9 +868,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -627,9 +888,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -637,9 +908,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																			
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -647,6 +928,16 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -659,7 +950,7 @@
 																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
+																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">성명</th>
 																		<th class="fw-normal">그린피</th>
@@ -667,12 +958,13 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -680,9 +972,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -690,9 +992,19 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -700,9 +1012,19 @@
 																		<td></td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -710,9 +1032,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -720,9 +1052,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -730,9 +1072,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -740,9 +1092,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -750,9 +1112,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -760,9 +1132,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -770,9 +1152,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -780,9 +1172,19 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -790,9 +1192,19 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -800,9 +1212,19 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -810,9 +1232,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -820,9 +1252,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -830,9 +1272,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -840,23 +1292,53 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																																						
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																					
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -864,9 +1346,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -874,9 +1366,19 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -884,9 +1386,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -894,9 +1406,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -904,9 +1426,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -914,9 +1446,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -924,9 +1466,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -934,9 +1486,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -944,9 +1506,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -954,9 +1526,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																					
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -964,6 +1546,16 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -976,7 +1568,7 @@
 																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
+																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">성명</th>
 																		<th class="fw-normal">그린피</th>
@@ -984,12 +1576,13 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -997,9 +1590,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1007,9 +1610,19 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1017,9 +1630,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1027,9 +1650,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1037,9 +1670,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1047,9 +1690,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1057,9 +1710,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1067,9 +1730,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1077,9 +1750,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1087,9 +1770,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1097,9 +1790,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1107,9 +1810,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1117,9 +1830,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1127,9 +1850,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1137,9 +1870,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1147,9 +1890,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1157,9 +1910,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1167,9 +1930,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1177,9 +1950,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1187,9 +1970,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1197,9 +1990,19 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1207,9 +2010,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1217,9 +2030,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1227,9 +2050,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1237,9 +2070,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1247,9 +2090,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1257,9 +2110,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1267,9 +2130,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1277,9 +2150,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1287,6 +2170,16 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1299,7 +2192,7 @@
 																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>																			
+																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">성명</th>
 																		<th class="fw-normal">그린피</th>
@@ -1312,7 +2205,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1320,9 +2213,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1330,9 +2233,19 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1340,9 +2253,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1350,9 +2273,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1360,9 +2293,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1370,9 +2313,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1380,9 +2333,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1390,9 +2353,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1400,9 +2373,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1410,9 +2393,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1420,9 +2413,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1430,9 +2433,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1440,9 +2453,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1450,9 +2473,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1460,9 +2493,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1470,9 +2513,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1480,9 +2533,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1490,9 +2553,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1500,9 +2573,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1510,9 +2593,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1520,9 +2613,19 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1530,9 +2633,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1540,9 +2653,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1550,9 +2673,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1560,9 +2693,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1570,9 +2713,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1580,9 +2733,19 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1590,9 +2753,19 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1600,9 +2773,19 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>																				
+																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
@@ -1610,6 +2793,16 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1689,7 +2882,7 @@
 																<option value="3부">3부</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th>시간</th>
 														<td><input type="text" class="form-control" placeholder="24:00"></td>
@@ -2253,7 +3446,7 @@
 																				<option value="PC-Web">PC-Web</option>
 																				<option value="Mobile-Web">Mobile-Web</option>
 																				<option value="APP">APP</option>
-																				<option value="API">API</option>																				
+																				<option value="API">API</option>
 																			</select>
 																		</td>
 																	</tr>
@@ -2261,7 +3454,7 @@
 																		<th>등록 단체</th>
 																		<td>
 																			<select class="form-select">
-																				<option value="단체 선택" selected>단체 선택</option>																			
+																				<option value="단체 선택" selected>단체 선택</option>
 																				<option value="경기고 총동창회">경기고 총동창회</option>
 																				<option value="광진고 3040 동호회">광진고 3040 동호회</option>
 																			</select>
@@ -2274,7 +3467,7 @@
 																				<option value="임시2">임시 단체2</option>
 																				<option value="임시3">임시 단체3</option>
 																			</select>
-																		</td>																		
+																		</td>
 																	</tr>
 																	<tr>
 																		<th>캐디 구분</th>
@@ -2309,7 +3502,7 @@
 																					<span class="d-inline-block align-text-top pt-1">210,000</span>
 																				</div>
 																			</div>
-																		</td>																	
+																		</td>
 																		<th>이벤트</th>
 																		<td><span class="ms-10">조식 + 카트 무료</span></td>
 																	</tr>
@@ -2593,7 +3786,7 @@
 																	</li>
 																</ul>
 																<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-															</div>															
+															</div>
 
 															<div class="tab-content rounded bg-info-subtle p-3">
 																<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
@@ -2727,7 +3920,7 @@
 																	<td>일반예약/M</td>
 																	<td>419389</td>
 																	<td>255.255.255.255</td>
-																</tr>																
+																</tr>
 															</tbody>
 														</table>
 
@@ -3593,7 +4786,7 @@
 																	</li>
 																</ul>
 																<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-															</div>															
+															</div>
 
 															<div class="tab-content rounded bg-info-subtle p-3">
 																<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
@@ -3647,7 +4840,7 @@
 							</div><!-- /.modal-dialog -->
 						</div>
 						<!-- //modal - bookingModal -->
-						
+
 						<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="memberRegistration" aria-labelledby="memberRegistration">
 							<div class="offcanvas-header pb-0">
 								<h5 id="CollectiveRegistrationLabel">회원 정보</h5>
@@ -3901,7 +5094,7 @@
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist10" role="tab">
 											<span>서류 / 증빙</span>
 										</a>
-									</li>										
+									</li>
 									<li class="nav-item">
 										<a class="nav-link" data-bs-toggle="tab" href="#memberRegist11" role="tab">
 											<span>기타</span>
@@ -3993,7 +5186,7 @@
 												</tbody>
 											</table>
 										</div>
-										
+
 										<div class="border-box border-bottom-0 mt-4">
 											<table class="table table-layout-fixed mb-0">
 												<colgroup>
@@ -4110,7 +5303,7 @@
 											</label>
 
 											<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
-											
+
 											<nav aria-label="Page navigation">
 												<ul class="pagination justify-content-end my-0">
 													<li class="page-item">
@@ -4672,7 +5865,7 @@
 											</nav>
 										</div>
 									</div>
-									
+
 									<div class="tab-pane" id="memberRegist06" role="tabpanel">
 										<table class="table text-center w-100 nowrap">
 											<colgroup>
@@ -4989,7 +6182,7 @@
 
 										<p class="desc mt-3">최초 수정 : 2023/04/10 09:00:18(165144:112,172,198,252) | 최종 수정 : 2023/04/11 09:00:18(165144:112,172,198,252)</p>
 									</div>
-							
+
 									<div class="tab-pane" id="memberRegist09" role="tabpanel">
 										<table class="table table-layout-fixed text-center w-100 nowrap">
 											<colgroup>
@@ -5092,8 +6285,8 @@
 												</ul>
 											</nav>
 										</div>
-									</div>								
-									
+									</div>
+
 									<div class="tab-pane" id="memberRegist10" role="tabpanel">
 										<div class="border-box border-bottom-0">
 											<table class="table table-layout-fixed mb-0">
@@ -5106,8 +6299,8 @@
 													<tr>
 														<th>용도</th>
 														<td><input class="form-control" type="text"></td>
-													</tr>														
-													<tr>													
+													</tr>
+													<tr>
 														<th>증빙</th>
 														<td>
 															<!--div class="col">
@@ -5120,7 +6313,7 @@
 															<!-- <input id="multiplefileupload" type="file" accept=".jpg,.gif,.png" multiple> -->
 															<input id="multiplefileupload" type="file" multiple>
 															<input id="input-2" name="input2[]" type="file" class="file"  data-show-upload="false" data-show-caption="true" multiple>
-														</td>															
+														</td>
 													</tr>
 												</tbody>
 											</table>
@@ -5177,7 +6370,7 @@
 			"use strict";
 			menuActive(2); //OneDepth
 		});
-		
+
 		var modifyNum;
 		var modifyTit;
 		var modifyTxt;
@@ -5191,7 +6384,7 @@
 			$('.modifyTit').text(modifyTit.slice(0, -3));
 			$('.modifyTxt').text(modifyTxt.slice(2));
 		}
-					
+
 		function bookingModal(){
 			$('.bookingModalTab li:first-child a').tab('show');
 		}

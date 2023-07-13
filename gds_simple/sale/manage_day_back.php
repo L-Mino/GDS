@@ -446,7 +446,7 @@
 																<th>시간</th>
 																<th>코스</th>
 																<th>성명</th>
-																<th>홀</th>
+																<th>락카</th>
 																<th>잔액</th>
 																<th>지불액</th>
 																<th>합계</th>
@@ -468,7 +468,7 @@
 																<td>06:50</td>
 																<td>WI</td>
 																<td>홍길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1111 <a href="javascript:void(0);" onclick="lockerPrint('1111');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>185,000</td>
 																<td>0</td>
 																<td class="text-blue">185,000</td>
@@ -487,7 +487,7 @@
 																<td></td>
 																<td></td>
 																<td>이길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1123 <a href="javascript:void(0);" onclick="lockerPrint('1123');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -506,7 +506,7 @@
 																<td></td>
 																<td></td>
 																<td>박길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1124 <a href="javascript:void(0);" onclick="lockerPrint('1124');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -525,7 +525,7 @@
 																<td></td>
 																<td></td>
 																<td>장길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1125 <a href="javascript:void(0);" onclick="lockerPrint('1125');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -565,7 +565,7 @@
 																<td>06:50</td>
 																<td>WI</td>
 																<td>홍길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1311 <a href="javascript:void(0);" onclick="lockerPrint('1311');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>185,000</td>
 																<td>0</td>
 																<td class="text-blue">185,000</td>
@@ -584,7 +584,7 @@
 																<td></td>
 																<td></td>
 																<td>이길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1323 <a href="javascript:void(0);" onclick="lockerPrint('1323');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -603,7 +603,7 @@
 																<td></td>
 																<td></td>
 																<td>박길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1324 <a href="javascript:void(0);" onclick="lockerPrint('1324');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>
@@ -622,7 +622,7 @@
 																<td></td>
 																<td></td>
 																<td>장길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+																<td>1325 <a href="javascript:void(0);" onclick="lockerPrint('1325');"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></td>
 																<td>195,000</td>
 																<td>0</td>
 																<td class="text-blue">195,000</td>

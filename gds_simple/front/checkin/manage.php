@@ -129,10 +129,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동길동</span>
-																			<span>박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span class="text-decoration-line-through opacity-50">안길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name text-decoration-line-through opacity-50">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -155,9 +155,9 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num three">3</span>
-																			<span>홍길동</span>
-																			<span class="opacity-50">박길동</span>
-																			<span class="txt-hline"></span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">박길동</span>
+																			<span class="checkin-name txt-hline"></span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -180,8 +180,8 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num two">2</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -204,7 +204,7 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num one">1</span>
-																			<span>홍길동</span>
+																			<span class="checkin-name">홍길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -227,10 +227,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -253,10 +253,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -279,10 +279,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -305,10 +305,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -331,10 +331,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -357,10 +357,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -383,10 +383,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -409,10 +409,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -435,10 +435,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -461,10 +461,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -487,10 +487,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -513,10 +513,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -539,10 +539,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -565,10 +565,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -591,10 +591,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -617,10 +617,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -643,10 +643,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -669,10 +669,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -717,10 +717,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span class="opacity-50">안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name opacity-50">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -743,10 +743,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span class="opacity-50">박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -769,10 +769,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -795,10 +795,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -821,10 +821,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -847,10 +847,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -873,10 +873,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -899,10 +899,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -925,10 +925,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -951,10 +951,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -977,10 +977,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1003,10 +1003,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1029,10 +1029,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1055,10 +1055,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1081,10 +1081,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1107,10 +1107,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1133,10 +1133,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1159,10 +1159,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1185,10 +1185,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1211,10 +1211,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1237,10 +1237,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1263,10 +1263,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1311,10 +1311,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span class="opacity-50">안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name opacity-50">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1337,10 +1337,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span class="opacity-50">박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1363,10 +1363,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1389,10 +1389,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1415,10 +1415,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1441,10 +1441,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1467,10 +1467,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1493,10 +1493,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1519,10 +1519,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1545,10 +1545,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1571,10 +1571,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1597,10 +1597,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1623,10 +1623,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1649,10 +1649,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1675,10 +1675,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1701,10 +1701,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1727,10 +1727,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1753,10 +1753,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1779,10 +1779,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1805,10 +1805,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1831,10 +1831,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1857,10 +1857,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1905,10 +1905,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span class="opacity-50">안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name opacity-50">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1931,10 +1931,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span class="opacity-50">박길동</span>
-																			<span class="opacity-50">장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1957,10 +1957,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -1983,10 +1983,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2009,10 +2009,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2035,10 +2035,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2061,10 +2061,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2087,10 +2087,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2113,10 +2113,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2139,10 +2139,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2165,10 +2165,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2191,10 +2191,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2217,10 +2217,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2243,10 +2243,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2269,10 +2269,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2295,10 +2295,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2321,10 +2321,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2347,10 +2347,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2373,10 +2373,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2399,10 +2399,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2425,10 +2425,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2451,10 +2451,10 @@
 																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
 																		<div class="d-flex align-items-center gap-2">
 																			<span class="checkin-num four">4</span>
-																			<span>홍길동</span>
-																			<span>박길동</span>
-																			<span>장길동</span>
-																			<span>안길동</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name">장길동</span>
+																			<span class="checkin-name">안길동</span>
 																		</div>
 																	</td>
 																	<td>18</td>
@@ -2480,7 +2480,7 @@
 							</div>
 						</div>
 
-						<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="manageCanvas" data-bs-backdrop="static" aria-labelledby="manageCanvasLabel">
+						<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="manageCanvas" aria-labelledby="manageCanvasLabel">
 							<div class="offcanvas-header justify-content-start align-items-center pb-0">
 								<div class="d-flex gap-2 me-3">
 									<button type="button" class="bg-transparent border-0 p-0"><span class="fc-icon fc-icon-chevrons-left align-middle fs-4 text-secondary"></span></button>
