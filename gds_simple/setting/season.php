@@ -188,14 +188,15 @@
 
 												<tbody>
 													<tr>
-														<th class="text-end align-top pt-10">구분</th>
+														<th class="text-end px-2">구분</th>
 														<td>
 															<div class="d-flex align-items-center">
-																<div class="form-check form-check-inline">
+																<!-- <div class="form-check form-check-inline">
 																	<input class="form-check-input" type="radio" name="radioSort" id="radioSort01" value="option2" checked>
 																	<label class="form-check-label" for="radioSort01">시즌</label>
 																</div>
-																<div class="form-check form-check-inline p-0 ms-1">
+																<div class="form-check form-check-inline p-0 ms-1"-->
+																<div class="form-check form-check-inline p-0">
 																	<select class="form-select">
 																		<option value="휴장기" selected>휴장기</option>
 																		<option value="대회">대회</option>
@@ -207,7 +208,7 @@
 																	</select>
 																</div>
 															</div>
-															<div class="d-flex align-items-center">
+															<!-- <div class="d-flex align-items-center">
 																<div class="form-check form-check-inline">
 																	<input class="form-check-input" type="radio" name="radioSort" id="radioSort02" value="option2">
 																	<label class="form-check-label" for="radioSort02">휴장일</label>
@@ -215,11 +216,11 @@
 																<div class="form-check form-check-inline flex-fill p-0 me-0">
 																	<input type="text" class="form-control">
 																</div>
-															</div>
+															</div> -->
 														</td>
 													</tr>
 													<tr>
-														<th class="text-end">일자</th>
+														<th class="text-end px-2">일자</th>
 														<td>
 															<div class="d-flex">
 																<div class="form-check form-check-inline ps-0 me-0">
@@ -233,7 +234,7 @@
 														</td>
 													</tr>
 													<tr>
-														<th class="text-end align-top pt-10">주기</th>
+														<th class="text-end align-top px-2 pt-10">주기</th>
 														<td>
 															<div class="form-check mt-1">
 																<input class="form-check-input" type="radio" name="radio" id="radio01" value="option2" checked>
