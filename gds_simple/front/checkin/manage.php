@@ -70,7 +70,7 @@
 												</select>
 											</div>
 
-											<button type="button" class="btn btn-outline-custom">우천 취소</button>
+											<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".rainCancelModal">우천 취소</button>
 
 											<div class="form-check form-check-inline ms-3 me-2">
 												<input class="form-check-input" type="checkbox" id="undetermined">
@@ -201,7 +201,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -224,7 +224,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -250,7 +250,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -276,7 +276,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -302,7 +302,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -328,7 +328,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -354,7 +354,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -380,7 +380,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -406,7 +406,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -432,7 +432,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -458,7 +458,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -484,7 +484,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -510,7 +510,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -536,7 +536,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -562,7 +562,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -588,7 +588,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -614,7 +614,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -640,7 +640,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -666,7 +666,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -714,7 +714,7 @@
 															</thead>
 
 															<tbody>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -740,7 +740,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -766,7 +766,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -792,7 +792,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -818,7 +818,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -844,7 +844,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -870,7 +870,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -896,7 +896,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -922,7 +922,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -948,7 +948,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -974,7 +974,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1000,7 +1000,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1026,7 +1026,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1052,7 +1052,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1078,7 +1078,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1104,7 +1104,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1130,7 +1130,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1156,7 +1156,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1182,7 +1182,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1208,7 +1208,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1234,7 +1234,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1260,7 +1260,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1308,7 +1308,7 @@
 															</thead>
 
 															<tbody>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1334,7 +1334,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1360,7 +1360,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1386,7 +1386,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1412,7 +1412,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1438,7 +1438,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1464,7 +1464,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1490,7 +1490,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1516,7 +1516,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1542,7 +1542,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1568,7 +1568,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1594,7 +1594,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1620,7 +1620,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1646,7 +1646,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1672,7 +1672,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1698,7 +1698,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1724,7 +1724,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1750,7 +1750,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1776,7 +1776,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1802,7 +1802,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1828,7 +1828,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1854,7 +1854,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -1902,7 +1902,7 @@
 															</thead>
 
 															<tbody>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1928,7 +1928,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1954,7 +1954,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -1980,7 +1980,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2006,7 +2006,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2032,7 +2032,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2058,7 +2058,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2084,7 +2084,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2110,7 +2110,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2136,7 +2136,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2162,7 +2162,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2188,7 +2188,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2214,7 +2214,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2240,7 +2240,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2266,7 +2266,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
@@ -2292,7 +2292,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2318,7 +2318,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2344,7 +2344,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2370,7 +2370,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2396,7 +2396,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2422,7 +2422,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2448,7 +2448,7 @@
 																		</div>
 																	</td>
 																</tr>
-																<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#manageCanvas" aria-controls="manageCanvas">
+																<tr>
 																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
@@ -2896,6 +2896,23 @@
 							</div>
 						</div>
 		                <!--//modal - confirmModal -->
+
+						<div class="modal fade rainCancelModal" tabindex="-1" aria-labelledby="rainCancelModalLabel" aria-modal="true" role="dialog">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-body">
+										<p class="text-center font-size-14 fw-semibold pt-4 mb-0">우천 취소로 설정하시겠습니까?</p>
+									</div>
+									<div class="modal-footer">
+										<div class="d-flex justify-content-center w-100 gap-2 pb-3">
+											<button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
+											<button type="button" class="btn btn-custom">확인</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		                <!--//modal - modifyModal -->
 
 						<div class="modal fade noshowModal" tabindex="-1" aria-labelledby="noshowModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
