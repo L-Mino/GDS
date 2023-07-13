@@ -458,7 +458,6 @@ th.table-gray {background:#EFF2F7; border-color:#E9EBEC; }
 .info-con {width:750px; }
 
 .dividing-line {width:1px; height:20px; background:#E9EBEC; margin:0 16px; }
-.txt-line {display:inline-block; width:1px; height:14px; background:#E9EBEC; vertical-align:top; margin:3px 6px 0; }
 
 .course-info-wrap {position:relative; width:1062px; min-height:120px; padding:30px; }
 .course-info-wrap .course-info-tit {font-size:16px; font-weight:600; color:#000; margin-top:45px; margin-bottom:15px; }
@@ -668,6 +667,9 @@ dt, dd {font-size:13px; }
 .status-waiting {display:inline-block; color:#E97E42; background:#FFF5DF; border-radius:3px; padding:2px 4px; }
 .status-complete {display:inline-block; color:#1F813A; background:#EEF6E5; border-radius:3px; padding:2px 4px; }
 .status-noreserv {display:inline-block; color:#D44556; background:#FFF1F1; border-radius:3px; padding:2px 4px; }
+
+.txt-line {display:inline-block; width:1px; height:14px; background:#E9EBEC; vertical-align:top; margin:3px 6px 0; }
+.txt-hline {display:inline-block; width:39px; height:1px; background:#E9EBEC; vertical-align:top; }
 
 
 /*=====================

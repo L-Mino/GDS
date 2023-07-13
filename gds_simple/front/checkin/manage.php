@@ -162,7 +162,7 @@
 																			<span class="checkin-num three">3</span>
 																			<span>홍길동</span>
 																			<span class="opacity-50">박길동</span>
-																			<span class="text-decoration-line-through opacity-50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+																			<span class="txt-hline"></span>
 																		</div>
 																	</td>
 																	<td>18</td>
