@@ -40,12 +40,12 @@
 														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">캐디 코드</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code02">카트 코드</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code03">식사 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code04">음료 코드</a></li>														
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code05">주류 코드</a></li>																												
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code06">대여 용품</a></li>																												
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code07">프로샵 용품</a></li>																												
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code08">숙박</a></li>																												
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code09">송영</a></li>																												
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code04">음료 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code05">주류 코드</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code06">대여 용품</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code07">프로샵 용품</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code08">숙박</a></li>
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code09">송영</a></li>
 													</ul>
 												</div>
 											</div>
@@ -60,13 +60,13 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
+															</div>
 														</div>
 														<div class="table-fixed-head card h-100 mb-0">
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -97,12 +97,12 @@
 																				<option value="지정 캐디">지정 캐디</option>
 																			</select>
 																		</td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr> 
+																	</tr>
 																	<tr>
 																		<td>일반 캐디</td>
 																		<td>150,000</td>
@@ -166,7 +166,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -197,7 +197,7 @@
 																				<option value="NO카트">NO카트</option>
 																			</select>
 																		</td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -258,7 +258,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -279,7 +279,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -337,7 +337,7 @@
 															</table>
 														</div>
 													</div>
-													
+
 													<div class="tab-pane fade" id="code04" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">음료 코드</span>
@@ -348,7 +348,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -369,7 +369,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -422,7 +422,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -443,7 +443,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -496,7 +496,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -517,7 +517,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -570,7 +570,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -591,7 +591,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -636,7 +636,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -657,7 +657,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -702,7 +702,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:90px;">																	
+																	<col style="min-width:90px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -723,7 +723,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="상품 코드"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -774,7 +774,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">

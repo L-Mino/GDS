@@ -264,7 +264,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -278,7 +278,7 @@
 													<col style="width:120px;">
 													<col style="width:auto">
 												</colgroup>
-												
+
 												<tbody>
 													<tr>
 														<th class="text-end">사업장</th>
@@ -301,7 +301,7 @@
 															<input type="text" class="form-control form-control-sm">
 														</td>
 													</tr>
-												</tbody>	
+												</tbody>
 											</table>
 										</div>
 									</div>

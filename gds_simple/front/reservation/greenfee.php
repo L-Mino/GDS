@@ -33,13 +33,13 @@
 											<div class="col-6">
 												<div id="calendar01" class="teetime-calendar"></div>
 											</div>
-											
+
 											<div class="col-6">
 												<div id="calendar02" class="teetime-calendar"></div>
-											</div>											
+											</div>
 										</div>
 									</div>
-								</div>											
+								</div>
                             </div>
                         </div>
 		                <!--//row - calendar -->
@@ -57,7 +57,7 @@
 												<span class="dash">~</span>
 												<div class="form-check form-check-inline ps-0 pe-4 me-0">
 													<input type="text" class="form-control datepicker" placeholder="종료일">
-												</div> 
+												</div>
 												<div class="form-check form-check-inline">
 													<input class="form-check-input" type="checkbox" id="day01" value="option1" checked="">
 													<label class="form-check-label" for="day01">요일 전체</label>
@@ -134,14 +134,14 @@
 															</div>
 														</li>
 													</ul>
-												</div>												
+												</div>
 											</div>
 										</div>
 
 										<div class="border-bottom pb-4 mb-4"></div>
 
 										<div class="row">
-											<div class="col-12">										
+											<div class="col-12">
 												<div class="d-flex gap-2 mb-3">
 													<ul class="nav nav-tabs-custom me-auto" role="tablist">
 														<li class="nav-item">
@@ -155,7 +155,7 @@
 															</a>
 														</li>
 													</ul>
-													
+
 													<div class="select-group">
 														<select class="form-select form-select-sm w-auto border-0">
 															<option value="23년" selected>23년</option>
@@ -178,10 +178,10 @@
 															<option value="11월">11월</option>
 															<option value="12월">12월</option>
 														</select>
-					
+
 														<button class="btn" type="button">그린피</button>
 													</div>
-													
+
 													<button class="btn btn-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#CollectiveRegistration" aria-controls="CollectiveRegistration">그린피 적용</button>
 												</div>
 
@@ -213,15 +213,15 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="비회원 18" selected="">비회원 18 - 180,000</option>
 																			<option value="비회원 19">비회원 19 - 190,000</option>
-																			<option value="비회원 20">비회원 20 - 200,000</option>																			
+																			<option value="비회원 20">비회원 20 - 200,000</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="인터넷 회원 17" selected="">인터넷 회원 17 - 170,000</option>
 																			<option value="인터넷 회원 18">인터넷 회원 18 - 180,000</option>
-																			<option value="인터넷 회원 19">인터넷 회원 19 - 190,000</option>																			
-																		</select>																	
+																			<option value="인터넷 회원 19">인터넷 회원 19 - 190,000</option>
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -239,15 +239,15 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="비회원 18">비회원 18 - 180,000</option>
 																			<option value="비회원 19" selected="">비회원 19 - 190,000</option>
-																			<option value="비회원 20">비회원 20 - 200,000</option>																			
+																			<option value="비회원 20">비회원 20 - 200,000</option>
 																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto mx-auto">
 																			<option value="인터넷 회원 17">인터넷 회원 17 - 170,000</option>
 																			<option value="인터넷 회원 18" selected="">인터넷 회원 18 - 180,000</option>
-																			<option value="인터넷 회원 19">인터넷 회원 19 - 190,000</option>																			
-																		</select>																	
+																			<option value="인터넷 회원 19">인터넷 회원 19 - 190,000</option>
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -260,7 +260,7 @@
 													<div class="tab-pane" id="membershipset" role="tabpanel">
 														<div class="form-check form-check-inline p-0 m-0">
 															<input class="form-control" type="text" placeholder="(예 : 0600, 0610, 0620)" style="width:455px;">
-														</div> 
+														</div>
 													</div>
 												</div>
 
@@ -303,7 +303,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -311,7 +311,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -319,7 +319,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -340,7 +340,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -354,7 +354,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -362,7 +362,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -370,7 +370,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -391,7 +391,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -405,7 +405,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -413,7 +413,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -421,7 +421,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -442,7 +442,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -456,7 +456,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -464,7 +464,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -472,7 +472,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -493,7 +493,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -507,7 +507,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -515,7 +515,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -523,7 +523,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -544,7 +544,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -558,7 +558,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -566,7 +566,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -574,7 +574,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -595,7 +595,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -609,7 +609,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -617,7 +617,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -625,7 +625,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -646,7 +646,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -660,7 +660,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -668,7 +668,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -676,7 +676,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -697,7 +697,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -711,7 +711,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -719,7 +719,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -727,7 +727,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -748,7 +748,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -762,7 +762,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -770,7 +770,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -778,7 +778,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -799,7 +799,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -813,7 +813,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -821,7 +821,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -829,7 +829,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -850,7 +850,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -864,7 +864,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -872,7 +872,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -880,7 +880,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -901,7 +901,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -915,7 +915,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -923,7 +923,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -931,7 +931,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -952,7 +952,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -966,7 +966,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -974,7 +974,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -982,7 +982,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -1003,7 +1003,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -1017,7 +1017,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1025,7 +1025,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1033,7 +1033,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>메이플</td>
 																	<td>
@@ -1054,7 +1054,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -1068,7 +1068,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1076,7 +1076,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1084,7 +1084,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>																	<td>메이플</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
@@ -1104,7 +1104,7 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 																<tr>
@@ -1118,7 +1118,7 @@
 																			<option value="3">3</option>
 																			<option value="2">2</option>
 																			<option value="1">1</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1126,7 +1126,7 @@
 																			<option value="일반">일반</option>
 																			<option value="신입">신입</option>
 																			<option value="프로">프로</option>
-																		</select>	
+																		</select>
 																	</td>
 																	<td>
 																		<select class="form-select w-auto border-0 mx-auto">
@@ -1134,7 +1134,7 @@
 																			<option value="2인승 전동 카트">2인승 전동 카트</option>
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
-																		</select>	
+																		</select>
 																	</td>																	<td>메이플</td>
 																	<td>
 																		<div class="form-check form-check-inline p-0 m-0">
@@ -1154,12 +1154,12 @@
 																		<select class="form-select w-auto mx-auto">
 																			<option value="예약 가능" selected="">예약 가능</option>
 																			<option value="예약불가">예약불가</option>
-																		</select>	
+																		</select>
 																	</td>
 																</tr>
 															</tbody>
 														</table>
-														
+
 														<div class="d-flex justify-content-end align-items-center pagenation-wrap">
 															<label class="d-flex position-relative gap-1 m-0">
 																<span class="text-secondary">페이지당 행 수:</span>
@@ -1175,10 +1175,10 @@
 																	<option value="100">100</option>
 																</select>
 															</label>
-															
+
 															<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-															<nav aria-label="Page navigation">	
+															<nav aria-label="Page navigation">
 																<ul class="pagination justify-content-end my-0">
 																	<li class="page-item">
 																		<a class="page-link py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -1218,7 +1218,7 @@
 																	</li>
 																</ul>
 															</nav>
-														</div>																	
+														</div>
 													</div>
 												</div>
 											</div>
@@ -1296,7 +1296,7 @@
 														</div>
 													</li>
 												</ul>
-											</div><!-- /btn-group -->	
+											</div><!-- /btn-group -->
 
 											<button type="button" class="btn btn-outline-custom">수정</button>
 											<button type="button" class="btn btn-outline-custom">삭제</button>
@@ -1354,10 +1354,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -1406,14 +1406,14 @@
 						</div>
 		                <!--//row - 그린피 설정 내역 -->
 
-						<div class="modal fade calendarModal" tabindex="-1" aria-labelledby="calendarModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade calendarModal" tabindex="-1" aria-labelledby="calendarModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-xl">
 								<div class="modal-content">
 									<div class="modal-header">
 										<h5 class="modal-title" id="bookingModalLabel">그린피 설정 내역</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
-									
+
 									<div class="modal-body">
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
@@ -1537,7 +1537,7 @@
 			}).buttons().container().insertBefore('.greenfee-head .btn-group-first');
 
 			$('.greenfeeSelectAll').on('click', function(){
-				if($(this).is(':checked')){	
+				if($(this).is(':checked')){
 					$('.table-teetime tbody tr').addClass('selected');
 				} else {
 					$('.table-teetime tbody tr').removeClass('selected');
@@ -1547,7 +1547,7 @@
 
 			$('.buttons-excel').removeClass('btn-secondary');
 			/*$('#teetimeRowPerPage').on('change', function() {
-				var row = $('#teetimeRowPerPage').val() 
+				var row = $('#teetimeRowPerPage').val()
 				table.page.len( -1 ).draw();
 			});*/
 
@@ -1606,11 +1606,11 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add('d-none'));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
-					eventOrder : 'displayOrder', 
+					eventOrder : 'displayOrder',
 					eventSources: [
 
 						// your event source
@@ -1902,11 +1902,11 @@
 								$('.fc-view-harness').toggle();
 								$(this).toggleClass('hide');
 
-								if($(this).is('.hide')){	
-									$(this).attr('title', '달력 열기'); 
+								if($(this).is('.hide')){
+									$(this).attr('title', '달력 열기');
 									$(this).text('달력 열기');
 								} else {
-									$(this).attr('title', '달력 접기'); 
+									$(this).attr('title', '달력 접기');
 									$(this).text('달력 접기');
 								}
 							}
@@ -1925,11 +1925,11 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add("d-none"));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
-					eventOrder : 'displayOrder', 
+					eventOrder : 'displayOrder',
 					eventSources: [
 
 						// your event source

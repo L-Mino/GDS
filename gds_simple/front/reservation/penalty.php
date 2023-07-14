@@ -349,7 +349,7 @@
 						</div>
 		                <!--//row - 위약관리 -->
 
-						<div class="modal fade penaltyRegistModal" tabindex="-1" aria-labelledby="penaltyRegistModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade penaltyRegistModal" tabindex="-1" aria-labelledby="penaltyRegistModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">

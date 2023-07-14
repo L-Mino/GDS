@@ -44,13 +44,13 @@
 													<option value="3부">3부</option>
 												</select>
 											</div>
-											
+
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker show-tick" data-width="fit" title="확정 여부">
 													<option value="내장 확정">내장 확정</option>
 													<option value="미확정">미확정</option>
 												</select>
-											</div>	
+											</div>
 
 											<div class="form-check form-check-inline search-area ps-0 me-0">
 												<input class="form-control" type="text" placeholder="Search...">
@@ -103,7 +103,7 @@
 																		<li><button type="button" class="dropdown-item">WI</button></li>
 																		<li><button type="button" class="dropdown-item">WO</button></li>
 																		<li><button type="button" class="dropdown-item">EI</button></li>
-																		<li><button type="button" class="dropdown-item">EO</button></li>																		
+																		<li><button type="button" class="dropdown-item">EO</button></li>
 																	</ul>
 																</div>
 															</th>
@@ -266,7 +266,7 @@
 						</div>
 		                <!--//row - 내장관리 -->
 
-						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-body">
@@ -283,7 +283,7 @@
 						</div>
 		                <!--//modal - confirmModal -->
 
-						<div class="modal fade articleModal" tabindex="-1" aria-labelledby="articleModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade articleModal" tabindex="-1" aria-labelledby="articleModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -375,7 +375,7 @@
 						</div>
 						<!-- //modal - articleModal -->
 
-						<div class="modal fade moveGroupModal" tabindex="-1" aria-labelledby="moveGroupModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade moveGroupModal" tabindex="-1" aria-labelledby="moveGroupModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">

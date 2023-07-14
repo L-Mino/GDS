@@ -53,7 +53,7 @@
 															<col style="min-width:130px;">
 															<col style="min-width:130px;">
 														</colgroup>
-														
+
 														<thead>
 															<tr class="align-middle">
 																<th>순번</th>
@@ -65,7 +65,7 @@
 																			<li><button type="button" class="dropdown-item">총판 (Agent)</button></li>
 																		</ul>
 																	</div>
-																</th>																
+																</th>
 																<th>형식</th>
 																<th>업체명</th>
 																<th>기본 코드</th>
@@ -130,10 +130,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -187,7 +187,7 @@
 						</div>
 		                <!--//row - 그린피 설정 내역 -->
 
-						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelRegistModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelRegistModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-xl modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -219,7 +219,7 @@
 																<th>단축 코드</th>
 																<td>
 																	<input class="form-control" type="text">
-																</td>																		
+																</td>
 																<th>채널 구분</th>
 																<td>
 																	<select class="form-select w-100">
@@ -254,7 +254,7 @@
 																		<option value="서울" selected>서울</option>
 																		<option value="제주도">제주도</option>
 																	</select>
-																</td>																																				
+																</td>
 															</tr>
 														</tbody>
 													</table>
@@ -309,7 +309,7 @@
 																			</div>
 																			<div class="form-check form-check-inline w-100 p-0 mt-2 me-0">
 																				<input class="form-control" type="text">
-																			</div>																					
+																			</div>
 																		</div>
 																		<div class="col-3 text-end">
 																			<button type="button" class="btn btn-outline-custom w-100">추가</button>
@@ -329,7 +329,7 @@
 																		</div>
 																	</div>
 																	<input type="text" id="daum_detailAddress" class="form-control" placeholder="상세 주소">
-																</td>																		
+																</td>
 															</tr>
 														</tbody>
 													</table>
@@ -386,7 +386,7 @@
 															</tr>
 														</tbody>
 													</table>
-													
+
 													<table class="table table-layout-fixed mb-0">
 														<colgroup>
 															<col style="width:90px;">
@@ -410,9 +410,9 @@
 																	<div class="form-check form-check-inline ms-3 me-1">
 																		<input class="form-check-input gridRadios" type="radio" name="gridRadios" id="gridRadios2" value="할인 금액">
 																		<label class="form-check-label fw-bold" for="gridRadios2">할인 금액</label>
-																	</div>		
+																	</div>
 																	<div class="form-check form-check-inline p-0 m-0">
-																		<input class="form-control input_w110 text-end gridRadios2Input" type="text" disabled> 
+																		<input class="form-control input_w110 text-end gridRadios2Input" type="text" disabled>
 																	</div>
 																	<span>원</span>
 																</td>
@@ -422,9 +422,9 @@
 																		<input class="form-check-input" type="checkbox" id="teecheck" value="배정" checked>
 																		<label class="form-check-label fw-bold" for="teecheck">배정</label>
 																	</div>
-																</td>																		
-															</tr>																		
-															<tr class="table-bg-gray">																		
+																</td>
+															</tr>
+															<tr class="table-bg-gray">
 																<th>사용 유무</th>
 																<td colspan="3">
 																	<div class="form-check form-check-inline ms-10">
@@ -438,7 +438,7 @@
 																</td>
 															</tr>
 														</tbody>
-													</table>															
+													</table>
 												</div>
 
 												<textarea class="form-control textarea-bg border-0 p-2" rows="3" placeholder="비고"></textarea>
@@ -490,9 +490,9 @@
 				} else if (valueCheck == '할인 금액') {
 					$('.gridRadios1Input').attr('disabled', 'disabled');
 					$('.gridRadios2Input').removeAttr('disabled');
-					$('.gridRadios2Input').focus();					
+					$('.gridRadios2Input').focus();
 				}
-			});			
+			});
 		});
 		</script>
 

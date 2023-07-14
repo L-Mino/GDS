@@ -1769,7 +1769,7 @@
 							</div>
 						</div>
 
-						<div class="modal fade modifyModal" tabindex="-1" aria-labelledby="modifyModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade modifyModal" tabindex="-1" aria-labelledby="modifyModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-body">
@@ -1786,7 +1786,7 @@
 						</div>
 		                <!--//modal - modifyModal -->
 
-						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">

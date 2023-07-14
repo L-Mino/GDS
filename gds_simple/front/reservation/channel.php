@@ -114,10 +114,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -171,7 +171,7 @@
 						</div>
 		                <!--//row - 그린피 설정 내역 -->
 
-						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelRegistModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade channelRegistModal" tabindex="-1" aria-labelledby="channelRegistModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-xl modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">

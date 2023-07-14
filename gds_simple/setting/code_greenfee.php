@@ -56,8 +56,8 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
-															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
+															</div>
+															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
@@ -102,7 +102,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="가격"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
@@ -207,7 +207,7 @@
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
-																	
+
 																	<tr>
 																		<td>9h-7</td>
 																		<td>
@@ -504,8 +504,8 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
-															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
+															</div>
+															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
@@ -550,7 +550,7 @@
 																		</td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text"></td>
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
@@ -655,7 +655,7 @@
 																		<td><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="ID : 110SADA / IP : 192.123.324.121">23.05.18 12:00:45</span></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
-																	
+
 																	<tr>
 																		<td>9h-7</td>
 																		<td>
@@ -942,7 +942,7 @@
 																</tbody>
 															</table>
 														</div>
-													</div>													
+													</div>
 												</div>
 											</div>
 										</div>
@@ -952,7 +952,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -984,7 +984,7 @@
 																<option value="23.05.18 (목)">23.05.18 (목)</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 												</tbody>
 											</table>
 										</div>

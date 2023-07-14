@@ -49,16 +49,16 @@
 														<col style="width:auto;">
 														<col style="min-width:130px; width:130px;">
 													</colgroup>
-													
+
 													<thead>
 														<tr>
 															<th>ID(EMAIL)</th>
 															<th>그룹</th>
 															<th>이름</th>
-															<th>비밀번호</th>															
+															<th>비밀번호</th>
 															<th>부서</th>
 															<th>직급</th>
-															<th>연락처</th>															
+															<th>연락처</th>
 															<th>비고</th>
 														</tr>
 													</thead>
@@ -77,7 +77,7 @@
 															</td>
                                                             <td>
 																<input type="text" class="form-control text-center p-0 mx-auto" value="비밀번호">
-															</td>															
+															</td>
                                                             <td>
 																<select class="form-select w-auto mx-auto">
 																	<option value="프론트01" selected>프론트01</option>
@@ -89,10 +89,10 @@
 																	<option value="차장" selected>차장</option>
 																	<option value="과장">과장</option>
 																</select>
-                                                            </td>															
+                                                            </td>
                                                             <td>
 																<input type="text" class="form-control text-center p-0 mx-auto" value="010-1234-4567">
-															</td>															
+															</td>
                                                             <td>
 																<div class="d-flex justify-content-center gap-2">
 																	<button type="button" class="btn btn-outline-custom">수정</button>
@@ -113,7 +113,7 @@
 															</td>
                                                             <td>
 																<input type="text" class="form-control text-center p-0 mx-auto" value="비밀번호">
-															</td>																														
+															</td>
                                                             <td>
 																<select class="form-select w-auto mx-auto">
 																	<option value="프론트01" selected>프론트01</option>
@@ -125,10 +125,10 @@
 																	<option value="차장" selected>차장</option>
 																	<option value="과장">과장</option>
 																</select>
-                                                            </td>															
+                                                            </td>
                                                             <td>
 																<input type="text" class="form-control text-center p-0 mx-auto" value="010-1234-4567">
-															</td>															
+															</td>
                                                             <td>
 																<div class="d-flex justify-content-center gap-2">
 																	<button type="button" class="btn btn-outline-custom">수정</button>
@@ -206,7 +206,7 @@
 						</div>
 		                <!--//row -->
 
-						<div class="modal fade addRegistModal" tabindex="-1" aria-labelledby="addRegistModalModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addRegistModal" tabindex="-1" aria-labelledby="addRegistModalModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-md">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -226,18 +226,18 @@
 														<th class="text-end">그룹 선택</th>
 														<td>
 															<select class="form-select">
-																<option value="그룹 선택" selected>그룹 선택</option>															
+																<option value="그룹 선택" selected>그룹 선택</option>
 																<option value="통합관리자">통합관리자</option>
 																<option value="어드민">어드민</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th class="text-end">이름</th>
 														<td>
 															<input type="text" class="form-control">
 														</td>
-													</tr>											
+													</tr>
 													<tr>
 														<th class="text-end">부서</th>
 														<td>
@@ -252,12 +252,12 @@
 														<th class="text-end">직급</th>
 														<td>
 															<select class="form-select">
-																<option value="직급 선택" selected>직급 선택</option>															
+																<option value="직급 선택" selected>직급 선택</option>
 																<option value="차장">차장</option>
 																<option value="과장">과장</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th class="text-end">ID(EMAIL)</th>
 														<td>
@@ -269,7 +269,7 @@
 														<td>
 															<input type="text" class="form-control">
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th class="text-end">비밀번호</th>
 														<td>

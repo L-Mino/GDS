@@ -34,7 +34,7 @@
 												<div class="d-flex justify-content-between align-items-center mb-3">
 													<span class="code-title">적용 일자</span>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addCodeModal">+ 추가</button>
-												</div>										
+												</div>
 												<div class="tab-code">
 													<ul class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
 														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">23.05.22 (월)</a></li>
@@ -48,9 +48,9 @@
 													<div class="tab-pane fade show active" id="code01" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">홀별 정산</span>
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
+															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>
 														</div>
-														
+
 														<div class="table-fixed-head card h-100 mb-0">
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
@@ -78,7 +78,7 @@
 																					<option value="%" selected>%</option>
 																					<option value="₩">₩</option>
 																				</select>
-																			</div>																		
+																			</div>
 																		</th>
 																		<th>캐디피
 																			<div class="form-check form-check-inline p-0 m-0">
@@ -86,7 +86,7 @@
 																					<option value="%">%</option>
 																					<option value="₩" selected>₩</option>
 																				</select>
-																			</div>																		
+																			</div>
 																		</th>
 																		<th>저장</th>
 																	</tr>
@@ -117,122 +117,122 @@
 																	<tr>
 																		<td>2 Hole Out</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>3 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>4 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>5 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>6 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>7 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>8 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>9 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>10 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>11 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>12 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>13 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>14 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>15 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>16 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>17 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>18 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -241,9 +241,9 @@
 													<div class="tab-pane fade" id="code02" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">홀별 정산</span>
-															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>															
+															<button type="button" class="btn btn-outline-custom ms-auto">전체 저장</button>
 														</div>
-														
+
 														<div class="table-fixed-head card h-100 mb-0">
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
@@ -271,7 +271,7 @@
 																					<option value="%" selected>%</option>
 																					<option value="₩">₩</option>
 																				</select>
-																			</div>																		
+																			</div>
 																		</th>
 																		<th>캐디피
 																			<div class="form-check form-check-inline p-0 m-0">
@@ -279,7 +279,7 @@
 																					<option value="%">%</option>
 																					<option value="₩" selected>₩</option>
 																				</select>
-																			</div>																		
+																			</div>
 																		</th>
 																		<th>저장</th>
 																	</tr>
@@ -295,137 +295,137 @@
 																	</tr>
 																	<tr>
 																		<td>1 Hole 티샷 ~ Hole Out 전</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="10"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>1 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="20"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>2 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="25"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>3 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="30"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>4 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="35"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>5 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>6 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="40"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>7 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="45"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>8 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>9 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="50"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>10 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> ₩</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="60"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>11 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="65"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>12 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="70"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>13 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="75"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>14 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="80"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>15 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="85"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>16 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="90"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>17 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="95"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 																	</tr>
 																	<tr>
 																		<td>18 Hole Out</td>
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>																		
-																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>																		
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>
+																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> %</td>
 																		<td><div class="form-check form-check-inline p-0 m-0"><input class="form-control text-center input_w70 p-0" type="text" value="100"></div> ₩</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -439,7 +439,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -471,7 +471,7 @@
 																<option value="23.05.18 (목)">23.05.18 (목)</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 												</tbody>
 											</table>
 										</div>

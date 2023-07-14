@@ -36,15 +36,15 @@
 											<div class="form-check form-check-inline ms-auto me-0">
 												<input type="checkbox" class="form-check-input" id="toggleCheck">
 												<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-											</div>																		
-											<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
+											</div>
+											<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>
 										</div>
 
 										<div class="table-fixed-head card h-100 mb-0">
 											<table class="table text-center w-100 mb-0 nowrap">
 												<colgroup>
 													<col style="min-width:120px;">
-													<col style="min-width:100px; width:100px;">													
+													<col style="min-width:100px; width:100px;">
 													<col style="min-width:120px;">
 													<col style="min-width:70px;">
 													<col style="min-width:60px; width:60px;">
@@ -55,7 +55,7 @@
 												<thead>
 													<tr>
 														<th>할인 코드</th>
-														<th>단축 코드</th>														
+														<th>단축 코드</th>
 														<th>할인 금액</th>
 														<th>사용안함</th>
 														<th>정렬</th>
@@ -146,7 +146,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -178,7 +178,7 @@
 																<option value="23.05.18 (목)">23.05.18 (목)</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 												</tbody>
 											</table>
 										</div>

@@ -1528,7 +1528,7 @@
 						</div>
 		                <!--//row -->
 
-						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-body">
@@ -1545,7 +1545,7 @@
 						</div>
 		                <!--//modal - confirmModal -->
 
-						<div class="modal fade addHoleModal" tabindex="-1" aria-labelledby="addHoleModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addHoleModal" tabindex="-1" aria-labelledby="addHoleModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1602,7 +1602,7 @@
 						</div>
 		                <!--//modal - addHoleModal -->
 
-						<div class="modal fade articleModal" tabindex="-1" aria-labelledby="articleModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade articleModal" tabindex="-1" aria-labelledby="articleModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1696,7 +1696,7 @@
 						</div>
 						<!-- //modal - articleModal -->
 
-						<div class="modal fade moveGroupModal" tabindex="-1" aria-labelledby="moveGroupModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade moveGroupModal" tabindex="-1" aria-labelledby="moveGroupModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -2045,7 +2045,7 @@
 						</div>
 						<!-- //modal - moveGroupModal -->
 
-						<div class="modal fade copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade copyModal" tabindex="-1" aria-labelledby="copyModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -2237,7 +2237,7 @@
 						</div>
 						<!-- //modal - copyModal -->
 
-						<div class="modal fade moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade moveModal" tabindex="-1" aria-labelledby="moveModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">

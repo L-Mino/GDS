@@ -895,7 +895,7 @@
 						</div>
 		                <!--//row -->
 
-						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-body">
@@ -912,7 +912,7 @@
 						</div>
 						<!-- //modal - confirmModal -->
 
-						<div class="modal fade detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade detailModal" tabindex="-1" aria-labelledby="detailModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1142,7 +1142,7 @@
 						</div>
 						<!-- //modal - detailModal -->
 
-						<div class="modal fade splitModal" tabindex="-1" aria-labelledby="splitModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade splitModal" tabindex="-1" aria-labelledby="splitModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1412,7 +1412,7 @@
 						</div>
 						<!-- //modal - splitModal -->
 
-						<div class="modal fade moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade moveModal" tabindex="-1" aria-labelledby="moveModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1616,7 +1616,7 @@
 						</div>
 						<!-- //modal - moveModal -->
 
-						<div class="modal fade receiptModal" tabindex="-1" aria-labelledby="receiptModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade receiptModal" tabindex="-1" aria-labelledby="receiptModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1722,7 +1722,7 @@
 						</div>
 		                <!--//modal - receiptModal -->
 
-						<div class="modal fade paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">

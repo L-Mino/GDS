@@ -54,7 +54,7 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
+															</div>
 															<!--span class="mx-2">-</span-->
 															<!--span>설명</span-->
 														</div>
@@ -705,7 +705,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -737,7 +737,7 @@
 																<option value="23.05.18 (목)">23.05.18 (목)</option>
 															</select>
 														</td>
-													</tr>														
+													</tr>
 												</tbody>
 											</table>
 										</div>

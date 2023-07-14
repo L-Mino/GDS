@@ -34,14 +34,14 @@
 												<div class="d-flex justify-content-between align-items-center mb-3">
 													<span class="code-title">적용 일자</span>
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".addCodeModal">+ 추가</button>
-												</div>												
+												</div>
 												<div class="tab-code">
 													<ul class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
 														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">23.05.22 (월)</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code02">23.05.21 (일)</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code03">23.05.20 (토)</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code04">23.05.19 (금)</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code05">23.05.18 (목)</a></li>														
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code05">23.05.18 (목)</a></li>
 													</ul>
 												</div>
 											</div>
@@ -56,8 +56,8 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
-															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>															
+															</div>
+															<button type="button" class="btn btn-outline-custom ms-3">전체 저장</button>
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0" data-simplebar>
@@ -199,54 +199,54 @@
 																		<td>16</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>			
+																	</tr>
 																	<tr>
 																		<td>9H추가 8</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>17</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
 																		<td>9H추가 9</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>18</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
+																	</tr>
 																	<tr>
 																		<td>9H추가 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>19</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 15</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>20</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 16</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>21</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 17</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>22</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																</tbody>
 															</table>
 														</div>
 													</div>
-													
+
 													<div class="tab-pane fade" id="code02" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">그린피 구분 코드</span>
@@ -393,54 +393,54 @@
 																		<td>16</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>			
+																	</tr>
 																	<tr>
 																		<td>9H추가 8</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>17</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
 																		<td>9H추가 9</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>18</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
+																	</tr>
 																	<tr>
 																		<td>9H추가 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>19</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 15</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>20</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 16</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>21</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 17</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>22</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>								
-													
+													</div>
+
 													<div class="tab-pane fade" id="code03" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">그린피 구분 코드</span>
@@ -587,54 +587,54 @@
 																		<td>16</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>			
+																	</tr>
 																	<tr>
 																		<td>9H추가 8</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>17</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
 																		<td>9H추가 9</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>18</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
+																	</tr>
 																	<tr>
 																		<td>9H추가 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>19</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 15</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>20</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 16</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>21</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 17</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>22</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>								
-													
+													</div>
+
 													<div class="tab-pane fade" id="code04" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">그린피 구분 코드</span>
@@ -781,54 +781,54 @@
 																		<td>16</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>			
+																	</tr>
 																	<tr>
 																		<td>9H추가 8</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>17</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
 																		<td>9H추가 9</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>18</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
+																	</tr>
 																	<tr>
 																		<td>9H추가 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>19</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 15</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>20</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 16</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>21</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 17</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>22</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>								
-													
+													</div>
+
 													<div class="tab-pane fade" id="code05" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">그린피 구분 코드</span>
@@ -975,53 +975,53 @@
 																		<td>16</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>			
+																	</tr>
 																	<tr>
 																		<td>9H추가 8</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>17</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																			
+																	</tr>
 																	<tr>
 																		<td>9H추가 9</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>18</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																				
+																	</tr>
 																	<tr>
 																		<td>9H추가 10</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>19</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 15</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>20</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 16</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>21</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																	<tr>
 																		<td>18H추가 17</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>22</td>
 																		<td>비고내용</td>
 																		<td><button type="button" class="btn btn-outline-custom">저장</button></td>
-																	</tr>																																																				
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>																					
+													</div>
 												</div>
 											</div>
 										</div>
@@ -1031,7 +1031,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1111,7 +1111,7 @@
 																<option value="23.05.18 (목)">23.05.18 (목)</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 												</tbody>
 											</table>
 										</div>

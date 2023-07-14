@@ -171,7 +171,7 @@
 		                <!--//row -->
 
 						<!-- Add New Event MODAL -->
-						<div class="modal fade addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">

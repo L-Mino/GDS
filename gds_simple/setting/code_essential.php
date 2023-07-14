@@ -39,10 +39,10 @@
 													<ul class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
 														<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#" role="tab" aria-selected="true" data-bs-target="#code01">회원 유형</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code02">회원 등급</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code03">부서 코드</a></li>														
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code03">부서 코드</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code04">직급 코드</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code05">직원 코드</a></li>
-														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code06">코스 구분</a></li>														
+														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code06">코스 구분</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code07">판매처 코드</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code08">카트 유형</a></li>
 														<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#" role="tab" aria-selected="false" data-bs-target="#code09">캐디 유형</a></li>
@@ -71,7 +71,7 @@
 															<div class="form-check form-check-inline ms-auto me-0">
 																<input type="checkbox" class="form-check-input" id="toggleCheck">
 																<label class="form-check-label" for="toggleCheck">사용안함 숨기기</label>
-															</div>															
+															</div>
 														</div>
 
 														<div class="table-fixed-head card h-100 mb-0">
@@ -99,7 +99,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -123,7 +123,7 @@
 																	</tr>
 																	<tr>
 																		<td>임직원</td>
-																		<td>S</td>																		
+																		<td>S</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -131,7 +131,7 @@
 																	</tr>
 																	<tr>
 																		<td>정회원</td>
-																		<td>F</td>																		
+																		<td>F</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td></td>
@@ -147,16 +147,16 @@
 																	</tr>
 																	<tr>
 																		<td>지정 회원</td>
-																		<td>D</td>																		
+																		<td>D</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>6</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
-													</div>													
+													</div>
 
 													<div class="tab-pane fade" id="code02" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
@@ -169,7 +169,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -179,7 +179,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축 코드</th>																		
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -190,7 +190,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -214,7 +214,7 @@
 																	</tr>
 																	<tr>
 																		<td>MVP</td>
-																		<td>M</td>																		
+																		<td>M</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -222,17 +222,17 @@
 																	</tr>
 																	<tr>
 																		<td>BLACK LIST</td>
-																		<td>B</td>																		
+																		<td>B</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
 													</div>
-													
+
 													<div class="tab-pane fade" id="code03" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">부서 코드</span>
@@ -244,7 +244,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -254,7 +254,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축 코드</th>																		
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -330,7 +330,7 @@
 																</tbody>
 															</table>
 														</div>
-													</div>													
+													</div>
 
 													<div class="tab-pane fade" id="code04" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
@@ -343,7 +343,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -353,7 +353,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축 코드</th>																		
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -482,7 +482,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:100px;">
 																	<col style="min-width:100px;">
@@ -497,10 +497,10 @@
 																		<th>구분명</th>
 																		<th>단축 코드</th>
 																		<th>사용안함</th>
-																		<th>부서</th>																		
-																		<th>직급</th>																		
-																		<th>ID(EMAIL)</th>																		
-																		<th>연락처</th>																		
+																		<th>부서</th>
+																		<th>직급</th>
+																		<th>ID(EMAIL)</th>
+																		<th>연락처</th>
 																		<th>정렬</th>
 																		<th>저장</th>
 																	</tr>
@@ -522,7 +522,7 @@
 																				<option value="프로샵">프로샵</option>
 																				<option value="용역">용역</option>
 																			</select>
-																		</td>																		
+																		</td>
 																		<td>
 																			<select class="form-select form-select-center ps-0">
 																				<option value="직급 선택" checked disabled>직급 선택</option>
@@ -539,7 +539,7 @@
 																				<option value="인턴">인턴</option>
 																				<option value="계약직">계약직</option>
 																			</select>
-																		</td>																		
+																		</td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="ID(EMAIL)"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="연락처"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
@@ -559,7 +559,7 @@
 																				<option value="프로샵">프로샵</option>
 																				<option value="용역">용역</option>
 																			</select>
-																		</td>																		
+																		</td>
 																		<td>
 																			<select class="form-select form-select-center ps-0">
 																				<option value="대표이사" checked>대표이사</option>
@@ -575,12 +575,12 @@
 																				<option value="인턴">인턴</option>
 																				<option value="계약직">계약직</option>
 																			</select>
-																		</td>																		
+																		</td>
 																		<td>abcderer@gmail.com</td>
 																		<td>010-1234-1224</td>
 																		<td>1</td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -597,7 +597,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -651,7 +651,7 @@
 																</tbody>
 															</table>
 														</div>
-													</div>																									
+													</div>
 
 													<div class="tab-pane fade" id="code07" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
@@ -664,7 +664,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -739,7 +739,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -805,7 +805,7 @@
 																		<td>5</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																	<tr>
 																		<td>NO카트</td>
 																		<td>Nc</td>
@@ -813,12 +813,12 @@
 																		<td>6</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
 													</div>
-													
+
 													<div class="tab-pane fade" id="code09" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
 															<span class="code-title">캐디 유형</span>
@@ -830,7 +830,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -908,7 +908,7 @@
 																</tbody>
 															</table>
 														</div>
-													</div>													
+													</div>
 
 													<div class="tab-pane fade" id="code10" role="tabpanel">
 														<div class="d-flex align-items-center mb-3">
@@ -921,7 +921,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1020,7 +1020,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1111,7 +1111,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1194,7 +1194,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1224,26 +1224,26 @@
 																	<tr>
 																		<td>선불</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>후불</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>미수</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1261,7 +1261,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1291,34 +1291,34 @@
 																	<tr>
 																		<td>카드</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>1</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>현금</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>2</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>마일리지</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																	<tr>
 																		<td>쿠폰</td>
 																		<td></td>
-																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>																		
+																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>4</td>
 																		<td></td>
-																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>																		
+																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1336,7 +1336,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1346,7 +1346,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축 코드</th>																		
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1357,7 +1357,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1381,7 +1381,7 @@
 																	</tr>
 																	<tr>
 																		<td>VVIP</td>
-																		<td>VVIP</td>																		
+																		<td>VVIP</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -1402,7 +1402,7 @@
 															<table class="table text-center w-100 mb-0 nowrap">
 																<colgroup>
 																	<col style="min-width:120px;">
-																	<col style="min-width:100px; width:100px;">																	
+																	<col style="min-width:100px; width:100px;">
 																	<col style="min-width:70px; width:70px;">
 																	<col style="min-width:60px; width:60px;">
 																	<col style="min-width:200px;">
@@ -1412,7 +1412,7 @@
 																<thead>
 																	<tr>
 																		<th>구분명</th>
-																		<th>단축 코드</th>																		
+																		<th>단축 코드</th>
 																		<th>사용안함</th>
 																		<th>정렬</th>
 																		<th>비고</th>
@@ -1423,7 +1423,7 @@
 																<tbody>
 																	<tr>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="구분명"></td>
-																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>																		
+																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="단축 코드"></td>
 																		<td><input class="form-check-input" type="checkbox" disabled></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="정렬"></td>
 																		<td><input class="form-control form-control-em text-center p-0" type="text" placeholder="비고"></td>
@@ -1447,7 +1447,7 @@
 																	</tr>
 																	<tr>
 																		<td>임시단체 3</td>
-																		<td>임시3</td>																		
+																		<td>임시3</td>
 																		<td><input class="form-check-input" type="checkbox" onchange="checkBox(this)"></td>
 																		<td>3</td>
 																		<td></td>
@@ -1510,7 +1510,7 @@
 																		<td>2</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																	<tr>
 																		<td>2인 이상</td>
 																		<td>2</td>
@@ -1518,7 +1518,7 @@
 																		<td>3</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																	<tr>
 																		<td>1인 가능</td>
 																		<td>1</td>
@@ -1526,7 +1526,7 @@
 																		<td>4</td>
 																		<td></td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -1592,7 +1592,7 @@
 																		<td>3</td>
 																		<td>Y</td>
 																		<td><button type="button" class="btn btn-outline-custom">수정</button></td>
-																	</tr>																	
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -1714,7 +1714,7 @@
 						</div>
 		                <!--//row -  -->
 
-						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addCodeModal" tabindex="-1" aria-labelledby="addCodeModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">

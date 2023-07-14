@@ -163,7 +163,7 @@
 								</div>
 							</div>
 						</div>
-								
+
 						<div class="row">
 							<div class="booking-left">
 								<div class="card h-100">
@@ -1561,7 +1561,7 @@
 						</div>
 		                <!--//row - 예약 현황 -->
 
-						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1574,7 +1574,7 @@
 												<col style="width:70px;">
 												<col style="width:auto">
 											</colgroup>
-											
+
 											<tbody>
 												<tr>
 													<th class="text-end">일자</th>
@@ -1622,7 +1622,7 @@
 														</div>
 													</td>
 												</tr>
-											</tbody>	
+											</tbody>
 										</table>
 									</div>
 									<div class="modal-footer">
@@ -1634,7 +1634,7 @@
 						</div>
 						<!-- //modal - addTeamModal -->
 
-						<div class="modal fade standbyModal" tabindex="-1" aria-labelledby="standbyModalModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade standbyModal" tabindex="-1" aria-labelledby="standbyModalModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -1671,7 +1671,7 @@
 																<col style="width:150px">
 																<col style="width:auto">
 															</colgroup>
-															
+
 															<thead>
 																<tr>
 																	<th>No</th>
@@ -1692,8 +1692,8 @@
 																	<th>취소 구분</th>
 																	<th>비고</th>
 																</tr>
-															</thead>	
-															
+															</thead>
+
 															<tbody>
 																<tr>
 																	<td>1</td>
@@ -2003,19 +2003,19 @@
 																	<th class="text-end">비고</th>
 																	<td></td>
 																</tr>
-															</tbody>	
+															</tbody>
 														</table>
 													</div>
 												</div>
-											</div>	
+											</div>
 										</div>
 									</div>
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
 						<!-- //modal - standbyModal -->
-						
-						<div class="modal fade bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-modal="true" role="dialog">
+
+						<div class="modal fade bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -2103,7 +2103,7 @@
 																			</div>
 																		</td>
 																	</tr>
-																</tbody>	
+																</tbody>
 															</table>
 														</div>
 
@@ -2465,7 +2465,7 @@
 														</div>
 													</div>
 												</div>
-											</div>	
+											</div>
 										</div>
 
 										<div class="row mt-3">

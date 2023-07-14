@@ -32,17 +32,17 @@
 											<div class="col-6">
 												<div id="calendar01" class="teetime-calendar"></div>
 											</div>
-											
+
 											<div class="col-6">
 												<div id="calendar02" class="teetime-calendar"></div>
-											</div>											
+											</div>
 										</div>
 									</div>
-								</div>											
+								</div>
                             </div>
                         </div>
-		                <!--//row - calendar -->							
-						
+		                <!--//row - calendar -->
+
 						<div class="row">
 							<div class="col-12">
 								<div class="card">
@@ -56,7 +56,7 @@
 														<tr>
 															<th>구분</th>
 															<th>날짜</th>
-															<th>주기</th>															
+															<th>주기</th>
 															<th>휴일명</th>
 															<th>비고</th>
 														</tr>
@@ -76,7 +76,7 @@
 														<tr>
 															<td>2</td>
 															<td>23.06.10 (토)</td>
-															<td>반복 안함</td>															
+															<td>반복 안함</td>
 															<td>대체공휴일</td>
 															<td>
 																<button type="button" class="btn btn-outline-custom">수정</button>
@@ -85,7 +85,7 @@
 														</tr>
 													</tbody>
 												</table>
-												
+
 												<div class="d-flex justify-content-end align-items-center pagenation-wrap">
 													<label class="d-flex position-relative gap-1 m-0">
 														<span class="text-secondary">페이지당 행 수:</span>
@@ -101,10 +101,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -152,9 +152,9 @@
 							</div>
 						</div>
 		                <!--//row -->
-						
+
 						<!-- Add New Event MODAL -->
-						<div class="modal fade addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" aria-modal="true" role="dialog">
+						<div class="modal fade addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -176,7 +176,7 @@
 													</tr>
 													<tr>
 														<th class="text-end">일자</th>
-														<td>			
+														<td>
 															<div class="d-flex">
 																<div class="form-check form-check-inline ps-0 me-0">
 																	<input type="text" class="form-control datepicker calendarPic">
@@ -211,8 +211,8 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - addEventModal -->						
-						
+						<!-- //modal - addEventModal -->
+
 						<!-- end Content -->
 
                     </div><!-- container-fluid -->
@@ -234,7 +234,7 @@
 			menuActive(9); //OneDepth
 		});
 		</script>
-		
+
 		<!-- Calendar js -->
 		<script>
 			document.addEventListener('DOMContentLoaded', function() {
@@ -259,7 +259,7 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add('d-none'));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
@@ -285,14 +285,14 @@
 					}
 					/*
 				    googleCalendarApiKey : 'AIzaSyAspeHMYvboTABHhq1oAWFOQ-huDZqjzNM',
-					eventOrder : 'displayOrder', 
-					eventSources :[ 
+					eventOrder : 'displayOrder',
+					eventSources :[
 						{
 							googleCalendarId : 'ko.south_korea.official#holiday@group.v.calendar.google.com',
 							className:'holiday',
 							textColor: '#D33F3F',
-							displayOrder:1	
-						} 
+							displayOrder:1
+						}
 					]*/
 				});
 
@@ -308,11 +308,11 @@
 								$('.fc-view-harness').toggle();
 								$(this).toggleClass('hide');
 
-								if($(this).is('.hide')){	
-									$(this).attr('title', '달력 열기'); 
+								if($(this).is('.hide')){
+									$(this).attr('title', '달력 열기');
 									$(this).text('달력 열기');
 								} else {
-									$(this).attr('title', '달력 접기'); 
+									$(this).attr('title', '달력 접기');
 									$(this).text('달력 접기');
 								}
 							}
@@ -331,7 +331,7 @@
 						// Hide the original element
 						var originElement = info.el.querySelectorAll('.fc-daygrid-day-number');
 						originElement.forEach(e => e.classList.add("d-none"));
-						//Insert custom or localized text 
+						//Insert custom or localized text
 						var targetElement = info.el.querySelectorAll('.fc-daygrid-day-top');
 						targetElement.forEach(e => e.innerHTML = day);
 					},
@@ -347,7 +347,7 @@
 				$('.fc-toggleButton-button').text('달력 접기');
 				$('.teetime-calendar .fc-header-toolbar button').removeClass('fc-button-primary');
 			});
-		</script>		
+		</script>
 
 		<!-- App js -->
 		<script src="/gds_simple/assets/js/app.js"></script>
