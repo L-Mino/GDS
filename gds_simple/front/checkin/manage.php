@@ -3783,28 +3783,28 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
@@ -3976,28 +3976,28 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>

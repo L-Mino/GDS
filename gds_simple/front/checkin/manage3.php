@@ -43,13 +43,13 @@
 													<option value="3부">3부</option>
 												</select>
 											</div>
-											
+
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker show-tick" data-width="fit" title="확정 여부">
 													<option value="내장 확정">내장 확정</option>
 													<option value="미확정">미확정</option>
 												</select>
-											</div>											
+											</div>
 
 											<div class="form-check form-check-inline search-area ps-0 me-0">
 												<input class="form-control" type="text" placeholder="Search...">
@@ -65,7 +65,7 @@
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".copyModal">복사</button>
-												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>												
+												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
 												<button type="button" class="btn btn-outline-custom">선불 입력</button>
 												<button type="button" class="btn btn-outline-custom">정산</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".confirmModal">내장 확정</button>
@@ -95,7 +95,7 @@
 															<col style="min-width:60px; width:60px;">
 															<col style="width:auto;">
 															<col style="width:110px;">
-															<col style="width:auto;">															
+															<col style="width:auto;">
 															<col style="width:110px;">
 															<col style="width:70px;">
 															<col style="width:70px;">
@@ -129,11 +129,11 @@
 																<th>추가</th>
 																<th>카트</th>
 																<th>카트료</th>
-																<th>캐디</th>																
+																<th>캐디</th>
 																<th>캐디피</th>
 																<th>대여료</th>
 																<th>총금액</th>
-																<th>확정</th>															
+																<th>확정</th>
 															</tr>
 														</thead>
 
@@ -172,7 +172,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -225,7 +225,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -249,7 +249,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>														
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -278,7 +278,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -302,7 +302,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -331,7 +331,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -355,7 +355,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>															
+																<td>X</td>
 															</tr>
 
 															<tr>
@@ -392,7 +392,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -416,7 +416,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -445,7 +445,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -469,7 +469,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -498,7 +498,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -522,7 +522,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -551,7 +551,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -575,7 +575,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 
 															<tr class="table-stripe">
@@ -612,7 +612,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -636,7 +636,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -665,7 +665,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -689,7 +689,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -718,7 +718,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -742,7 +742,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -771,7 +771,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -795,7 +795,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 
 															<tr>
@@ -832,7 +832,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -856,7 +856,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -885,7 +885,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -909,7 +909,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -938,7 +938,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -962,7 +962,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -991,7 +991,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1015,7 +1015,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 
 															<tr class="table-stripe">
@@ -1052,7 +1052,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1076,7 +1076,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1105,7 +1105,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1129,7 +1129,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1158,7 +1158,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1182,7 +1182,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr class="table-stripe">
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1211,7 +1211,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1235,7 +1235,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 
 															<tr>
@@ -1272,7 +1272,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1296,7 +1296,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1325,7 +1325,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1349,7 +1349,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1378,7 +1378,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1402,7 +1402,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 															<tr>
 																<td><input class="form-check-input" type="checkbox"></td>
@@ -1431,7 +1431,7 @@
 																			<option value="카트 선택 가능">카트 선택 가능</option>
 																			<option value="수동 카트">수동 카트</option>
 																	</select>
-																</td>																																	
+																</td>
 																<td>
 																	<select class="form-select w-auto py-0 mx-auto">
 																		<option value="110,000" selected>110,000</option>
@@ -1455,7 +1455,7 @@
 																</td>
 																<td><span role="button" data-bs-toggle="modal" data-bs-target=".articleModal">20000</span></td>
 																<td>210,000</td>
-																<td>X</td>	
+																<td>X</td>
 															</tr>
 														</tbody>
 													</table>
@@ -1544,14 +1544,14 @@
 							</div>
 						</div>
 		                <!--//modal - confirmModal -->
-						
+
 						<div class="modal fade addHoleModal" tabindex="-1" aria-labelledby="addHoleModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
 									<div class="modal-header">
 										<h5 class="modal-title" id="addHoleModalLabel">홀 추가</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>								
+									</div>
 									<div class="modal-body">
 										<div class="border-box border-bottom-0">
 											<table class="table table-layout-fixed mb-0">
@@ -1559,7 +1559,7 @@
 													<col style="width:70px;">
 													<col style="width:auto">
 												</colgroup>
-												
+
 												<tbody>
 													<tr class="table-bg-gray">
 														<th>일자</th>
@@ -1589,14 +1589,14 @@
 														<th>시간</th>
 														<td><input type="text" class="form-control input_time w-100" onkeydown="checkNumber()" maxlength="4" placeholder="24:00"></td>
 													</tr>
-												</tbody>	
+												</tbody>
 											</table>
-										</div>									
+										</div>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-custom" data-bs-dismiss="modal" aria-label="Close">취소</button>
 										<button type="button" class="btn btn-custom">저장</button>
-									</div>									
+									</div>
 								</div>
 							</div>
 						</div>
@@ -2044,7 +2044,7 @@
 							</div><!-- /.modal-dialog -->
 						</div>
 						<!-- //modal - moveGroupModal -->
-						
+
 						<div class="modal fade copyModal" tabindex="-1" aria-labelledby="copyModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
@@ -2105,8 +2105,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2122,8 +2122,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2139,8 +2139,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2156,8 +2156,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2167,7 +2167,7 @@
 													</tbody>
 												</table>
 											</div>
-											
+
 											<div class="col-3">
 												<table class="table table-layout-fixed text-center">
 													<colgroup>
@@ -2176,11 +2176,11 @@
 														<col style="width:22%;">
 														<col style="width:20%;">
 														<col style="width:24%;">
-													</colgroup>	
-													
+													</colgroup>
+
 													<thead>
 														<tr>
-															<th>선택</th>																												
+															<th>선택</th>
 															<th>시간</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
@@ -2192,7 +2192,7 @@
 																		<li><button type="button" class="dropdown-item">CO</button></li>
 																	</ul>
 																</div>
-															</th>															
+															</th>
 															<th>홀</th>
 															<th>그린피</th>
 														</tr>
@@ -2200,33 +2200,33 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																												
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																												
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																																										
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
-														</tr>														
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -2235,8 +2235,8 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - copyModal -->	
-						
+						<!-- //modal - copyModal -->
+
 						<div class="modal fade moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-full">
 								<div class="modal-content">
@@ -2297,8 +2297,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2314,8 +2314,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2331,8 +2331,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2348,8 +2348,8 @@
 															<td>463</td>
 															<td>일반18</td>
 															<td>18</td>
-															<td>1</td>															
-															<td></td>															
+															<td>1</td>
+															<td></td>
 															<td>180,000</td>
 															<td>100,000</td>
 															<td></td>
@@ -2359,7 +2359,7 @@
 													</tbody>
 												</table>
 											</div>
-											
+
 											<div class="col-3">
 												<table class="table table-layout-fixed text-center">
 													<colgroup>
@@ -2368,11 +2368,11 @@
 														<col style="width:22%;">
 														<col style="width:20%;">
 														<col style="width:24%;">
-													</colgroup>	
-													
+													</colgroup>
+
 													<thead>
 														<tr>
-															<th>선택</th>																												
+															<th>선택</th>
 															<th>시간</th>
 															<th>코스
 																<div class="dropdown d-inline-block">
@@ -2384,7 +2384,7 @@
 																		<li><button type="button" class="dropdown-item">CO</button></li>
 																	</ul>
 																</div>
-															</th>															
+															</th>
 															<th>홀</th>
 															<th>그린피</th>
 														</tr>
@@ -2392,33 +2392,33 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																												
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																												
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>																																										
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
 															<td>180,000</td>
-														</tr>														
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -2427,7 +2427,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - moveModal -->						
+						<!-- //modal - moveModal -->
 
 						<!-- end Content -->
 

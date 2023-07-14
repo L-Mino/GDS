@@ -188,14 +188,14 @@
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
-														</tr>																																										
+														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
 															<td>EI</td>
 															<td>4</td>
 															<td>홍길동</td>
 															<td>클라스</td>
-														</tr>														
+														</tr>
 														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
 															<td>06:00</td>
 															<td>EI</td>
@@ -295,7 +295,7 @@
 														<col style="min-width:70px; width:auto;;">
 														<col style="min-width:70px; width:auto;;">
 														<col style="min-width:70px; width:auto;">
-														<col style="min-width:150px; width:auto;">															
+														<col style="min-width:150px; width:auto;">
 														<col style="min-width:70px; width:auto;">
 													</colgroup>
 
@@ -581,7 +581,7 @@
 															<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
 																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
 															</div>
-															
+
 															<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
 																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
 															</div>
@@ -643,11 +643,11 @@
 												<colgroup>
 													<col style="width:90px;">
 													<col style="width:auto">
-													<col style="width:auto">													
+													<col style="width:auto">
 												</colgroup>
 
 												<tbody>
-													<tr>	
+													<tr>
 														<th><span class="ms-1">홀 추가</span></th>
 														<td>
 															<div class="form-check form-check-inline me-2">
@@ -663,7 +663,7 @@
 																</select>
 															</div>
 														</td>
-														<td>														
+														<td>
 															<div class="form-check form-check-inline me-2">
 																<input class="form-check-input" type="radio" name="addHoleRadio" id="addHoleRadio02" value="18홀" onclick="$(this).parents('td').find('select').focus();">
 																<label class="form-check-label" for="addHoleRadio02">18홀</label>
@@ -675,12 +675,12 @@
 																	<option value="18h-16">18h-16</option>
 																	<option value="18h-17">18h-17</option>
 																</select>
-															</div>																														
-														</td>															
+															</div>
+														</td>
 													</tr>
 												</tbody>
 											</table>
-										</div>										
+										</div>
 
 										<div class="table-fixed-head" data-simplebar style="max-height:167px;">
 											<table class="table table-layout-fixed text-center mb-0" >
@@ -804,7 +804,7 @@
 																<label class="form-check-label" for="addHoleTimeRadio16">12:01</label>
 															</div>
 														</td>
-													</tr>													
+													</tr>
 												</tbody>
 											</table>
 										</div>
@@ -858,7 +858,7 @@
 													<td></td>
 												</tr>
 											</tbody>
-										</table>										
+										</table>
 									</div>
 
 									<div class="modal-footer">
@@ -1472,28 +1472,28 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
@@ -1665,28 +1665,28 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>EI</td>
 															<td>18</td>
 															<td>180,000</td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="radio" name="tableRadio"></td>
+															<td><input class="form-check-input tableRadio" type="radio"></td>
 															<td>13:48</td>
 															<td>WO</td>
 															<td>18</td>
@@ -1700,7 +1700,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - moveModal -->					
+						<!-- //modal - moveModal -->
 
 						<!-- end Content -->
 
