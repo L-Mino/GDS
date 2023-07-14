@@ -336,6 +336,7 @@ thead.table-red {background:#F6EFF0; }
 thead.table-red th {border-color:#EAD9DC; }
 
 .table-fixed-head {margin-bottom:0 !important; }
+.table-fixed-head.multiple-head .table {border-collapse:separate; }
 .table-fixed-head .table {border-spacing:0; margin-bottom:0; }
 .table-fixed-head .table thead {position:sticky; top:0; background:#eff2f7; z-index:1; }
 .table-fixed-head.card .table tbody tr:last-child td {border-bottom:0; }
@@ -583,6 +584,7 @@ select option[value=""][disabled] {display:none; }
 .btn.btn-outline-custom.rounded-0 {height:auto !important; line-height:inherit; }
 .btn.btn-outline-custom.text-blue {color:#0576B9; }
 
+.btn.btn-arr {height:auto !important; line-height:inherit; border:0 !important; }
 .btn.btn-radio-blue {height:48px !important; line-height:46px; font-weight:600; background:#F8F9FA; border:1px solid #DFDFDF; }
 .btn-check:checked+.btn.btn-radio-blue {background:#0576B9; border:1px solid #0576B9; color:#fff; }
 

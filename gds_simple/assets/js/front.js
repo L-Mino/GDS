@@ -135,7 +135,7 @@ $(function(){
 	$('.table thead').on('hide.bs.dropdown', function () {
 		$('.table-responsive').css('overflow', 'auto');
 	});
-   
+
 
 	checkSelect();
    	datePicker();
@@ -147,7 +147,7 @@ Array.from(document.getElementsByClassName('showmodal')).forEach( (e) => {
 		if (e.hasAttribute('data-show-modal')) {
 			showModal(e.getAttribute('data-show-modal'));
 		}
-	}); 
+	});
 });
 // Show modal dialog
 
@@ -187,9 +187,9 @@ function datePicker(){
         dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
         showMonthAfterYear: true,
         yearSuffix: '년',
-		defaultDate:'now'   
+		defaultDate:'now'
     });
-	
+
 	$('.datepicker-notice').datepicker({
         dateFormat: 'y.mm.dd (D)',
         prevText: '이전 달',
@@ -248,21 +248,21 @@ function checkBox(checked){
 	if(checked.checked==true){
 		$(checked).parents('tr').css('opacity', '0.3');
 	} else {
-		$(checked).parents('tr').css('opacity', '1');				
+		$(checked).parents('tr').css('opacity', '1');
 	}
 }
 
 function checkSelect(){
 	$('input[type=checkbox][name=tableCheckAll]').change(function() {
 		if ($(this).is(':checked')) {
-			$(this).parents('table').find('input[type=checkbox][name=tableCheck]').prop('checked', true);
-			$(this).parents('table').children('tbody').find('input[type=checkbox]').parents('tr').addClass('table-active');
+			$(this).parents('table').find('input[type=checkbox][name=tableCheck]:not(:disabled)').prop('checked', true);
+			$(this).parents('table').children('tbody').find('input[type=checkbox]:not(:disabled)').parents('tr').addClass('table-active');
 		} else {
 			$(this).parents('table').find('input[type=checkbox][name=tableCheck]').prop('checked', false);
-			$(this).parents('table').find('tbody tr').removeClass('table-active');				
+			$(this).parents('table').find('tbody tr').removeClass('table-active');
 		}
 	});
-	
+
 	$('input[type=checkbox][name=tableCheck]').change(function() {
 		if ($(this).is(':checked')) {
 			$(this).parents('tr').addClass('table-active');
@@ -271,14 +271,14 @@ function checkSelect(){
 			$(this).parents('table').find('input[type=checkbox][name=tableCheckAll]').parents('tr').removeClass('table-active');
 			$(this).parents('table').find('input[type=checkbox][name=tableCheckAll]').prop('checked', false);
 		}
-	});	
-	
+	});
+
 	$('input[type=radio][name=tableRadio]').change(function() {
 		if ($(this).is(':checked')) {
 			$(this).parents('table').find('tr').removeClass('table-active');
 			$(this).parents('tr').addClass('table-active');
 		}
-	});		
+	});
 }
 
 function print_btn(target_id){

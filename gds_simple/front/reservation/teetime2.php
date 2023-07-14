@@ -2662,25 +2662,6 @@
 			})*/
 		});
 
-		$('input[type=checkbox][name=tableCheckAll]').change(function() {
-			if ($(this).is(':checked')) {
-				$(this).parents('table').find('input[type=checkbox]').prop('checked', true);
-				$(this).parents('table').find('tbody tr').addClass('table-active');
-			} else {
-				$(this).parents('table').find('input[type=checkbox]').prop('checked', false);
-				$(this).parents('table').find('tbody tr').removeClass('table-active');
-			}
-		});
-
-		$('input[type=checkbox][name=tableCheck]').change(function() {
-			if ($(this).is(':checked')) {
-				$(this).parents('tr').addClass('table-active');
-			} else {
-				$(this).parents('tr').removeClass('table-active');
-				$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);
-			}
-		});
-
 		var modifyNum;
 		var modifyTit;
 		var modifyTxt;

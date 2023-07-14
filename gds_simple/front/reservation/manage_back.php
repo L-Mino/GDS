@@ -30,55 +30,36 @@
 								<div class="card mb-0">
 									<div class="card-body">
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="예약상태 선택">
-													<option value="가능">가능</option>
-													<option value="불가">불가</option>
+											<div class="form-check form-check-inline p-0 m-0">
+												<select class="form-select form-select-lg">
+													<option value="D +7" selected>D +7</option>
+													<option value="오늘">오늘</option>
+													<optiOn value="이번 주">이번 주</option>
+													<optiOn value="이번 달">이번 달</option>
 												</select>
 											</div>
 
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="인원 선택">
-													<option value="4">4</option>
-													<option value="3">3</option>
-													<option value="2">2</option>
-													<option value="1">1</option>
-												</select>
+											<div class="form-check form-check-inline ps-0 me-0">
+												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.01 (목)">
+											</div>
+											<span class="dash">~</span>
+											<div class="form-check form-check-inline ps-0 me-0">
+												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.02 (금)">
 											</div>
 
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="캐디 선택">
-													<option value="Y">Y</option>
-													<option value="N">N</option>
-												</select>
+											<div class="form-check form-check-inline search-area ps-0 me-0">
+												<input class="form-control" type="text" placeholder="Search...">
+												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
 											</div>
 
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="카트 선택">
-													<option value="5-전동">5-전동</option>
-													<option value="5-전동">5-전동</option>
-												</select>
+											<div class="form-check form-check-inline me-2">
+												<input class="form-check-input" type="checkbox" id="Unreserved">
+												<label class="form-check-label" for="Unreserved">미예약</label>
 											</div>
 
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="이벤트 선택">
-													<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-													<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-												</select>
-											</div>
-
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="블럭 선택">
-													<option value="B_골팡">B_골팡</option>
-													<option value="B_골팡">B_골팡</option>
-												</select>
-											</div>
-
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="블럭 선택">
-													<option value="B_골팡">B_골팡</option>
-													<option value="B_골팡">B_골팡</option>
-												</select>
+											<div class="form-check form-check-inline me-2">
+												<input class="form-check-input" type="checkbox" id="reserved">
+												<label class="form-check-label" for="reserved">예약</label>
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
@@ -91,7 +72,7 @@
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="부 선택">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="티타임 선택">
 													<option value="1부">1부</option>
 													<option value="2부">2부</option>
 													<option value="3부">3부</option>
@@ -198,18 +179,9 @@
 
 										<div class="d-flex gap-4">
 											<div class="teetime-left">
-												<div class="table-fixed-head multiple-head card h-100" data-simplebar>
+												<div class="table-fixed-head card h-100" data-simplebar>
 													<table class="table table-fixed table-hover text-center mb-0">
 														<thead>
-															<tr>
-																<th colspan="2" class="fw-normal">
-																	<div class="d-flex justify-content-center align-items-center gap-2">
-																		<button type="button" title="Previous " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
-																		<span class="fc-toolbar-title">23.07</span>
-																		<button type="button" title="Next " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
-																	</div>
-																</th>
-															</tr>
 															<tr>
 																<th class="col-6 fw-normal">예약일</th>
 																<th class="col-6 fw-normal">TOT</th>
@@ -218,123 +190,123 @@
 
 														<tbody>
 															<tr role="button" class="table-active" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.01 (월)</td>
+																<td>05.01 (월)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.02 (화)</td>
+																<td>05.02 (화)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.03 (수)</td>
+																<td>05.03 (수)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.04 (목)</td>
+																<td>05.04 (목)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.05 (금)</td>
+																<td>05.05 (금)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sat">07.06 (토)</span></td>
+																<td><span class="table-em sat">05.06 (토)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sun">07.07 (일)</span></td>
+																<td><span class="table-em sun">05.07 (일)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.08 (월)</td>
+																<td>05.08 (월)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.09 (화)</td>
+																<td>05.09 (화)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.10 (수)</td>
+																<td>05.10 (수)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.11 (목)</td>
+																<td>05.11 (목)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.12 (금)</td>
+																<td>05.12 (금)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sat">07.13 (토)</span></td>
+																<td><span class="table-em sat">05.13 (토)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sun">07.14 (일)</span></td>
+																<td><span class="table-em sun">05.14 (일)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.15 (월)</td>
+																<td>05.15 (월)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.16 (화)</td>
+																<td>05.16 (화)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.17 (수)</td>
+																<td>05.17 (수)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.18 (목)</td>
+																<td>05.18 (목)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.19 (금)</td>
+																<td>05.19 (금)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sat">07.20 (토)</span></td>
+																<td><span class="table-em sat">05.20 (토)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sun">07.21 (일)</span></td>
+																<td><span class="table-em sun">05.21 (일)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.22 (월)</td>
+																<td>05.22 (월)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.23 (화)</td>
+																<td>05.23 (화)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.24 (수)</td>
+																<td>05.24 (수)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.25 (목)</td>
+																<td>05.25 (목)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.26 (금)</td>
+																<td>05.26 (금)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sat">07.27 (토)</span></td>
+																<td><span class="table-em sat">05.27 (토)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td><span class="table-em sun">07.28 (일)</span></td>
+																<td><span class="table-em sun">05.28 (일)</span></td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.29 (월)</td>
+																<td>05.29 (월)</td>
 																<td>156</td>
 															</tr>
 															<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-																<td>07.30 (화)</td>
+																<td>05.30 (화)</td>
 																<td>156</td>
 															</tr>
 														</tbody>

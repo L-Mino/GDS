@@ -372,6 +372,99 @@
 													<div class="offcanvas-header pb-0">
 														<h5 id="CollectiveRegistrationLabel">티타임 등록</h5>
 														<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
+														<div class="btn-group">
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">예약 상태 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 가능 처리</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 불가 처리</button></li>
+																	<li><div class="dropdown-divider"></div></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">채널 블럭 지정</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">골프장</button></li>
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">Only AGL</button></li>
+																	<li><div class="dropdown-divider"></div></li>
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">B_Agent_1</button></li>
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">B_Agency_1</button></li>
+																	<li><div class="dropdown-divider"></div></li>
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">C_Golfnow</button></li>
+																	<li><div class="dropdown-divider"></div></li>
+																	<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-15</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-16</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">인원 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">4</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">3</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">캐디 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">일반</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">신입</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">프로</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">노캐디</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">지정</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">드라이빙</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">카트 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">5인승 전동 카트</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">2인승 전동 카트</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">1인 수동 카트</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">무료 카트</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
+																</ul>
+															</div>
+
+															<div class="btn-group">
+																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
+																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 무료 제공</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">아메리카노 50% 할인</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">조식 뷔페 무료 제공</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 무료</button></li>
+																	<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 50% 할인</button></li>
+																</ul>
+															</div>
+														</div>
+
+														<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
+															<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+																<option value="예약 상태">예약 상태</option>
+																<option value="블럭">블럭</option>
+																<option value="그린피">그린피</option>
+																<option value="인원">인원</option>
+																<option value="캐디">캐디</option>
+																<option value="카트">카트</option>
+																<option value="이벤트">이벤트</option>
+															</select>
+														</div>
+
 														<div class="d-flex flex-wrap justify-content-end gap-2">
 															<button type="button" class="btn btn-outline-custom ms-auto ">등록</button>
 															<button type="button" class="btn btn-outline-custom" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
@@ -1667,7 +1760,7 @@
 
 										<div class="row">
 											<div class="col-12">
-												<div class="table-responsive table-fixed-head" data-simplebar>
+												<div class="table-responsive table-fixed-head" data-simplebar style="min-height:340px; max-height:calc(100vh - 165px);">
 													<table class="table table-hover w-100 nowrap text-center mb-0">
 														<thead>
 															<tr>
@@ -1869,7 +1962,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check29">
+																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check29" disabled>
 																		<label class="form-check-label" for="check29">29</label>
 																	</div>
 																</td>
@@ -2660,25 +2753,6 @@
 					})
 				})
 			})*/
-		});
-
-		$('input[type=checkbox][name=tableCheckAll]').change(function() {
-			if ($(this).is(':checked')) {
-				$(this).parents('table').find('input[type=checkbox]').prop('checked', true);
-				$(this).parents('table').find('tbody tr').addClass('table-active');
-			} else {
-				$(this).parents('table').find('input[type=checkbox]').prop('checked', false);
-				$(this).parents('table').find('tbody tr').removeClass('table-active');
-			}
-		});
-
-		$('input[type=checkbox][name=tableCheck]').change(function() {
-			if ($(this).is(':checked')) {
-				$(this).parents('tr').addClass('table-active');
-			} else {
-				$(this).parents('tr').removeClass('table-active');
-				$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);
-			}
 		});
 
 		var modifyNum;
