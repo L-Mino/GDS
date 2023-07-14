@@ -253,17 +253,17 @@ function checkBox(checked){
 }
 
 function checkSelect(){
-	$('input[type=checkbox].tableCheckAll').change(function() {
+	$(document).on('change', 'input[type=checkbox].tableCheckAll', function(){
 		if ($(this).is(':checked')) {
 			$(this).parents('table').find('input[type=checkbox].tableCheck:not(:disabled)').prop('checked', true);
-			$(this).parents('table').children('tbody').find('input[type=checkbox]:not(:disabled)').parents('tr').addClass('table-active');
+			$(this).parents('table').children('tbody').find('input[type=checkbox].tableCheck:not(:disabled)').parents('tr').addClass('table-active');
 		} else {
 			$(this).parents('table').find('input[type=checkbox].tableCheck').prop('checked', false);
 			$(this).parents('table').find('tbody tr').removeClass('table-active');
 		}
-	});
+	})
 
-	$('input[type=checkbox].tableCheck').change(function() {
+	$(document).on('change', 'input[type=checkbox].tableCheck', function(){
 		if ($(this).is(':checked')) {
 			$(this).parents('tr').addClass('table-active');
 		} else {
@@ -273,7 +273,7 @@ function checkSelect(){
 		}
 	});
 
-	$('input[type=radio].tableRadio').change(function() {
+	$(document).on('change', 'input[type=radio].tableRadio', function(){
 		if ($(this).is(':checked')) {
 			$(this).parents('table').find('tr').removeClass('table-active');
 			$(this).parents('tr').addClass('table-active');
