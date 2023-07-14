@@ -331,23 +331,23 @@
 
 											<div class="booking-right">
 												<div class="h-100" data-simplebar>
-													<div id="sortable" class="booking-group d-flex gap-3">
-														<div class="booking-area border-box border-bottom-0 table-fixed-head ui-state-default">
+													<div class="sortable booking-group d-flex gap-3">
+														<div class="booking-area border-box border-bottom-0 table-fixed-head">
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
 																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox"  id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">성명</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">단체팀</th>
-																		<th class="fw-normal">예약 메모</th>
-																		<th class="fw-normal">C</th>
-																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:70px;">시간</th>
+																		<th class="fw-normal" style="min-width:70px;">성명</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
+																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
+																		<th class="fw-normal" style="min-width:30px;">C</th>
+																		<th class="fw-normal" style="min-width:30px;">CH</th>
+																		<th class="fw-normal" style="min-width:40px;">메모</th>
 																	</tr>
 																</thead>
 
@@ -943,22 +943,22 @@
 															</table>
 														</div>
 
-														<div class="booking-area border-box border-bottom-0 table-fixed-head ui-state-default">
+														<div class="booking-area border-box border-bottom-0 table-fixed-head">
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
 																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox"  id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">성명</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">단체팀</th>
-																		<th class="fw-normal">예약 메모</th>
-																		<th class="fw-normal">C</th>
-																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:70px;">시간</th>
+																		<th class="fw-normal" style="min-width:70px;">성명</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
+																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
+																		<th class="fw-normal" style="min-width:30px;">C</th>
+																		<th class="fw-normal" style="min-width:30px;">CH</th>
+																		<th class="fw-normal" style="min-width:40px;">메모</th>
 																	</tr>
 																</thead>
 
@@ -1561,22 +1561,22 @@
 															</table>
 														</div>
 
-														<div class="booking-area border-box border-bottom-0 table-fixed-head ui-state-default">
+														<div class="booking-area border-box border-bottom-0 table-fixed-head">
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
 																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox"  id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">성명</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">단체팀</th>
-																		<th class="fw-normal">예약 메모</th>
-																		<th class="fw-normal">C</th>
-																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:70px;">시간</th>
+																		<th class="fw-normal" style="min-width:70px;">성명</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
+																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
+																		<th class="fw-normal" style="min-width:30px;">C</th>
+																		<th class="fw-normal" style="min-width:30px;">CH</th>
+																		<th class="fw-normal" style="min-width:40px;">메모</th>
 																	</tr>
 																</thead>
 
@@ -2185,22 +2185,22 @@
 															</table>
 														</div>
 
-														<div class="booking-area border-box border-bottom-0 table-fixed-head ui-state-default">
+														<div class="booking-area border-box border-bottom-0 table-fixed-head">
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
 																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox"  id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">성명</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">단체팀</th>
-																		<th class="fw-normal">예약 메모</th>
-																		<th class="fw-normal">C</th>
-																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:70px;">시간</th>
+																		<th class="fw-normal" style="min-width:70px;">성명</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
+																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
+																		<th class="fw-normal" style="min-width:30px;">C</th>
+																		<th class="fw-normal" style="min-width:30px;">CH</th>
+																		<th class="fw-normal" style="min-width:40px;">메모</th>
 																	</tr>
 																</thead>
 
@@ -6371,7 +6371,10 @@
 			"use strict";
 			menuActive(2); //OneDepth
 
-			$( "#sortable" ).sortable({
+			$(".sortable").sortable({
+				sort: function( event, ui ) {
+					console.log(event, ui);
+				}
 			});
 		});
 

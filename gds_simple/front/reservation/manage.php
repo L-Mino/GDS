@@ -344,7 +344,7 @@
 
 											<div class="teetime-right">
 												<div class="h-100" data-simplebar>
-													<div class="booking-group d-flex gap-3">
+													<div class="sortable booking-group d-flex gap-3">
 														<div class="booking-area border-box border-bottom-0 table-fixed-head">
 															<table class="table table-hover text-center mb-0">
 																<thead>
@@ -352,15 +352,15 @@
 																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">예약</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">인원</th>
-																		<th class="fw-normal">캐디</th>
-																		<th class="fw-normal">카트</th>
-																		<th class="fw-normal">이벤트 설정</th>
-																		<th class="fw-normal">블럭</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:55px;">시간</th>
+																		<th class="fw-normal" style="min-width:40px;">예약</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:40px;">인원</th>
+																		<th class="fw-normal" style="min-width:40px;">캐디</th>
+																		<th class="fw-normal" style="min-width:60px;">카트</th>
+																		<th class="fw-normal" style="min-width:160px;">이벤트 설정</th>
+																		<th class="fw-normal" style="min-width:60px;">블럭</th>
 																	</tr>
 																</thead>
 
@@ -706,15 +706,15 @@
 																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">예약</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">인원</th>
-																		<th class="fw-normal">캐디</th>
-																		<th class="fw-normal">카트</th>
-																		<th class="fw-normal">이벤트 설정</th>
-																		<th class="fw-normal">블럭</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:55px;">시간</th>
+																		<th class="fw-normal" style="min-width:40px;">예약</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:40px;">인원</th>
+																		<th class="fw-normal" style="min-width:40px;">캐디</th>
+																		<th class="fw-normal" style="min-width:60px;">카트</th>
+																		<th class="fw-normal" style="min-width:160px;">이벤트 설정</th>
+																		<th class="fw-normal" style="min-width:60px;">블럭</th>
 																	</tr>
 																</thead>
 
@@ -1060,15 +1060,15 @@
 																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">예약</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">인원</th>
-																		<th class="fw-normal">캐디</th>
-																		<th class="fw-normal">카트</th>
-																		<th class="fw-normal">이벤트 설정</th>
-																		<th class="fw-normal">블럭</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:55px;">시간</th>
+																		<th class="fw-normal" style="min-width:40px;">예약</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:40px;">인원</th>
+																		<th class="fw-normal" style="min-width:40px;">캐디</th>
+																		<th class="fw-normal" style="min-width:60px;">카트</th>
+																		<th class="fw-normal" style="min-width:160px;">이벤트 설정</th>
+																		<th class="fw-normal" style="min-width:60px;">블럭</th>
 																	</tr>
 																</thead>
 
@@ -1414,15 +1414,15 @@
 																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																		<th class="fw-normal">시간</th>
-																		<th class="fw-normal">예약</th>
-																		<th class="fw-normal">그린피</th>
-																		<th class="fw-normal">인원</th>
-																		<th class="fw-normal">캐디</th>
-																		<th class="fw-normal">카트</th>
-																		<th class="fw-normal">이벤트 설정</th>
-																		<th class="fw-normal">블럭</th>
+																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal" style="min-width:55px;">시간</th>
+																		<th class="fw-normal" style="min-width:40px;">예약</th>
+																		<th class="fw-normal" style="min-width:60px;">그린피</th>
+																		<th class="fw-normal" style="min-width:40px;">인원</th>
+																		<th class="fw-normal" style="min-width:40px;">캐디</th>
+																		<th class="fw-normal" style="min-width:60px;">카트</th>
+																		<th class="fw-normal" style="min-width:160px;">이벤트 설정</th>
+																		<th class="fw-normal" style="min-width:60px;">블럭</th>
 																	</tr>
 																</thead>
 
@@ -1871,6 +1871,8 @@
 		$(function(){
 			"use strict";
 			menuActive(2); //OneDepth
+
+			$(".sortable").sortable();
 		});
 
 		var modifyNum;

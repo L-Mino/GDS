@@ -368,11 +368,11 @@ thead.table-red th {border-color:#EAD9DC; }
 .booking-left {width:260px; height:calc(100vh - 318px); overflow:hidden; }
 .booking-left .table tr td a {border-radius:3px; padding:2px 4px; }
 .booking-right {/*width:calc(100% - 270px);*/ flex:1; height:calc(100vh - 318px); overflow:hidden; }
-.booking-right .booking-area {display:inline-block; min-width:420px; /*max-width:calc(25vw - 165px);*/ width:100%; vertical-align:top; border-radius:0.25rem; }
+.booking-right .booking-area {display:inline-block; /*min-width:420px;*/ /*max-width:calc(25vw - 165px);*/ width:100%; vertical-align:top; border-radius:0.25rem; }
 
 .teetime-left {width:200px; height:calc(100vh - 318px); overflow:hidden; }
 .teetime-right {/*width:calc(100% - 270px);*/ flex:1; height:calc(100vh - 318px); overflow:hidden; }
-.teetime-right .booking-area {display:inline-block; min-width:600px; /*max-width:calc(25vw - 165px);*/ width:100%; vertical-align:top; border-radius:0.25rem; }
+.teetime-right .booking-area {display:inline-block; /*min-width:600px;*/ /*max-width:calc(25vw - 165px);*/ width:100%; vertical-align:top; border-radius:0.25rem; }
 
 .guest-left {width:355px; /*height:calc(100vh - 240px);*/ overflow:hidden; }
 .guest-right {/*width:calc(100% - 270px);*/ flex:1; overflow:hidden; }
@@ -381,8 +381,9 @@ thead.table-red th {border-color:#EAD9DC; }
 .dailyTeam-right {/*width:calc(100% - 270px);*/ flex:1; overflow:hidden; }
 
 .dashboard-wrap .booking-area {display:inline-block; min-width:335px; width:100%; vertical-align:top; border-radius:0.25rem; }
+
 .checkin-wrap {height:calc(100vh - 240px); overflow:hidden; }
-.checkin-wrap .booking-area {display:inline-block; min-width:490px; width:100%; vertical-align:top; border-radius:0.25rem; }
+.checkin-wrap .booking-area {display:inline-block; /*min-width:490px; width:100%;*/ vertical-align:top; border-radius:0.25rem; }
 
 .table tr td .table-em {display:inline-block; border-radius:3px; padding:2px 4px; }
 .table tr td .table-em.disabled {width:100%; background:#e2e3e5 !important; color:rgba(0,0,0,.5) !important; }
@@ -424,6 +425,8 @@ th.table-gray {background:#EFF2F7; border-color:#E9EBEC; color:#495057; }
 .table-stripe{background:#f8f9fa; color:#495057; }
 .table-disabled,
 .table-disabled td {background:#e2e3e5 !important; color:rgba(0,0,0,.5) !important; }
+
+.sortable .table {background:#fff; }
 
 .info-tit {width:170px; }
 .info-con {width:750px; }

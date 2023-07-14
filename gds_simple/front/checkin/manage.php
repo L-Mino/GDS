@@ -102,7 +102,7 @@
 
 										<div class="checkin-wrap">
 											<div class="h-100" data-simplebar>
-												<div class="booking-group d-flex gap-3">
+												<div class="sortable booking-group d-flex gap-3">
 													<div class="booking-area border-box border-bottom-0 table-fixed-head">
 														<table class="table table-hover text-center mb-0">
 															<thead>
@@ -110,19 +110,19 @@
 																	<th colspan="7">EAST IN</th>
 																</tr>
 																<tr>
-																	<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-																	<th class="fw-normal">시간</th>
-																	<th class="fw-normal">예약자</th>
-																	<th class="fw-normal">단체명</th>
-																	<th class="fw-normal">내장객</th>
-																	<th class="fw-normal">홀</th>
-																	<th class="fw-normal">메모</th>
+																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal" style="min-width:55px;">시간</th>
+																	<th class="fw-normal" style="min-width:60px;">예약자</th>
+																	<th class="fw-normal" style="min-width:60px;">단체명</th>
+																	<th class="fw-normal" style="min-width:220px;">내장객</th>
+																	<th class="fw-normal" style="min-width:30px;">홀</th>
+																	<th class="fw-normal" style="min-width:40px;">메모</th>
 																</tr>
 															</thead>
 
 															<tbody>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -148,7 +148,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -173,7 +173,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -197,7 +197,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -220,7 +220,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -246,7 +246,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -272,7 +272,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -298,7 +298,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -324,7 +324,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -350,7 +350,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -376,7 +376,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -402,7 +402,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -428,7 +428,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -454,7 +454,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -480,7 +480,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -506,7 +506,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -532,7 +532,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -558,7 +558,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -584,7 +584,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -610,7 +610,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -636,7 +636,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -662,7 +662,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -698,19 +698,19 @@
 																	<th colspan="7">EAST OUT</th>
 																</tr>
 																<tr>
-																	<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-																	<th class="fw-normal">시간</th>
-																	<th class="fw-normal">예약자</th>
-																	<th class="fw-normal">단체명</th>
-																	<th class="fw-normal">내장객</th>
-																	<th class="fw-normal">홀</th>
-																	<th class="fw-normal">메모</th>
+																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal" style="min-width:55px;">시간</th>
+																	<th class="fw-normal" style="min-width:60px;">예약자</th>
+																	<th class="fw-normal" style="min-width:60px;">단체명</th>
+																	<th class="fw-normal" style="min-width:220px;">내장객</th>
+																	<th class="fw-normal" style="min-width:30px;">홀</th>
+																	<th class="fw-normal" style="min-width:40px;">메모</th>
 																</tr>
 															</thead>
 
 															<tbody>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -736,7 +736,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -762,7 +762,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -788,7 +788,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -814,7 +814,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -840,7 +840,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -866,7 +866,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -892,7 +892,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -918,7 +918,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -944,7 +944,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -970,7 +970,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -996,7 +996,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1022,7 +1022,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1048,7 +1048,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1074,7 +1074,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1100,7 +1100,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1126,7 +1126,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1152,7 +1152,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1178,7 +1178,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1204,7 +1204,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1230,7 +1230,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1256,7 +1256,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1292,19 +1292,19 @@
 																	<th colspan="7">WEST IN</th>
 																</tr>
 																<tr>
-																	<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-																	<th class="fw-normal">시간</th>
-																	<th class="fw-normal">예약자</th>
-																	<th class="fw-normal">단체명</th>
-																	<th class="fw-normal">내장객</th>
-																	<th class="fw-normal">홀</th>
-																	<th class="fw-normal">메모</th>
+																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal" style="min-width:55px;">시간</th>
+																	<th class="fw-normal" style="min-width:60px;">예약자</th>
+																	<th class="fw-normal" style="min-width:60px;">단체명</th>
+																	<th class="fw-normal" style="min-width:220px;">내장객</th>
+																	<th class="fw-normal" style="min-width:30px;">홀</th>
+																	<th class="fw-normal" style="min-width:40px;">메모</th>
 																</tr>
 															</thead>
 
 															<tbody>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1330,7 +1330,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1356,7 +1356,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1382,7 +1382,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1408,7 +1408,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1434,7 +1434,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1460,7 +1460,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1486,7 +1486,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1512,7 +1512,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1538,7 +1538,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1564,7 +1564,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1590,7 +1590,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1616,7 +1616,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1642,7 +1642,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1668,7 +1668,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1694,7 +1694,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1720,7 +1720,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1746,7 +1746,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1772,7 +1772,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1798,7 +1798,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1824,7 +1824,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1850,7 +1850,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1886,19 +1886,19 @@
 																	<th colspan="7">WEST OUT</th>
 																</tr>
 																<tr>
-																	<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
-																	<th class="fw-normal">시간</th>
-																	<th class="fw-normal">예약자</th>
-																	<th class="fw-normal">단체명</th>
-																	<th class="fw-normal">내장객</th>
-																	<th class="fw-normal">홀</th>
-																	<th class="fw-normal">메모</th>
+																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal" style="min-width:55px;">시간</th>
+																	<th class="fw-normal" style="min-width:60px;">예약자</th>
+																	<th class="fw-normal" style="min-width:60px;">단체명</th>
+																	<th class="fw-normal" style="min-width:220px;">내장객</th>
+																	<th class="fw-normal" style="min-width:30px;">홀</th>
+																	<th class="fw-normal" style="min-width:40px;">메모</th>
 																</tr>
 															</thead>
 
 															<tbody>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1924,7 +1924,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1950,7 +1950,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -1976,7 +1976,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2002,7 +2002,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2028,7 +2028,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2054,7 +2054,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2080,7 +2080,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2106,7 +2106,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2132,7 +2132,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2158,7 +2158,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2184,7 +2184,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2210,7 +2210,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2236,7 +2236,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2262,7 +2262,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em complete">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2288,7 +2288,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2314,7 +2314,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2340,7 +2340,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2366,7 +2366,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2392,7 +2392,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2418,7 +2418,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2444,7 +2444,7 @@
 																	</td>
 																</tr>
 																<tr>
-																	<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																	<td><span class="table-em">06:50</span></td>
 																	<td>홍길동</td>
 																	<td>임시1</td>
@@ -2540,7 +2540,7 @@
 										<tr>
 											<th>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
+													<input class="form-check-input" type="checkbox" name="tableCheckAll">
 													<label class="form-check-label fw-bold" for="checkAll">확정</label>
 												</div>
 											</th>
@@ -2560,7 +2560,7 @@
 
 									<tbody>
 										<tr>
-											<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
 											<td>박새로미</td>
 											<td>
 												<select class="form-select w-auto py-0 mx-auto">
@@ -2603,7 +2603,7 @@
 											<td>380,000</td>
 										</tr>
 										<tr>
-											<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
 											<td>홍이원</td>
 											<td>
 												<select class="form-select w-auto py-0 mx-auto">
@@ -2645,7 +2645,7 @@
 											<td>380,000</td>
 										</tr>
 										<tr>
-											<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
 											<td>장길수</td>
 											<td>
 												<select class="form-select w-auto py-0 mx-auto">
@@ -2687,7 +2687,7 @@
 											<td>380,000</td>
 										</tr>
 										<tr>
-											<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
 											<td>김아연</td>
 											<td>
 												<select class="form-select w-auto py-0 mx-auto">
@@ -3131,7 +3131,7 @@
 
 											<thead>
 												<tr>
-													<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll" checked></th>
+													<th><input class="form-check-input" type="checkbox" name="tableCheckAll" checked></th>
 													<th>내장객</th>
 													<th>추가 그린피</th>
 													<th>추가 카트피</th>
@@ -3194,7 +3194,7 @@
 											<table class="table table-fixed table-responsive w-100 text-center nowrap mb-0">
 												<thead>
 													<tr>
-														<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+														<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
 														<th>홀</th>
 														<th>대여 품목</th>
 														<th>대여료</th>
@@ -3203,7 +3203,7 @@
 
 												<tbody>
 													<tr>
-														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+														<td><input class="form-check-input tableCheck" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -3221,7 +3221,7 @@
 														<td>10,000</td>
 													</tr>
 													<tr>
-														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+														<td><input class="form-check-input tableCheck" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀">홀</option>
@@ -3239,7 +3239,7 @@
 														<td>20,000</td>
 													</tr>
 													<tr>
-														<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+														<td><input class="form-check-input tableCheck" type="checkbox"></td>
 														<td>
 															<select class="form-select w-auto mx-auto">
 																<option value="홀" selected>홀</option>
@@ -4178,6 +4178,8 @@
 		$(function(){
 			"use strict";
 			menuActive(2); //OneDepth
+
+			$(".sortable").sortable();
 		});
 		</script>
 
