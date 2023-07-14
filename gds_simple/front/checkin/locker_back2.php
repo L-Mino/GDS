@@ -97,7 +97,7 @@
 
 													<thead>
 														<tr class="table-bg-gray">
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
+															<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
 															<th>락카 번호</th>
 															<th>구분
 																<div class="dropdown d-inline-block">
@@ -128,7 +128,7 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0001</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="1"></td>
@@ -144,7 +144,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0002</td>
 															<td>VIP</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -160,7 +160,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0003</td>
 															<td>VIP</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -176,7 +176,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0004</td>
 															<td>지정</td>
 															<td><input class="form-control text-center p-0" type="text" value="2"></td>
@@ -192,7 +192,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0005</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="3"></td>
@@ -208,7 +208,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0006</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -224,7 +224,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0007</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -240,7 +240,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0008</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="4"></td>
@@ -256,7 +256,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0009</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -272,7 +272,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0010</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -288,7 +288,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0011</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -304,7 +304,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0012</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -320,7 +320,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0013</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -336,7 +336,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0014</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -352,7 +352,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0015</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -368,7 +368,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0016</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -384,7 +384,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0017</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -400,7 +400,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0018</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -416,7 +416,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0019</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -432,7 +432,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0020</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -448,7 +448,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0021</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -464,7 +464,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0022</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -480,7 +480,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0023</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -496,7 +496,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0024</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -512,7 +512,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0025</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -528,7 +528,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0026</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -544,7 +544,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0027</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="해당없음"></td>
@@ -626,7 +626,7 @@
 
 													<thead>
 														<tr class="table-bg-gray">
-															<th><input class="form-check-input" type="checkbox" name="tableCheckAll"></th>
+															<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
 															<th>락카 번호</th>
 															<th>구분
 																<div class="dropdown d-inline-block">
@@ -657,7 +657,7 @@
 
 													<tbody>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0001</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text" value="1"></td>
@@ -673,7 +673,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0002</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -682,14 +682,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0003</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -698,14 +698,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0004</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -714,14 +714,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0005</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -730,14 +730,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0006</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -746,14 +746,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0007</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -762,14 +762,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0008</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -785,7 +785,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0009</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -794,14 +794,14 @@
 																	<option value="대기" selected>대기</option>
 																	<option value="사용중">사용중</option>
 																	<option value="사용불가">사용불가</option>
-																	<option value="지정">지정</option>																	
+																	<option value="지정">지정</option>
 																</select>
 															</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0010</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -817,7 +817,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0011</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -833,7 +833,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0012</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -849,7 +849,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0013</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -865,7 +865,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0014</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -881,7 +881,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0015</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -897,7 +897,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0016</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -913,7 +913,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0017</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -929,7 +929,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0018</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -945,7 +945,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0019</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -961,7 +961,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0020</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -977,7 +977,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0021</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -993,7 +993,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0022</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1009,7 +1009,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0023</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1025,7 +1025,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0024</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1041,7 +1041,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0025</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1057,7 +1057,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0026</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>
@@ -1073,7 +1073,7 @@
 															<td><button type="button" class="btn btn-outline-custom">저장</button></td>
 														</tr>
 														<tr>
-															<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+															<td><input class="form-check-input tableCheck" type="checkbox"></td>
 															<td>0027</td>
 															<td>일반</td>
 															<td><input class="form-control text-center p-0" type="text"></td>

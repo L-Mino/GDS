@@ -1766,7 +1766,7 @@
 															<tr>
 																<th>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
+																		<input class="form-check-input tableCheckAll" type="checkbox" id="checkAll">
 																		<label class="form-check-label" for="checkAll">No</label>
 																	</div>
 																</th>
@@ -1944,7 +1944,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check30">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check30">
 																		<label class="form-check-label" for="check30">30</label>
 																	</div>
 																</td>
@@ -1962,7 +1962,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check29" disabled>
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check29" disabled>
 																		<label class="form-check-label" for="check29">29</label>
 																	</div>
 																</td>
@@ -1980,7 +1980,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check28">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check28">
 																		<label class="form-check-label" for="check28">28</label>
 																	</div>
 																</td>
@@ -1998,7 +1998,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check27">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check27">
 																		<label class="form-check-label" for="check27">27</label>
 																	</div>
 																</td>
@@ -2016,7 +2016,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check26">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check26">
 																		<label class="form-check-label" for="check26">26</label>
 																	</div>
 																</td>
@@ -2034,7 +2034,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check25">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check25">
 																		<label class="form-check-label" for="check25">25</label>
 																	</div>
 																</td>
@@ -2052,7 +2052,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check24">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check24">
 																		<label class="form-check-label" for="check24">24</label>
 																	</div>
 																</td>
@@ -2070,7 +2070,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check23">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check23">
 																		<label class="form-check-label" for="check23">23</label>
 																	</div>
 																</td>
@@ -2088,7 +2088,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check22">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check22">
 																		<label class="form-check-label" for="check22">22</label>
 																	</div>
 																</td>
@@ -2106,7 +2106,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check21">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check21">
 																		<label class="form-check-label" for="check21">21</label>
 																	</div>
 																</td>
@@ -2124,7 +2124,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check20">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check20">
 																		<label class="form-check-label" for="check20">20</label>
 																	</div>
 																</td>
@@ -2142,7 +2142,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check19">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check19">
 																		<label class="form-check-label" for="check19">19</label>
 																	</div>
 																</td>
@@ -2160,7 +2160,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check18">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check18">
 																		<label class="form-check-label" for="check18">18</label>
 																	</div>
 																</td>
@@ -2178,7 +2178,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check17">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check17">
 																		<label class="form-check-label" for="check17">17</label>
 																	</div>
 																</td>
@@ -2196,7 +2196,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check16">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check16">
 																		<label class="form-check-label" for="check16">16</label>
 																	</div>
 																</td>
@@ -2214,7 +2214,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check15">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check15">
 																		<label class="form-check-label" for="check15">15</label>
 																	</div>
 																</td>
@@ -2232,7 +2232,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check14">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check14">
 																		<label class="form-check-label" for="check14">14</label>
 																	</div>
 																</td>
@@ -2250,7 +2250,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check13">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check13">
 																		<label class="form-check-label" for="check13">13</label>
 																	</div>
 																</td>
@@ -2268,7 +2268,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check12">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check12">
 																		<label class="form-check-label" for="check12">12</label>
 																	</div>
 																</td>
@@ -2286,7 +2286,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check11">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check11">
 																		<label class="form-check-label" for="check11">11</label>
 																	</div>
 																</td>
@@ -2304,7 +2304,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check10">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check10">
 																		<label class="form-check-label" for="check10">10</label>
 																	</div>
 																</td>
@@ -2322,7 +2322,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check9">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check9">
 																		<label class="form-check-label" for="check9">9</label>
 																	</div>
 																</td>
@@ -2340,7 +2340,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check8">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check8">
 																		<label class="form-check-label" for="check8">8</label>
 																	</div>
 																</td>
@@ -2358,7 +2358,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check7">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check7">
 																		<label class="form-check-label" for="check7">7</label>
 																	</div>
 																</td>
@@ -2376,7 +2376,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check6">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check6">
 																		<label class="form-check-label" for="check6">6</label>
 																	</div>
 																</td>
@@ -2394,7 +2394,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check5">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check5">
 																		<label class="form-check-label" for="check5">5</label>
 																	</div>
 																</td>
@@ -2412,7 +2412,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check4">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check4">
 																		<label class="form-check-label" for="check4">4</label>
 																	</div>
 																</td>
@@ -2430,7 +2430,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check3">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check3">
 																		<label class="form-check-label" for="check3">3</label>
 																	</div>
 																</td>
@@ -2448,7 +2448,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check2">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check2">
 																		<label class="form-check-label" for="check2">2</label>
 																	</div>
 																</td>
@@ -2466,7 +2466,7 @@
 															<tr>
 																<td>
 																	<div class="form-check form-check-inline">
-																		<input class="form-check-input" type="checkbox" name="tableCheck" id="check1">
+																		<input class="form-check-input tableCheck" type="checkbox"> id="check1">
 																		<label class="form-check-label" for="check1">1</label>
 																	</div>
 																</td>

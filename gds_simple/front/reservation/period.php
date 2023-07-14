@@ -45,24 +45,24 @@
 											<span class="dash">~</span>
 											<div class="form-check form-check-inline ps-0 me-0">
 												<input type="text" class="form-control form-control-em form-control-sm datepicker p-0" value="23.06.02(금)">
-											</div> 
+											</div>
 
 											<div class="form-check form-check-inline search-area ps-0 me-0">
 												<input class="form-control" type="text" placeholder="Search...">
 												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
 											</div>
-											
+
 											<div class="form-check form-check-inline">
 												<input class="form-check-input" type="checkbox" id="Unreserved" checked="">
 												<label class="form-check-label" for="Unreserved">미예약</label>
 											</div>
-											
+
 											<div class="form-check form-check-inline me-2">
 												<input class="form-check-input" type="checkbox" id="reserved">
 												<label class="form-check-label" for="reserved">예약</label>
 											</div>
 										</div>
-										
+
 										<div class="d-flex flex-wrap align-items-center gap-2">
 											<div class="btn-group">
 												<div class="btn-group">
@@ -73,9 +73,9 @@
 														<li><div class="dropdown-divider"></div></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button></li>
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button></li>
-													</ul>												
-												</div>													
-													
+													</ul>
+												</div>
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">그린피 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -84,7 +84,7 @@
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">18h-17</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">인원 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -117,7 +117,7 @@
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">No 카트</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">이벤트 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -128,7 +128,7 @@
 														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">카트 50% 할인</button></li>
 													</ul>
 												</div>
-												
+
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">채널 블럭 지정</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -140,9 +140,9 @@
 														<li><div class="dropdown-divider"></div></li>
 														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">C_Golfnow</button></li>
 														<li><div class="dropdown-divider"></div></li>
-														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>													
+														<li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">블럭회수</button></li>
 													</ul>
-												</div>														
+												</div>
 											</div>
 
 											<div class="form-check form-check-inline align-top p-0 ms-2 me-0">
@@ -156,7 +156,7 @@
 													<option value="이벤트">이벤트</option>
 												</select>
 											</div>
-										</div>											
+										</div>
 
 										<div class="border-bottom pb-4 mb-4"></div>
 
@@ -181,12 +181,12 @@
 													<col style="min-width:120px;">
 													<col style="min-width:300px; width:300px;">
 												</colgroup>
-												
+
 												<thead>
 													<tr>
 														<th>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll">
+																<input class="form-check-input tableCheckAll" type="checkbox" id="checkAll">
 																<label class="form-check-label" for="checkAll">No</label>
 															</div>
 														</th>
@@ -283,7 +283,7 @@
 																	<li><button type="button" class="dropdown-item">18h-17</button></li>
 																</ul>
 															</div>
-														</th>																
+														</th>
 														<th>인원
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -331,7 +331,7 @@
 																	<li><button type="button" class="dropdown-item">카트 50% 할인</button></li>
 																</ul>
 															</div>
-														</th>																
+														</th>
 														<th>채널
 															<div class="dropdown d-inline-block">
 																<button class="btn boarder-0 p-0 dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-chevron-down lh-1"></i></button>
@@ -357,7 +357,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check30">
+																<input class="form-check-input tableCheck" type="checkbox" id="check30">
 																<label class="form-check-label" for="check30">30</label>
 															</div>
 														</td>
@@ -381,7 +381,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check29">
+																<input class="form-check-input tableCheck" type="checkbox" id="check29">
 																<label class="form-check-label" for="check29">29</label>
 															</div>
 														</td>
@@ -393,7 +393,7 @@
 														<td>4</td>
 														<td>신입</td>
 														<td>2인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>B_골팡</td>
 														<td>18h-17</td>
 														<td>GX / 2일</td>
@@ -405,7 +405,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check28">
+																<input class="form-check-input tableCheck" type="checkbox" id="check28">
 																<label class="form-check-label" for="check28">28</label>
 															</div>
 														</td>
@@ -417,7 +417,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -429,7 +429,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check27">
+																<input class="form-check-input tableCheck" type="checkbox" id="check27">
 																<label class="form-check-label" for="check27">27</label>
 															</div>
 														</td>
@@ -441,7 +441,7 @@
 														<td>4</td>
 														<td>프로</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>B_골팡</td>
 														<td>선불 / 입금 대기</td>
 														<td></td>
@@ -453,7 +453,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check26">
+																<input class="form-check-input tableCheck" type="checkbox" id="check26">
 																<label class="form-check-label" for="check26">26</label>
 															</div>
 														</td>
@@ -465,7 +465,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>B_골팡</td>
 														<td>18h-17</td>
 														<td></td>
@@ -477,7 +477,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check25">
+																<input class="form-check-input tableCheck" type="checkbox" id="check25">
 																<label class="form-check-label" for="check25">25</label>
 															</div>
 														</td>
@@ -489,7 +489,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -501,7 +501,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check24">
+																<input class="form-check-input tableCheck" type="checkbox" id="check24">
 																<label class="form-check-label" for="check24">24</label>
 															</div>
 														</td>
@@ -513,7 +513,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -525,7 +525,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check23">
+																<input class="form-check-input tableCheck" type="checkbox" id="check23">
 																<label class="form-check-label" for="check23">23</label>
 															</div>
 														</td>
@@ -537,7 +537,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -549,7 +549,7 @@
 													<tr>
 														<td>
 															<div class="form-check form-check-inline">
-																<input class="form-check-input" type="checkbox" name="tableCheck" id="check22">
+																<input class="form-check-input tableCheck" type="checkbox" id="check22">
 																<label class="form-check-label" for="check22">22</label>
 															</div>
 														</td>
@@ -561,7 +561,7 @@
 														<td>4</td>
 														<td>일반</td>
 														<td>5인승 전동 카트</td>
-														<td>아메리카노 50% 할인</td>																
+														<td>아메리카노 50% 할인</td>
 														<td>C_카카오</td>
 														<td>후불</td>
 														<td></td>
@@ -589,10 +589,10 @@
 													<option value="100">100</option>
 												</select>
 											</label>
-											
+
 											<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-											<nav aria-label="Page navigation">	
+											<nav aria-label="Page navigation">
 												<ul class="pagination justify-content-end my-0">
 													<li class="page-item">
 														<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
@@ -638,7 +638,7 @@
 							</div>
 						</div>
 		                <!--//row - 그린피 설정 내역 -->
-						
+
 						<div class="modal fade modifyModal" tabindex="-1" aria-labelledby="modifyModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
@@ -655,7 +655,7 @@
 							</div>
 						</div>
 		                <!--//modal - modifyModal -->
-						
+
 						<div class="modal fade addTeamModal" tabindex="-1" aria-labelledby="addTeamModalLabel" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered modal-sm">
 								<div class="modal-content">
@@ -705,7 +705,7 @@
 																<option value="3부">3부</option>
 															</select>
 														</td>
-													</tr>													
+													</tr>
 													<tr>
 														<th>시간</th>
 														<td><input type="text" class="form-control" placeholder="24:00"></td>
@@ -721,7 +721,7 @@
 								</div><!-- /.modal-content -->
 							</div><!-- /.modal-dialog -->
 						</div>
-						<!-- //modal - addTeamModal -->														
+						<!-- //modal - addTeamModal -->
 
 						<!-- end Content -->
 
@@ -749,22 +749,22 @@
 					$(this).parents('table').find('tbody tr').addClass('table-active');
 				} else {
 					$(this).parents('table').find('input[type=checkbox]').prop('checked', false);
-					$(this).parents('table').find('tbody tr').removeClass('table-active');				
+					$(this).parents('table').find('tbody tr').removeClass('table-active');
 				}
 			});
-			
+
 			$('input[type=checkbox][name=tableCheck]').change(function() {
 				if ($(this).is(':checked')) {
 					$(this).parents('tr').addClass('table-active');
 				} else {
 					$(this).parents('tr').removeClass('table-active');
-					$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);				
+					$(this).parents('table').find('thead input[type=checkbox]').prop('checked', false);
 				}
-			});		
+			});
 
 			$('.datepicker01, .datepicker02').datepicker( 'setDate', today );
 		});
-		
+
 		var modifyNum;
 		var modifyTit;
 		var modifyTxt;
@@ -777,7 +777,7 @@
 			$('.modifyNum').text(modifyNum)
 			$('.modifyTit').text(modifyTit.slice(0, -3))
 			$('.modifyTxt').text(modifyTxt)
-		}		
+		}
 		</script>
 
 		<!-- App js -->

@@ -44,7 +44,7 @@
 
                                                     <thead>
                                                         <tr>
-                                                            <th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+                                                            <th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
                                                             <th>기준 인원</th>
                                                             <th>캐디 배치</th>
                                                         </tr>
@@ -52,37 +52,37 @@
 
                                                     <tbody>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>4인 (1Team)</td>
                                                             <td>1 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>4인 (1Team)</td>
                                                             <td>2 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>3인 (1Team)</td>
                                                             <td>1 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>3인 (1Team)</td>
                                                             <td>2 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>2인 (1Team)</td>
                                                             <td>1 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>1인</td>
                                                             <td>1 Caddy</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td><input class="form-control text-center" type="text" placeholder="기타"></td>
                                                             <td><input class="form-control text-center" type="text"></td>
                                                         </tr>
@@ -99,7 +99,7 @@
 
                                                     <thead>
                                                         <tr>
-                                                            <th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+                                                            <th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
                                                             <th>기준 인원</th>
                                                             <th>카트 배치</th>
                                                         </tr>
@@ -107,37 +107,37 @@
 
                                                     <tbody>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>4인 (1Team)</td>
                                                             <td>1 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>4인 (1Team)</td>
                                                             <td>2 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>3인 (1Team)</td>
                                                             <td>1 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>3인 (1Team)</td>
                                                             <td>2 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>2인 (1Team)</td>
                                                             <td>1 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td>1인</td>
                                                             <td>1 Cart</td>
                                                         </tr>
                                                         <tr>
-                                                            <td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
                                                             <td><input class="form-control text-center" type="text" placeholder="기타"></td>
                                                             <td><input class="form-control text-center" type="text"></td>
                                                         </tr>

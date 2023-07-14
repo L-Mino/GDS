@@ -324,7 +324,7 @@
 																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">예약</th>
 																		<th class="fw-normal">그린피</th>
@@ -338,7 +338,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -349,7 +349,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>불가</td>
 																		<td>180</td>
@@ -360,7 +360,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -371,7 +371,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -382,7 +382,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -393,7 +393,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -404,7 +404,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -415,7 +415,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -426,7 +426,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -437,7 +437,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -448,7 +448,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -459,7 +459,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -470,7 +470,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -481,7 +481,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -492,7 +492,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -503,7 +503,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -514,7 +514,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -525,7 +525,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -536,7 +536,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -547,7 +547,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -558,7 +558,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -569,7 +569,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -580,7 +580,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -591,7 +591,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -602,7 +602,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -613,7 +613,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -624,7 +624,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -635,7 +635,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -646,7 +646,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -657,7 +657,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -678,7 +678,7 @@
 																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">예약</th>
 																		<th class="fw-normal">그린피</th>
@@ -692,7 +692,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -703,7 +703,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -714,7 +714,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -725,7 +725,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -736,7 +736,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -747,7 +747,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -758,7 +758,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -769,7 +769,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -780,7 +780,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -791,7 +791,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -802,7 +802,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -813,7 +813,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -824,7 +824,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -835,7 +835,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -846,7 +846,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -857,7 +857,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -868,7 +868,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -879,7 +879,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -890,7 +890,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -901,7 +901,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -912,7 +912,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -923,7 +923,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -934,7 +934,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -945,7 +945,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -956,7 +956,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -967,7 +967,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -978,7 +978,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -989,7 +989,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1000,7 +1000,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1011,7 +1011,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1032,7 +1032,7 @@
 																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">예약</th>
 																		<th class="fw-normal">그린피</th>
@@ -1046,7 +1046,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1057,7 +1057,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1068,7 +1068,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1079,7 +1079,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1090,7 +1090,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1101,7 +1101,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1112,7 +1112,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1123,7 +1123,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1134,7 +1134,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1145,7 +1145,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1156,7 +1156,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1167,7 +1167,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1178,7 +1178,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1189,7 +1189,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1200,7 +1200,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1211,7 +1211,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1222,7 +1222,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1233,7 +1233,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1244,7 +1244,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1255,7 +1255,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1266,7 +1266,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1277,7 +1277,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1288,7 +1288,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1299,7 +1299,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1310,7 +1310,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1321,7 +1321,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1332,7 +1332,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1343,7 +1343,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1354,7 +1354,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1365,7 +1365,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1386,7 +1386,7 @@
 																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
-																		<th><input class="form-check-input" type="checkbox" name="tableCheckAll" id="checkAll"></th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
 																		<th class="fw-normal">시간</th>
 																		<th class="fw-normal">예약</th>
 																		<th class="fw-normal">그린피</th>
@@ -1400,7 +1400,7 @@
 
 																<tbody>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1411,7 +1411,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1422,7 +1422,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1433,7 +1433,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1444,7 +1444,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1455,7 +1455,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1466,7 +1466,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1477,7 +1477,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1488,7 +1488,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1499,7 +1499,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1510,7 +1510,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1521,7 +1521,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1532,7 +1532,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1543,7 +1543,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1554,7 +1554,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1565,7 +1565,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1576,7 +1576,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1587,7 +1587,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1598,7 +1598,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1609,7 +1609,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1620,7 +1620,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1631,7 +1631,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1642,7 +1642,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1653,7 +1653,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1664,7 +1664,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1675,7 +1675,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1686,7 +1686,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1697,7 +1697,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1708,7 +1708,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
@@ -1719,7 +1719,7 @@
 																		<td>B_골팡</td>
 																	</tr>
 																	<tr>
-																		<td><input class="form-check-input" type="checkbox" name="tableCheck"></td>
+																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td>06:50</td>
 																		<td>가능</td>
 																		<td>180</td>
