@@ -4,6 +4,7 @@
 <script src="/gds_simple/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/gds_simple/assets/libs/metismenu/metisMenu.min.js"></script>
 <script src="/gds_simple/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="/gds_simple/assets/libs/simplebar/simplebar.umd.js"></script>
 <script src="/gds_simple/assets/libs/node-waves/waves.min.js"></script>
 
 <!-- fullcalendar js -->

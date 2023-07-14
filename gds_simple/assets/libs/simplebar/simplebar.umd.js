@@ -322,7 +322,7 @@
           overflowAttr: 'overflowX',
           dragOffset: 0,
           isOverflowing: true,
-          isVisible: false,
+          isVisible: true,
           forceVisible: false,
           track: {},
           scrollbar: {}
@@ -336,7 +336,7 @@
           overflowAttr: 'overflowY',
           dragOffset: 0,
           isOverflowing: true,
-          isVisible: false,
+          isVisible: true,
           forceVisible: false,
           track: {},
           scrollbar: {}

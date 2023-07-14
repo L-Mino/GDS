@@ -339,6 +339,17 @@
 																		<th colspan="9">EAST IN</th>
 																	</tr>
 																	<tr>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal">시간</th>
+																		<th class="fw-normal">성명</th>
+																		<th class="fw-normal">그린피</th>
+																		<th class="fw-normal">단체팀</th>
+																		<th class="fw-normal">예약 메모</th>
+																		<th class="fw-normal">C</th>
+																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
+																	</tr>
+																	<!-- <tr>
 																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
 																		<th class="fw-normal" style="min-width:70px;">시간</th>
 																		<th class="fw-normal" style="min-width:70px;">성명</th>
@@ -348,7 +359,7 @@
 																		<th class="fw-normal" style="min-width:30px;">C</th>
 																		<th class="fw-normal" style="min-width:30px;">CH</th>
 																		<th class="fw-normal" style="min-width:40px;">메모</th>
-																	</tr>
+																	</tr> -->
 																</thead>
 
 																<tbody>
@@ -718,6 +729,16 @@
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
+																		<td>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																			<div class="d-flex justify-content-center">
+																				<span class="status-ico"></span>
+																				<span class="status-ico"></span>
+																			</div>
+																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -950,15 +971,15 @@
 																		<th colspan="9">EAST OUT</th>
 																	</tr>
 																	<tr>
-																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																		<th class="fw-normal" style="min-width:70px;">시간</th>
-																		<th class="fw-normal" style="min-width:70px;">성명</th>
-																		<th class="fw-normal" style="min-width:60px;">그린피</th>
-																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
-																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
-																		<th class="fw-normal" style="min-width:30px;">C</th>
-																		<th class="fw-normal" style="min-width:30px;">CH</th>
-																		<th class="fw-normal" style="min-width:40px;">메모</th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal">시간</th>
+																		<th class="fw-normal">성명</th>
+																		<th class="fw-normal">그린피</th>
+																		<th class="fw-normal">단체팀</th>
+																		<th class="fw-normal">예약 메모</th>
+																		<th class="fw-normal">C</th>
+																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
@@ -1568,15 +1589,15 @@
 																		<th colspan="9">WEST IN</th>
 																	</tr>
 																	<tr>
-																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																		<th class="fw-normal" style="min-width:70px;">시간</th>
-																		<th class="fw-normal" style="min-width:70px;">성명</th>
-																		<th class="fw-normal" style="min-width:60px;">그린피</th>
-																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
-																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
-																		<th class="fw-normal" style="min-width:30px;">C</th>
-																		<th class="fw-normal" style="min-width:30px;">CH</th>
-																		<th class="fw-normal" style="min-width:40px;">메모</th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal">시간</th>
+																		<th class="fw-normal">성명</th>
+																		<th class="fw-normal">그린피</th>
+																		<th class="fw-normal">단체팀</th>
+																		<th class="fw-normal">예약 메모</th>
+																		<th class="fw-normal">C</th>
+																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
@@ -2192,15 +2213,15 @@
 																		<th colspan="9">WEST OUT</th>
 																	</tr>
 																	<tr>
-																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																		<th class="fw-normal" style="min-width:70px;">시간</th>
-																		<th class="fw-normal" style="min-width:70px;">성명</th>
-																		<th class="fw-normal" style="min-width:60px;">그린피</th>
-																		<th class="fw-normal" style="min-width:60px;">단체팀</th>
-																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
-																		<th class="fw-normal" style="min-width:30px;">C</th>
-																		<th class="fw-normal" style="min-width:30px;">CH</th>
-																		<th class="fw-normal" style="min-width:40px;">메모</th>
+																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																		<th class="fw-normal">시간</th>
+																		<th class="fw-normal">성명</th>
+																		<th class="fw-normal">그린피</th>
+																		<th class="fw-normal">단체팀</th>
+																		<th class="fw-normal">예약 메모</th>
+																		<th class="fw-normal">C</th>
+																		<th class="fw-normal">CH</th>
+																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 

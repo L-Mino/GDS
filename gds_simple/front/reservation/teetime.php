@@ -369,10 +369,10 @@
 												</div>
 
 												<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="CollectiveRegistration" aria-labelledby="CollectiveRegistrationLabel">
-													<div class="offcanvas-header pb-0">
-														<h5 id="CollectiveRegistrationLabel">티타임 등록</h5>
+													<div class="offcanvas-header justify-content-start align-items-center pb-0">
+														<h5 id="CollectiveRegistrationLabel" class="mb-0">티타임 등록</h5>
 														<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
-														<div class="btn-group">
+														<div class="btn-group ms-3">
 															<div class="btn-group">
 																<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">예약 상태 변경</button>
 																<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -465,7 +465,7 @@
 															</select>
 														</div>
 
-														<div class="d-flex flex-wrap justify-content-end gap-2">
+														<div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
 															<button type="button" class="btn btn-outline-custom ms-auto ">등록</button>
 															<button type="button" class="btn btn-outline-custom" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
 														</div>

@@ -317,7 +317,7 @@ table.fc-multimonth-header-table thead tr {height:auto; vertical-align:inherit; 
 
 .table {vertical-align:middle; --bs-table-border-color:#E9EBEC; --bs-table-hover-bg:#F5F5F5; border-color:#E9EBEC; }
 .table tr th,
-.table tr td {font-size:13px; }
+.table tr td {font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .table thead tr th {height:38px; padding:6px; vertical-align:middle; }
 .table tbody tr th {height:43px; padding:0 0 0 15px; vertical-align:middle; }
 .table tbody tr td {height:43px; padding:6px 10px; vertical-align:middle; }

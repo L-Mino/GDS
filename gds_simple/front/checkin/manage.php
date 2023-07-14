@@ -110,6 +110,15 @@
 																	<th colspan="7">EAST IN</th>
 																</tr>
 																<tr>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+																<!-- <tr>
 																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
 																	<th class="fw-normal" style="min-width:55px;">시간</th>
 																	<th class="fw-normal" style="min-width:60px;">예약자</th>
@@ -117,7 +126,7 @@
 																	<th class="fw-normal" style="min-width:220px;">내장객</th>
 																	<th class="fw-normal" style="min-width:30px;">홀</th>
 																	<th class="fw-normal" style="min-width:40px;">메모</th>
-																</tr>
+																</tr> -->
 															</thead>
 
 															<tbody>
@@ -698,13 +707,13 @@
 																	<th colspan="7">EAST OUT</th>
 																</tr>
 																<tr>
-																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																	<th class="fw-normal" style="min-width:55px;">시간</th>
-																	<th class="fw-normal" style="min-width:60px;">예약자</th>
-																	<th class="fw-normal" style="min-width:60px;">단체명</th>
-																	<th class="fw-normal" style="min-width:220px;">내장객</th>
-																	<th class="fw-normal" style="min-width:30px;">홀</th>
-																	<th class="fw-normal" style="min-width:40px;">메모</th>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
 																</tr>
 															</thead>
 
@@ -1292,13 +1301,13 @@
 																	<th colspan="7">WEST IN</th>
 																</tr>
 																<tr>
-																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																	<th class="fw-normal" style="min-width:55px;">시간</th>
-																	<th class="fw-normal" style="min-width:60px;">예약자</th>
-																	<th class="fw-normal" style="min-width:60px;">단체명</th>
-																	<th class="fw-normal" style="min-width:220px;">내장객</th>
-																	<th class="fw-normal" style="min-width:30px;">홀</th>
-																	<th class="fw-normal" style="min-width:40px;">메모</th>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
 																</tr>
 															</thead>
 
@@ -1886,13 +1895,13 @@
 																	<th colspan="7">WEST OUT</th>
 																</tr>
 																<tr>
-																	<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
-																	<th class="fw-normal" style="min-width:55px;">시간</th>
-																	<th class="fw-normal" style="min-width:60px;">예약자</th>
-																	<th class="fw-normal" style="min-width:60px;">단체명</th>
-																	<th class="fw-normal" style="min-width:220px;">내장객</th>
-																	<th class="fw-normal" style="min-width:30px;">홀</th>
-																	<th class="fw-normal" style="min-width:40px;">메모</th>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
 																</tr>
 															</thead>
 
