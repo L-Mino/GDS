@@ -30,13 +30,13 @@
 								<div class="card mb-0">
 									<div class="card-body">
 										<div class="d-flex align-items-center flex-wrap gap-2 mb-3">
-											<div class="form-check form-check-inline ps-0 me-0">
+											<!--div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg h-100">
 													<option value="23.06.25 (일)" selected>23.06.25 (일)</option>
 													<option value="23.06.26 (월)">23.06.26 (월)</option>
 												</select>
-											</div>
-
+											</div-->
+											<span class="fw-semibold fs-16 text-primary me-2">23.07.01 (월)</span>
 											<div class="form-check form-check-inline search-area ps-0 me-2">
 												<input class="form-control" type="text" placeholder="Search...">
 												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
@@ -47,10 +47,10 @@
 												<label class="form-check-label" for="Unreserved">미예약</label>
 											</div>
 
-											<div class="form-check form-check-inline me-2">
+											<!--div class="form-check form-check-inline me-2">
 												<input class="form-check-input" type="checkbox" id="reserved">
 												<label class="form-check-label" for="reserved">예약</label>
-											</div>
+											</div-->
 
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="코스 선택">
@@ -77,7 +77,16 @@
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".standbyModal">예약 대기</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(3) a').tab('show');">복사</button>
 												<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="$('.bookingModalTab li:nth-child(4) a').tab('show');">이동</button>
-												<button type="button" class="btn btn-outline-custom">예약 가능</button>
+												<div class="btn-group">
+													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">예약 상태 변경</button>
+													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 가능 처리</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">예약 불가 처리</button></li>
+														<li><div class="dropdown-divider"></div></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".addTeamModal">팀 추가</button></li>
+														<li><button type="button" class="dropdown-item teetimeModifyBtn" data-bs-toggle="modal" data-bs-target=".modifyModal" onclick="modifyModal(this)">팀 삭제</button></li>
+													</ul>
+												</div>
 												<button type="button" class="btn btn-outline-custom">우천 취소</button>
 												<button type="button" class="btn btn-outline-custom">예약 문자</button>
 												<button type="button" class="btn btn-outline-custom">임의 문자</button>
@@ -107,9 +116,9 @@
 															<tr>
 																<th colspan="5" class="fw-normal">
 																	<div class="d-flex justify-content-center align-items-center gap-2">
-																		<button type="button" title="Previous " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
+																		<button type="button" title="이전 달" aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
 																		<span class="fc-toolbar-title">23.07</span>
-																		<button type="button" title="Next " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
+																		<button type="button" title="다음 달" aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
 																	</div>
 																</th>
 															</tr>

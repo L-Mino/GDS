@@ -30,6 +30,8 @@
 								<div class="card mb-0">
 									<div class="card-body">
 										<div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+											<span class="fw-semibold fs-16 text-primary me-2">23.07.01 (월)</span>
+
 											<div class="form-check form-check-inline align-top p-0 m-0">
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="예약상태 선택">
 													<option value="가능">가능</option>
@@ -64,13 +66,6 @@
 												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="이벤트 선택">
 													<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
 													<option value="아이스커피 50% 할인">아이스커피 50% 할인</option>
-												</select>
-											</div>
-
-											<div class="form-check form-check-inline align-top p-0 m-0">
-												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="블럭 선택">
-													<option value="B_골팡">B_골팡</option>
-													<option value="B_골팡">B_골팡</option>
 												</select>
 											</div>
 
@@ -204,9 +199,9 @@
 															<tr>
 																<th colspan="2" class="fw-normal">
 																	<div class="d-flex justify-content-center align-items-center gap-2">
-																		<button type="button" title="Previous " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
+																		<button type="button" title="이전 달" aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
 																		<span class="fc-toolbar-title">23.07</span>
-																		<button type="button" title="Next " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
+																		<button type="button" title="다음 달" aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
 																	</div>
 																</th>
 															</tr>

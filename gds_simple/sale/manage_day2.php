@@ -1,7 +1,7 @@
 <?php include "../partials/main.php"; ?>
 
     <head>
-		<?php $title = '일일 팀 정산 / 관리'; include "../partials/title-meta.php"; ?>
+		<?php $title = '일일 팀 매출 / 관리'; include "../partials/title-meta.php"; ?>
 		<?php include "../partials/head-css.php"; ?>
     </head>
 

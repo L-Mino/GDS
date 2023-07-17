@@ -13,6 +13,7 @@
 	--bs-input-focus-border-color:#0576B9;
 	--bs-form-select-focus-border-color:#0576B9;
 	--bs-white:#fff;
+	--bs-danger-rgb: 212,69,86;
 }
 
 
@@ -656,6 +657,8 @@ dt, dd {font-size:13px; }
 .bg-secondary-subtle {background:#f8f9fa; }
 .bg-info-subtle {background:#F4FCFF; }
 
+
+D44556
 .text-gray {color:#9399A3; }
 .text-blue {color:#0576B9; }
 .text-red {color:#D44556; }
