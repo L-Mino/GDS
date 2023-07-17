@@ -2496,7 +2496,7 @@
 									<button type="button" class="bg-transparent border-0 p-0"><span class="fc-icon fc-icon-chevrons-right align-middle fs-4 text-secondary"></span></button>
 								</div>
 
-								<h5 id="manageCanvasLabel" class="mb-0">06:30&nbsp;&nbsp;EO&nbsp;&nbsp;박새로미</h5>
+								<h5 id="manageCanvasLabel" class="d-flex gap-2 mb-0"><span>06:30</span><span>EO</span><span>박새로미</span></h5>
 								<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
 								<div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
 									<button type="button" class="btn btn-outline-custom ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>

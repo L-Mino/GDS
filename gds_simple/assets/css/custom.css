@@ -218,7 +218,9 @@ body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li:hover>ul {backgrou
 .notice_element .weather .slash {display:inline-block; line-height:25px; color:#8fa6bf; font-size:22px; font-weight:100; }
 .notice_element .weather i {font-size:22px; color:#8fa6bf; }
 
-.offcanvas-custom {width:1200px !important; min-width:1200px; }
+.offcanvas,
+.offcanvas-backdrop {transition:transform 0s; }
+.offcanvas-custom {width:1300px !important; min-width:1300px; }
 .fc-multimonth-daygrid-table {height:390px !important; }
 .fc-multimonth-month {width:49.5% !important; }
 .fc .fc-multimonth {border:none; overflow:hidden !important; justify-content:space-between; }

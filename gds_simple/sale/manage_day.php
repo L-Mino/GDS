@@ -2368,7 +2368,7 @@
 									<button type="button" class="bg-transparent border-0 p-0"><span class="fc-icon fc-icon-chevrons-right align-middle fs-4 text-secondary"></span></button>
 								</div>
 
-								<h5 id="saleCanvasLabel" class="mb-0">06:30&nbsp;&nbsp;EO&nbsp;&nbsp;박새로미</h5>
+								<h5 id="saleCanvasLabel" class="d-flex gap-2 mb-0"><span>06:30</span><span>EO</span><span>박새로미</span></h5>
 								<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
 								<div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
 									<button type="button" class="btn btn-outline-custom ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
@@ -2378,378 +2378,491 @@
 							<div class="offcanvas-body">
 								<div class="d-flex align-items-center gap-2 mb-3">
 									<div class="btn-group">
+										<button type="button" class="btn btn-outline-custom">합산</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>
 										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
-										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
-										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
-										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".noshowModal">노쇼</button>
+										<button type="button" class="btn btn-outline-custom">직전 취소</button>
+										<button type="button" class="btn btn-outline-custom">요금 환원</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
 									</div>
 
 									<div class="form-check form-check-inline align-top p-0 me-0">
 										<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-											<option value="확정">확정</option>
-											<option value="내장객">내장객</option>
-											<option value="성별">성별</option>
-											<option value="락카">락카</option>
-											<option value="홀">홀</option>
-											<option value="추가">추가</option>
-											<option value="카트">카트</option>
-											<option value="캐디">캐디</option>
+											<option value="카트료">카트료</option>
 											<option value="대여료">대여료</option>
-											<option value="할인">할인</option>
-											<option value="총금액">총금액</option>
+											<option value="프로샵">프로샵</option>
+											<option value="대식당">대식당</option>
+											<option value="스타트">스타트</option>
+											<option value="그늘집">그늘집</option>
+											<option value="객실료">객실료</option>
 										</select>
 									</div>
 								</div>
 
 								<table class="table table-hover text-center mb-0">
 									<colgroup>
-										<col style="min-width:80px; width:80px;">
-										<col style="min-width:120px; width:auto;">
-										<col style="min-width:70px; width:70px;">
-										<col style="min-width:90px; width:90px;">
+										<col style="width:auto;">
+										<col style="width:auto;">
+										<col style="min-width:60px; width:auto;">
+										<col style="min-width:90px; width:auto;">
+										<col style="min-width:90px; width:auto;">
+										<col style="min-width:80px; width:auto;">
+										<col style="min-width:80px; width:auto;">
+										<col style="min-width:80px; width:auto;">
 										<col style="min-width:70px; width:auto;">
-										<col style="width:60px;">
-										<col style="min-width:40px; width:40px;">
-										<col style="min-width:70px; width:auto;;">
-										<col style="min-width:70px; width:auto;;">
 										<col style="min-width:70px; width:auto;">
-										<col style="min-width:150px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:70px; width:auto;">
 										<col style="min-width:70px; width:auto;">
 									</colgroup>
 
 									<thead>
 										<tr>
-											<th>
-												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" name="tableCheckAll">
-													<label class="form-check-label fw-bold" for="checkAll">확정</label>
-												</div>
-											</th>
-											<th>내장객</th>
-											<th>성별</th>
-											<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
-											<th>그린피</th>
+											<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
+											<th>시간</th>
+											<th>코스</th>
+											<th>성명</th>
 											<th>홀</th>
-											<th>추가</th>
-											<th>카트</th>
-											<th>캐디</th>
+											<th>잔액</th>
+											<th>지불액</th>
+											<th>합계</th>
+											<th>할인액</th>
+											<th>입장료</th>
+											<th>카트료</th>
 											<th>대여료</th>
-											<th>할인</th>
-											<th>총금액</th>
+											<th>프로샵</th>
+											<th>대식당</th>
+											<th>스타트</th>
+											<th>그늘집</th>
+											<th>객실료</th>
 										</tr>
 									</thead>
 
 									<tbody>
-										<tr>
+										<tr role="button" ondblclick="paymentModal();">
 											<td><input class="form-check-input tableCheck" type="checkbox"></td>
-											<td>박새로미</td>
-											<td>
-												<select class="form-select w-auto py-0 mx-auto">
-													<option value="남" selected>남</option>
-													<option value="여">여</option>
-												</select>
-											</td>
-											<td>
-												<div class="d-flex align-items-center gap-1">
-													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-													<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-												</div>
-											</td>
-											<td>18h-15</td>
-											<td>18</td>
-											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="5-전동" selected>5-전동</option>
-														<option value="2-전동">2-전동</option>
-														<option value="수동">수동</option>
-													</select>
-
-													<span>100,000</span>
-												</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="P" selected>P</option>
-														<option value="J">J</option>
-														<option value="N">N</option>
-													</select>
-													<span>150,000</span>
-												</div>
-											</td>
-											<td>20,000</td>
-											<td>프로5 - 50,000</td>
-											<td>380,000</td>
+											<td>06:50</td>
+											<td>WI</td>
+											<td>홍길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>185,000</td>
+											<td>0</td>
+											<td class="text-blue">185,000</td>
+											<td></td>
+											<td>160,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>이길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>박길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>장길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr class="table-bg-gray">
+											<td></td>
+											<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+											<td></td>
+											<td></td>
+											<td class="fw-semibold text-red">770,000</td>
+											<td class="fw-semibold">0</td>
+											<td class="fw-semibold text-blue">770,000</td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold">670,000</td>
+											<td class="fw-semibold">100,000</td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
 										</tr>
 										<tr>
+											<td colspan="17" class="table-line"></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
 											<td><input class="form-check-input tableCheck" type="checkbox"></td>
-											<td>홍이원</td>
-											<td>
-												<select class="form-select w-auto py-0 mx-auto">
-													<option value="남" selected>남</option>
-													<option value="여">여</option>
-												</select>
-											</td>
-											<td>
-												<div class="d-flex align-items-center gap-1">
-													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-												</div>
-											</td>
-											<td>18h-15</td>
-											<td>18</td>
-											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="5-전동" selected>5-전동</option>
-														<option value="2-전동">2-전동</option>
-														<option value="수동">수동</option>
-													</select>
-													<span>100,000</span>
-												</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="P" selected>P</option>
-														<option value="J">J</option>
-														<option value="N">N</option>
-													</select>
-													<span>150,000</span>
-												</div>
-											</td>
-											<td>20,000</td>
-											<td>프로5 - 50,000</td>
-											<td>380,000</td>
+											<td>06:50</td>
+											<td>WI</td>
+											<td>홍길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>185,000</td>
+											<td>0</td>
+											<td class="text-blue">185,000</td>
+											<td></td>
+											<td>160,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>이길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>박길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr role="button" ondblclick="paymentModal();">
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td></td>
+											<td></td>
+											<td>장길동</td>
+											<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
+											<td>195,000</td>
+											<td>0</td>
+											<td class="text-blue">195,000</td>
+											<td></td>
+											<td>170,000</td>
+											<td>25,000</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr class="table-bg-gray">
+											<td></td>
+											<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
+											<td></td>
+											<td></td>
+											<td class="fw-semibold text-red">770,000</td>
+											<td class="fw-semibold">0</td>
+											<td class="fw-semibold text-blue">770,000</td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold">670,000</td>
+											<td class="fw-semibold">100,000</td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
+											<td class="fw-semibold"></td>
 										</tr>
 										<tr>
-											<td><input class="form-check-input tableCheck" type="checkbox"></td>
-											<td>장길수</td>
-											<td>
-												<select class="form-select w-auto py-0 mx-auto">
-													<option value="남" selected>남</option>
-													<option value="여">여</option>
-												</select>
-											</td>
-											<td>
-												<div class="d-flex align-items-center gap-1">
-													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-												</div>
-											</td>
-											<td>18h-15</td>
-											<td>18</td>
-											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="5-전동" selected>5-전동</option>
-														<option value="2-전동">2-전동</option>
-														<option value="수동">수동</option>
-													</select>
-													<span>100,000</span>
-												</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="P" selected>P</option>
-														<option value="J">J</option>
-														<option value="N">N</option>
-													</select>
-													<span>150,000</span>
-												</div>
-											</td>
-											<td>20,000</td>
-											<td>프로5 - 50,000</td>
-											<td>380,000</td>
-										</tr>
-										<tr>
-											<td><input class="form-check-input tableCheck" type="checkbox"></td>
-											<td>김아연</td>
-											<td>
-												<select class="form-select w-auto py-0 mx-auto">
-													<option value="남" selected>남</option>
-													<option value="여">여</option>
-												</select>
-											</td>
-											<td>
-												<div class="d-flex align-items-center gap-1">
-													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
-													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
-												</div>
-											</td>
-											<td>18h-15</td>
-											<td>18</td>
-											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="5-전동" selected>5-전동</option>
-														<option value="2-전동">2-전동</option>
-														<option value="수동">수동</option>
-													</select>
-													<span>100,000</span>
-												</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<select class="form-select w-auto py-0 mx-auto">
-														<option value="P" selected>P</option>
-														<option value="J">J</option>
-														<option value="N">N</option>
-													</select>
-													<span>150,000</span>
-												</div>
-											</td>
-											<td>20,000</td>
-											<td>프로5 - 50,000</td>
-											<td>380,000</td>
-										</tr>
-										<tr>
-											<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+											<td colspan="17" class="table-line"></td>
 										</tr>
 									</tbody>
 								</table>
 
+								<div class="blue-box border-bottom-0 mt-3">
+									<table class="table table-layout-fixed mb-0">
+										<colgroup>
+											<col style="width:256px;">
+											<col style="width:70px;">
+											<col style="width:80px;">
+											<col style="width:80px;">
+											<col style="width:80px;">
+											<col style="width:auto;">
+										</colgroup>
 
-								<span class="d-inline-block fw-semibold font-size-15 mt-4 mb-2">내장객 정보</span>
-								<table class="table table-hover text-center mb-0">
-									<!--colgroup>
-										<col style="min-width:80px; width:80px;">
-										<col style="min-width:120px; width:auto;">
-										<col style="min-width:70px; width:70px;">
-										<col style="min-width:90px; width:90px;">
-										<col style="min-width:70px; width:auto;">
-										<col style="width:60px;">
-										<col style="min-width:40px; width:40px;">
-										<col style="min-width:70px; width:auto;;">
-										<col style="min-width:70px; width:auto;;">
-										<col style="min-width:70px; width:auto;">
-										<col style="min-width:150px; width:auto;">
-										<col style="min-width:70px; width:auto;">
-									</!colgroup-->
+										<tbody>
+											<tr>
+												<td>
+													<span class="fw-semibold ms-1">팀수</span>
+													<span class="fw-semibold text-blue ms-1">3</span>
+													<span class="fw-semibold ms-4">인원</span>
+													<span class="fw-semibold text-blue ms-1">12</span>
+												</td>
+												<td class="text-center"><span class="txt-line"></span></td>
+												<td class="text-center"><span class="fw-semibold text-red">1,930,000</span></td>
+												<td class="text-center"><span class="fw-semibold">0</span></td>
+												<td class="text-center"><span class="fw-semibold text-blue">2,230,000</span></td>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
 
-									<thead>
-										<tr>
-											<th>내장객</th>
-											<th>연락처</th>
-											<th>단체명</th>
-											<th>구분 / 등급 / 번호</th>
-											<th>할인코드</th>
-											<th>내장 참고</th>
-											<th>회원 특성</th>
-											<th>기타 메모</th>
-										</tr>
-									</thead>
+									<table class="table table-layout-fixed mb-0">
+										<colgroup>
+											<col style="width:100px;">
+											<col style="width:auto;">
+											<col style="width:100px;">
+											<col style="width:auto;">
+											<col style="width:100px;">
+											<col style="width:auto;">
+										</colgroup>
 
-									<tbody>
-										<tr>
-											<td>
-												<div class="d-flex justify-content-between align-items-center">
-													<span class="col-9 text-center">박새로미</span>
-													<span class="voc-btn" data-bs-toggle="modal" data-bs-target=".addVocModal">VOC</span>
-												</div>
-											</td>
-											<td>010-1234-5678</td>
-											<td>클라스클라스</td>
-											<td>F / MVP / 12-1324</td>
-											<td>프로5</td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex justify-content-between align-items-center">
-													<span class="col-9 text-center">홍이원</span>
-												</div>
-											</td>
-											<td>010-1234-5678</td>
-											<td>클라스</td>
-											<td>F / MVP / 12-1324</td>
-											<td>프로5</td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex justify-content-between align-items-center">
-													<span class="col-9 text-center">장길수</span>
-												</div>
-											</td>
-											<td>010-1234-5678</td>
-											<td>클라스</td>
-											<td>F / MVP / 12-1324</td>
-											<td>프로5</td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex justify-content-between align-items-center">
-													<span class="col-9 text-center">김아연</span>
-													<span class="voc-btn" data-bs-toggle="modal" data-bs-target=".addVocModal">VOC</span>
-												</div>
-											</td>
-											<td>010-1234-5678</td>
-											<td>클라스</td>
-											<td>F / MVP / 12-1324</td>
-											<td>프로5</td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-											<td><input class="form-control text-center" type="text"></td>
-										</tr>
-									</tbody>
-								</table>
+										<tbody>
+											<tr>
+												<th>총금액 (12명)</th>
+												<td>2,230,000</td>
+												<th>1/N (12명)</th>
+												<td>185,833</td>
+												<th>06:50/N (8명)</th>
+												<td>375,000</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 
-								<div class="border-bottom p-3">
-									<div class="d-flex align-items-center mb-3">
-										<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
-											<li class="nav-item">
-												<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-													<span class="new">프론트</span>
-												</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-													<span class="new">경기</span>
-												</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-													<span class="new">식음</span>
-												</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-													<span class="new">프로샵</span>
-												</a>
-											</li>
-										</ul>
-										<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-									</div>
+								<div class="table-responsive table-fixed-head mt-3" data-simplebar>
+									<table class="table table-hover text-center mb-0">
+										<colgroup>
+											<col style="width:auto;">
+											<col style="width:auto;">
+											<col style="min-width:50px; width:auto;">
+											<col style="min-width:60px; width:auto;">
+											<col style="min-width:80px; width:auto;">
+											<col style="min-width:80px; width:auto;">
+											<col style="min-width:80px; width:auto;">
+											<col style="min-width:80px; width:auto;">
+											<col style="min-width:80px; width:auto;">
+											<col style="min-width:70px; width:auto;">
+											<col style="min-width:70px; width:auto;">
+											<col style="min-width:70px; width:auto;">
+										</colgroup>
 
-									<div class="tab-content rounded bg-info-subtle p-3">
-										<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
-											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+										<thead>
+											<tr>
+												<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
+												<th>No</th>
+												<th>락카</th>
+												<th>성명</th>
+												<th>지불 구분</th>
+												<th>금액</th>
+												<th>카드 번호</th>
+												<th>승인 번호</th>
+												<th>결제 항목</th>
+												<th>영수증</th>
+												<th>정산자</th>
+												<th>정산 시간</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td><input class="form-check-input tableCheck" type="checkbox"></td>
+												<td>12</td>
+												<td>1241</td>
+												<td>홍길동</td>
+												<td>비씨카드</td>
+												<td>600,000</td>
+												<td>123456***</td>
+												<td>12345678</td>
+												<td>카드결제</td>
+												<td></td>
+												<td>ANNA88</td>
+												<td>09:47:16</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input tableCheck" type="checkbox"></td>
+												<td>11</td>
+												<td>1241</td>
+												<td>김길동</td>
+												<td>국민카드</td>
+												<td>200,000</td>
+												<td>123456***</td>
+												<td>12345678</td>
+												<td>카드결제</td>
+												<td></td>
+												<td>ANNA88</td>
+												<td>08:00:21</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input tableCheck" type="checkbox"></td>
+												<td>10</td>
+												<td>1241</td>
+												<td>장길동</td>
+												<td>신한카드</td>
+												<td>200,000</td>
+												<td>123456***</td>
+												<td>12345678</td>
+												<td>카드결제</td>
+												<td></td>
+												<td>ANNA88</td>
+												<td>07:54:10</td>
+											</tr>
+											<tr>
+												<td><input class="form-check-input tableCheck" type="checkbox"></td>
+												<td>9</td>
+												<td>1241</td>
+												<td>박길동</td>
+												<td>국민카드</td>
+												<td>200,000</td>
+												<td>123456***</td>
+												<td>12345678</td>
+												<td>카드결제</td>
+												<td></td>
+												<td>ANNA88</td>
+												<td>07:50:00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<div class="border-box border-bottom-0 mt-1">
+									<table class="table table-layout-fixed mb-0">
+										<colgroup>
+											<col style="width:100px;">
+											<col style="width:auto;">
+											<col style="width:100px;">
+											<col style="width:auto;">
+											<col style="width:100px;">
+											<col style="width:auto;">
+										</colgroup>
+
+										<tbody>
+											<tr class="table-bg-gray">
+												<th>미정산액</th>
+												<td class="fw-semibold text-blue">2,230,000</td>
+												<th>지불 합계</th>
+												<td class="fw-semibold text-red">185,833</td>
+												<th>선불액</th>
+												<td>375,000</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<div class="border-box mt-4">
+									<div class="pt-3 p-4">
+										<div class="d-flex align-items-center mb-3">
+											<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
+												<li class="nav-item">
+													<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+														<span class="new">프론트</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+														<span class="new">경기</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+														<span class="new">식음</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+														<span class="new">프로샵</span>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link voc" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+														<span class="new">VOC</span>
+													</a>
+												</li>
+											</ul>
+											<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
 										</div>
 
-										<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
-											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-										</div>
+										<div class="tab-content rounded bg-info-subtle p-3">
+											<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;락카내 쓰레기 정리 요청&#13;2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+											</div>
 
-										<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
-											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-										</div>
+											<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">조인 (2/1/1)&#13;홍길동 2인 010-1234-5678&#13;안영미 1인 010-1234-7878&#13;홍자인 1인 010-1234-4556 / 키오스크</textarea>
+											</div>
 
-										<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
-											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
+
+											<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
+
+											<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
+												<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+											</div>
 										</div>
 									</div>
 								</div>
