@@ -3914,6 +3914,8 @@
 		$(function(){
 			"use strict";
 			menuActive(3); //OneDepth
+
+			$(".sortable").sortable();
 		});
 
 		function paymentModal(){

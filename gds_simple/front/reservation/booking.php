@@ -101,9 +101,18 @@
 
 										<div class="d-flex gap-4">
 											<div class="booking-left">
-												<div class="table-fixed-head card h-100" data-simplebar>
+												<div class="table-fixed-head multiple-head card h-100" data-simplebar>
 													<table class="table table-fixed text-center table-hover mb-0">
 														<thead>
+															<tr>
+																<th colspan="5" class="fw-normal">
+																	<div class="d-flex justify-content-center align-items-center gap-2">
+																		<button type="button" title="Previous " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-left"></span></button>
+																		<span class="fc-toolbar-title">23.07</span>
+																		<button type="button" title="Next " aria-pressed="false" class="btn btn-arr h-auto"><span class="fc-icon fc-icon-chevron-right"></span></button>
+																	</div>
+																</th>
+															</tr>
 															<tr>
 																<th class="col-4 fw-normal">예약일</th>
 																<th class="col fw-normal">TOT</th>
@@ -336,7 +345,7 @@
 															<table class="table table-hover text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">EAST IN</th>
+																		<th colspan="8">EAST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
@@ -347,7 +356,6 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
 																	</tr>
 																	<!-- <tr>
 																		<th style="width:25px;"><input class="form-check-input tableCheckAll" type="checkbox"></th>
@@ -358,8 +366,8 @@
 																		<th class="fw-normal" style="min-width:70px;">예약 메모</th>
 																		<th class="fw-normal" style="min-width:30px;">C</th>
 																		<th class="fw-normal" style="min-width:30px;">CH</th>
-																		<th class="fw-normal" style="min-width:40px;">메모</th>
-																	</tr> -->
+																		<th class="fw-normal" style="min-width:40px;">메모</th>																	</tr
+																		> -->
 																</thead>
 
 																<tbody>
@@ -372,16 +380,6 @@
 																		<td></td>
 																		<td>J</td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico front-new"></span>
-																				<span class="status-ico match-new"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico food-new"></span>
-																				<span class="status-ico shop-new"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -392,16 +390,6 @@
 																		<td></td>
 																		<td>p</td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico front-new"></span>
-																				<span class="status-ico match-new"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico food-new"></span>
-																				<span class="status-ico shop-new"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -412,16 +400,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -432,16 +410,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>BA</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -452,16 +420,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -472,16 +430,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>BB</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -492,16 +440,6 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -512,16 +450,6 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -532,16 +460,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>CA</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -552,16 +470,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>CB</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -572,16 +480,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -592,16 +490,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -612,16 +500,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -632,16 +510,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -652,16 +520,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -672,16 +530,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -692,16 +540,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -712,34 +550,13 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
 																		<td></td>
 																		<td>160</td>
-																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
-																	</tr>
+																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td role="button" data-bs-toggle="modal" data-bs-target=".bookingModal" onclick="bookingModal()">06:50 <span class="checkin-num four">4</span></td>
@@ -749,16 +566,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -769,16 +576,6 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -789,16 +586,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -809,16 +596,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -829,16 +606,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -849,16 +616,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -869,16 +626,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -889,16 +636,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -909,16 +646,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -929,16 +656,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -949,16 +666,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -968,7 +675,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">EAST OUT</th>
+																		<th colspan="8">EAST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
@@ -979,7 +686,6 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
@@ -993,16 +699,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1013,16 +709,6 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1033,16 +719,6 @@
 																		<td></td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1053,16 +729,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1073,16 +739,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1093,16 +749,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1113,16 +759,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1133,16 +769,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1153,16 +779,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1173,16 +789,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1193,16 +799,6 @@
 																		<td></td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1213,16 +809,6 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1233,16 +819,6 @@
 																		<td><span class="table-em vvip">VVIP</span></td>
 																		<td></td>
 																		<td></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1253,16 +829,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1273,16 +839,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1293,16 +849,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1313,16 +859,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1330,16 +866,6 @@
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1347,16 +873,6 @@
 																		<td></td>
 																		<td>160</td>
 																		<td colspan="4"><span class="table-em disabled">예약불가</span></td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1367,16 +883,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1387,16 +893,6 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1407,16 +903,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1427,16 +913,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1447,16 +923,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1467,16 +933,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1487,16 +943,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1507,16 +953,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1527,16 +963,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1547,16 +973,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1567,16 +983,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1586,7 +992,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">WEST IN</th>
+																		<th colspan="8">WEST IN</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
@@ -1597,7 +1003,6 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
@@ -1611,16 +1016,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1631,16 +1026,6 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1651,16 +1036,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1671,16 +1046,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1691,16 +1056,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1711,16 +1066,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1731,16 +1076,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1751,16 +1086,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1771,16 +1096,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1791,16 +1106,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1811,16 +1116,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1831,16 +1126,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1851,16 +1136,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1871,16 +1146,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1891,16 +1156,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1911,16 +1166,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1931,16 +1176,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1951,16 +1186,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1971,16 +1196,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -1991,16 +1206,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2011,16 +1216,6 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2031,16 +1226,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2051,16 +1236,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2071,16 +1246,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2091,16 +1256,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2111,16 +1266,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2131,16 +1276,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2151,16 +1286,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2171,16 +1296,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2191,16 +1306,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -2210,7 +1315,7 @@
 															<table class="table text-center mb-0">
 																<thead>
 																	<tr>
-																		<th colspan="9">WEST OUT</th>
+																		<th colspan="8">WEST OUT</th>
 																	</tr>
 																	<tr>
 																		<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
@@ -2221,7 +1326,6 @@
 																		<th class="fw-normal">예약 메모</th>
 																		<th class="fw-normal">C</th>
 																		<th class="fw-normal">CH</th>
-																		<th class="fw-normal">메모</th>
 																	</tr>
 																</thead>
 
@@ -2235,16 +1339,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2255,16 +1349,6 @@
 																		<td>GX / 2일</td>
 																		<td>p</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2275,16 +1359,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2295,16 +1369,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2315,16 +1379,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2335,16 +1389,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2355,16 +1399,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2375,16 +1409,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2395,16 +1419,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2415,16 +1429,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2435,16 +1439,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2455,16 +1449,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2475,16 +1459,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2495,16 +1469,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2515,16 +1479,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2535,16 +1489,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2555,16 +1499,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2575,16 +1509,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2595,16 +1519,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2615,16 +1529,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2635,16 +1539,6 @@
 																		<td>GX / 2일</td>
 																		<td>P</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2655,16 +1549,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2675,16 +1559,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2695,16 +1569,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2715,16 +1579,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2735,16 +1589,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2755,16 +1599,6 @@
 																		<td>GX / 2일</td>
 																		<td></td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2775,16 +1609,6 @@
 																		<td>GX / 2일</td>
 																		<td>J</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2795,16 +1619,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
@@ -2815,16 +1629,6 @@
 																		<td>GX / 2일</td>
 																		<td>N</td>
 																		<td>I</td>
-																		<td>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																			<div class="d-flex justify-content-center">
-																				<span class="status-ico"></span>
-																				<span class="status-ico"></span>
-																			</div>
-																		</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -3428,8 +2232,7 @@
 																			<input class="form-control" type="text">
 																		</td>
 																		<th>예약 번호</th>
-																		<td><span class="ms-10">123456</span></td>
-																	</tr>
+																		<td><span class="ms-10">123456</span></td>																	</tr>
 																	<tr>
 																		<th>연락처</th>
 																		<td><span class="ms-10">010-1234-5678</span></td>
@@ -3444,7 +2247,6 @@
 																				<label class="form-check-label" for="inlineRadio2">여</label>
 																			</div>
 																		</td>
-
 																	</tr>
 																	<tr>
 																		<th>예약 채널</th>
@@ -3470,8 +2272,7 @@
 																				<option value="APP">APP</option>
 																				<option value="API">API</option>
 																			</select>
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																	<tr>
 																		<th>등록 단체</th>
 																		<td>
@@ -3489,8 +2290,7 @@
 																				<option value="임시2">임시 단체2</option>
 																				<option value="임시3">임시 단체3</option>
 																			</select>
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																	<tr>
 																		<th>캐디 구분</th>
 																		<td>
@@ -3507,8 +2307,7 @@
 																				<option value="카트 선택 가능">카트 선택 가능</option>
 																				<option value="수동 카트">수동 카트</option>
 																			</select>
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																	<tr>
 																		<th>그린피</th>
 																		<td>
@@ -3526,8 +2325,7 @@
 																			</div>
 																		</td>
 																		<th>이벤트</th>
-																		<td><span class="ms-10">조식 + 카트 무료</span></td>
-																	</tr>
+																		<td><span class="ms-10">조식 + 카트 무료</span></td>																	</tr>
 																	<tr>
 																		<th>예약 메모</th>
 																		<td colspan="3">
@@ -3538,8 +2336,7 @@
 																				</select>
 																			</div>
 																			<span class="d-inline-block align-text-top pt-1">4인 커피 무료 제공</span>
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																	<tr>
 																		<th>비고</th>
 																		<td colspan="3">
@@ -3730,50 +2527,43 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>CO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>BO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>BO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
 																		<td>도착 5/14 15시</td>
 																		<td>대한항공</td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
 																		<td>카니발 9인승</td>
 																		<td>허 1234</td>
 																		<td>14~17</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
 																		<td>골프텔 303호</td>
 																		<td>14,15,16</td>
 																		<td>3박4일</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
 																		<td></td>
 																		<td></td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -3984,14 +2774,12 @@
 																		<th>예약자</th>
 																		<td>홍길동</td>
 																		<th>연락처</th>
-																		<td>010-1224-2323</td>
-																	</tr>
+																		<td>010-1224-2323</td>																	</tr>
 																	<tr class="table-bg-gray">
 																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -4286,50 +3074,43 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>WO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>WO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>WO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
 																		<td>도착 5/14 15시</td>
 																		<td>대한항공</td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
 																		<td>카니발 9인승</td>
 																		<td>허 1234</td>
 																		<td>14~17</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
 																		<td>골프텔 303호</td>
 																		<td>14,15,16</td>
 																		<td>3박4일</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
 																		<td></td>
 																		<td></td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -4429,14 +3210,12 @@
 																		<th>예약자</th>
 																		<td>홍길동</td>
 																		<th>연락처</th>
-																		<td>010-1224-2323</td>
-																	</tr>
+																		<td>010-1224-2323</td>																	</tr>
 																	<tr class="table-bg-gray">
 																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
-																		</td>
-																	</tr>
+																		</td>																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -4730,50 +3509,43 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>CO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>BO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>BO</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
 																		<td>도착 5/14 15시</td>
 																		<td>대한항공</td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
 																		<td>카니발 9인승</td>
 																		<td>허 1234</td>
 																		<td>14~17</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
 																		<td>골프텔 303호</td>
 																		<td>14,15,16</td>
 																		<td>3박4일</td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
 																		<td></td>
 																		<td></td>
 																		<td></td>
-																		<td></td>
-																	</tr>
+																		<td></td>																	</tr>
 																</tbody>
 															</table>
 														</div>
