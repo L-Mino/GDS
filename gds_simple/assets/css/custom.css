@@ -342,7 +342,7 @@ thead.table-red th {border-color:#EAD9DC; }
 .table-fixed-head .table thead {position:sticky; top:0; background:#eff2f7; z-index:1; }
 .table-fixed-head.card .table tbody tr:last-child td {border-bottom:0; }
 
-.booking-group {display:block; }
+.booking-group {display:block; align-items:flex-start; }
 .booking-group .booking-area .table {border-collapse:separate; }
 .booking-group .booking-area:first-child .table thead,
 .booking-group .booking-area:nth-child(4n + 1) .table thead {background:#EEFBFF; }
@@ -366,6 +366,8 @@ thead.table-red th {border-color:#EAD9DC; }
 
 .booking-group .booking-area .table thead tr th,
 .booking-group .booking-area .table tbody tr td {padding:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.booking-group .booking-area .table tbody tr:last-child td:first-child {border-radius:0 0 0 0.25rem; }
+.booking-group .booking-area .table tbody tr:last-child td:last-child {border-radius:0 0 0.25rem 0; }
 
 .booking-left {width:260px; height:calc(100vh - 318px); overflow:hidden; }
 .booking-left .table tr td a {border-radius:3px; padding:2px 4px; }

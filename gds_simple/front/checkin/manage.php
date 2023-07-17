@@ -82,7 +82,7 @@
 												<label class="form-check-label" for="confirmation">확정</label>
 											</div>
 
-											<div class="d-flex align-items-center gap-4 ms-5">
+											<div class="d-flex align-items-center gap-3 ms-auto">
 												<dl class="d-flex mb-0">
 													<dt class="me-2">예약</dt>
 													<dd class="mb-0">135</dd>

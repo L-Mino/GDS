@@ -26,13 +26,13 @@
 						<!-- start Content -->
 						<div class="row">
 							<div class="col">
-								<div class="card mb-3">
+								<div class="card mb-0">
 									<div class="card-body">
-										<div class="d-flex align-items-center flex-wrap gap-2">
+										<div class="d-flex align-items-center gap-2 mb-3">
 											<div class="form-check form-check-inline ps-0 me-0">
 												<select class="form-select form-select-lg border-0 h-100">
-													<option value="2023.06.23 (금)" selected>2023.06.23 (금)</option>
-													<option value="2023.06.24 (토)">2023.06.24 (토)</option>
+													<option value="23.05.01 (일)" selected>23.06.23 (금)</option>
+													<option value="23.05.02 (화)">23.05.02 (화)</option>
 												</select>
 											</div>
 
@@ -41,22 +41,46 @@
 												<span class="fas fa-search position-absolute top-50 end-0 translate-middle"></span>
 											</div>
 
-											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="Unreserved">
-												<label class="form-check-label" for="Unreserved">미예약</label>
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="티타임 선택">
+													<option value="1부">1부</option>
+													<option value="2부">2부</option>
+													<option value="3부">3부</option>
+												</select>
 											</div>
 
-											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="reserved">
-												<label class="form-check-label" for="reserved">예약</label>
+											<div class="form-check form-check-inline align-top p-0 m-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="구분 선택">
+													<option value="EAST IN">EAST IN</option>
+													<option value="EAST OUT">EAST OUT</option>
+													<option value="WEST IN">WEST IN</option>
+													<option value="WEST OUT">WEST OUT</option>
+												</select>
 											</div>
 
-											<div class="form-check form-check-inline me-2">
-												<input class="form-check-input" type="checkbox" id="lockerAutoCheck" checked>
-												<label class="form-check-label" for="lockerAutoCheck">락카 자동 반납</label>
+											<div class="form-check form-check-inline align-top p-0 me-0">
+												<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+													<option value="선택박스">선택박스</option>
+													<option value="시간">시간</option>
+													<option value="예약자">예약자</option>
+													<option value="단체명">단체명</option>
+													<option value="내장객">내장객</option>
+													<option value="홀">홀</option>
+													<option value="메모">메모</option>
+												</select>
 											</div>
 
-											<div class="d-flex align-items-center gap-4 ms-auto">
+											<div class="form-check form-check-inline ms-3 me-2">
+												<input class="form-check-input" type="checkbox" id="undetermined">
+												<label class="form-check-label" for="undetermined">미정산</label>
+											</div>
+
+											<div class="form-check form-check-inline me-0">
+												<input class="form-check-input" type="checkbox" id="confirmation">
+												<label class="form-check-label" for="confirmation">정산</label>
+											</div>
+
+											<div class="d-flex align-items-center gap-3 ms-auto">
 												<dl class="d-flex mb-0">
 													<dt class="me-2">내장팀</dt>
 													<dd class="mb-0">135</dd>
@@ -78,813 +102,2256 @@
 												</dl>
 											</div>
 										</div>
-									</div>
-								</div>
 
-								<div class="d-flex gap-3">
-									<div class="card dailyTeam-left mb-0">
-										<div class="card-body">
-											<div class="d-flex align-items-center gap-2 mb-3">
-												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="코스 선택">
-														<option value="EAST IN">EAST IN</option>
-														<option value="EAST OUT">EAST OUT</option>
-														<option value="WEST IN">WEST IN</option>
-														<option value="WEST OUT">WEST OUT</option>
-													</select>
-												</div>
+										<div class="checkin-wrap">
+											<div class="h-100" data-simplebar>
+												<div class="sortable booking-group d-flex gap-3">
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table table-hover text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">EAST IN</th>
+																</tr>
+																<tr>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">금액</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">Bill</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
 
-												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="티타임 선택">
-														<option value="1부">1부</option>
-														<option value="2부">2부</option>
-														<option value="3부">3부</option>
-													</select>
-												</div>
+															<tbody>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>홍길동</td>
+																	<td class="text-end">1,090,000</td>
+																	<td>임시1</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num four">4</span>
+																			<span class="checkin-name">홍길동길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name text-decoration-line-through opacity-50">안길동</span>
+																		</div>
+																	</td>
+																	<td>2</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>신현우</td>
+																	<td class="text-end">860,000</td>
+																	<td>스윙덕</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num three">3</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">홍길동길동</span>
+																			<span class="checkin-name txt-hline"></span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
 
-												<div class="form-check form-check-inline align-top p-0 m-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" title="구분 선택">
-														<option value="개별">개별</option>
-														<option value="팀별">팀별</option>
-													</select>
-												</div>
-											</div>
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table table-hover text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">EAST OUT</th>
+																</tr>
+																<tr>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">금액</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">Bill</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
 
-											<div class="table-fixed-head card" data-simplebar style="max-height:calc(100vh - 518px);">
-												<table class="table table-sm table-layout-fixed table-hover text-center mb-0">
-													<colgroup>
-														<col style="width:55px;">
-														<col style="width:38px;">
-														<col style="width:65px;">
-														<col style="width:60px;">
-														<col style="width:32px;">
-														<col style="width:30px;">
-														<col style="width:auto;">
-													</colgroup>
+															<tbody>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>홍길동</td>
+																	<td class="text-end">1,090,000</td>
+																	<td>임시1</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num four">4</span>
+																			<span class="checkin-name">홍길동길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name text-decoration-line-through opacity-50">안길동</span>
+																		</div>
+																	</td>
+																	<td>2</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>신현우</td>
+																	<td class="text-end">860,000</td>
+																	<td>스윙덕</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num three">3</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">홍길동길동</span>
+																			<span class="checkin-name txt-hline"></span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
 
-													<thead>
-														<tr>
-															<th class="fw-normal">시간</th>
-															<th class="fw-normal">코스</th>
-															<th class="fw-normal">예약자</th>
-															<th class="fw-normal">금액</th>
-															<th class="fw-normal">Bill</th>
-															<th class="fw-normal">홀</th>
-															<th class="fw-normal">단체명</th>
-														</tr>
-													</thead>
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table table-hover text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">WEST IN</th>
+																</tr>
+																<tr>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">금액</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">Bill</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
 
-													<tbody>
-														<tr role="button" class="table-active" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td><span class="table-em complete">06:50</span></td>
-															<td>EI</td>
-															<td>이새로미</td>
-															<td>700,000</td>
-															<td>4</td>
-															<td>18</td>
-															<td class="text-truncate">한국길동이들</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>홍길동</td>
-															<td>826,000</td>
-															<td>1</td>
-															<td>18</td>
-															<td class="text-truncate">한국길동이들</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>황조롱이</td>
-															<td>772,000</td>
-															<td>3</td>
-															<td>18</td>
-															<td class="text-truncate">길동골프</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>김민정</td>
-															<td>762,000</td>
-															<td>2</td>
-															<td>18</td>
-															<td class="text-truncate">길동골프</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안새봄</td>
-															<td>802,000</td>
-															<td>2</td>
-															<td>18</td>
-															<td class="text-truncate">BMM</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>이정혁</td>
-															<td>772,000</td>
-															<td>7</td>
-															<td>18</td>
-															<td class="text-truncate">길동골프</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>김군수</td>
-															<td>650,000</td>
-															<td>7</td>
-															<td>18</td>
-															<td class="text-truncate">홍홍골프</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>박휘선</td>
-															<td>804,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">한국길동이들</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>신세정</td>
-															<td>853,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">한국길동이들</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-														<tr role="button" onclick="$(this).parent().find('tr').removeClass('table-active'); $(this).addClass('table-active');">
-															<td>06:50</td>
-															<td>EI</td>
-															<td>안은미</td>
-															<td>700,000</td>
-															<td></td>
-															<td>18</td>
-															<td class="text-truncate">임시1</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+															<tbody>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>홍길동</td>
+																	<td class="text-end">1,090,000</td>
+																	<td>임시1</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num four">4</span>
+																			<span class="checkin-name">홍길동길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name text-decoration-line-through opacity-50">안길동</span>
+																		</div>
+																	</td>
+																	<td>2</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>신현우</td>
+																	<td class="text-end">860,000</td>
+																	<td>스윙덕</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num three">3</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">홍길동길동</span>
+																			<span class="checkin-name txt-hline"></span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
 
-											<div class="border-box border-bottom-0 mt-3">
-												<table class="table table-layout-fixed mb-0">
-													<colgroup>
-														<col style="width:80px;">
-														<col style="width:auto;">
-														<col style="width:80px;">
-														<col style="width:auto;">
-													</colgroup>
+													<div class="booking-area border-box border-bottom-0 table-fixed-head">
+														<table class="table table-hover text-center mb-0">
+															<thead>
+																<tr>
+																	<th colspan="9">WEST OUT</th>
+																</tr>
+																<tr>
+																	<th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+																	<th class="fw-normal">시간</th>
+																	<th class="fw-normal">예약자</th>
+																	<th class="fw-normal">금액</th>
+																	<th class="fw-normal">단체명</th>
+																	<th class="fw-normal">내장객</th>
+																	<th class="fw-normal">Bill</th>
+																	<th class="fw-normal">홀</th>
+																	<th class="fw-normal">메모</th>
+																</tr>
+															</thead>
 
-													<tbody>
-														<tr class="table-bg-gray">
-															<th class="text-blue">일 매출</th>
-															<td colspan="3" class="fw-semibold">23,178,000</td>
-														</tr>
-														<tr>
-															<th>카드 정산</th>
-															<td>1,240,000</td>
-															<th>미수 정산</th>
-															<td>660,000</td>
-														</tr>
-														<tr>
-															<th>현금 정산</th>
-															<td>0</td>
-															<th>기타 정산</th>
-															<td>0</td>
-														</tr>
-														<tr>
-															<th class="text-red">미정산</th>
-															<td colspan="3">23,178,000</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</div>
-									</div>
-
-									<div class="card dailyTeam-right mb-0">
-										<div class="card-body">
-											<div class="d-flex align-items-center gap-2 mb-3">
-												<span class="fs-16 fw-bold">06:50  WI  1부</span>
-												<div class="btn-group ms-auto">
-													<button type="button" class="btn btn-outline-custom">합산</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".splitModal">분할</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
-													<button type="button" class="btn btn-outline-custom">직전 취소</button>
-													<button type="button" class="btn btn-outline-custom">요금 환원</button>
-													<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".receiptModal">영수증</button>
-												</div>
-
-												<div class="form-check form-check-inline align-top p-0 me-0">
-													<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
-														<option value="카트료">카트료</option>
-														<option value="대여료">대여료</option>
-														<option value="프로샵">프로샵</option>
-														<option value="대식당">대식당</option>
-														<option value="스타트">스타트</option>
-														<option value="그늘집">그늘집</option>
-														<option value="객실료">객실료</option>
-													</select>
-												</div>
-											</div>
-
-											<div data-simplebar style="max-height:calc(100vh - 328px);">
-												<div class="table-responsive table-fixed-head" data-simplebar>
-													<table class="table table-hover text-center mb-0">
-														<colgroup>
-															<col style="width:auto;">
-															<col style="width:auto;">
-															<col style="min-width:60px; width:auto;">
-															<col style="min-width:90px; width:auto;">
-															<col style="min-width:90px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-														</colgroup>
-
-														<thead>
-															<tr>
-																<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																<th>시간</th>
-																<th>코스</th>
-																<th>성명</th>
-																<th>홀</th>
-																<th>잔액</th>
-																<th>지불액</th>
-																<th>합계</th>
-																<th>할인액</th>
-																<th>입장료</th>
-																<th>카트료</th>
-																<th>대여료</th>
-																<th>프로샵</th>
-																<th>대식당</th>
-																<th>스타트</th>
-																<th>그늘집</th>
-																<th>객실료</th>
-															</tr>
-														</thead>
-
-														<tbody>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>06:50</td>
-																<td>WI</td>
-																<td>홍길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>185,000</td>
-																<td>0</td>
-																<td class="text-blue">185,000</td>
-																<td></td>
-																<td>160,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>이길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>박길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>장길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr class="table-bg-gray">
-																<td></td>
-																<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
-																<td></td>
-																<td></td>
-																<td class="fw-semibold text-red">770,000</td>
-																<td class="fw-semibold">0</td>
-																<td class="fw-semibold text-blue">770,000</td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold">670,000</td>
-																<td class="fw-semibold">100,000</td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-															</tr>
-															<tr>
-																<td colspan="17" class="table-line"></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>06:50</td>
-																<td>WI</td>
-																<td>홍길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>185,000</td>
-																<td>0</td>
-																<td class="text-blue">185,000</td>
-																<td></td>
-																<td>160,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>이길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>박길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr role="button" ondblclick="paymentModal();">
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td></td>
-																<td></td>
-																<td>장길동</td>
-																<td><input class="form-control text-center input_w35 p-0 mx-auto" type="text" maxlength="2" value="18"></td>
-																<td>195,000</td>
-																<td>0</td>
-																<td class="text-blue">195,000</td>
-																<td></td>
-																<td>170,000</td>
-																<td>25,000</td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-																<td></td>
-															</tr>
-															<tr class="table-bg-gray">
-																<td></td>
-																<td colspan="2"><button type="button" class="btn btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".detailModal">상세 내역서</button></td>
-																<td></td>
-																<td></td>
-																<td class="fw-semibold text-red">770,000</td>
-																<td class="fw-semibold">0</td>
-																<td class="fw-semibold text-blue">770,000</td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold">670,000</td>
-																<td class="fw-semibold">100,000</td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-																<td class="fw-semibold"></td>
-															</tr>
-															<tr>
-																<td colspan="17" class="table-line"></td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-
-												<div class="blue-box border-bottom-0 mt-3">
-													<table class="table table-layout-fixed mb-0">
-														<colgroup>
-															<col style="width:256px;">
-															<col style="width:70px;">
-															<col style="width:80px;">
-															<col style="width:80px;">
-															<col style="width:80px;">
-															<col style="width:auto;">
-														</colgroup>
-
-														<tbody>
-															<tr>
-																<td>
-																	<span class="fw-semibold ms-1">팀수</span>
-																	<span class="fw-semibold text-blue ms-1">3</span>
-																	<span class="fw-semibold ms-4">인원</span>
-																	<span class="fw-semibold text-blue ms-1">12</span>
-																</td>
-																<td class="text-center"><span class="txt-line"></span></td>
-																<td class="text-center"><span class="fw-semibold text-red">1,930,000</span></td>
-																<td class="text-center"><span class="fw-semibold">0</span></td>
-																<td class="text-center"><span class="fw-semibold text-blue">2,230,000</span></td>
-																<td></td>
-															</tr>
-														</tbody>
-													</table>
-
-													<table class="table table-layout-fixed mb-0">
-														<colgroup>
-															<col style="width:100px;">
-															<col style="width:auto;">
-															<col style="width:100px;">
-															<col style="width:auto;">
-															<col style="width:100px;">
-															<col style="width:auto;">
-														</colgroup>
-
-														<tbody>
-															<tr>
-																<th>총금액 (12명)</th>
-																<td>2,230,000</td>
-																<th>1/N (12명)</th>
-																<td>185,833</td>
-																<th>06:50/N (8명)</th>
-																<td>375,000</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-
-												<div class="table-responsive table-fixed-head mt-3" data-simplebar>
-													<table class="table table-hover text-center mb-0">
-														<colgroup>
-															<col style="width:auto;">
-															<col style="width:auto;">
-															<col style="min-width:50px; width:auto;">
-															<col style="min-width:60px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:80px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-															<col style="min-width:70px; width:auto;">
-														</colgroup>
-
-														<thead>
-															<tr>
-																<th><input class="form-check-input tableCheckAll" type="checkbox" id="checkAll"></th>
-																<th>No</th>
-																<th>락카</th>
-																<th>성명</th>
-																<th>지불 구분</th>
-																<th>금액</th>
-																<th>카드 번호</th>
-																<th>승인 번호</th>
-																<th>결제 항목</th>
-																<th>영수증</th>
-																<th>정산자</th>
-																<th>정산 시간</th>
-															</tr>
-														</thead>
-
-														<tbody>
-															<tr>
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>12</td>
-																<td>1241</td>
-																<td>홍길동</td>
-																<td>비씨카드</td>
-																<td>600,000</td>
-																<td>123456***</td>
-																<td>12345678</td>
-																<td>카드결제</td>
-																<td></td>
-																<td>ANNA88</td>
-																<td>09:47:16</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>11</td>
-																<td>1241</td>
-																<td>김길동</td>
-																<td>국민카드</td>
-																<td>200,000</td>
-																<td>123456***</td>
-																<td>12345678</td>
-																<td>카드결제</td>
-																<td></td>
-																<td>ANNA88</td>
-																<td>08:00:21</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>10</td>
-																<td>1241</td>
-																<td>장길동</td>
-																<td>신한카드</td>
-																<td>200,000</td>
-																<td>123456***</td>
-																<td>12345678</td>
-																<td>카드결제</td>
-																<td></td>
-																<td>ANNA88</td>
-																<td>07:54:10</td>
-															</tr>
-															<tr>
-																<td><input class="form-check-input tableCheck" type="checkbox"></td>
-																<td>9</td>
-																<td>1241</td>
-																<td>박길동</td>
-																<td>국민카드</td>
-																<td>200,000</td>
-																<td>123456***</td>
-																<td>12345678</td>
-																<td>카드결제</td>
-																<td></td>
-																<td>ANNA88</td>
-																<td>07:50:00</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-
-												<div class="border-box border-bottom-0 mt-1">
-													<table class="table table-layout-fixed mb-0">
-														<colgroup>
-															<col style="width:100px;">
-															<col style="width:auto;">
-															<col style="width:100px;">
-															<col style="width:auto;">
-															<col style="width:100px;">
-															<col style="width:auto;">
-														</colgroup>
-
-														<tbody>
-															<tr class="table-bg-gray">
-																<th>미정산액</th>
-																<td class="fw-semibold text-blue">2,230,000</td>
-																<th>지불 합계</th>
-																<td class="fw-semibold text-red">185,833</td>
-																<th>선불액</th>
-																<td>375,000</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-
-												<div class="border-box mt-4">
-													<div class="pt-3 p-4">
-														<div class="d-flex align-items-center mb-3">
-															<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
-																<li class="nav-item">
-																	<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-																		<span class="new">프론트</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-																		<span class="new">경기</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-																		<span class="new">식음</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-																		<span class="new">프로샵</span>
-																	</a>
-																</li>
-																<li class="nav-item">
-																	<a class="nav-link voc" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
-																		<span class="new">VOC</span>
-																	</a>
-																</li>
-															</ul>
-															<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
-														</div>
-
-														<div class="tab-content rounded bg-info-subtle p-3">
-															<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;락카내 쓰레기 정리 요청&#13;2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">조인 (2/1/1)&#13;홍길동 2인 010-1234-5678&#13;안영미 1인 010-1234-7878&#13;홍자인 1인 010-1234-4556 / 키오스크</textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-
-															<div class="tab-pane" id="bookingModalRightTab05" role="tabpanel">
-																<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
-															</div>
-														</div>
+															<tbody>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>홍길동</td>
+																	<td class="text-end">1,090,000</td>
+																	<td>임시1</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num four">4</span>
+																			<span class="checkin-name">홍길동길동</span>
+																			<span class="checkin-name">박길동</span>
+																			<span class="checkin-name opacity-50">장길동</span>
+																			<span class="checkin-name text-decoration-line-through opacity-50">안길동</span>
+																		</div>
+																	</td>
+																	<td>2</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>신현우</td>
+																	<td class="text-end">860,000</td>
+																	<td>스윙덕</td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num three">3</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name opacity-50">홍길동길동</span>
+																			<span class="checkin-name txt-hline"></span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico match-new"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico shop-new"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico front-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico food-new"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em complete">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num two">2</span>
+																			<span class="checkin-name">홍길동</span>
+																			<span class="checkin-name">홍길동길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td class="text-end">장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><input class="form-check-input tableCheck" type="checkbox"></td>
+																	<td><span class="table-em">06:50</span></td>
+																	<td>장길석</td>
+																	<td class="text-end">1,134,000</td>
+																	<td></td>
+																	<td role="button" data-bs-toggle="offcanvas" data-bs-target="#saleCanvas" aria-controls="saleCanvas">
+																		<div class="d-flex align-items-center gap-2">
+																			<span class="checkin-num one">1</span>
+																			<span class="checkin-name">홍길동</span>
+																		</div>
+																	</td>
+																	<td>1</td>
+																	<td>18</td>
+																	<td>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																		<div class="d-flex justify-content-center">
+																			<span class="status-ico"></span>
+																			<span class="status-ico"></span>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
 													</div>
 												</div>
 											</div>
@@ -893,7 +2360,402 @@
 								</div>
 							</div>
 						</div>
-		                <!--//row -->
+
+						<div class="offcanvas offcanvas-end offcanvas-custom" tabindex="-1" id="saleCanvas" aria-labelledby="saleCanvasLabel">
+							<div class="offcanvas-header justify-content-start align-items-center pb-0">
+								<div class="d-flex gap-2 me-3">
+									<button type="button" class="bg-transparent border-0 p-0"><span class="fc-icon fc-icon-chevrons-left align-middle fs-4 text-secondary"></span></button>
+									<button type="button" class="bg-transparent border-0 p-0"><span class="fc-icon fc-icon-chevrons-right align-middle fs-4 text-secondary"></span></button>
+								</div>
+
+								<h5 id="saleCanvasLabel" class="mb-0">06:30&nbsp;&nbsp;EO&nbsp;&nbsp;박새로미</h5>
+								<!--button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button-->
+								<div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
+									<button type="button" class="btn btn-outline-custom ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">취소</button>
+									<button type="button" class="btn btn-outline-custom">저장</button>
+								</div>
+							</div>
+							<div class="offcanvas-body">
+								<div class="d-flex align-items-center gap-2 mb-3">
+									<div class="btn-group">
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveModal">이동</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".articleModal">대여</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".moveGroupModal">조 변경</button>
+										<button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target=".noshowModal">노쇼</button>
+									</div>
+
+									<div class="form-check form-check-inline align-top p-0 me-0">
+										<select class="selectpicker" multiple data-width="fit" data-actions-box="true" data-selected-text-format="static" title="컬럼 선택">
+											<option value="확정">확정</option>
+											<option value="내장객">내장객</option>
+											<option value="성별">성별</option>
+											<option value="락카">락카</option>
+											<option value="홀">홀</option>
+											<option value="추가">추가</option>
+											<option value="카트">카트</option>
+											<option value="캐디">캐디</option>
+											<option value="대여료">대여료</option>
+											<option value="할인">할인</option>
+											<option value="총금액">총금액</option>
+										</select>
+									</div>
+								</div>
+
+								<table class="table table-hover text-center mb-0">
+									<colgroup>
+										<col style="min-width:80px; width:80px;">
+										<col style="min-width:120px; width:auto;">
+										<col style="min-width:70px; width:70px;">
+										<col style="min-width:90px; width:90px;">
+										<col style="min-width:70px; width:auto;">
+										<col style="width:60px;">
+										<col style="min-width:40px; width:40px;">
+										<col style="min-width:70px; width:auto;;">
+										<col style="min-width:70px; width:auto;;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:150px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+									</colgroup>
+
+									<thead>
+										<tr>
+											<th>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" name="tableCheckAll">
+													<label class="form-check-label fw-bold" for="checkAll">확정</label>
+												</div>
+											</th>
+											<th>내장객</th>
+											<th>성별</th>
+											<th>락카 <a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a></th>
+											<th>그린피</th>
+											<th>홀</th>
+											<th>추가</th>
+											<th>카트</th>
+											<th>캐디</th>
+											<th>대여료</th>
+											<th>할인</th>
+											<th>총금액</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td>박새로미</td>
+											<td>
+												<select class="form-select w-auto py-0 mx-auto">
+													<option value="남" selected>남</option>
+													<option value="여">여</option>
+												</select>
+											</td>
+											<td>
+												<div class="d-flex align-items-center gap-1">
+													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+													<a href="javascript:void(0);" onclick="lockerPrint(this);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+												</div>
+											</td>
+											<td>18h-15</td>
+											<td>18</td>
+											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="5-전동" selected>5-전동</option>
+														<option value="2-전동">2-전동</option>
+														<option value="수동">수동</option>
+													</select>
+
+													<span>100,000</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="P" selected>P</option>
+														<option value="J">J</option>
+														<option value="N">N</option>
+													</select>
+													<span>150,000</span>
+												</div>
+											</td>
+											<td>20,000</td>
+											<td>프로5 - 50,000</td>
+											<td>380,000</td>
+										</tr>
+										<tr>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td>홍이원</td>
+											<td>
+												<select class="form-select w-auto py-0 mx-auto">
+													<option value="남" selected>남</option>
+													<option value="여">여</option>
+												</select>
+											</td>
+											<td>
+												<div class="d-flex align-items-center gap-1">
+													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+												</div>
+											</td>
+											<td>18h-15</td>
+											<td>18</td>
+											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="5-전동" selected>5-전동</option>
+														<option value="2-전동">2-전동</option>
+														<option value="수동">수동</option>
+													</select>
+													<span>100,000</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="P" selected>P</option>
+														<option value="J">J</option>
+														<option value="N">N</option>
+													</select>
+													<span>150,000</span>
+												</div>
+											</td>
+											<td>20,000</td>
+											<td>프로5 - 50,000</td>
+											<td>380,000</td>
+										</tr>
+										<tr>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td>장길수</td>
+											<td>
+												<select class="form-select w-auto py-0 mx-auto">
+													<option value="남" selected>남</option>
+													<option value="여">여</option>
+												</select>
+											</td>
+											<td>
+												<div class="d-flex align-items-center gap-1">
+													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+												</div>
+											</td>
+											<td>18h-15</td>
+											<td>18</td>
+											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="5-전동" selected>5-전동</option>
+														<option value="2-전동">2-전동</option>
+														<option value="수동">수동</option>
+													</select>
+													<span>100,000</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="P" selected>P</option>
+														<option value="J">J</option>
+														<option value="N">N</option>
+													</select>
+													<span>150,000</span>
+												</div>
+											</td>
+											<td>20,000</td>
+											<td>프로5 - 50,000</td>
+											<td>380,000</td>
+										</tr>
+										<tr>
+											<td><input class="form-check-input tableCheck" type="checkbox"></td>
+											<td>김아연</td>
+											<td>
+												<select class="form-select w-auto py-0 mx-auto">
+													<option value="남" selected>남</option>
+													<option value="여">여</option>
+												</select>
+											</td>
+											<td>
+												<div class="d-flex align-items-center gap-1">
+													<input class="form-control text-center p-0 mx-auto" type="text" value="1111">
+													<a href="javascript:void(0);"><i class="bx bx-printer fs-6 align-text-bottom"></i></a>
+												</div>
+											</td>
+											<td>18h-15</td>
+											<td>18</td>
+											<td><input class="form-control text-center p-0 mx-auto" type="text" value="N" data-bs-toggle="modal" data-bs-target=".addHoleModal"></td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="5-전동" selected>5-전동</option>
+														<option value="2-전동">2-전동</option>
+														<option value="수동">수동</option>
+													</select>
+													<span>100,000</span>
+												</div>
+											</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<select class="form-select w-auto py-0 mx-auto">
+														<option value="P" selected>P</option>
+														<option value="J">J</option>
+														<option value="N">N</option>
+													</select>
+													<span>150,000</span>
+												</div>
+											</td>
+											<td>20,000</td>
+											<td>프로5 - 50,000</td>
+											<td>380,000</td>
+										</tr>
+										<tr>
+											<td colspan="100"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+										</tr>
+									</tbody>
+								</table>
+
+
+								<span class="d-inline-block fw-semibold font-size-15 mt-4 mb-2">내장객 정보</span>
+								<table class="table table-hover text-center mb-0">
+									<!--colgroup>
+										<col style="min-width:80px; width:80px;">
+										<col style="min-width:120px; width:auto;">
+										<col style="min-width:70px; width:70px;">
+										<col style="min-width:90px; width:90px;">
+										<col style="min-width:70px; width:auto;">
+										<col style="width:60px;">
+										<col style="min-width:40px; width:40px;">
+										<col style="min-width:70px; width:auto;;">
+										<col style="min-width:70px; width:auto;;">
+										<col style="min-width:70px; width:auto;">
+										<col style="min-width:150px; width:auto;">
+										<col style="min-width:70px; width:auto;">
+									</!colgroup-->
+
+									<thead>
+										<tr>
+											<th>내장객</th>
+											<th>연락처</th>
+											<th>단체명</th>
+											<th>구분 / 등급 / 번호</th>
+											<th>할인코드</th>
+											<th>내장 참고</th>
+											<th>회원 특성</th>
+											<th>기타 메모</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>
+												<div class="d-flex justify-content-between align-items-center">
+													<span class="col-9 text-center">박새로미</span>
+													<span class="voc-btn" data-bs-toggle="modal" data-bs-target=".addVocModal">VOC</span>
+												</div>
+											</td>
+											<td>010-1234-5678</td>
+											<td>클라스클라스</td>
+											<td>F / MVP / 12-1324</td>
+											<td>프로5</td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex justify-content-between align-items-center">
+													<span class="col-9 text-center">홍이원</span>
+												</div>
+											</td>
+											<td>010-1234-5678</td>
+											<td>클라스</td>
+											<td>F / MVP / 12-1324</td>
+											<td>프로5</td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex justify-content-between align-items-center">
+													<span class="col-9 text-center">장길수</span>
+												</div>
+											</td>
+											<td>010-1234-5678</td>
+											<td>클라스</td>
+											<td>F / MVP / 12-1324</td>
+											<td>프로5</td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex justify-content-between align-items-center">
+													<span class="col-9 text-center">김아연</span>
+													<span class="voc-btn" data-bs-toggle="modal" data-bs-target=".addVocModal">VOC</span>
+												</div>
+											</td>
+											<td>010-1234-5678</td>
+											<td>클라스</td>
+											<td>F / MVP / 12-1324</td>
+											<td>프로5</td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+											<td><input class="form-control text-center" type="text"></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<div class="border-bottom p-3">
+									<div class="d-flex align-items-center mb-3">
+										<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
+											<li class="nav-item">
+												<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+													<span class="new">프론트</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+													<span class="new">경기</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+													<span class="new">식음</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+													<span class="new">프로샵</span>
+												</a>
+											</li>
+										</ul>
+										<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
+									</div>
+
+									<div class="tab-content rounded bg-info-subtle p-3">
+										<div class="tab-pane active" id="bookingModalRightTab01" role="tabpanel">
+											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;">락카 청결상태 지적&#13;&#10락카내 쓰레기 정리 요청&#13;&#10 2023.04.10 (토) 프론트 이지연 대리&#13;&#10조치 요청 전달 후 처리 완료</textarea>
+										</div>
+
+										<div class="tab-pane" id="bookingModalRightTab02" role="tabpanel">
+											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+										</div>
+
+										<div class="tab-pane" id="bookingModalRightTab03" role="tabpanel">
+											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+										</div>
+
+										<div class="tab-pane" id="bookingModalRightTab04" role="tabpanel">
+											<textarea rows="6" class="form-control bg-transparent border-0" style="resize:none;"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- //offCanvas -->
 
 						<div class="modal fade confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" data-bs-backdrop="static" aria-modal="true" role="dialog">
 							<div class="modal-dialog modal-dialog-centered">
