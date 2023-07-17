@@ -1883,7 +1883,12 @@
 			"use strict";
 			menuActive(2); //OneDepth
 
-			$(".sortable").sortable();
+			//$(".sortable").sortable();
+			$(".sortable").sortable( {
+				activate: function( event, ui ) {
+					console.log(ui.item);
+				}
+			});
 		});
 
 		var modifyNum;

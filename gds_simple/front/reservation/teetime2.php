@@ -1667,7 +1667,7 @@
 
 										<div class="row">
 											<div class="col-12">
-												<div class="table-responsive table-fixed-head" data-simplebar>
+												<div class="table-responsive table-fixed-head" data-simplebar style="min-height:340px; max-height:calc(100vh - 165px);">
 													<table class="table table-hover w-100 nowrap text-center mb-0">
 														<thead>
 															<tr>

@@ -317,7 +317,8 @@ table.fc-multimonth-header-table thead tr {height:auto; vertical-align:inherit; 
 
 .table {vertical-align:middle; --bs-table-border-color:#E9EBEC; --bs-table-hover-bg:#F5F5F5; border-color:#E9EBEC; }
 .table tr th,
-.table tr td {font-size:13px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.table tr td {font-size:13px; }
+.table tr td {white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .table thead tr th {height:38px; padding:6px; vertical-align:middle; }
 .table tbody tr th {height:43px; padding:0 0 0 15px; vertical-align:middle; }
 .table tbody tr td {height:43px; padding:6px 10px; vertical-align:middle; }
@@ -363,7 +364,8 @@ thead.table-red th {border-color:#EAD9DC; }
 .booking-group .booking-area:nth-child(4) .table thead th,
 .booking-group .booking-area:nth-child(4n + 4) .table thead th {border-color:#EAD9DC; color:#495057; }
 
-.booking-group .booking-area .table tbody tr td {padding:6px; }
+.booking-group .booking-area .table thead tr th,
+.booking-group .booking-area .table tbody tr td {padding:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 
 .booking-left {width:260px; height:calc(100vh - 318px); overflow:hidden; }
 .booking-left .table tr td a {border-radius:3px; padding:2px 4px; }

@@ -25,7 +25,7 @@
 
 						<!-- start Content -->
 
-						<div class="row"> 
+						<div class="row">
 							<div class="col">
 								<div class="card">
 									<div class="card-body">
@@ -51,7 +51,7 @@
 
 													<button type="button" class="btn btn-outline-custom ms-auto">저장</button>
 												</div>
-												
+
 												<div class="mb-3" data-simplebar>
 													<table class="table table-fixed text-center">
 														<colgroup>
@@ -353,10 +353,10 @@
 															<option value="100">100</option>
 														</select>
 													</label>
-													
+
 													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
 
-													<nav aria-label="Page navigation">	
+													<nav aria-label="Page navigation">
 														<ul class="pagination justify-content-end my-0">
 															<li class="page-item">
 																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
