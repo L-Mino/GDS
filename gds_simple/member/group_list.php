@@ -56,8 +56,8 @@
 														<col style="width:70px;">
 														<col style="width:80px;">
 														<col style="width:auto;">
-														<col style="width:120px;">																												
-														<col style="width:120px;">														
+														<col style="width:120px;">
+														<col style="width:120px;">
 														<col style="width:120px;">
 														<col style="width:100px;">
 														<col style="width:150px;">
@@ -70,8 +70,8 @@
 															<th>단체 연도</th>
 															<th>단체 구분</th>
 															<th>단체명</th>
-															<th>단축명</th>															
-															<th>회원 / 팀</th>															
+															<th>단축명</th>
+															<th>회원 / 팀</th>
 															<th>희망 시기</th>
 															<th>총무</th>
 															<th>총무 연락처</th>
@@ -90,7 +90,7 @@
 															<td>1주차 일요일</td>
 															<td>홍길동</td>
 															<td>010-1234-5678</td>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td>Y<!--input class="form-check-input" type="checkbox"--></td>
 														</tr>
 														<tr role="button" data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration">
 															<td>2</td>
@@ -98,11 +98,11 @@
 															<td>임시단체</td>
 															<td>경희MBA골프동호회</td>
 															<td>경희M</td>
-															<td>36 / 9</td>															
+															<td>36 / 9</td>
 															<td>1주차 일요일</td>
 															<td>임나연</td>
 															<td>010-1234-5678</td>
-															<td><input class="form-check-input" type="checkbox"></td>
+															<td>N<!--input class="form-check-input" type="checkbox"--></td>
 														</tr>
 													</tbody>
 												</table>

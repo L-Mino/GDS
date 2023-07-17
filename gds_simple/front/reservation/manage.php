@@ -96,6 +96,7 @@
 
 										<div class="d-flex flex-wrap align-items-center gap-2">
 											<div class="btn-group">
+												<button type="button" class="btn btn-outline-custom">티타임 삭제</button>
 												<div class="btn-group">
 													<button type="button" class="btn btn-outline-custom" data-bs-toggle="dropdown" aria-expanded="false">예약 상태 변경</button>
 													<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
