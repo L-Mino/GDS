@@ -3146,30 +3146,30 @@
 
 														<div class="border-box border-top-0 p-3">
 															<div class="d-flex align-items-center mt-3 mb-3">
-																<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
+																<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
 																	<li class="nav-item">
-																		<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-																			<span>VOC</span>
+																		<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+																			<span class="new">프론트</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-																			<span>프론트</span>
+																		<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+																			<span class="new">경기</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-																			<span>경기</span>
+																		<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+																			<span class="new">식음</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-																			<span>식음</span>
+																		<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+																			<span class="new">프로샵</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
-																			<span>프로샵</span>
+																		<a class="nav-link voc" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+																			<span class="new">VOC</span>
 																		</a>
 																	</li>
 																</ul>
@@ -3590,30 +3590,30 @@
 
 														<div class="border-box border-top-0 p-3">
 															<div class="d-flex align-items-center mt-3 mb-3">
-																<ul class="nav nav-tabs-custom nav-tabs-sm" role="tablist">
+																<ul class="nav nav-tabs-custom nav-tabs-sm nav-tabs-color" role="tablist">
 																	<li class="nav-item">
-																		<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
-																			<span>VOC</span>
+																		<a class="nav-link front active" data-bs-toggle="tab" href="#bookingModalRightTab01" role="tab">
+																			<span class="new">프론트</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
-																			<span>프론트</span>
+																		<a class="nav-link match" data-bs-toggle="tab" href="#bookingModalRightTab02" role="tab">
+																			<span class="new">경기</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
-																			<span>경기</span>
+																		<a class="nav-link food" data-bs-toggle="tab" href="#bookingModalRightTab03" role="tab">
+																			<span class="new">식음</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
-																			<span>식음</span>
+																		<a class="nav-link shop" data-bs-toggle="tab" href="#bookingModalRightTab04" role="tab">
+																			<span class="new">프로샵</span>
 																		</a>
 																	</li>
 																	<li class="nav-item">
-																		<a class="nav-link" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
-																			<span>프로샵</span>
+																		<a class="nav-link voc" data-bs-toggle="tab" href="#bookingModalRightTab05" role="tab">
+																			<span class="new">VOC</span>
 																		</a>
 																	</li>
 																</ul>
