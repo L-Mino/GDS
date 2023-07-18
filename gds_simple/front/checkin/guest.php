@@ -432,15 +432,7 @@
 									<div class="modal-body">
 										<div class="row">
 											<div class="col-3">
-												<table class="table table-layout-fixed text-center table-select">
-													<colgroup>
-														<col style="width:50px;">
-														<col style="width:40px;">
-														<col style="width:40px;">
-														<col style="width:80px;">
-														<col style="width:auto;">
-													</colgroup>
-
+												<table class="table text-center table-select">
 													<thead>
 														<tr>
 															<th>시간</th>
@@ -477,23 +469,7 @@
 												</table>
 											</div>
 											<div class="col-9">
-												<table class="table table-layout-fixed text-center table-select">
-													<colgroup>
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:80px;">
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:50px;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-													</colgroup>
-
+												<table class="table text-center table-select">
 													<thead>
 														<tr>
 															<th>구분</th>
@@ -605,15 +581,7 @@
 
 										<div class="row">
 											<div class="col-3">
-												<table class="table table-layout-fixed text-center table-select">
-													<colgroup>
-														<col style="width:50px;">
-														<col style="width:40px;">
-														<col style="width:40px;">
-														<col style="width:80px;">
-														<col style="width:auto;">
-													</colgroup>
-
+												<table class="table text-center table-select">
 													<thead>
 														<tr>
 															<th>시간</th>
@@ -650,23 +618,7 @@
 												</table>
 											</div>
 											<div class="col-9">
-												<table class="table table-layout-fixed text-center v">
-													<colgroup>
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:80px;">
-														<col style="width:50px;">
-														<col style="width:50px;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:50px;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-														<col style="width:auto;">
-													</colgroup>
-
+												<table class="table text-center">
 													<thead>
 														<tr>
 															<th>구분</th>
