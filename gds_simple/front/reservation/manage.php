@@ -375,7 +375,7 @@
 																	<tr>
 																		<td><input class="form-check-input tableCheck" type="checkbox"></td>
 																		<td><span class="table-em complete">06:50</span></td>
-																		<td>불가</td>
+																		<td><span class="table-em disabled">불가</span></td>
 																		<td>180</td>
 																		<td>4</td>
 																		<td>N</td>

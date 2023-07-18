@@ -16,12 +16,12 @@
                         <span>정산</span>
                     </a>
                     <ul class="sub-menu mm-show" aria-expanded="true">
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day.php">정산 관리 1</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day3.php">정산 관리 2</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day2.php">정산 관리 3</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day.php">정산 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/status.php">일 매출 현황</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/unpaid.php"--><a href="#">미수금 관리</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/manage_period.php"<--><a href="#">기간별 정산 관리</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day3.php">정산 관리 2</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day2.php">정산 관리 3</a></li>
                     </ul>
                 </li>
                 <li class="mm-active">

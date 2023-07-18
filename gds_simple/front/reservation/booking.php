@@ -556,7 +556,7 @@
 																		<td data-bs-toggle="offcanvas" data-bs-target="#memberRegistration" aria-controls="memberRegistration"><span data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-placement="top" title="010-1234-5678">A 홍길동</span></td>
 																		<td>160</td>
 																		<td>소확행</td>
-																		<td>GX / 2일</td>
+																		<td><span class="table-em rainCancel">우천취소</span></td>
 																		<td></td>
 																		<td>I</td>
 																	</tr>
@@ -2241,10 +2241,11 @@
 																			<input class="form-control" type="text">
 																		</td>
 																		<th>예약 번호</th>
-																		<td><span class="ms-10">123456</span></td>																	</tr>
+																		<td><span class="ms-10">123456</span></td>
+																	</tr>
 																	<tr>
 																		<th>연락처</th>
-																		<td><span class="ms-10">010-1234-5678</span></td>
+																		<td><input class="form-control" type="text"></td>
 																		<th>성별</th>
 																		<td>
 																			<div class="form-check form-check-inline ms-10">
@@ -2281,7 +2282,8 @@
 																				<option value="APP">APP</option>
 																				<option value="API">API</option>
 																			</select>
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																	<tr>
 																		<th>등록 단체</th>
 																		<td>
@@ -2299,7 +2301,8 @@
 																				<option value="임시2">임시 단체2</option>
 																				<option value="임시3">임시 단체3</option>
 																			</select>
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																	<tr>
 																		<th>캐디 구분</th>
 																		<td>
@@ -2316,7 +2319,8 @@
 																				<option value="카트 선택 가능">카트 선택 가능</option>
 																				<option value="수동 카트">수동 카트</option>
 																			</select>
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																	<tr>
 																		<th>그린피</th>
 																		<td>
@@ -2334,7 +2338,8 @@
 																			</div>
 																		</td>
 																		<th>이벤트</th>
-																		<td><span class="ms-10">조식 + 카트 무료</span></td>																	</tr>
+																		<td><span class="ms-10">조식 + 카트 무료</span></td>
+																	</tr>
 																	<tr>
 																		<th>예약 메모</th>
 																		<td colspan="3">
@@ -2345,7 +2350,8 @@
 																				</select>
 																			</div>
 																			<span class="d-inline-block align-text-top pt-1">4인 커피 무료 제공</span>
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																	<tr>
 																		<th>비고</th>
 																		<td colspan="3">
@@ -2390,128 +2396,138 @@
 															</div>
 														</div>
 
-														<ul class="nav nav-tabs-custom mt-4 mb-3" role="tablist">
-															<li class="nav-item">
-																<a class="nav-link active" data-bs-toggle="tab" href="#bookingModalLeftTab01" role="tab">
-																	<span>동반자 정보</span>
-																</a>
-															</li>
-															<li class="nav-item">
-																<a class="nav-link" data-bs-toggle="tab" href="#bookingModalLeftTab02" role="tab">
-																	<span>호텔, 항공, 렌트, 픽업</span>
-																</a>
-															</li>
-														</ul>
+														<h6 class="mt-3 mb-2">동반자 정보</h6>
+														<div class="border-box border-bottom-0">
+															<table class="table text-center mb-0">
+																<!--colgroup>
+																	<col style="width:28%;">
+																	<col style="width:auto;">
+																	<col style="width:25%;">
+																	<col style="width:11%;">
+																</colgroup-->
 
-														<div class="tab-content">
-															<div class="tab-pane active" id="bookingModalLeftTab01" role="tabpanel">
-																<div class="border-box border-bottom-0">
-																	<table class="table table-layout-fixed text-center mb-0">
-																		<colgroup>
-																			<col style="width:28%;">
-																			<col style="width:auto;">
-																			<col style="width:25%;">
-																			<col style="width:11%;">
-																		</colgroup>
-
-																		<tbody>
-																			<tr>
-																				<td><input class="form-control text-center" type="text" value="홍길동"></td>
-																				<td><input class="form-control text-center" type="text" value="010-1234-5678"></td>
-																				<td>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany01" id="accompany01M" value="남" checked="">
-																						<label class="form-check-label" for="accompany01M">남</label>
-																					</div>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany01" id="accompany01F" value="여">
-																						<label class="form-check-label" for="accompany01F">여</label>
-																					</div>
-																				</td>
-																				<td><button type="button" class="btn btn-outline-custom"">취소</button></td>
-																			</tr>
-																			<tr>
-																				<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
-																				<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
-																				<td>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany02" id="accompany02M" value="남">
-																						<label class="form-check-label" for="accompany02M">남</label>
-																					</div>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany02" id="accompany02F" value="여">
-																						<label class="form-check-label" for="accompany02F">여</label>
-																					</div>
-																				</td>
-																				<td><button type="button" class="btn btn-outline-custom"">취소</button></td>
-																			</tr>
-																			<tr>
-																				<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
-																				<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
-																				<td>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany03" id="accompany03M" value="남">
-																						<label class="form-check-label" for="accompany03M">남</label>
-																					</div>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany03" id="accompany03F" value="여">
-																						<label class="form-check-label" for="accompany03F">여</label>
-																					</div>
-																				</td>
-																				<td><button type="button" class="btn btn-outline-custom"">취소</button></td>
-																			</tr>
-																			<tr>
-																				<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
-																				<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
-																				<td>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany04" id="accompany04M" value="남">
-																						<label class="form-check-label" for="accompany04M">남</label>
-																					</div>
-																					<div class="form-check form-check-inline">
-																						<input class="form-check-input" type="radio" name="accompany04" id="accompany04F" value="여">
-																						<label class="form-check-label" for="accompany04F">여</label>
-																					</div>
-																				</td>
-																				<td><button type="button" class="btn btn-outline-custom"">취소</button></td>
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-															</div>
-															<div class="tab-pane" id="bookingModalLeftTab02" role="tabpanel">
-																<div class="d-flex">
-																	<div class="input-group input-group-sm flex-fill w-auto me-2 mb-2">
-																		<span class="input-group-text"><i class="bx bx-buildings text-secondary"></i></span>
-																		<input type="text" class="form-control" placeholder="호텔" >
-																	</div>
-																	<button class="btn btn-outline-custom"" type="button">등록</button>
-																</div>
-
-																<div class="d-flex">
-																	<div class="input-group input-group-sm flex-fill w-auto me-2 mb-2">
-																		<span class="input-group-text"><i class="mdi mdi-airplane-takeoff text-secondary"></i></span>
-																		<input type="text" class="form-control" placeholder="항공" >
-																	</div>
-																	<button class="btn btn-outline-custom"" type="button">등록</button>
-																</div>
-
-																<div class="d-flex">
-																	<div class="input-group input-group-sm flex-fill w-auto me-2 mb-2">
-																		<span class="input-group-text"><i class="bx bx-car text-secondary"></i></span>
-																		<input type="text" class="form-control" placeholder="렌트" >
-																	</div>
-																	<button class="btn btn-outline-custom"" type="button">등록</button>
-																</div>
-
-																<div class="d-flex">
-																	<div class="input-group input-group-sm flex-fill w-auto me-2 mb-2">
-																		<span class="input-group-text"><i class="mdi mdi-bus-clock text-secondary"></i></span>
-																		<input type="text" class="form-control" placeholder="픽업" >
-																	</div>
-																	<button class="btn btn-outline-custom"" type="button">등록</button>
-																</div>
-															</div>
+																<tbody>
+																	<tr>
+																		<td><input class="form-control text-center" type="text" value="홍길동"></td>
+																		<td>
+																			<select class="form-select w-auto mx-auto">
+																				<option value="대한민국" selected>대한민국</option>
+																				<option value="미국">미국</option>
+																				<option value="일본">일본</option>
+																				<option value="베트남">베트남</option>
+																				<option value="중국">중국</option>
+																				<option value="필리핀">필리핀</option>
+																				<option value="태국">태국</option>
+																			</select>
+																		</td>
+																		<td><input class="form-control text-center" type="text" value="010-1234-5678"></td>
+																		<td>
+																			<div class="form-check form-check-inline">
+																				<input class="form-check-input" type="radio" name="accompany01" id="accompany01M" value="남" checked="">
+																				<label class="form-check-label" for="accompany01M">남</label>
+																			</div>
+																			<div class="form-check form-check-inline me-0">
+																				<input class="form-check-input" type="radio" name="accompany01" id="accompany01F" value="여">
+																				<label class="form-check-label" for="accompany01F">여</label>
+																			</div>
+																		</td>
+																		<td>
+																			<button type="button" class="btn btn-outline-custom">수정</button>
+																			<button type="button" class="btn btn-outline-custom">삭제</button>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
+																		<td>
+																			<select class="form-select w-auto mx-auto">
+																				<option value="대한민국" selected>대한민국</option>
+																				<option value="미국">미국</option>
+																				<option value="일본">일본</option>
+																				<option value="베트남">베트남</option>
+																				<option value="중국">중국</option>
+																				<option value="필리핀">필리핀</option>
+																				<option value="태국">태국</option>
+																			</select>
+																		</td>
+																		<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
+																		<td>
+																			<div class="form-check form-check-inline">
+																				<input class="form-check-input" type="radio" name="accompany02" id="accompany02M" value="남">
+																				<label class="form-check-label" for="accompany02M">남</label>
+																			</div>
+																			<div class="form-check form-check-inline me-0">
+																				<input class="form-check-input" type="radio" name="accompany02" id="accompany02F" value="여">
+																				<label class="form-check-label" for="accompany02F">여</label>
+																			</div>
+																		</td>
+																		<td>
+																			<button type="button" class="btn btn-outline-custom">수정</button>
+																			<button type="button" class="btn btn-outline-custom">삭제</button>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
+																		<td>
+																			<select class="form-select w-auto mx-auto">
+																				<option value="대한민국" selected>대한민국</option>
+																				<option value="미국">미국</option>
+																				<option value="일본">일본</option>
+																				<option value="베트남">베트남</option>
+																				<option value="중국">중국</option>
+																				<option value="필리핀">필리핀</option>
+																				<option value="태국">태국</option>
+																			</select>
+																		</td>
+																		<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
+																		<td>
+																			<div class="form-check form-check-inline">
+																				<input class="form-check-input" type="radio" name="accompany03" id="accompany03M" value="남">
+																				<label class="form-check-label" for="accompany03M">남</label>
+																			</div>
+																			<div class="form-check form-check-inline me-0">
+																				<input class="form-check-input" type="radio" name="accompany03" id="accompany03F" value="여">
+																				<label class="form-check-label" for="accompany03F">여</label>
+																			</div>
+																		</td>
+																		<td>
+																			<button type="button" class="btn btn-outline-custom">수정</button>
+																			<button type="button" class="btn btn-outline-custom">삭제</button>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td><input class="form-control text-center" type="text" placeholder="동반자 성명"></td>
+																		<td>
+																			<select class="form-select w-auto mx-auto">
+																				<option value="대한민국" selected>대한민국</option>
+																				<option value="미국">미국</option>
+																				<option value="일본">일본</option>
+																				<option value="베트남">베트남</option>
+																				<option value="중국">중국</option>
+																				<option value="필리핀">필리핀</option>
+																				<option value="태국">태국</option>
+																			</select>
+																		</td>
+																		<td><input class="form-control text-center" type="text" placeholder="연락처"></td>
+																		<td>
+																			<div class="form-check form-check-inline">
+																				<input class="form-check-input" type="radio" name="accompany04" id="accompany04M" value="남">
+																				<label class="form-check-label" for="accompany04M">남</label>
+																			</div>
+																			<div class="form-check form-check-inline me-0">
+																				<input class="form-check-input" type="radio" name="accompany04" id="accompany04F" value="여">
+																				<label class="form-check-label" for="accompany04F">여</label>
+																			</div>
+																		</td>
+																		<td>
+																			<button type="button" class="btn btn-outline-custom">수정</button>
+																			<button type="button" class="btn btn-outline-custom">삭제</button>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td colspan="5"><button type="button" class="btn border-0 p-0 "><i class="bx bx-plus-circle"></i> 행 추가</button></td>
+																	</tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 
@@ -2536,43 +2552,38 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>CO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>BO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>BO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
-																		<td>도착 5/14 15시</td>
-																		<td>대한항공</td>
-																		<td></td>
-																		<td></td>																	</tr>
+																		<td colspan="4"><input class="form-control" type="text" value="도착 5/14 15시 대한항공"></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
-																		<td>카니발 9인승</td>
-																		<td>허 1234</td>
-																		<td>14~17</td>
-																		<td></td>																	</tr>
+																		<td colspan="4"><input class="form-control" type="text" value="카니발 9인승 허 1234 14~17"></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
-																		<td>골프텔 303호</td>
-																		<td>14,15,16</td>
-																		<td>3박4일</td>
-																		<td></td>																	</tr>
+																		<td colspan="4"><input class="form-control" type="text" value="골프텔 303호 14,15,16 3박 4일"></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
-																		<td></td>
-																		<td></td>
-																		<td></td>
-																		<td></td>																	</tr>
+																		<td colspan="4"><input class="form-control" type="text"></td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -2783,12 +2794,14 @@
 																		<th>예약자</th>
 																		<td>홍길동</td>
 																		<th>연락처</th>
-																		<td>010-1224-2323</td>																	</tr>
+																		<td>010-1224-2323</td>
+																	</tr>
 																	<tr class="table-bg-gray">
 																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -3083,43 +3096,50 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>WO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>WO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>WO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
 																		<td>도착 5/14 15시</td>
 																		<td>대한항공</td>
 																		<td></td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
 																		<td>카니발 9인승</td>
 																		<td>허 1234</td>
 																		<td>14~17</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
 																		<td>골프텔 303호</td>
 																		<td>14,15,16</td>
 																		<td>3박4일</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
 																		<td></td>
 																		<td></td>
 																		<td></td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -3219,12 +3239,14 @@
 																		<th>예약자</th>
 																		<td>홍길동</td>
 																		<th>연락처</th>
-																		<td>010-1224-2323</td>																	</tr>
+																		<td>010-1224-2323</td>
+																	</tr>
 																	<tr class="table-bg-gray">
 																		<th>변경 일자</th>
 																		<td colspan="3">
 																			<input type="text" class="form-control datepicker bg-transparent text-start border-0 p-0" value="23.07.10 (월)">
-																		</td>																	</tr>
+																		</td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -3518,43 +3540,50 @@
 																		<td>2023.05.01 (월)</td>
 																		<td>06:50 <span class="checkin-num four">4</span></td>
 																		<td>CO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.02 (화)</td>
 																		<td>07:53</td>
 																		<td>BO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="far fa-clock text-secondary ms-2"></i> <span class="fw-bold text-secondary ms-1">예약</span></td>
 																		<td>2023.05.03 (수)</td>
 																		<td>09:13</td>
 																		<td>BO</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-airplane-takeoff text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">항공</span></td>
 																		<td>도착 5/14 15시</td>
 																		<td>대한항공</td>
 																		<td></td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-car text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">렌트</span></td>
 																		<td>카니발 9인승</td>
 																		<td>허 1234</td>
 																		<td>14~17</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="bx bx-buildings text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">호텔</span></td>
 																		<td>골프텔 303호</td>
 																		<td>14,15,16</td>
 																		<td>3박4일</td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td><i class="mdi mdi-bus-clock text-secondary ms-2"></i>  <span class="fw-bold text-secondary ms-1">픽업</span></td>
 																		<td></td>
 																		<td></td>
 																		<td></td>
-																		<td></td>																	</tr>
+																		<td></td>
+																	</tr>
 																</tbody>
 															</table>
 														</div>
@@ -3663,7 +3692,7 @@
 											<col style="width:100px;">
 											<col style="width:auto">
 											<col style="width:100px;">
-											<col style="width:auto">
+											<col style="width:auto">`
 										</colgroup>
 
 										<tbody>
