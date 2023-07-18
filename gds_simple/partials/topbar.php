@@ -8,7 +8,7 @@
 			<div class="dropdown d-inline-block w-100">
 				<select class="form-select border-0">
 					<option value="AGL Golf Club - KOR" selected>AGL Golf Club - KOR</option>
-					<option value="AGL Golf Club - USA">AGL Golf Club - USA</option>					
+					<option value="AGL Golf Club - USA">AGL Golf Club - USA</option>
 					<option value="AGL Golf Club - JPN">AGL Golf Club - JPN</option>
 					<option value="AGL Golf Club - VNM">AGL Golf Club - VNM</option>
 					<option value="AGL Golf Club - CHN">AGL Golf Club - CHN</option>
@@ -27,7 +27,7 @@
 					<a href="/gds_simple/front/reservation/teetime.php" class="gnb_front" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-gnb" title="예약 / 내장"></a>
 				</li>
 				<li class="nav-item">
-					<a href="/gds_simple/sale/manage_day.php" class="gnb_sale_kr" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="판매 / 정산"></a>
+					<a href="/gds_simple/sale/manage_day.php" class="gnb_sale_kr" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="정산 / 판매"></a>
 				</li>
 				<li class="nav-item">
 					<a href="/gds_simple/match/game.php" class="gnb_match" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="경기"></a>
@@ -47,9 +47,9 @@
 				<li class="nav-item">
 					<a href="/gds_simple/setting/code_essential.php" class="gnb_setting" data-bs-toggle="tooltip" data-bs-placement="bottom"  data-bs-custom-class="tooltip-gnb" title="환경설정"></a>
 				</li>
-			</ul>			
+			</ul>
 		</div>
-	
+
         <div class="d-flex head_right justify-content-end align-items-center h-100">
 			<div class="dropdown dropdown-center d-inline-block">
 				<button class="btn boarder-0 p-0 dropdown-toggle head-lang-change show" type="button" id="" data-bs-toggle="dropdown" aria-expanded="true" changeable="true">한국어</button>
@@ -58,22 +58,22 @@
 						<button type="button" class="dropdown-item active" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_kr.svg" class="me-1" alt="한국어">한국어</button>
 					</li>
 					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_en.svg" class="me-1" alt="English">English</button>	
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_en.svg" class="me-1" alt="English">English</button>
 					</li>
 					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_jp.svg" class="me-1" alt="日本語">日本語</button>	
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_jp.svg" class="me-1" alt="日本語">日本語</button>
 					</li>
 					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_vn.svg" class="me-1" alt="Tiếng Việt">Tiếng Việt</button>	
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_vn.svg" class="me-1" alt="Tiếng Việt">Tiếng Việt</button>
 					</li>
 					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_cn.svg" class="me-1" alt="简体中文">简体中文</button>	
-					</li>					
-					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_ph.svg" class="me-1" alt="Tagalog">Tagalog</button>	
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_cn.svg" class="me-1" alt="简体中文">简体中文</button>
 					</li>
 					<li>
-						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_th.svg" class="me-1" alt="ภาษาไทย">ภาษาไทย</button>	
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_ph.svg" class="me-1" alt="Tagalog">Tagalog</button>
+					</li>
+					<li>
+						<button type="button" class="dropdown-item" onclick="$(this).parents('ul').find('.dropdown-item').removeClass('active'); $(this).addClass('active');"><img src="/gds_simple/assets/images/common/lang_th.svg" class="me-1" alt="ภาษาไทย">ภาษาไทย</button>
 					</li>
 				</ul>
 			</div>

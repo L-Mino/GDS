@@ -13,19 +13,25 @@
                 <li class="mm-active">
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-calculator"></i>
-                        <span>판매 / 정산</span>
+                        <span>정산</span>
                     </a>
                     <ul class="sub-menu mm-show" aria-expanded="true">
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day.php">정산 관리 1</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day3.php">정산 관리 2</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day2.php">정산 관리 3</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/status.php">일 매출 현황</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day3.php">일일 팀 매출 / 관리 1</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day.php">일일 팀 매출 / 관리 2</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><a href="/gds_simple/sale/manage_day2.php">일일 팀 매출 / 관리 3</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/manage_period.php"<--><a href="#">기간별 정산 관리</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/product.php"--><a href="#">식음 / 상품 판매 일보</a></li>
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/unpaid.php"--><a href="#">미수금 관리</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/sales.php"--><a href="#">일일 영업 집계</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/manage_period.php"<--><a href="#">기간별 정산 관리</a></li>
+                    </ul>
+                </li>
+                <li class="mm-active">
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="mdi mdi-sale"></i>
+                        <span>판매</span>
+                    </a>
+                    <ul class="sub-menu mm-show" aria-expanded="true">
                         <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/deadline.php"--><a href="#">마감 관리</a></li>
-                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/term.php"--><a href="#">기간별 매출 관리</a></li>
+                        <li><span title="즐겨찾기" class="bookmark"><i class="bx bx-star"></i></span><!--a href="/gds_simple/sale/product.php"--><a href="#">판매 관리</a></li>
                     </ul>
                 </li>
             </ul>

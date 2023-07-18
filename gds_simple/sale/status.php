@@ -29,352 +29,348 @@
 							<div class="col">
 								<div class="card">
 									<div class="card-body">
-										<div class="row">
-											<div class="col">
-												<div class="d-flex align-items-center flex-wrap gap-2 mb-3">
-													<div class="form-check form-check-inline ps-0 me-0">
-														<select class="form-select form-select-lg border-0 h-100">
-															<option value="23.07.01 (월)" selected>23.07.01 (월)</option>
-															<option value="23.07.02 (화)">23.07.02 (화)</option>
-														</select>
-													</div>
+                                        <div class="d-flex align-items-center flex-wrap gap-2 mb-3">
+                                            <div class="form-check form-check-inline ps-0 me-0">
+                                                <select class="form-select form-select-lg border-0 h-100">
+                                                    <option value="23.07.01 (월)" selected>23.07.01 (월)</option>
+                                                    <option value="23.07.02 (화)">23.07.02 (화)</option>
+                                                </select>
+                                            </div>
 
-                                                    <p class="desc ms-auto">기준 시간: 2023.07.17 17:00:00</p>
-												</div>
+                                            <p class="desc ms-auto">기준 시간: 2023.07.17 17:00:00</p>
+                                        </div>
 
+                                        <table class="table table-fixed text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>구분</th>
+                                                    <th>일 매출</th>
+                                                    <th>카드</th>
+                                                    <th>현금</th>
+                                                    <th>기타</th>
+                                                    <th>미수</th>
+                                                    <th>미정산</th>
+                                                </tr>
+                                            </thead>
 
-                                                <table class="table table-fixed text-center">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>구분</th>
-                                                            <th>일 매출</th>
-                                                            <th>카드</th>
-                                                            <th>현금</th>
-                                                            <th>기타</th>
-                                                            <th>미수</th>
-                                                            <th>미정산</th>
-                                                        </tr>
-                                                    </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th class="ps-0">합계</th>
+                                                    <td class="fw-semibold text-primary">23,178,000</td>
+                                                    <td class="fw-semibold">22,000,000</td>
+                                                    <td class="fw-semibold">418,000</td>
+                                                    <td class="fw-semibold">100,000</td>
+                                                    <td class="fw-semibold">0</td>
+                                                    <td class="fw-semibold text-danger">660,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="ps-0">그린피</th>
+                                                    <td>20,100,000</td>
+                                                    <td>19,470,000</td>
+                                                    <td>200,000</td>
+                                                    <td>100,000</td>
+                                                    <td>0</td>
+                                                    <td>330,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="ps-0">캐디피</th>
+                                                    <td>1,078,000</td>
+                                                    <td>530,000</td>
+                                                    <td>218,000</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>330,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="ps-0">카트피</th>
+                                                    <td>1,200,000</td>
+                                                    <td>1,200,000</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="ps-0">식음</th>
+                                                    <td>700,000</td>
+                                                    <td>580,000</td>
+                                                    <td>0</td>
+                                                    <td>120,000</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="ps-0">프로샵</th>
+                                                    <td>100,000</td>
+                                                    <td>100,000</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                                                    <tbody>
-                                                        <tr>
-                                                            <th class="ps-0">합계</th>
-                                                            <td class="fw-semibold text-primary">23,178,000</td>
-                                                            <td class="fw-semibold">22,000,000</td>
-                                                            <td class="fw-semibold">418,000</td>
-                                                            <td class="fw-semibold">100,000</td>
-                                                            <td class="fw-semibold">0</td>
-                                                            <td class="fw-semibold text-danger">660,000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="ps-0">그린피</th>
-                                                            <td>20,100,000</td>
-                                                            <td>19,470,000</td>
-                                                            <td>200,000</td>
-                                                            <td>100,000</td>
-                                                            <td>0</td>
-                                                            <td>330,000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="ps-0">캐디피</th>
-                                                            <td>1,078,000</td>
-                                                            <td>530,000</td>
-                                                            <td>218,000</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                            <td>330,000</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="ps-0">카트피</th>
-                                                            <td>1,200,000</td>
-                                                            <td>1,200,000</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="ps-0">식음</th>
-                                                            <td>700,000</td>
-                                                            <td>580,000</td>
-                                                            <td>0</td>
-                                                            <td>120,000</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="ps-0">프로샵</th>
-                                                            <td>100,000</td>
-                                                            <td>100,000</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                            <td>0</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                        <div class="row border-bottom pt-3 pb-5 mt-3 mb-4">
+                                            <div class="col-6">
+                                                <h4 class="card-title mb-5">매출 분포</h4>
+                                                <div id="distribution-chart" class="apex-charts" dir="ltr"></div>
+                                            </div>
 
-                                                <table class="table table-fixed text-center">
-                                                    <thead>
-                                                        <tr>
-                                                            <th><input class="form-check-input tableCheckAll" type="checkbox"></th>
-                                                            <th>No</th>
-                                                            <th>시간</th>
-                                                            <th>코스</th>
-                                                            <th>홀</th>
-                                                            <th>성명</th>
-                                                            <th>단체명</th>
-                                                            <th>미수금액</th>
-                                                            <th>결제금액</th>
-                                                            <th>합계</th>
-                                                            <th>할인액</th>
-                                                            <th>그린피</th>
-                                                            <th>카트피</th>
-                                                            <th>식음</th>
-                                                            <th>프로샵</th>
-                                                        </tr>
-                                                    </thead>
+                                            <div class="col-6">
+                                                <h4 class="card-title mb-5">결제 수단</h4>
+                                                <div id="payment-chart" class="apex-charts" dir="ltr"></div>
+                                            </div>
+                                        </div>
 
-                                                    <tbody>
-                                                        <tr>
-                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
-                                                            <td>2</td>
-                                                            <td>06:50</td>
-                                                            <td>WI</td>
-                                                            <td>18</td>
-                                                            <td>홍길동</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>0</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>양길동</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>권길동</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>장길동</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr class="table-bg-gray">
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td class="fw-semibold text-danger">770,000</td>
-                                                            <td class="fw-semibold">0</td>
-                                                            <td class="fw-semibold text-primary">770,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><input class="form-check-input tableCheck" type="checkbox"></td>
-                                                            <td>1</td>
-                                                            <td>06:50</td>
-                                                            <td>WI</td>
-                                                            <td>18</td>
-                                                            <td>이호민</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>0</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>장길화</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>김소원</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>함지원</td>
-                                                            <td>클라스</td>
-                                                            <td>185,000</td>
-                                                            <td>185,000</td>
-                                                            <td class="text-primary">185,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr class="table-bg-gray">
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td class="fw-semibold text-danger">770,000</td>
-                                                            <td class="fw-semibold">0</td>
-                                                            <td class="fw-semibold text-primary">770,000</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                        <div class="d-flex align-items-center flex-wrap gap-2 mb-3">
+                                            <h4 class="card-title">일 매출 현황 상세 </h4>
 
-												<div class="d-flex justify-content-end align-items-center pagenation-wrap">
-													<label class="d-flex position-relative gap-1 m-0">
-														<span class="text-secondary">페이지당 행 수:</span>
-														<span class="position-absolute top-0 end-0">
-															<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-																<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"></path>
-															</svg>
-														</span>
-														<select class="form-select form-select-sm perpage-select w-auto py-0 pe-3 border-0">
-															<option value="10" selected="">10</option>
-															<option value="25">25</option>
-															<option value="50">50</option>
-															<option value="100">100</option>
-														</select>
-													</label>
+                                            <div class="form-check form-check-inline ms-3">
+                                                <input class="form-check-input" type="checkbox" id="01">
+                                                <label class="form-check-label" for="01">팀별</label>
+                                            </div>
+                                        </div>
 
-													<span class="text-secondary ms-4 me-3 mb-0">1개 중 1~1</span>
+                                        <table class="table table-fixed text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th><input class="form-check-input tableCheckAll" type="checkbox"></th>
+                                                    <th>No</th>
+                                                    <th>시간</th>
+                                                    <th>코스</th>
+                                                    <th>홀</th>
+                                                    <th>성명</th>
+                                                    <th>단체명</th>
+                                                    <th>미수금액</th>
+                                                    <th>결제금액</th>
+                                                    <th>합계</th>
+                                                    <th>할인액</th>
+                                                    <th>그린피</th>
+                                                    <th>카트피</th>
+                                                    <th>식음</th>
+                                                    <th>프로샵</th>
+                                                </tr>
+                                            </thead>
 
-													<nav aria-label="Page navigation">
-														<ul class="pagination justify-content-end my-0">
-															<li class="page-item">
-																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="PreviousAll">
-																	<span aria-hidden="true">
-																		<svg width="9" height="10" viewBox="0 0 9 10" xmlns="http://www.w3.org/2000/svg" class="align-baseline">
-																			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.88969 0L2.93994 4.94975L7.88969 9.89949L8.95035 8.83883L5.06126 4.94975L8.95035 1.06066L7.88969 0ZM0 10H1.5L1.5 3.89067e-05H0V10Z"/>
-																		</svg>
-																	</span>
-																</a>
-															</li>
-															<li class="page-item">
-																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="Previous">
-																	<span aria-hidden="true">
-																		<svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg" class="align-baseline">
-																			<path fill-rule="evenodd" clip-rule="evenodd" d="M0.351074 5.05054L5.30082 0.100791L6.36148 1.16145L2.47239 5.05054L6.36148 8.93962L5.30082 10.0003L0.351074 5.05054Z"/>
-																		</svg>
-																	</span>
-																</a>
-															</li>
-															<li class="page-item">
-																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="Next">
-																	<span aria-hidden="true">
-																		<svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg" class="align-baseline">
-																			<path fill-rule="evenodd" clip-rule="evenodd" d="M10.6499 4.94971L5.70016 9.89945L4.6395 8.83879L8.52858 4.94971L4.6395 1.06062L5.70016 -3.93408e-05L10.6499 4.94971Z"/>
-																		</svg>
-																	</span>
-																</a>
-															</li>
-															<li class="page-item">
-																<a class="page-link border-0 py-0" href="javascript:void(0);" aria-label="NextAll">
-																	<span aria-hidden="true">
-																		<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" class="align-baseline">
-																			<path fill-rule="evenodd" clip-rule="evenodd" d="M1.28853 10.0002L6.23828 5.0505L1.28854 0.10075L0.227876 1.16141L4.11696 5.0505L0.227875 8.93958L1.28853 10.0002ZM9.17822 -3.91006e-05L7.67822 -3.92318e-05L7.67822 9.99996L9.17822 9.99996L9.17822 -3.91006e-05Z"/>
-																		</svg>
-																	</span>
-																</a>
-															</li>
-														</ul>
-													</nav>
-												</div>
-											</div>
-										</div>
+                                            <tbody>
+                                                <tr>
+                                                    <td><input class="form-check-input tableCheck" type="checkbox"></td>
+                                                    <td>2</td>
+                                                    <td>06:50</td>
+                                                    <td>WI</td>
+                                                    <td>18</td>
+                                                    <td>홍길동</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>0</td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>양길동</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <path d="M7 1.75C5.65034 1.75 4.40055 1.98819 3.46634 2.3969C3.00014 2.60087 2.58621 2.85882 2.28066 3.17484C1.99811 3.4671 1.78767 3.83297 1.75456 4.25771L1.75 4.375L1.75 10.2083C1.75 10.6832 1.97243 11.0897 2.28066 11.4085C2.58621 11.7245 3.00014 11.9825 3.46634 12.1864C4.40055 12.5952 5.65034 12.8333 7 12.8333C8.34966 12.8333 9.59944 12.5952 10.5336 12.1864C10.9999 11.9825 11.4138 11.7245 11.7193 11.4085C12.0019 11.1163 12.2123 10.7504 12.2454 10.3256L12.25 10.2083L12.25 4.375C12.25 3.9001 12.0276 3.49367 11.7193 3.17484C11.4138 2.85882 10.9999 2.60087 10.5336 2.3969C9.59944 1.98819 8.34966 1.75 7 1.75ZM2.91667 8.98747C3.08823 9.09107 3.27279 9.18505 3.46634 9.26975C4.40055 9.67849 5.65034 9.91667 7 9.91667C8.34966 9.91667 9.59944 9.67849 10.5336 9.26975C10.7272 9.18505 10.9118 9.09108 11.0833 8.98748L11.0833 10.2083C11.0833 10.2972 11.0446 10.4279 10.8805 10.5976C10.7138 10.7701 10.4443 10.9521 10.066 11.1176C9.31122 11.4478 8.22767 11.6667 7 11.6667C5.77232 11.6667 4.68877 11.4478 3.934 11.1176C3.55571 10.9521 3.28621 10.7701 3.11943 10.5976C2.9554 10.4279 2.91667 10.2972 2.91667 10.2083L2.91667 8.98747ZM2.91667 6.07081C3.08823 6.17441 3.27279 6.26838 3.46634 6.35308C4.40055 6.76182 5.65034 7 7 7C8.34966 7 9.59944 6.76182 10.5336 6.35308C10.7272 6.26838 10.9118 6.17441 11.0833 6.07081L11.0833 7.29167C11.0833 7.38057 11.0446 7.51123 10.8805 7.68093C10.7138 7.85342 10.4443 8.03542 10.066 8.20091C9.31122 8.53113 8.22767 8.75 7 8.75C5.77232 8.75 4.68877 8.53113 3.934 8.20091C3.55571 8.03542 3.28621 7.85342 3.11943 7.68092C2.9554 7.51123 2.91667 7.38057 2.91667 7.29167L2.91667 6.07081ZM7 2.91667C8.22767 2.91667 9.31122 3.13552 10.066 3.46575C10.4443 3.63124 10.7138 3.81324 10.8805 3.98574C11.0446 4.15544 11.0833 4.28611 11.0833 4.375C11.0833 4.46389 11.0446 4.59456 10.8805 4.76426C10.7138 4.93676 10.4443 5.11876 10.066 5.28425C9.31122 5.61448 8.22767 5.83333 7 5.83333C5.77232 5.83333 4.68878 5.61448 3.934 5.28425C3.55571 5.11876 3.28621 4.93676 3.11944 4.76426C2.9554 4.59455 2.91667 4.46389 2.91667 4.375C2.91667 4.28611 2.9554 4.15544 3.11944 3.98574C3.28621 3.81324 3.55571 3.63124 3.934 3.46575C4.68878 3.13552 5.77232 2.91667 7 2.91667Z" fill="#9399A3"/>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>권길동</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <path d="M3.29395 7.875H6.58806V9.625H3.29395V7.875Z" fill="#9399A3"/>
+                                                            <path d="M12.8286 1.70001V1.7H12.8277H1.52521V1.69999L1.52434 1.70001C1.44541 1.70138 1.3679 1.72216 1.29641 1.76063C1.22499 1.79907 1.16122 1.85426 1.10846 1.92238C1.0557 1.99049 1.01482 2.07036 0.987803 2.15716C0.960842 2.24378 0.948115 2.33591 0.950225 2.42831V11.5717C0.948115 11.6641 0.960842 11.7562 0.987803 11.8428C1.01482 11.9296 1.0557 12.0095 1.10846 12.0776C1.16122 12.1457 1.22499 12.2009 1.29641 12.2394C1.3679 12.2778 1.44541 12.2986 1.52434 12.3L1.52434 12.3H1.52521L12.8277 12.3L12.8286 12.3C12.9075 12.2986 12.985 12.2778 13.0565 12.2394C13.128 12.2009 13.1917 12.1457 13.2445 12.0776C13.2972 12.0095 13.3381 11.9296 13.3651 11.8428C13.3921 11.7562 13.4048 11.6641 13.4027 11.5717V2.42829C13.4048 2.3359 13.3921 2.24377 13.3651 2.15716C13.3381 2.07036 13.2972 1.99049 13.2445 1.92238C13.1917 1.85426 13.128 1.79907 13.0565 1.76063C12.985 1.72216 12.9075 1.70138 12.8286 1.70001ZM12.3377 2.99318V4.08636H2.01526V2.99318H12.3377ZM2.01526 11.0068V6.57273H12.3377V11.0068H2.01526Z" fill="#9399A3" stroke="#9399A3" stroke-width="0.1"/>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>장길동</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <g clip-path="url(#clip0_244_7510)">
+                                                                <path d="M2.14348 7C2.14348 5.71197 2.65515 4.4767 3.56592 3.56592C4.4767 2.65515 5.71197 2.14348 7 2.14348C8.28803 2.14348 9.5233 2.65515 10.4341 3.56592C11.3449 4.4767 11.8565 5.71197 11.8565 7C11.8565 8.28803 11.3449 9.5233 10.4341 10.4341C9.5233 11.3449 8.28803 11.8565 7 11.8565C5.71197 11.8565 4.4767 11.3449 3.56592 10.4341C2.65515 9.5233 2.14348 8.28803 2.14348 7ZM7 0.9C3.63121 0.9 0.9 3.63121 0.9 7C0.9 10.3688 3.63121 13.1 7 13.1C10.3688 13.1 13.1 10.3688 13.1 7C13.1 3.63121 10.3688 0.9 7 0.9ZM6.56036 3.95167C6.44377 4.06827 6.37826 4.22641 6.37826 4.3913V7.52174C6.37826 7.68663 6.44377 7.84478 6.56036 7.96137C6.67696 8.07797 6.8351 8.14348 7 8.14348H9.6087C9.77359 8.14348 9.93173 8.07797 10.0483 7.96137C10.1649 7.84478 10.2304 7.68663 10.2304 7.52174C10.2304 7.35684 10.1649 7.1987 10.0483 7.0821C9.93173 6.9655 9.77359 6.9 9.6087 6.9H7.62174V4.3913C7.62174 4.22641 7.55623 4.06827 7.43964 3.95167C7.32304 3.83507 7.1649 3.76957 7 3.76957C6.8351 3.76957 6.67696 3.83507 6.56036 3.95167Z" fill="#9399A3" stroke="#9399A3" stroke-width="0.2"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_244_7510">
+                                                                    <rect width="14" height="14" fill="white"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr class="table-bg-gray">
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="fw-semibold text-danger">770,000</td>
+                                                    <td class="fw-semibold">0</td>
+                                                    <td class="fw-semibold text-primary">770,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input class="form-check-input tableCheck" type="checkbox"></td>
+                                                    <td>1</td>
+                                                    <td>06:50</td>
+                                                    <td>WI</td>
+                                                    <td>18</td>
+                                                    <td>이호민</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>0</td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>장길화</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <path d="M7 1.75C5.65034 1.75 4.40055 1.98819 3.46634 2.3969C3.00014 2.60087 2.58621 2.85882 2.28066 3.17484C1.99811 3.4671 1.78767 3.83297 1.75456 4.25771L1.75 4.375L1.75 10.2083C1.75 10.6832 1.97243 11.0897 2.28066 11.4085C2.58621 11.7245 3.00014 11.9825 3.46634 12.1864C4.40055 12.5952 5.65034 12.8333 7 12.8333C8.34966 12.8333 9.59944 12.5952 10.5336 12.1864C10.9999 11.9825 11.4138 11.7245 11.7193 11.4085C12.0019 11.1163 12.2123 10.7504 12.2454 10.3256L12.25 10.2083L12.25 4.375C12.25 3.9001 12.0276 3.49367 11.7193 3.17484C11.4138 2.85882 10.9999 2.60087 10.5336 2.3969C9.59944 1.98819 8.34966 1.75 7 1.75ZM2.91667 8.98747C3.08823 9.09107 3.27279 9.18505 3.46634 9.26975C4.40055 9.67849 5.65034 9.91667 7 9.91667C8.34966 9.91667 9.59944 9.67849 10.5336 9.26975C10.7272 9.18505 10.9118 9.09108 11.0833 8.98748L11.0833 10.2083C11.0833 10.2972 11.0446 10.4279 10.8805 10.5976C10.7138 10.7701 10.4443 10.9521 10.066 11.1176C9.31122 11.4478 8.22767 11.6667 7 11.6667C5.77232 11.6667 4.68877 11.4478 3.934 11.1176C3.55571 10.9521 3.28621 10.7701 3.11943 10.5976C2.9554 10.4279 2.91667 10.2972 2.91667 10.2083L2.91667 8.98747ZM2.91667 6.07081C3.08823 6.17441 3.27279 6.26838 3.46634 6.35308C4.40055 6.76182 5.65034 7 7 7C8.34966 7 9.59944 6.76182 10.5336 6.35308C10.7272 6.26838 10.9118 6.17441 11.0833 6.07081L11.0833 7.29167C11.0833 7.38057 11.0446 7.51123 10.8805 7.68093C10.7138 7.85342 10.4443 8.03542 10.066 8.20091C9.31122 8.53113 8.22767 8.75 7 8.75C5.77232 8.75 4.68877 8.53113 3.934 8.20091C3.55571 8.03542 3.28621 7.85342 3.11943 7.68092C2.9554 7.51123 2.91667 7.38057 2.91667 7.29167L2.91667 6.07081ZM7 2.91667C8.22767 2.91667 9.31122 3.13552 10.066 3.46575C10.4443 3.63124 10.7138 3.81324 10.8805 3.98574C11.0446 4.15544 11.0833 4.28611 11.0833 4.375C11.0833 4.46389 11.0446 4.59456 10.8805 4.76426C10.7138 4.93676 10.4443 5.11876 10.066 5.28425C9.31122 5.61448 8.22767 5.83333 7 5.83333C5.77232 5.83333 4.68878 5.61448 3.934 5.28425C3.55571 5.11876 3.28621 4.93676 3.11944 4.76426C2.9554 4.59455 2.91667 4.46389 2.91667 4.375C2.91667 4.28611 2.9554 4.15544 3.11944 3.98574C3.28621 3.81324 3.55571 3.63124 3.934 3.46575C4.68878 3.13552 5.77232 2.91667 7 2.91667Z" fill="#9399A3"/>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>김소원</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <path d="M3.29395 7.875H6.58806V9.625H3.29395V7.875Z" fill="#9399A3"/>
+                                                            <path d="M12.8286 1.70001V1.7H12.8277H1.52521V1.69999L1.52434 1.70001C1.44541 1.70138 1.3679 1.72216 1.29641 1.76063C1.22499 1.79907 1.16122 1.85426 1.10846 1.92238C1.0557 1.99049 1.01482 2.07036 0.987803 2.15716C0.960842 2.24378 0.948115 2.33591 0.950225 2.42831V11.5717C0.948115 11.6641 0.960842 11.7562 0.987803 11.8428C1.01482 11.9296 1.0557 12.0095 1.10846 12.0776C1.16122 12.1457 1.22499 12.2009 1.29641 12.2394C1.3679 12.2778 1.44541 12.2986 1.52434 12.3L1.52434 12.3H1.52521L12.8277 12.3L12.8286 12.3C12.9075 12.2986 12.985 12.2778 13.0565 12.2394C13.128 12.2009 13.1917 12.1457 13.2445 12.0776C13.2972 12.0095 13.3381 11.9296 13.3651 11.8428C13.3921 11.7562 13.4048 11.6641 13.4027 11.5717V2.42829C13.4048 2.3359 13.3921 2.24377 13.3651 2.15716C13.3381 2.07036 13.2972 1.99049 13.2445 1.92238C13.1917 1.85426 13.128 1.79907 13.0565 1.76063C12.985 1.72216 12.9075 1.70138 12.8286 1.70001ZM12.3377 2.99318V4.08636H2.01526V2.99318H12.3377ZM2.01526 11.0068V6.57273H12.3377V11.0068H2.01526Z" fill="#9399A3" stroke="#9399A3" stroke-width="0.1"/>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>함지원</td>
+                                                    <td>클라스</td>
+                                                    <td>185,000</td>
+                                                    <td>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" style="vertical-align:top; margin-top:3px;">
+                                                            <g clip-path="url(#clip0_244_7510)">
+                                                                <path d="M2.14348 7C2.14348 5.71197 2.65515 4.4767 3.56592 3.56592C4.4767 2.65515 5.71197 2.14348 7 2.14348C8.28803 2.14348 9.5233 2.65515 10.4341 3.56592C11.3449 4.4767 11.8565 5.71197 11.8565 7C11.8565 8.28803 11.3449 9.5233 10.4341 10.4341C9.5233 11.3449 8.28803 11.8565 7 11.8565C5.71197 11.8565 4.4767 11.3449 3.56592 10.4341C2.65515 9.5233 2.14348 8.28803 2.14348 7ZM7 0.9C3.63121 0.9 0.9 3.63121 0.9 7C0.9 10.3688 3.63121 13.1 7 13.1C10.3688 13.1 13.1 10.3688 13.1 7C13.1 3.63121 10.3688 0.9 7 0.9ZM6.56036 3.95167C6.44377 4.06827 6.37826 4.22641 6.37826 4.3913V7.52174C6.37826 7.68663 6.44377 7.84478 6.56036 7.96137C6.67696 8.07797 6.8351 8.14348 7 8.14348H9.6087C9.77359 8.14348 9.93173 8.07797 10.0483 7.96137C10.1649 7.84478 10.2304 7.68663 10.2304 7.52174C10.2304 7.35684 10.1649 7.1987 10.0483 7.0821C9.93173 6.9655 9.77359 6.9 9.6087 6.9H7.62174V4.3913C7.62174 4.22641 7.55623 4.06827 7.43964 3.95167C7.32304 3.83507 7.1649 3.76957 7 3.76957C6.8351 3.76957 6.67696 3.83507 6.56036 3.95167Z" fill="#9399A3" stroke="#9399A3" stroke-width="0.2"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_244_7510">
+                                                                    <rect width="14" height="14" fill="white"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg> 185,000
+                                                    </td>
+                                                    <td class="text-primary">185,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr class="table-bg-gray">
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="fw-semibold text-danger">770,000</td>
+                                                    <td class="fw-semibold">0</td>
+                                                    <td class="fw-semibold text-primary">770,000</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 									</div>
 								</div>
 							</div>
 						</div>
-		                <!--//row - 내장관리 -->
+		                <!--//row -->
 
 						<!-- end Content -->
 
@@ -395,6 +391,82 @@
 		$(function(){
 			"use strict";
 			menuActive(3); //OneDepth
+
+			var options = {
+				series: [24.2, 36.4, 15.2, 14.8, 9.4],
+				chart: {
+					height:360,
+					type: "donut"
+				},
+				labels: ["그린피", "캐디피", "카트피", "식음", "프로샵"],
+				plotOptions: {
+					pie: {
+						donut: {
+							size: "60%"
+						}
+					}
+				},
+				legend: {
+					position: "bottom",
+					itemMargin: {
+						horizontal: 10,
+						vertical: 0
+					},
+					markers: {
+						width: 12,
+						height: 12,
+						strokeWidth: 0,
+						strokeColor: '#fff',
+						fillColors: undefined,
+						radius: 12,
+						customHTML: undefined,
+						onClick: undefined,
+						offsetX: 0,
+						offsetY: 100
+					}
+				},
+				colors: ["#2CB57E", "#0576B9", "#F56E50", "#F5BD58", "#B9B9B9"]
+			},
+			distributionChart = new ApexCharts(document.querySelector("#distribution-chart"), options);
+			distributionChart.render();
+
+			var options = {
+				series: [24.2, 36.4, 15.2, 14.8, 9.4],
+				chart: {
+					height:360,
+					type: "donut"
+				},
+				labels: ["카드", "현금", "기타", "미수", "미정산"],
+				plotOptions: {
+					pie: {
+						donut: {
+							size: "60%"
+						}
+					}
+				},
+				legend: {
+					position: "bottom",
+					itemMargin: {
+						horizontal: 10,
+						vertical: 0
+					},
+					markers: {
+						width: 12,
+						height: 12,
+						strokeWidth: 0,
+						strokeColor: '#fff',
+						fillColors: undefined,
+						radius: 12,
+						customHTML: undefined,
+						onClick: undefined,
+						offsetX: 0,
+						offsetY: 100
+					}
+				},
+				colors: ["#2CB57E", "#0576B9", "#F56E50", "#F5BD58", "#B9B9B9"]
+			},
+			paymentChart = new ApexCharts(document.querySelector("#payment-chart"), options);
+			paymentChart.render();
 		});
 		</script>
 
